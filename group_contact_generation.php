@@ -292,6 +292,9 @@ $list = $Servers->getServersWithSplunk();
 # Get a list of all domain controllers
 $DCs = $Servers->getDomainControllers();
 
+# Get a list of all imaging servers
+$Imaging = $Servers->getImagingServers();
+
 # Start building the server output
 $output =  '###########################################' . PHP_EOL;
 $output .= '# Windows Server Definitions' . PHP_EOL;
@@ -301,7 +304,7 @@ $output .= PHP_EOL;
 foreach ($list as $server) {
 
     # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
-    $contactgroups = 'WindowsTeam,';
+    $contactgroups = 'WindowsTeam';
     if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
         $contactgroups .= ',doit-sit-team';
     }
@@ -320,7 +323,7 @@ foreach ($list as $server) {
         $HostGroups .= ",windows-servers-dcs";
     }
 
-    if (in_array($server['AssetName'], $DCs)) {
+    if (in_array($server['AssetName'], $Imaging)) {
         $HostGroups .= ",windows-servers-imaging";
     }
 
