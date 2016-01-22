@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6e5b4-1086-407c-835f-c4ae93c60fc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_contact_generation.php" afterPath="$PROJECT_DIR$/group_contact_generation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nagios.cfg" afterPath="$PROJECT_DIR$/nagios.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/it-lab-printers.cfg" afterPath="$PROJECT_DIR$/objects/it-lab-printers.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/templates.cfg" afterPath="$PROJECT_DIR$/objects/templates.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/nagios.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group_contact_generation.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="group_contact_generation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.38836968">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
                 <marker date="1453486619835" expanded="true" signature="2130:3229" placeholder="Select Top 1..." />
@@ -82,17 +82,17 @@
         <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="it-lab-printers.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="it-lab-printers.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/it-lab-printers.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37815976">
-              <caret line="175" column="60" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
+            <state vertical-scroll-proportion="-15.24138">
+              <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -109,9 +109,10 @@
         <option value="$PROJECT_DIR$/objects/contacts.cfg" />
         <option value="$PROJECT_DIR$/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/objects/localhost.cfg" />
-        <option value="$PROJECT_DIR$/objects/it-lab-printers.cfg" />
         <option value="$PROJECT_DIR$/nagios.cfg" />
         <option value="$PROJECT_DIR$/group_contact_generation.php" />
+        <option value="$PROJECT_DIR$/objects/templates.cfg" />
+        <option value="$PROJECT_DIR$/objects/it-lab-printers.cfg" />
       </list>
     </option>
   </component>
@@ -358,6 +359,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nagios.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/objects/contacts.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -366,10 +375,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nagios.cfg">
+    <entry file="file://$PROJECT_DIR$/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/it-lab-printers.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -384,36 +409,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.38836968">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
             <marker date="1453486619835" expanded="true" signature="2130:3229" placeholder="Select Top 1..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/it-lab-printers.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37815976">
-          <caret line="175" column="60" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
