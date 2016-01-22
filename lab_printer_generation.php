@@ -38,6 +38,21 @@ if ($handle) {
     $output .= '    register		0		; DONT REGISTER THIS - ITS JUST A TEMPLATE ' . PHP_EOL;
     $output .= '} ' . PHP_EOL;
     $output .= PHP_EOL;
+    $output .= 'define host{ ' . PHP_EOL;
+    $output .= '    name			it-kiosk-printer	; The name of this host template ' . PHP_EOL;
+    $output .= '    use			generic-host	; Inherit default values from the generic-host template ' . PHP_EOL;
+    $output .= '    check_period		24x7		; By default, printers are monitored round the clock ' . PHP_EOL;
+    $output .= '    check_interval		5		; Actively check the printer every 5 minutes ' . PHP_EOL;
+    $output .= '    retry_interval		1		; Schedule host check retries at 1 minute intervals ' . PHP_EOL;
+    $output .= '    max_check_attempts	10		; Check each printer 10 times (max) ' . PHP_EOL;
+    $output .= '    check_command		check-host-alive	; Default command to check if printers are "alive" ' . PHP_EOL;
+    $output .= '    notification_period	24x7		; Printers are only used during the workday ' . PHP_EOL;
+    $output .= '    notification_interval	30		; Resend notifications every 30 minutes ' . PHP_EOL;
+    $output .= '    notification_options	d,r		; Only send notifications for specific host states ' . PHP_EOL;
+    $output .= '    contact_groups		doit_lab_attendants		; Notifications get sent to the admins by default ' . PHP_EOL;
+    $output .= '    register		0		; DONT REGISTER THIS - ITS JUST A TEMPLATE ' . PHP_EOL;
+    $output .= '} ' . PHP_EOL;
+    $output .= PHP_EOL;
     $output .= '###############################################################################' . PHP_EOL;
     $output .= '###############################################################################' . PHP_EOL;
     $output .= '#' . PHP_EOL;
@@ -136,13 +151,15 @@ if ($handle) {
         # Determine host group based on the printer model, so we check consumables appropriately
         if (strpos($line[3], 'Kiosk') !== FALSE) {
             $hostgroup = 'IT-Kiosk-Printers';
+            $hosttemplate = 'it-kiosk-printer';
         } else {
             $hostgroup = 'IT-Lab-Printers';
+            $hosttemplate = 'it-lab-printer';
         }
 
         if ($PrinterName != '') {
             $output .= 'define host{' . PHP_EOL;
-            $output .= '    use                     it-lab-printer' . PHP_EOL;
+            $output .= '    use                     ' . $hosttemplate . PHP_EOL;
             $output .= '    host_name               ' . $PrinterName . PHP_EOL;
             $output .= '    alias                   ' . rtrim($line[3]) . ' - ' . $line[2] . PHP_EOL;
             $output .= '    address                 ' . $PrinterIP . PHP_EOL;
@@ -190,32 +207,40 @@ if ($handle) {
     $output .= '###############################################################################' . PHP_EOL;
     $output .= PHP_EOL;
     $output .= 'define service{' . PHP_EOL;
+    $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
     $output .= '    service_description         Paper Status Tray 2' . PHP_EOL;
     $output .= '    normal_check_interval       10' . PHP_EOL;
     $output .= '    retry_check_interval        1' . PHP_EOL;
     $output .= '    check_command               check_printers!public!"TRAY 2"!20!5' . PHP_EOL;
     $output .= '    host_name                   ' . $Tray2PrintersToMonitor . PHP_EOL;
+    $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
     $output .= 'define service{' . PHP_EOL;
+    $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
     $output .= '    service_description         Paper Status Tray 3' . PHP_EOL;
     $output .= '    normal_check_interval       10' . PHP_EOL;
     $output .= '    retry_check_interval        1' . PHP_EOL;
     $output .= '    check_command               check_printers!public!"TRAY 3"!20!5' . PHP_EOL;
     $output .= '    host_name                   ' . $Tray3PrintersToMonitor . PHP_EOL;
+    $output .= '}' . PHP_EOL;
+    $output .= PHP_EOL;
+    #$output .= 'define service{' . PHP_EOL;
+    #$output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
+    #$output .= '    service_description         Paper Status Tray 4' . PHP_EOL;
+    #$output .= '    normal_check_interval       10' . PHP_EOL;
+    #$output .= '    retry_check_interval        1' . PHP_EOL;
+    #$output .= '    check_command               check_printers!public!"TRAY 4"!20!5' . PHP_EOL;
+    #$output .= '    host_name                   ' . $Tray4PrintersToMonitor . PHP_EOL;
+    #$output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
     $output .= 'define service{' . PHP_EOL;
-    $output .= '    service_description         Paper Status Tray 4' . PHP_EOL;
-    $output .= '    normal_check_interval       10' . PHP_EOL;
-    $output .= '    retry_check_interval        1' . PHP_EOL;
-    $output .= '    check_command               check_printers!public!"TRAY 4"!20!5' . PHP_EOL;
-    $output .= '    host_name                   ' . $Tray4PrintersToMonitor . PHP_EOL;
-    $output .= PHP_EOL;
-    $output .= 'define service{' . PHP_EOL;
+    $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
     $output .= '    service_description         Paper Status Tray 5' . PHP_EOL;
     $output .= '    normal_check_interval       10' . PHP_EOL;
     $output .= '    retry_check_interval        1' . PHP_EOL;
     $output .= '    check_command               check_printers!public!"TRAY 5"!20!5' . PHP_EOL;
     $output .= '    host_name                   ' . $Tray5PrintersToMonitor . PHP_EOL;
+    $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
 
     # Build the consumables
@@ -246,10 +271,13 @@ if ($handle) {
             # Strip trailing comma from our host list that need this item
             $hosts = rtrim($hosts, ",");
 
+            # Cull down service descriptions that have a comma
+            $service = explode(',', $key);
+
             # Build the service file
             $output .= 'define service{' . PHP_EOL;
             $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
-            $output .= '    service_description         ' . $key . PHP_EOL;
+            $output .= '    service_description         ' . $service[0] . PHP_EOL;
             $output .= '    normal_check_interval       10' . PHP_EOL;
             $output .= '    retry_check_interval        1' . PHP_EOL;
             $output .= '    check_command               check_printers!public!"CONSUMX ' . $key . '"!5!1' . PHP_EOL;
