@@ -157,6 +157,12 @@ foreach ($Groups as $group) {
         $userlist .= 'akirkland1,';
     }
 
+    # Add Ben for testing
+    if ($group = 'doit_lab_attendants') {
+        $userarray['bpeters@emich.edu'] = 'bpeters';
+        $userlist .= 'bpeters,';
+    }
+
     # Trim trailing comma from user list
     $userlist = rtrim($userlist, ",");
 
