@@ -152,13 +152,13 @@ foreach ($Groups as $group) {
     }
 
     # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
-    if ($group = 'doit_lab_attendants') {
+    if ($group == 'doit_lab_attendants') {
         $userarray['akirkland1@emich.edu'] = 'akirkland1';
         $userlist .= 'akirkland1,';
     }
 
     # Add Ben for testing
-    if ($group = 'doit_lab_attendants') {
+    if ($group == 'doit_lab_attendants') {
         $userarray['bpeters@emich.edu'] = 'bpeters';
         $userlist .= 'bpeters,';
     }
