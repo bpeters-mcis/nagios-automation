@@ -159,7 +159,6 @@ foreach ($Groups as $group) {
 
     # Add Ben for testing
     if ($group == 'doit_lab_attendants') {
-        $userarray['bpeters@emich.edu'] = 'bpeters';
         $userlist .= 'bpeters,';
     }
 
