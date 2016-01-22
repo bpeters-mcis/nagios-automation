@@ -123,7 +123,12 @@ foreach ($Groups as $group) {
         $usernum = 0;
         while ($usernum < $users['count']) {
             $userlist .= $users[$usernum]['samaccountname'][0] . ",";
-            array_push($userarray, $users[$usernum]['samaccountname'][0] );
+            if ($group == 'doit_lab_attendants') {
+                $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
+            } else {
+                $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
+            }
+            $userarray[$email] = $users[$usernum]['samaccountname'][0];
             $usernum++;
         }
 
@@ -137,7 +142,12 @@ foreach ($Groups as $group) {
     $i = 0;
     while ($i < $users['count']) {
         $userlist .= $users[$i]['samaccountname'][0] . ",";
-        array_push($userarray, $users[$i]['samaccountname'][0] );
+        if ($group == 'doit_lab_attendants') {
+            $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
+        } else {
+            $email = $users[$i]['samaccountname'][0] . "@emich.edu";
+        }
+        $userarray[$email] = $users[$i]['samaccountname'][0];
         $i++;
     }
 
@@ -163,15 +173,16 @@ $output .= '###########################################' . PHP_EOL;
 $output .= PHP_EOL;
 
 # Now go through the list of all the individual users, and remove any duplicates
+
 $userarray = array_unique($userarray);
 
-# Build a contact file for each user in the list
-foreach ($userarray as $user) {
+# Build a contact file for each user in the list - but omit e-mail addresses from lab students
+foreach ($userarray as $key => $value) {
     $output .= 'define contact{' . PHP_EOL;
-    $output .= '        contact_name            ' . $user . PHP_EOL;
+    $output .= '        contact_name            ' . $value . PHP_EOL;
     $output .= '        use                     generic-contact' . PHP_EOL;
-    $output .= '        alias                   ' . $user . '-AD' . PHP_EOL;
-    $output .= '        email                   ' . $user . '@emich.edu' . PHP_EOL;
+    $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
+    $output .= '        email                   ' . $key . PHP_EOL;
     $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
 }
