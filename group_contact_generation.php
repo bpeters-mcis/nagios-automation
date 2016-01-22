@@ -151,6 +151,12 @@ foreach ($Groups as $group) {
         $i++;
     }
 
+    # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
+    if ($group = 'doit_lab_attendants') {
+        $userarray['akirkland1@emich.edu'] = 'akirkland1';
+        $userlist .= 'akirkland1,';
+    }
+
     # Trim trailing comma from user list
     $userlist = rtrim($userlist, ",");
 
@@ -173,7 +179,6 @@ $output .= '###########################################' . PHP_EOL;
 $output .= PHP_EOL;
 
 # Now go through the list of all the individual users, and remove any duplicates
-
 $userarray = array_unique($userarray);
 
 # Build a contact file for each user in the list - but omit e-mail addresses from lab students
