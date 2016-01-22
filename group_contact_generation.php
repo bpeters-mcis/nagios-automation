@@ -89,6 +89,88 @@ class LansweeperDB
         }
         return $result;
     }
+
+    # This function polls Lansweeper, and finds any servers that are domain controllers.  Returns an indexed array.
+    function getDomainControllers() {
+        $sql = "Select Top 1000000 tblAssets.AssetID,
+                  tblAssets.AssetName,
+                  tblAssets.Domain,
+                  tsysOS.OSname,
+                  tblAssets.Description,
+                  tblComputersystem.Lastchanged,
+                  tsysOS.Image As icon
+                From tblComputersystem
+                  Inner Join tblAssets On tblComputersystem.AssetID = tblAssets.AssetID
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                  Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
+                Where tblComputersystem.Domainrole = 4 Or tblComputersystem.Domainrole = 5
+                Order By tblAssets.AssetName";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        $list = array();
+        foreach ($result as $item) {
+            array_push($list, $item['AssetName']);
+        }
+        return $list;
+    }
+
+    function getImagingServers() {
+        $sql = "Select Top 1000000 tblAssets.AssetID,
+                  tblAssets.AssetName
+                From tblAssets
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                  Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
+                  Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
+                Where tblAssets.AssetID In (Select tblSoftware.AssetID
+                  From tblSoftware Inner Join tblSoftwareUni On tblSoftwareUni.SoftID =
+                      tblSoftware.softID
+                  Where dbo.tblsoftwareuni.softwareName Like '%Deployment Toolkit%') And
+                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        $list = array();
+        foreach ($result as $item) {
+            array_push($list, $item['AssetName']);
+        }
+        return $list;
+    }
+
+    function getMSSQLServers() {
+        $sql = "Select Top 1000000 tblAssets.AssetID,
+                  tblAssets.AssetName
+                From tblAssets
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                  Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
+                  Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
+                Where tblAssets.AssetID In (Select tblSoftware.AssetID
+                  From tblSoftware Inner Join tblSoftwareUni On tblSoftwareUni.SoftID =
+                      tblSoftware.softID
+                  Where dbo.tblsoftwareuni.softwareName Like '%Microsoft SQL Server%') And
+                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        $list = array();
+        foreach ($result as $item) {
+            array_push($list, $item['AssetName']);
+        }
+        return $list;
+    }
+
 }
 
 
@@ -207,6 +289,9 @@ file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad.cfg', $output)
 $Servers = new LansweeperDB();
 $list = $Servers->getServersWithSplunk();
 
+# Get a list of all domain controllers
+$DCs = $Servers->getDomainControllers();
+
 # Start building the server output
 $output =  '###########################################' . PHP_EOL;
 $output .= '# Windows Server Definitions' . PHP_EOL;
@@ -218,24 +303,34 @@ foreach ($list as $server) {
     # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
     $contactgroups = 'WindowsTeam,';
     if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
-        $contactgroups .= 'doit-sit-team,';
+        $contactgroups .= ',doit-sit-team';
     }
     if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
-        $contactgroups .= 'doit-dba-team,';
+        $contactgroups .= ',doit-dba-team';
     }
     if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
-        $contactgroups .= 'doit-pss-team,';
+        $contactgroups .= ',doit-pss-team';
     }
 
-    # Trim trailing comma from contact group list
-    $contactgroups = rtrim($contactgroups, ",");
 
+    # Build the host groups for this server, and append extra host groups based on lansweeper query results
+    $HostGroups = "windows-servers";
+
+    if (in_array($server['AssetName'], $DCs)) {
+        $HostGroups .= ",windows-servers-dcs";
+    }
+
+    if (in_array($server['AssetName'], $DCs)) {
+        $HostGroups .= ",windows-servers-imaging";
+    }
+
+    # Build the individual host output
     $output .= 'define host{' . PHP_EOL;
     $output .= '    use             windows-server' . PHP_EOL;
     $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
     $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
     $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
-    $output .= '    hostgroups      windows-servers' . PHP_EOL;
+    $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
     $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
     $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
