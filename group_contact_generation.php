@@ -9,6 +9,8 @@
 # Define the group names we'll be using to create config files
 $Groups = array('doit-sit-team', 'doit-dba-team', 'doit-pss-team', 'doit_lab_attendants');
 
+$ServersToIgnore = array('ADAUTHDC2', 'INTLTESTDB', 'INTLDB');
+
 class LDAP {
 
     # Enter your LDAP connection details here
@@ -303,40 +305,46 @@ $output .= PHP_EOL;
 
 foreach ($list as $server) {
 
-    # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
-    $contactgroups = 'WindowsTeam';
-    if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
-        $contactgroups .= ',doit-sit-team';
-    }
-    if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
-        $contactgroups .= ',doit-dba-team';
-    }
-    if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
-        $contactgroups .= ',doit-pss-team';
+    # Make sure we aren't supposed to ignore this server for some reason
+    if (!in_array($server, $ServersToIgnore)) {
+
+        # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
+        $contactgroups = 'WindowsTeam';
+        if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
+            $contactgroups .= ',doit-sit-team';
+        }
+        if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
+            $contactgroups .= ',doit-dba-team';
+        }
+        if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
+            $contactgroups .= ',doit-pss-team';
+        }
+
+
+        # Build the host groups for this server, and append extra host groups based on lansweeper query results
+        $HostGroups = "windows-servers";
+
+        if (in_array($server['AssetName'], $DCs)) {
+            $HostGroups .= ",windows-servers-dcs";
+        }
+
+        if (in_array($server['AssetName'], $Imaging)) {
+            $HostGroups .= ",windows-servers-imaging";
+        }
+
+        # Build the individual host output
+        $output .= 'define host{' . PHP_EOL;
+        $output .= '    use             windows-server' . PHP_EOL;
+        $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
+        $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
+        $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
+        $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
+        $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
+        $output .= '}' . PHP_EOL;
+        $output .= PHP_EOL;
     }
 
 
-    # Build the host groups for this server, and append extra host groups based on lansweeper query results
-    $HostGroups = "windows-servers";
-
-    if (in_array($server['AssetName'], $DCs)) {
-        $HostGroups .= ",windows-servers-dcs";
-    }
-
-    if (in_array($server['AssetName'], $Imaging)) {
-        $HostGroups .= ",windows-servers-imaging";
-    }
-
-    # Build the individual host output
-    $output .= 'define host{' . PHP_EOL;
-    $output .= '    use             windows-server' . PHP_EOL;
-    $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
-    $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
-    $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
-    $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
-    $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
-    $output .= '}' . PHP_EOL;
-    $output .= PHP_EOL;
 }
 
 # Send the list of servers to the nagios config file
