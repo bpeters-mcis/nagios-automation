@@ -306,7 +306,7 @@ $output .= PHP_EOL;
 foreach ($list as $server) {
 
     # Make sure we aren't supposed to ignore this server for some reason
-    if (!in_array($server, $ServersToIgnore)) {
+    if (!in_array($server['AssetName'], $ServersToIgnore)) {
 
         # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
         $contactgroups = 'WindowsTeam';
