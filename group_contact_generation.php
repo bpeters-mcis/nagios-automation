@@ -52,8 +52,8 @@ class LDAP {
     public static $ldap_host = 'ad.emich.edu';
     public static $ldap_port = '389';
     public static $ldap_basedn = 'CN=users,DC=ad,DC=emich,DC=edu';
-    public static $ldap_user = 'bpeters';
-    public static $ldap_pass =  'unit7oscodaisfun';
+    public static $ldap_user = 'ext_windows_nagios';
+    public static $ldap_pass =  '#hot713outside';
 
     protected $AD;
 
@@ -305,7 +305,19 @@ foreach ($Groups as $group) {
     $output .= '        }' . PHP_EOL;
     $output .= PHP_EOL;
 
+    # If this is the lab / HD Group, save these users so we can make them restricted later
+    if ($group == 'doit_lab_attendants') {
+        $restrictedUsers = $userlist;
+    }
 }
+
+$output .= PHP_EOL;
+$output .= '###########################################' . PHP_EOL;
+$output .= '# Set Restricted CGI Access for these users' . PHP_EOL;
+$output .= '###########################################' . PHP_EOL;
+$output .= PHP_EOL;
+$output .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
+$output .= PHP_EOL;
 
 # Start building the individual contacts output
 $output .= PHP_EOL;
