@@ -318,14 +318,24 @@ foreach ($Groups as $group) {
 
 # Trim the trailing comma off restricted user list
 $restrictedUsers = rtrim($restrictedUsers, ",");
+$cgiCFGOutput = PHP_EOL;
+$cgiCFGOutput .= '###########################################' . PHP_EOL;
+$cgiCFGOutput .= '# Set Restricted CGI Access for these users' . PHP_EOL;
+$cgiCFGOutput .= '###########################################' . PHP_EOL;
+$cgiCFGOutput .= PHP_EOL;
+$cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
+$cgiCFGOutput .= PHP_EOL;
 
-$output .= PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= '# Set Restricted CGI Access for these users' . PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= PHP_EOL;
-$output .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
-$output .= PHP_EOL;
+$lines = file('/usr/local/nagios/etc/cgi.cfg');
+$last = sizeof($lines) - 7 ;
+unset($lines[$last]);
+$lines = $lines . $cgiCFGOutput;
+
+// write the new data to the file
+$file = fopen('/usr/local/nagios/etc/cgi.cfg', 'w');
+fwrite($file, implode('', $lines));
+fclose($file);
+
 
 # Start building the individual contacts output
 $output .= PHP_EOL;
