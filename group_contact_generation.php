@@ -333,7 +333,7 @@ $DCs = $Servers->getDomainControllers();
 $Imaging = $Servers->getImagingServers();
 
 # Start building the server output
-$output .= '###########################################' . PHP_EOL;
+$output =  '###########################################' . PHP_EOL;
 $output .= '# Windows Server Definitions' . PHP_EOL;
 $output .= '###########################################' . PHP_EOL;
 $output .= PHP_EOL;
