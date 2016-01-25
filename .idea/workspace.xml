@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6e5b4-1086-407c-835f-c4ae93c60fc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/windows.cfg" afterPath="$PROJECT_DIR$/objects/windows.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/commands.cfg" afterPath="$PROJECT_DIR$/objects/commands.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.689655">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.2625">
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48129424">
-              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="185" column="54" selection-start-line="185" selection-start-column="54" selection-end-line="185" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/group_contact_generation.php" />
         <option value="$PROJECT_DIR$/update_servers.sh" />
-        <option value="$PROJECT_DIR$/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/objects/windows.cfg" />
+        <option value="$PROJECT_DIR$/objects/commands.cfg" />
       </list>
     </option>
   </component>
@@ -473,18 +473,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/commands.cfg">
+    <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.689655">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="185" column="54" selection-start-line="185" selection-start-column="54" selection-end-line="185" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
+    <entry file="file://$PROJECT_DIR$/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48129424">
-          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.2625">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
           <folding />
         </state>
       </provider>
