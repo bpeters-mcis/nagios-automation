@@ -95,7 +95,7 @@ class LansweeperDB
                   tblAssetCustom.Custom2 As [Secondary OS Contact],
                   tblAssetCustom.Custom3 As [Primary App Contact],
                   tblAssetCustom.Custom4 As [Secondary App Contact],
-                  tblAssetCustom.Custom9 AS [NagiosServices],
+                  tblAssetCustom.Custom19 AS [NagiosServices],
                   tblAssets.IPAddress
                 From tblAssets
                   Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
@@ -333,7 +333,7 @@ $DCs = $Servers->getDomainControllers();
 $Imaging = $Servers->getImagingServers();
 
 # Start building the server output
-$output =  '###########################################' . PHP_EOL;
+$output .= '###########################################' . PHP_EOL;
 $output .= '# Windows Server Definitions' . PHP_EOL;
 $output .= '###########################################' . PHP_EOL;
 $output .= PHP_EOL;
@@ -364,7 +364,7 @@ foreach ($list as $server) {
 
             # Make sure this is a known service defined above.  Only add it to the list only if it's a legitimate service name
             if (isset($ServicesToMonitor[$service])) {
-                $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'];
+                $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
             }
 
         }
@@ -399,7 +399,7 @@ foreach ($list as $server) {
 # Build the service list
 ################################################################
 
-$output =  '###########################################' . PHP_EOL;
+$output .= '###########################################' . PHP_EOL;
 $output .= '# Windows Service Definitions' . PHP_EOL;
 $output .= '###########################################' . PHP_EOL;
 $output .= PHP_EOL;
