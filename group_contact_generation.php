@@ -46,6 +46,9 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                         'host_name' => '')
                             );
 
+$restrictedUsers = '';
+$UsersToOverrideLabRestrictions = array('bpeters', 'akirkland1');
+
 class LDAP {
 
     # Enter your LDAP connection details here
@@ -256,6 +259,9 @@ foreach ($Groups as $group) {
             $userlist .= $users[$usernum]['samaccountname'][0] . ",";
             if ($group == 'doit_lab_attendants') {
                 $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
+                if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                    $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
+                }
             } else {
                 $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
             }
@@ -275,6 +281,9 @@ foreach ($Groups as $group) {
         $userlist .= $users[$i]['samaccountname'][0] . ",";
         if ($group == 'doit_lab_attendants') {
             $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
+            if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
+            }
         } else {
             $email = $users[$i]['samaccountname'][0] . "@emich.edu";
         }
@@ -305,11 +314,10 @@ foreach ($Groups as $group) {
     $output .= '        }' . PHP_EOL;
     $output .= PHP_EOL;
 
-    # If this is the lab / HD Group, save these users so we can make them restricted later
-    if ($group == 'doit_lab_attendants') {
-        $restrictedUsers = $userlist;
-    }
 }
+
+# Trim the trailing comma off restricted user list
+$restrictedUsers = rtrim($restrictedUsers, ",");
 
 $output .= PHP_EOL;
 $output .= '###########################################' . PHP_EOL;
