@@ -28,6 +28,18 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                         'service_description' => 'Remote Loader for IDM',
                                         'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
                                         'host_name' => ''),
+                            'PrintSpool' => array('use' => 'generic-service',
+                                        'service_description' => 'Print Spooler',
+                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
+                                        'host_name' => ''),
+                            'MDT' => array('use' => 'generic-service',
+                                        'service_description' => 'MDT Monitor',
+                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
+                                        'host_name' => ''),
+                            'PXE' => array('use' => 'generic-service',
+                                        'service_description' => 'PXE Boot Service',
+                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
+                                        'host_name' => ''),
                             'ADRepl' => array('use' => 'generic-service',
                                         'service_description' => 'AD Replication',
                                         'check_command' => 'ADReplication_Check',
@@ -415,10 +427,9 @@ foreach ($ServicesToMonitor as $row) {
 
         # Build output config for this service
         $output .= 'define service{' . PHP_EOL;
-        $output .= '    use			        ' . $row['use'] . PHP_EOL;
-        $output .= '    host_name		    ' . $row['host_name'] . PHP_EOL;
-        $output .= '    service_description	' . $row['service_description'] . PHP_EOL;
-        $output .= '    check_command		' . $row['check_command'] . PHP_EOL;
+        foreach ($row as $key => $value) {
+            $output .= '    ' . $key . '        ' . $value . PHP_EOL;
+        }
         $output .= '}' . PHP_EOL;
         $output .= PHP_EOL;
     }
