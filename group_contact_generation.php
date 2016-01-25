@@ -7,7 +7,7 @@
  */
 
 # Define the group names we'll be using to create config files
-$Groups = array('doit-sit-team', 'doit-dba-team', 'doit-pss-team', 'doit_lab_attendants');
+$Groups = array('doit-sit-team', 'doit-dba-team', 'doit-pss-team', 'doit_lab_attendants', 'doit_helpdesk_ft');
 
 $ServersToIgnore = array('ADAUTHDC2', 'INTLTESTDB', 'INTLDB');
 
@@ -22,7 +22,7 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                         'host_name' => ''),
                             'F' => array('use' => 'generic-service',
                                         'service_description' => 'F:\ Drive Space',
-                                        'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
+                                        'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
                                         'host_name' => ''),
                             'RLoad' => array('use' => 'generic-service',
                                         'service_description' => 'Remote Loader for IDM',
@@ -365,6 +365,9 @@ foreach ($list as $server) {
         }
         if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
             $contactgroups .= ',doit-pss-team';
+        }
+        if ($server['Primary OS Contact'] == 'Team - HelpDesk' || $server['Secondary OS Contact'] == 'Team - HelpDesk' || $server['Primary App Contact'] == 'Team - HelpDesk' || $server['Secondary App Contact'] == 'Team - HelpDesk') {
+            $contactgroups .= ',doit_helpdesk_ft';
         }
 
         # See what special services should be monitored on this server
