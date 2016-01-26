@@ -12,6 +12,9 @@ if [ -f /home/akirkland1/printers.csv ]; then
     # Delete the uploaded CSV
     rm /home/akirkland1/printers.csv
 
+    # Note when this was last run
+    touch /usr/local/nagios/etc/Printers_last_imported.txt
+
     # Restart nagios service to load the new configs
     service nagios restart
 
