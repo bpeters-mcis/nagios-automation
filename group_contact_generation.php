@@ -111,6 +111,7 @@ class LansweeperDB
                   tblAssetCustom.Custom3 As [Primary App Contact],
                   tblAssetCustom.Custom4 As [Secondary App Contact],
                   tblAssetCustom.Custom19 AS [NagiosServices],
+                  tblAssetCustom.Custom6 As [Window],
                   tblAssets.IPAddress
                 From tblAssets
                   Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
@@ -318,6 +319,8 @@ foreach ($Groups as $group) {
 
 # Trim the trailing comma off restricted user list
 $restrictedUsers = rtrim($restrictedUsers, ",");
+
+# Build the output for the restricted user list
 $cgiCFGOutput = PHP_EOL;
 $cgiCFGOutput .= '###########################################' . PHP_EOL;
 $cgiCFGOutput .= '# Set Restricted CGI Access for these users' . PHP_EOL;
@@ -326,15 +329,14 @@ $cgiCFGOutput .= PHP_EOL;
 $cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
 $cgiCFGOutput .= PHP_EOL;
 
+# Remove the last entry for the restricted users
 $lines = file('/usr/local/nagios/etc/cgi.cfg');
-$last = sizeof($lines) - 7 ;
-unset($lines[$last]);
+$lines = array_slice($lines, 0, -6, true);
+$lines = implode($lines);
 $lines = $lines . $cgiCFGOutput;
 
-// write the new data to the file
-$file = fopen('/usr/local/nagios/etc/cgi.cfg', 'w');
-fwrite($file, implode('', $lines));
-fclose($file);
+# Place the restricted users into the file
+file_put_contents('/usr/local/nagios/etc/cgi.cfg', $lines);
 
 
 # Start building the individual contacts output
@@ -400,6 +402,7 @@ foreach ($list as $server) {
             $contactgroups .= ',doit_helpdesk_ft';
         }
 
+
         # See what special services should be monitored on this server
         $services = $server['NagiosServices'];
         $services = explode(',', $services);
@@ -423,6 +426,13 @@ foreach ($list as $server) {
 
         if (in_array($server['AssetName'], $Imaging)) {
             $HostGroups .= ",windows-servers-imaging";
+        }
+
+        # Check which downtime window for this host
+        if ($server['Window'] == "Prod") {
+            $HostGroups .= ",Downtime-Prod";
+        } else if ($server['Window'] == "Test") {
+            $HostGroups .= ",Downtime-Test";
         }
 
         # Build the individual host output

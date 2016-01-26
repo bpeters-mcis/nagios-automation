@@ -32,8 +32,8 @@ if ($handle) {
     $output .= '    max_check_attempts	10		; Check each printer 10 times (max) ' . PHP_EOL;
     $output .= '    check_command		check-host-alive	; Default command to check if printers are "alive" ' . PHP_EOL;
     $output .= '    notification_period	24x7		; Printers are only used during the workday ' . PHP_EOL;
-    $output .= '    notification_interval	240		; Resend notifications every 30 minutes ' . PHP_EOL;
-    $output .= '    notification_options	d,r		; Only send notifications for specific host states ' . PHP_EOL;
+    $output .= '    notification_interval	1440		; Resend notifications every 30 minutes ' . PHP_EOL;
+    $output .= '    notification_options	d		; Only send notifications for specific host states ' . PHP_EOL;
     $output .= '    contact_groups		doit_lab_attendants		; Notifications get sent to the admins by default ' . PHP_EOL;
     $output .= '    register		0		; DONT REGISTER THIS - ITS JUST A TEMPLATE ' . PHP_EOL;
     $output .= '} ' . PHP_EOL;
@@ -47,8 +47,8 @@ if ($handle) {
     $output .= '    max_check_attempts	10		; Check each printer 10 times (max) ' . PHP_EOL;
     $output .= '    check_command		check-host-alive	; Default command to check if printers are "alive" ' . PHP_EOL;
     $output .= '    notification_period	24x7		; Printers are only used during the workday ' . PHP_EOL;
-    $output .= '    notification_interval	240		; Resend notifications every 30 minutes ' . PHP_EOL;
-    $output .= '    notification_options	d,r		; Only send notifications for specific host states ' . PHP_EOL;
+    $output .= '    notification_interval	1440		; Resend notifications every 30 minutes ' . PHP_EOL;
+    $output .= '    notification_options	d	; Only send notifications for specific host states ' . PHP_EOL;
     $output .= '    contact_groups		doit_lab_attendants		; Notifications get sent to the admins by default ' . PHP_EOL;
     $output .= '    register		0		; DONT REGISTER THIS - ITS JUST A TEMPLATE ' . PHP_EOL;
     $output .= '} ' . PHP_EOL;
@@ -80,8 +80,8 @@ if ($handle) {
     $output .= '	normal_check_interval           10			; Check the service every 10 minutes under normal conditions' . PHP_EOL;
     $output .= '	retry_check_interval            2			; Re-check the service every two minutes until a hard state can be determined' . PHP_EOL;
     $output .= '	contact_groups                  doit_lab_attendants		; Notifications get sent out to everyone in the admins group' . PHP_EOL;
-    $output .= '	notification_options		w,u,c,r			; Send notifications about warning, unknown, critical, and recovery events' . PHP_EOL;
-    $output .= '	notification_interval           240			; Re-notify about service problems every hour' . PHP_EOL;
+    $output .= '	notification_options		w			; Send notifications about warning, unknown, critical, and recovery events' . PHP_EOL;
+    $output .= '	notification_interval           1440			; Re-notify about service problems every hour' . PHP_EOL;
     $output .= '	notification_period             24x7			; Notifications can be sent out at any time' . PHP_EOL;
     $output .= '	register                        0       		; DONT REGISTER THIS DEFINITION - ITS NOT A REAL SERVICE, JUST A TEMPLATE!' . PHP_EOL;
     $output .= '}' . PHP_EOL;
