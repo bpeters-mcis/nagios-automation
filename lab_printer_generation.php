@@ -5,7 +5,7 @@
  * Date: 1/22/2016
  * Time: 2:56 PM
  */
-$handle = fopen("printers.csv", "r");
+$handle = fopen("/home/akirkland1/printers.csv", "r");
 
 if ($handle) {
 
