@@ -109,6 +109,7 @@ if ($handle) {
     $output .= PHP_EOL;
     # Now go through the input file, to generate the printers as necessary
 
+    $PrinterList = '';
 
     while (!feof($handle)) {
         $line = fgets($handle);
@@ -116,6 +117,7 @@ if ($handle) {
 
         $PrinterName = $line[0];
         $PrinterIP = substr($line[1], 6);
+
 
 
         # Find out which consumables we can edit on this printer.  Add to the appropriate consumables group
@@ -129,23 +131,6 @@ if ($handle) {
             }
 
             array_push($ListOfConsumables[$row], $PrinterName);
-        }
-
-        # Find out which trays we can edit on this printer.  Add it to the appropriate tray group(s)
-        $trays = shell_exec('/usr/local/nagios/libexec/check_snmp_printer -H ' . $PrinterIP . ' -C public -x "TRAY TEST" -w 20 -c 10');
-        $trays = explode(PHP_EOL, $trays);
-
-        if (in_array('2', $trays)) {
-            array_push($PrintersWithTray2, $PrinterName);
-        }
-        if (in_array('3', $trays)) {
-            array_push($PrintersWithTray3, $PrinterName);
-        }
-        if (in_array('4', $trays)) {
-            array_push($PrintersWithTray4, $PrinterName);
-        }
-        if (in_array('5', $trays)) {
-            array_push($PrintersWithTray5, $PrinterName);
         }
 
         # Determine host group based on the printer model, so we check consumables appropriately
@@ -168,37 +153,16 @@ if ($handle) {
             $output .= PHP_EOL;
         }
 
+        # Build a list of printer names to monitor for paper
+        $PrinterList .= $PrinterName . ",";
+
     }
 
+    # Close out the .csv file
     fclose($handle);
 
-    # Build a list of all printers with tray 2
-    $Tray2PrintersToMonitor = '';
-    foreach ($PrintersWithTray2 as $row) {
-        $Tray2PrintersToMonitor .= $row . ",";
-    }
-    $Tray2PrintersToMonitor = rtrim($Tray2PrintersToMonitor, ",");
-
-    # Build a list of all printers with tray 3
-    $Tray3PrintersToMonitor = '';
-    foreach ($PrintersWithTray3 as $row) {
-        $Tray3PrintersToMonitor .= $row . ",";
-    }
-    $Tray3PrintersToMonitor = rtrim($Tray3PrintersToMonitor, ",");
-
-    # Build a list of all printers with tray 4
-    $Tray4PrintersToMonitor = '';
-    foreach ($PrintersWithTray4 as $row) {
-        $Tray4PrintersToMonitor .= $row . ",";
-    }
-    $Tray4PrintersToMonitor = rtrim($Tray4PrintersToMonitor, ",");
-
-    # Build a list of all printers with tray 5
-    $Tray5PrintersToMonitor = '';
-    foreach ($PrintersWithTray5 as $row) {
-        $Tray5PrintersToMonitor .= $row . ",";
-    }
-    $Tray5PrintersToMonitor = rtrim($Tray5PrintersToMonitor, ",");
+    # Strip trailing comma from printer list
+    $PrinterList = rtrim($PrinterList , ",");
 
     # Build service definitions for the various paper tray configs
     $output .= PHP_EOL;
@@ -208,38 +172,11 @@ if ($handle) {
     $output .= PHP_EOL;
     $output .= 'define service{' . PHP_EOL;
     $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
-    $output .= '    service_description         Paper Status Tray 2' . PHP_EOL;
+    $output .= '    service_description         Paper Tray Status' . PHP_EOL;
     $output .= '    normal_check_interval       10' . PHP_EOL;
     $output .= '    retry_check_interval        1' . PHP_EOL;
-    $output .= '    check_command               check_printers!public!"TRAY 2"!20!5' . PHP_EOL;
-    $output .= '    host_name                   ' . $Tray2PrintersToMonitor . PHP_EOL;
-    $output .= '}' . PHP_EOL;
-    $output .= PHP_EOL;
-    $output .= 'define service{' . PHP_EOL;
-    $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
-    $output .= '    service_description         Paper Status Tray 3' . PHP_EOL;
-    $output .= '    normal_check_interval       10' . PHP_EOL;
-    $output .= '    retry_check_interval        1' . PHP_EOL;
-    $output .= '    check_command               check_printers!public!"TRAY 3"!20!5' . PHP_EOL;
-    $output .= '    host_name                   ' . $Tray3PrintersToMonitor . PHP_EOL;
-    $output .= '}' . PHP_EOL;
-    $output .= PHP_EOL;
-    #$output .= 'define service{' . PHP_EOL;
-    #$output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
-    #$output .= '    service_description         Paper Status Tray 4' . PHP_EOL;
-    #$output .= '    normal_check_interval       10' . PHP_EOL;
-    #$output .= '    retry_check_interval        1' . PHP_EOL;
-    #$output .= '    check_command               check_printers!public!"TRAY 4"!20!5' . PHP_EOL;
-    #$output .= '    host_name                   ' . $Tray4PrintersToMonitor . PHP_EOL;
-    #$output .= '}' . PHP_EOL;
-    $output .= PHP_EOL;
-    $output .= 'define service{' . PHP_EOL;
-    $output .= '    use                         IT-LAB-PRINTER-SERVICE' . PHP_EOL;
-    $output .= '    service_description         Paper Status Tray 5' . PHP_EOL;
-    $output .= '    normal_check_interval       10' . PHP_EOL;
-    $output .= '    retry_check_interval        1' . PHP_EOL;
-    $output .= '    check_command               check_printers!public!"TRAY 5"!20!5' . PHP_EOL;
-    $output .= '    host_name                   ' . $Tray5PrintersToMonitor . PHP_EOL;
+    $output .= '    check_command               check_printer_paper!public!"TRAY ALL"!20!5' . PHP_EOL;
+    $output .= '    host_name                   ' . $PrinterList . PHP_EOL;
     $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
 
