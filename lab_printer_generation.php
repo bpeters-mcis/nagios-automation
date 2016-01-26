@@ -301,7 +301,7 @@ if ($handle) {
     $body = '<br>';
     $body .= 'A new printer upload has been processed on winmon.  Please log into nagios to make sure everything looks OK. <br>';
     $body .= '<br>';
-    $body .= 'An old copy of the printer configuration file has been saved as /home/akirkland1/lab_printers.cfg in case something broke...<br><br>';
+    $body .= 'An timestamped copy of the printer configuration file has been saved as /home/akirkland1/lab_printers.cfg in case something broke...<br><br>';
 
     mail($to, $subject, $body, $headers);
 
