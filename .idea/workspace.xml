@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac6e5b4-1086-407c-835f-c4ae93c60fc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_printers.sh" afterPath="$PROJECT_DIR$/update_printers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_servers.sh" afterPath="$PROJECT_DIR$/update_servers.sh" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,8 +105,8 @@
       <file leaf-file-name="update_printers.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update_printers.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22345804">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3265925">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -503,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update_printers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22345804">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3265925">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
