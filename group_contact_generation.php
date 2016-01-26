@@ -50,9 +50,19 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                         'host_name' => '')
                             );
 
+# Users in this string will have read-only access to any of the CGI tools within nagios.  All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
 $restrictedUsers = '';
+
+# Lab users get read-only access and do not get emails.  If you wish any of them to get access, add them here.
 $UsersToOverrideLabRestrictions = array('bpeters', 'akirkland1');
+
+# Adds Ben Peters to the lab group for testing purposes if set to "Yes"
 $AddBenToLabs = 'No';
+
+
+######################################################################################
+# Class
+######################################################################################
 
 class LDAP {
 
