@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6e5b4-1086-407c-835f-c4ae93c60fc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi.cfg" afterPath="$PROJECT_DIR$/cgi.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_contact_generation.php" afterPath="$PROJECT_DIR$/group_contact_generation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_printer_generation.php" afterPath="$PROJECT_DIR$/lab_printer_generation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/windows.cfg" afterPath="$PROJECT_DIR$/objects/windows.cfg" />
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39838222">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -80,16 +79,16 @@
       <file leaf-file-name="group_contact_generation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.038462">
-              <caret line="427" column="54" selection-start-line="427" selection-start-column="54" selection-end-line="427" selection-end-column="54" />
+            <state vertical-scroll-proportion="-201.38461">
+              <caret line="308" column="5" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1453812444884" expanded="true" signature="4944:6160" placeholder="Select Top 1..." />
-                <marker date="1453812444884" expanded="true" signature="6576:7275" placeholder="Select Top 1..tblComputersystem..." />
-                <marker date="1453812444884" expanded="true" signature="7693:8422" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1453812444884" expanded="true" signature="8102:8341" placeholder="Select tblSo..tblSoftware..." />
-                <marker date="1453812444884" expanded="true" signature="8838:9569" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1453812444884" expanded="true" signature="9247:9488" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1453816329642" expanded="true" signature="5158:6374" placeholder="Select Top 1..." />
+                <marker date="1453816329642" expanded="true" signature="6790:7489" placeholder="Select Top 1..tblComputersystem..." />
+                <marker date="1453816329642" expanded="true" signature="7907:8636" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1453816329642" expanded="true" signature="8316:8555" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1453816329642" expanded="true" signature="9052:9783" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1453816329642" expanded="true" signature="9461:9702" placeholder="Select tblSo..tblSoftware..." />
               </folding>
             </state>
           </provider>
@@ -99,17 +98,27 @@
         <entry file="file://$PROJECT_DIR$/update_servers.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab_printer_generation.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update_printers.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/update_printers.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab_printer_generation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab_printer_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.03846">
-              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.22326064">
+              <caret line="266" column="38" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -141,9 +150,10 @@
         <option value="$PROJECT_DIR$/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/cgi.cfg" />
-        <option value="$PROJECT_DIR$/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/group_contact_generation.php" />
+        <option value="$PROJECT_DIR$/lab_printer_generation.php" />
+        <option value="$PROJECT_DIR$/update_printers.sh" />
       </list>
     </option>
   </component>
@@ -412,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update_servers.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="49.24138">
@@ -460,34 +462,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.03846">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_servers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.038462">
-          <caret line="427" column="54" selection-start-line="427" selection-start-column="54" selection-end-line="427" selection-end-column="54" />
+        <state vertical-scroll-proportion="-201.38461">
+          <caret line="308" column="5" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1453812444884" expanded="true" signature="4944:6160" placeholder="Select Top 1..." />
-            <marker date="1453812444884" expanded="true" signature="6576:7275" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1453812444884" expanded="true" signature="7693:8422" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453812444884" expanded="true" signature="8102:8341" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1453812444884" expanded="true" signature="8838:9569" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453812444884" expanded="true" signature="9247:9488" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1453816329642" expanded="true" signature="5158:6374" placeholder="Select Top 1..." />
+            <marker date="1453816329642" expanded="true" signature="6790:7489" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1453816329642" expanded="true" signature="7907:8636" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453816329642" expanded="true" signature="8316:8555" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1453816329642" expanded="true" signature="9052:9783" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453816329642" expanded="true" signature="9461:9702" placeholder="Select tblSo..tblSoftware..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/windows.cfg">
+    <entry file="file://$PROJECT_DIR$/update_printers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39838222">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_printer_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22326064">
+          <caret line="266" column="38" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="38" />
           <folding />
         </state>
       </provider>

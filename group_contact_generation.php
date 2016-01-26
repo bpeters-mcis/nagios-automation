@@ -6,6 +6,10 @@
  * Time: 3:30 PM
  */
 
+##################################################################################
+# Global Config Settings
+##################################################################################
+
 # Define the group names we'll be using to create config files
 $Groups = array('doit-sit-team', 'doit-dba-team', 'doit-pss-team', 'doit_lab_attendants', 'doit_helpdesk_ft');
 
@@ -48,6 +52,7 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
 
 $restrictedUsers = '';
 $UsersToOverrideLabRestrictions = array('bpeters', 'akirkland1');
+$AddBenToLabs = 'No';
 
 class LDAP {
 
@@ -299,7 +304,7 @@ foreach ($Groups as $group) {
     }
 
     # Add Ben for testing
-    if ($group == 'doit_lab_attendants') {
+    if ($group == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
         $userlist .= 'bpeters,';
     }
 

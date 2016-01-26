@@ -112,7 +112,7 @@ if ($handle) {
 
     while (!feof($handle)) {
         $line = fgets($handle);
-        $line = explode("|" , $line);
+        $line = explode("," , $line);
 
         $PrinterName = $line[0];
         $PrinterIP = substr($line[1], 6);
@@ -290,6 +290,20 @@ if ($handle) {
     }
 
     file_put_contents('/usr/local/nagios/etc/objects/lab_printers.cfg', $output);
+
+    # Email Aric about new printers being uploaded
+
+    $subject = 'Printers changed on Nagios';
+    $headers = "From: DoNotReply@emich.edu\n";
+    $headers .= "MIME-Version: 1.0\n";
+    $headers .= "Content-Type: text/html; charset=\"iso-8859-1\"\n";
+    $to = 'bpeters@emich.edu, akirkland1@emich.edu';
+    $body = '<br>';
+    $body .= 'A new printer upload has been processed on winmon.  Please log into nagios to make sure everything looks OK. <br>';
+    $body .= '<br>';
+    $body .= 'An old copy of the printer configuration file has been saved as /home/akirkland1/lab_printers.cfg in case something broke...<br><br>';
+
+    mail($to, $subject, $body, $headers);
 
 }
 
