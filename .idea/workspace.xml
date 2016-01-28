@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6e5b4-1086-407c-835f-c4ae93c60fc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/commands.cfg" afterPath="$PROJECT_DIR$/objects/commands.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_contact_generation.php" afterPath="$PROJECT_DIR$/group_contact_generation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nagios.cfg" afterPath="$PROJECT_DIR$/nagios.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/nagios.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="38" />
+              <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,16 +78,16 @@
       <file leaf-file-name="group_contact_generation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+            <state vertical-scroll-proportion="-25.5">
+              <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1453990712996" expanded="true" signature="6106:7322" placeholder="Select Top 1..." />
-                <marker date="1453990712996" expanded="true" signature="7738:8437" placeholder="Select Top 1..tblComputersystem..." />
-                <marker date="1453990712996" expanded="true" signature="8855:9584" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1453990712996" expanded="true" signature="9264:9503" placeholder="Select tblSo..tblSoftware..." />
-                <marker date="1453990712996" expanded="true" signature="10000:10731" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1453990712996" expanded="true" signature="10409:10650" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1453995782858" expanded="true" signature="6178:7394" placeholder="Select Top 1..." />
+                <marker date="1453995782858" expanded="true" signature="7810:8509" placeholder="Select Top 1..tblComputersystem..." />
+                <marker date="1453995782858" expanded="true" signature="8927:9656" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1453995782858" expanded="true" signature="9336:9575" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1453995782858" expanded="true" signature="10072:10803" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1453995782858" expanded="true" signature="10481:10722" placeholder="Select tblSo..tblSoftware..." />
               </folding>
             </state>
           </provider>
@@ -106,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="42" />
+              <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -123,15 +124,15 @@
         <option value="$PROJECT_DIR$/objects/contacts.cfg" />
         <option value="$PROJECT_DIR$/objects/localhost.cfg" />
         <option value="$PROJECT_DIR$/objects/it-lab-printers.cfg" />
-        <option value="$PROJECT_DIR$/nagios.cfg" />
         <option value="$PROJECT_DIR$/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/cgi.cfg" />
         <option value="$PROJECT_DIR$/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/update_servers.sh" />
         <option value="$PROJECT_DIR$/update_printers.sh" />
         <option value="$PROJECT_DIR$/lab_printer_generation.php" />
-        <option value="$PROJECT_DIR$/group_contact_generation.php" />
         <option value="$PROJECT_DIR$/objects/commands.cfg" />
+        <option value="$PROJECT_DIR$/group_contact_generation.php" />
+        <option value="$PROJECT_DIR$/nagios.cfg" />
       </list>
     </option>
   </component>
@@ -145,7 +146,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
@@ -271,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -355,12 +356,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1453990712996" expanded="true" signature="6106:7322" placeholder="Select Top 1..." />
-            <marker date="1453990712996" expanded="true" signature="7738:8437" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1453990712996" expanded="true" signature="8855:9584" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453990712996" expanded="true" signature="9264:9503" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1453990712996" expanded="true" signature="10000:10731" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453990712996" expanded="true" signature="10409:10650" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1453995782858" expanded="true" signature="6178:7394" placeholder="Select Top 1..." />
+            <marker date="1453995782858" expanded="true" signature="7810:8509" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1453995782858" expanded="true" signature="8927:9656" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453995782858" expanded="true" signature="9336:9575" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1453995782858" expanded="true" signature="10072:10803" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453995782858" expanded="true" signature="10481:10722" placeholder="Select tblSo..tblSoftware..." />
           </folding>
         </state>
       </provider>
@@ -505,38 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1453990712996" expanded="true" signature="6106:7322" placeholder="Select Top 1..." />
-            <marker date="1453990712996" expanded="true" signature="7738:8437" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1453990712996" expanded="true" signature="8855:9584" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453990712996" expanded="true" signature="9264:9503" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1453990712996" expanded="true" signature="10000:10731" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1453990712996" expanded="true" signature="10409:10650" placeholder="Select tblSo..tblSoftware..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_printer_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.461538">
-          <caret line="214" column="77" selection-start-line="214" selection-start-column="77" selection-end-line="214" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nagios.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cgi.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -561,11 +530,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab_printer_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.461538">
+          <caret line="214" column="77" selection-start-line="214" selection-start-column="77" selection-end-line="214" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="42" />
+          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.5">
+          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1453995782858" expanded="true" signature="6178:7394" placeholder="Select Top 1..." />
+            <marker date="1453995782858" expanded="true" signature="7810:8509" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1453995782858" expanded="true" signature="8927:9656" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453995782858" expanded="true" signature="9336:9575" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1453995782858" expanded="true" signature="10072:10803" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1453995782858" expanded="true" signature="10481:10722" placeholder="Select tblSo..tblSoftware..." />
+          </folding>
         </state>
       </provider>
     </entry>
