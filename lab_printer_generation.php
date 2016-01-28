@@ -9,12 +9,6 @@ $handle = fopen("/home/akirkland1/printers.csv", "r");
 
 if ($handle) {
 
-    $PrintersWithTray2 = array();
-    $PrintersWithTray3 = array();
-    $PrintersWithTray4 = array();
-    $PrintersWithTray5 = array();
-    $PrintersWithTray6 = array();
-
     $ListOfConsumables = array();
 
     $output =  '###############################################################################' . PHP_EOL;
