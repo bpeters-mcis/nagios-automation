@@ -17,44 +17,44 @@ $ServersToIgnore = array('ADAUTHDC2', 'INTLTESTDB', 'INTLDB');
 
 # Here is our list of custom services to monitor.
 $ServicesToMonitor = array('D' => array('use' => 'generic-service',
-                                        'service_description' => 'D:\ Drive Space',
-                                        'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
-                                        'host_name' => ''),
-                            'E' => array('use' => 'generic-service',
-                                        'service_description' => 'E:\ Drive Space',
-                                        'check_command' => 'check_nt!USEDDISKSPACE!-l e -w 80 -c 90',
-                                        'host_name' => ''),
-                            'F' => array('use' => 'generic-service',
-                                        'service_description' => 'F:\ Drive Space',
-                                        'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
-                                        'host_name' => ''),
-                            'RLoad' => array('use' => 'generic-service',
-                                        'service_description' => 'Remote Loader for IDM',
-                                        'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
-                                        'host_name' => ''),
-                            'PrintSpool' => array('use' => 'generic-service',
-                                        'service_description' => 'Print Spooler',
-                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
-                                        'host_name' => ''),
-                            'MDT' => array('use' => 'generic-service',
-                                        'service_description' => 'MDT Monitor',
-                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
-                                        'host_name' => ''),
-                            'PXE' => array('use' => 'generic-service',
-                                        'service_description' => 'PXE Boot Service',
-                                        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
-                                        'host_name' => ''),
-                            'GPORepl' => array('use' => 'generic-service',
-                                        'service_description' => 'GPO Replication',
-                                        'check_command' => 'ADGPOReplication_Check',
-                                        'normal_check_interval' => '120',
-                                        'retry_check_interval' => '20',
-                                        'host_name' => ''),
-                            'ADRepl' => array('use' => 'generic-service',
-                                        'service_description' => 'AD Replication',
-                                        'check_command' => 'ADReplication_Check',
-                                        'host_name' => '')
-                            );
+    'service_description' => 'D:\ Drive Space',
+    'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
+    'host_name' => ''),
+    'E' => array('use' => 'generic-service',
+        'service_description' => 'E:\ Drive Space',
+        'check_command' => 'check_nt!USEDDISKSPACE!-l e -w 80 -c 90',
+        'host_name' => ''),
+    'F' => array('use' => 'generic-service',
+        'service_description' => 'F:\ Drive Space',
+        'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
+        'host_name' => ''),
+    'RLoad' => array('use' => 'generic-service',
+        'service_description' => 'Remote Loader for IDM',
+        'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
+        'host_name' => ''),
+    'PrintSpool' => array('use' => 'generic-service',
+        'service_description' => 'Print Spooler',
+        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
+        'host_name' => ''),
+    'MDT' => array('use' => 'generic-service',
+        'service_description' => 'MDT Monitor',
+        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
+        'host_name' => ''),
+    'PXE' => array('use' => 'generic-service',
+        'service_description' => 'PXE Boot Service',
+        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
+        'host_name' => ''),
+    'GPORepl' => array('use' => 'generic-service',
+        'service_description' => 'GPO Replication',
+        'check_command' => 'ADGPOReplication_Check',
+        'normal_check_interval' => '120',
+        'retry_check_interval' => '20',
+        'host_name' => ''),
+    'ADRepl' => array('use' => 'generic-service',
+        'service_description' => 'AD Replication',
+        'check_command' => 'ADReplication_Check',
+        'host_name' => '')
+);
 
 # Users in this string will have read-only access to any of the CGI tools within nagios.  All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
 $restrictedUsers = '';
@@ -236,270 +236,345 @@ class LansweeperDB
 
 }
 
+# Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything!
+if ($Servers = new LansweeperDB()) {
 
-################################################################
-# Build the contact list
-################################################################
+    if ($LDAP = new LDAP()) {
 
-# Set an array of users in all the groups, so we can use it later to build individual contacts
-$userarray = array();
+        ################################################################
+        # Build the contact list
+        ################################################################
 
-# Start building the team definition output
-$output =  '###########################################' . PHP_EOL;
-$output .=  '# !!!! WARNING !!!!' . PHP_EOL;
-$output .=  '###########################################' . PHP_EOL;
-$output .= PHP_EOL;
-$output .= '# This file was automatically generated by group_contact_generation.php.  Do not edit it manually!!!' . PHP_EOL;
-$output .= '# If you need to change this, please edit that PHP file instead.' . PHP_EOL;
-$output .= PHP_EOL;
-$output .= PHP_EOL;
-$output .= PHP_EOL;
-$output .= PHP_EOL;
-$output .= PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= '# Team Contact Definitions' . PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
+        # Set an array of users in all the groups, so we can use it later to build individual contacts
+        $userarray = array();
 
-foreach ($Groups as $group) {
+        # Start building the team definition output
+        $output =  '###########################################' . PHP_EOL;
+        $output .=  '# !!!! WARNING !!!!' . PHP_EOL;
+        $output .=  '###########################################' . PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= '# This file was automatically generated by group_contact_generation.php.  Do not edit it manually!!!' . PHP_EOL;
+        $output .= '# If you need to change this, please edit that PHP file instead.' . PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
+        $output .= '# Team Contact Definitions' . PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
 
-    # Get members of the group
-    $LDAP = new LDAP();
-    $userlist = '';
+        foreach ($Groups as $group) {
 
-    # Get any sub groups within this main group
-    $subgroups = $LDAP->getGroupMemberGroups('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
+            # Get members of the group
+            $userlist = '';
 
-    # Go through each sub group and pull out the members
-    $groupnum = 0;
-    while ($groupnum < $subgroups['count']) {
+            # Get any sub groups within this main group
+            $subgroups = $LDAP->getGroupMemberGroups('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
 
-        # Run through all the group members, and build a comma separated list, and add the user to an array for use later
-        $users = $LDAP->getGroupUsers($subgroups[$groupnum]['dn']);
+            # Go through each sub group and pull out the members
+            $groupnum = 0;
+            while ($groupnum < $subgroups['count']) {
 
-        $usernum = 0;
-        while ($usernum < $users['count']) {
-            $userlist .= $users[$usernum]['samaccountname'][0] . ",";
-            if ($group == 'doit_lab_attendants') {
-                $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
-                if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
-                    $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
+                # Run through all the group members, and build a comma separated list, and add the user to an array for use later
+                $users = $LDAP->getGroupUsers($subgroups[$groupnum]['dn']);
+
+                $usernum = 0;
+                while ($usernum < $users['count']) {
+                    $userlist .= $users[$usernum]['samaccountname'][0] . ",";
+                    if ($group == 'doit_lab_attendants') {
+                        $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
+                        if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                            $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
+                        }
+                    } else {
+                        $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
+                    }
+                    $userarray[$email] = $users[$usernum]['samaccountname'][0];
+                    $usernum++;
                 }
-            } else {
-                $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
-            }
-            $userarray[$email] = $users[$usernum]['samaccountname'][0];
-            $usernum++;
-        }
 
-        $groupnum++;
-    }
-
-
-    # Run through all the group members, and build a comma separated list, and add the user to an array for use later
-    $users = $LDAP->getGroupUsers('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
-
-    $i = 0;
-    while ($i < $users['count']) {
-        $userlist .= $users[$i]['samaccountname'][0] . ",";
-        if ($group == 'doit_lab_attendants') {
-            $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
-            if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
-                $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
-            }
-        } else {
-            $email = $users[$i]['samaccountname'][0] . "@emich.edu";
-        }
-        $userarray[$email] = $users[$i]['samaccountname'][0];
-        $i++;
-    }
-
-    # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
-    if ($group == 'doit_lab_attendants') {
-        $userarray['akirkland1@emich.edu'] = 'akirkland1';
-        $userlist .= 'akirkland1,';
-    }
-
-    # Add Ben for testing
-    if ($group == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
-        $userlist .= 'bpeters,';
-    }
-
-    # Trim trailing comma from user list
-    $userlist = rtrim($userlist, ",");
-
-    # Generate the contact group definition
-    $output .= PHP_EOL;
-    $output .= 'define contactgroup{' . PHP_EOL;
-    $output .= '        contactgroup_name       ' . $group . PHP_EOL;
-    $output .= '        alias                   ' . $group . PHP_EOL;
-    $output .= '        members                 ' . $userlist . PHP_EOL;
-    $output .= '        }' . PHP_EOL;
-    $output .= PHP_EOL;
-
-}
-
-# Trim the trailing comma off restricted user list
-$restrictedUsers = rtrim($restrictedUsers, ",");
-
-# Build the output for the restricted user list
-$cgiCFGOutput = PHP_EOL;
-$cgiCFGOutput .= '###########################################' . PHP_EOL;
-$cgiCFGOutput .= '# Set Restricted CGI Access for these users' . PHP_EOL;
-$cgiCFGOutput .= '###########################################' . PHP_EOL;
-$cgiCFGOutput .= PHP_EOL;
-$cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
-$cgiCFGOutput .= PHP_EOL;
-
-# Remove the last entry for the restricted users
-$lines = file('/usr/local/nagios/etc/cgi.cfg');
-$lines = array_slice($lines, 0, -6, true);
-$lines = implode($lines);
-$lines = $lines . $cgiCFGOutput;
-
-# Place the restricted users into the file
-file_put_contents('/usr/local/nagios/etc/cgi.cfg', $lines);
-
-
-# Start building the individual contacts output
-$output .= PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= '# User Contact Definitions' . PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= PHP_EOL;
-
-# Now go through the list of all the individual users, and remove any duplicates
-$userarray = array_unique($userarray);
-
-# Build a contact file for each user in the list - but omit e-mail addresses from lab students
-foreach ($userarray as $key => $value) {
-    $output .= 'define contact{' . PHP_EOL;
-    $output .= '        contact_name            ' . $value . PHP_EOL;
-    $output .= '        use                     generic-contact' . PHP_EOL;
-    $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
-    $output .= '        email                   ' . $key . PHP_EOL;
-    $output .= '}' . PHP_EOL;
-    $output .= PHP_EOL;
-}
-
-file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad.cfg', $output);
-
-################################################################
-# Build the server list
-################################################################
-
-# Run a SQL search against lansweeper to find all active windows servers with Nagios installed
-$Servers = new LansweeperDB();
-$list = $Servers->getServersWithNagios();
-
-# Get a list of all domain controllers
-$DCs = $Servers->getDomainControllers();
-
-# Get a list of all imaging servers
-$Imaging = $Servers->getImagingServers();
-
-# Start building the server output
-$output =  '###########################################' . PHP_EOL;
-$output .= '# Windows Server Definitions' . PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= PHP_EOL;
-
-foreach ($list as $server) {
-
-    # Make sure we aren't supposed to ignore this server for some reason
-    if (!in_array($server['AssetName'], $ServersToIgnore)) {
-
-        # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
-        $contactgroups = 'WindowsTeam';
-        if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
-            $contactgroups .= ',doit-sit-team';
-        }
-        if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
-            $contactgroups .= ',doit-dba-team';
-        }
-        if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
-            $contactgroups .= ',doit-pss-team';
-        }
-        if ($server['Primary OS Contact'] == 'Team - HelpDesk' || $server['Secondary OS Contact'] == 'Team - HelpDesk' || $server['Primary App Contact'] == 'Team - HelpDesk' || $server['Secondary App Contact'] == 'Team - HelpDesk') {
-            $contactgroups .= ',doit_helpdesk_ft';
-        }
-
-
-        # See what special services should be monitored on this server
-        $services = $server['NagiosServices'];
-        $services = explode(',', $services);
-
-        # See which customs services this server should monitor
-        foreach ($services as $service) {
-
-            # Make sure this is a known service defined above.  Only add it to the list only if it's a legitimate service name
-            if (isset($ServicesToMonitor[$service])) {
-                $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
+                $groupnum++;
             }
 
+
+            # Run through all the group members, and build a comma separated list, and add the user to an array for use later
+            $users = $LDAP->getGroupUsers('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
+
+            $i = 0;
+            while ($i < $users['count']) {
+                $userlist .= $users[$i]['samaccountname'][0] . ",";
+                if ($group == 'doit_lab_attendants') {
+                    $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
+                    if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                        $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
+                    }
+                } else {
+                    $email = $users[$i]['samaccountname'][0] . "@emich.edu";
+                }
+                $userarray[$email] = $users[$i]['samaccountname'][0];
+                $i++;
+            }
+
+            # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
+            if ($group == 'doit_lab_attendants') {
+                $userarray['akirkland1@emich.edu'] = 'akirkland1';
+                $userlist .= 'akirkland1,';
+            }
+
+            # Add Ben for testing
+            if ($group == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
+                $userlist .= 'bpeters,';
+            }
+
+            # Trim trailing comma from user list
+            $userlist = rtrim($userlist, ",");
+
+            # Generate the contact group definition
+            $output .= PHP_EOL;
+            $output .= 'define contactgroup{' . PHP_EOL;
+            $output .= '        contactgroup_name       ' . $group . PHP_EOL;
+            $output .= '        alias                   ' . $group . PHP_EOL;
+            $output .= '        members                 ' . $userlist . PHP_EOL;
+            $output .= '        }' . PHP_EOL;
+            $output .= PHP_EOL;
+
         }
 
-        # Build the host groups for this server, and append extra host groups based on lansweeper query results
-        $HostGroups = "windows-servers";
+        # Trim the trailing comma off restricted user list
+        $restrictedUsers = rtrim($restrictedUsers, ",");
 
-        if (in_array($server['AssetName'], $DCs)) {
-            $HostGroups .= ",windows-servers-dcs";
+        # Build the output for the restricted user list
+        $cgiCFGOutput = PHP_EOL;
+        $cgiCFGOutput .= '###########################################' . PHP_EOL;
+        $cgiCFGOutput .= '# Set Restricted CGI Access for these users' . PHP_EOL;
+        $cgiCFGOutput .= '###########################################' . PHP_EOL;
+        $cgiCFGOutput .= PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
+        $cgiCFGOutput .= PHP_EOL;
+
+        # Remove the last entry for the restricted users
+        $lines = file('/usr/local/nagios/etc/cgi.cfg');
+        $lines = array_slice($lines, 0, -6, true);
+        $lines = implode($lines);
+        $lines = $lines . $cgiCFGOutput;
+
+        # Place the restricted users into the file
+        file_put_contents('/usr/local/nagios/etc/cgi.cfg', $lines);
+
+        # Get all the servers, to find the contact info
+        $list = $Servers->getServersWithNagios();
+
+        # Use this data to pull all individual contacts out, and add them to our array
+        foreach ($list as $server) {
+
+            # See if each contact is a team.  If so, ignore.  If an individual, add the user to our list of users to add to our contact list later
+            if (substr($server['Primary OS Contact'], 0, 4) != "Team" && $server['Primary OS Contact'] != '') {
+                $username = $server['Primary OS Contact'];
+                $email = $username . "@emich.edu";
+                $userarray[$email] = $username;
+                echo $username . PHP_EOL;
+            }
+
+            if (substr($server['Secondary OS Contact'], 0, 4) != "Team" && $server['Secondary OS Contact'] != '') {
+                $username = $server['Secondary OS Contact'];
+                $email = $username . "@emich.edu";
+                $userarray[$email] = $username;
+                echo $username . PHP_EOL;
+            }
+
+            if (substr($server['Primary App Contact'], 0, 4) != "Team" && $server['Primary App Contact'] != '') {
+                $username = $server['Primary App Contact'];
+                $email = $username . "@emich.edu";
+                $userarray[$email] = $username;
+                echo $username . PHP_EOL;
+            }
+
+            if (substr($server['Secondary App Contact'], 0, 4) != "Team" && $server['Secondary App Contact'] != '') {
+                $username = $server['Secondary App Contact'];
+                $email = $username . "@emich.edu";
+                $userarray[$email] = $username;
+                echo $username . PHP_EOL;
+            }
         }
 
-        if (in_array($server['AssetName'], $Imaging)) {
-            $HostGroups .= ",windows-servers-imaging";
-        }
 
-        # Check which downtime window for this host
-        if ($server['Window'] == "Prod") {
-            $HostGroups .= ",Downtime-Prod";
-        } else if ($server['Window'] == "Test") {
-            $HostGroups .= ",Downtime-Test";
-        }
-
-        # Build the individual host output
-        $output .= 'define host{' . PHP_EOL;
-        $output .= '    use             windows-server' . PHP_EOL;
-        $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
-        $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
-        $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
-        $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
-        $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
-        $output .= '}' . PHP_EOL;
+        # Start building the individual contacts output
         $output .= PHP_EOL;
-    }
-
-
-}
-
-################################################################
-# Build the service list
-################################################################
-
-$output .= '###########################################' . PHP_EOL;
-$output .= '# Windows Service Definitions' . PHP_EOL;
-$output .= '###########################################' . PHP_EOL;
-$output .= PHP_EOL;
-
-# Go through each custom service defined at the top
-foreach ($ServicesToMonitor as $row) {
-
-    # Make sure there is at least one host that uses this.  If none, don't bother including it.
-    if ($row['host_name'] != '') {
-
-        # Strip trailing comma from the host list
-        $row['host_name'] = rtrim($row['host_name'], ',');
-
-        # Build output config for this service
-        $output .= 'define service{' . PHP_EOL;
-        foreach ($row as $key => $value) {
-            $output .= '    ' . $key . '        ' . $value . PHP_EOL;
-        }
-        $output .= '}' . PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
+        $output .= '# User Contact Definitions' . PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
+
+        # Now go through the list of all the individual users, and remove any duplicates
+        $userarray = array_unique($userarray);
+
+        # Build a contact file for each user in the list - but omit e-mail addresses from lab students
+        foreach ($userarray as $key => $value) {
+            $output .= 'define contact{' . PHP_EOL;
+            $output .= '        contact_name            ' . $value . PHP_EOL;
+            $output .= '        use                     generic-contact' . PHP_EOL;
+            $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
+            $output .= '        email                   ' . $key . PHP_EOL;
+            $output .= '}' . PHP_EOL;
+            $output .= PHP_EOL;
+        }
+
+        file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad.cfg', $output);
+
+        ################################################################
+        # Build the server list
+        ################################################################
+
+        # Get a list of all domain controllers
+        $DCs = $Servers->getDomainControllers();
+
+        # Get a list of all imaging servers
+        $Imaging = $Servers->getImagingServers();
+
+        # Start building the server output
+        $output =  '###########################################' . PHP_EOL;
+        $output .= '# Windows Server Definitions' . PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
+        $output .= PHP_EOL;
+
+        foreach ($list as $server) {
+
+            # Make sure we aren't supposed to ignore this server for some reason
+            if (!in_array($server['AssetName'], $ServersToIgnore)) {
+
+                # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
+                $contactgroups = 'WindowsTeam';
+                if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
+                    $contactgroups .= ',doit-sit-team';
+                }
+                if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
+                    $contactgroups .= ',doit-dba-team';
+                }
+                if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
+                    $contactgroups .= ',doit-pss-team';
+                }
+                if ($server['Primary OS Contact'] == 'Team - HelpDesk' || $server['Secondary OS Contact'] == 'Team - HelpDesk' || $server['Primary App Contact'] == 'Team - HelpDesk' || $server['Secondary App Contact'] == 'Team - HelpDesk') {
+                    $contactgroups .= ',doit_helpdesk_ft';
+                }
+
+                # If this server is run by an individual, add them as a contact - but only once!
+                $individualContacts = '';
+                $contactsArray = array();
+                if (substr($server['Primary OS Contact'], 0, 4) != "Team" && $server['Primary OS Contact'] != '') {
+                    if (!in_array($server['Primary OS Contact'], $contactsArray)) {
+                        $individualContacts .= $server['Primary OS Contact'] . ",";
+                        array_push($contactsArray, $server['Primary OS Contact']);
+                    }
+
+                }
+                if (substr($server['Secondary OS Contact'], 0, 4) != "Team" && $server['Secondary OS Contact'] != '') {
+                    if (!in_array($server['Secondary OS Contact'], $contactsArray)) {
+                        $individualContacts .= $server['Secondary OS Contact'] . ",";
+                        array_push($contactsArray, $server['Secondary OS Contact']);
+                    }
+
+                }
+                if (substr($server['Primary App Contact'], 0, 4) != "Team" && $server['Primary App Contact'] != '') {
+                    if (!in_array($server['Primary App Contact'], $contactsArray)) {
+                        $individualContacts .= $server['Primary App Contact'] . ",";
+                        array_push($contactsArray, $server['Primary App Contact']);
+                    }
+
+                }
+                if (substr($server['Secondary App Contact'], 0, 4) != "Team" && $server['Secondary App Contact'] != '') {
+                    if (!in_array($server['Secondary App Contact'], $contactsArray)) {
+                        $individualContacts .= $server['Secondary App Contact'] . ",";
+                        array_push($contactsArray, $server['Secondary App Contact']);
+                    }
+
+                }
+
+                # Strip trailing comma from the contact list
+                $individualContacts = rtrim($individualContacts, ',');
+
+                # See what special services should be monitored on this server
+                $services = $server['NagiosServices'];
+                $services = explode(',', $services);
+
+                # See which customs services this server should monitor
+                foreach ($services as $service) {
+
+                    # Make sure this is a known service defined above.  Only add it to the list only if it's a legitimate service name
+                    if (isset($ServicesToMonitor[$service])) {
+                        $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
+                    }
+
+                }
+
+                # Build the host groups for this server, and append extra host groups based on lansweeper query results
+                $HostGroups = "windows-servers";
+
+                if (in_array($server['AssetName'], $DCs)) {
+                    $HostGroups .= ",windows-servers-dcs";
+                }
+
+                if (in_array($server['AssetName'], $Imaging)) {
+                    $HostGroups .= ",windows-servers-imaging";
+                }
+
+                # Check which downtime window for this host
+                if ($server['Window'] == "Prod") {
+                    $HostGroups .= ",Downtime-Prod";
+                } else if ($server['Window'] == "Test") {
+                    $HostGroups .= ",Downtime-Test";
+                } else if ($server['Window'] == "Other") {
+                    $HostGroups .= ",Auto-Patch-And-Reboot";
+                }
+
+                # Build the individual host output
+                $output .= 'define host{' . PHP_EOL;
+                $output .= '    use             windows-server' . PHP_EOL;
+                $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
+                $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
+                $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
+                $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
+                $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
+                if ($individualContacts != '') {
+                    $output .= '    contacts        ' . $individualContacts . PHP_EOL;
+                }
+                $output .= '}' . PHP_EOL;
+                $output .= PHP_EOL;
+            }
+
+
+        }
+
+        ################################################################
+        # Build the service list
+        ################################################################
+
+        $output .= '###########################################' . PHP_EOL;
+        $output .= '# Windows Service Definitions' . PHP_EOL;
+        $output .= '###########################################' . PHP_EOL;
+        $output .= PHP_EOL;
+
+        # Go through each custom service defined at the top
+        foreach ($ServicesToMonitor as $row) {
+
+            # Make sure there is at least one host that uses this.  If none, don't bother including it.
+            if ($row['host_name'] != '') {
+
+                # Strip trailing comma from the host list
+                $row['host_name'] = rtrim($row['host_name'], ',');
+
+                # Build output config for this service
+                $output .= 'define service{' . PHP_EOL;
+                foreach ($row as $key => $value) {
+                    $output .= '    ' . $key . '        ' . $value . PHP_EOL;
+                }
+                $output .= '}' . PHP_EOL;
+                $output .= PHP_EOL;
+            }
+        }
+
+        # Send the list of servers to the nagios config file
+        file_put_contents('/usr/local/nagios/etc/objects/servers_from_lansweeper.cfg', $output);
     }
 }
-
-# Send the list of servers to the nagios config file
-file_put_contents('/usr/local/nagios/etc/objects/servers_from_lansweeper.cfg', $output);
-
 ?>

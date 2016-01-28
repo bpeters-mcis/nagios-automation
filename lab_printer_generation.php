@@ -186,7 +186,7 @@ if ($handle) {
         $hosts = '';
 
         # Ignore any that are errors.
-        if (substr($key, 0, 7) != "WARNING" && substr($key, 0, 11) != "Consumables" && $key != '') {
+        if (substr($key, 0, 7) != "WARNING" && substr($key, 0, 11) != "Consumables" && substr($key, 0, 5) != "Maint" && $key != '') {
 
             # Some come in with quotes for some reason... strip them
             if ($key[0] == '"') {
