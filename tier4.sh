@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 datetime=`date +%s`
-CMD='SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Auto-Patch-And-Reboot;2016-01-28 14:28:00;2016-01-28 14:30:00;1;0;bpeters;Test Downtime Function'
-CommandFile="/usr/local/nagios/var/rw/nagios.cmd"
-`$echocmd $cmdline >> $CommandFile`
+starttime=`date +%s -d "+ $2 minutes"`
+endtime=`date +%s -d "+ $5 minutes"`
+#echo "['date +%s'] SCHEDULE_HOST_DOWNTIME;LANSWEEPER;$starttime;$endtime;1;0;;bpeters;scheduled downtime\n" > /usr/local/nagios/var/rw/nagios.cmd
+
+echo "['date +%s'] SCHEDULE_HOST_DOWNTIME;LANSWEEPER;$starttime;$endtime;1;0;;bpeters;scheduled downtime" > /usr/local/nagios/var/rw/nagios.cmd
+echo "Downtimed the lansweeper host groups for 5 minutes"
+
+
+
+1454012244
+1454012176
