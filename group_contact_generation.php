@@ -10,51 +10,58 @@
 # Global Config Settings
 ##################################################################################
 
-# Define the group names we'll be using to create config files
-$Groups = array('doit-sit-team', 'doit-dba-team', 'doit-pss-team', 'doit_lab_attendants', 'doit_helpdesk_ft');
+# Define the group names we'll be using to create config files.  Key should be the name used in inventory, value should be the AD/LDAP group name.
+$Groups = array('Team - SIT' => 'doit-sit-team',
+                'Team - DBA' => 'doit-dba-team',
+                'Team - PSS' => 'doit-pss-team',
+                'Lab Attendants' => 'doit_lab_attendants',
+                'Team - HelpDesk' => 'doit_helpdesk_ft',
+                'Team - VMWare' => 'doit-vmware-team',
+                'Team - Security' => 'ib_security_team');
 
-$ServersToIgnore = array('ADAUTHDC2', 'INTLTESTDB', 'INTLDB');
+# These servers will be completely ignored, and will never be included in monitoring
+$ServersToIgnore = array('INTLTESTDB', 'INTLDB');
 
-# Here is our list of custom services to monitor.
+# Here is our list of custom services to monitor.  This is where we can add special custom services.  Add as many as you like.
 $ServicesToMonitor = array('D' => array('use' => 'generic-service',
-    'service_description' => 'D:\ Drive Space',
-    'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
-    'host_name' => ''),
-    'E' => array('use' => 'generic-service',
-        'service_description' => 'E:\ Drive Space',
-        'check_command' => 'check_nt!USEDDISKSPACE!-l e -w 80 -c 90',
-        'host_name' => ''),
-    'F' => array('use' => 'generic-service',
-        'service_description' => 'F:\ Drive Space',
-        'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
-        'host_name' => ''),
-    'RLoad' => array('use' => 'generic-service',
-        'service_description' => 'Remote Loader for IDM',
-        'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
-        'host_name' => ''),
-    'PrintSpool' => array('use' => 'generic-service',
-        'service_description' => 'Print Spooler',
-        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
-        'host_name' => ''),
-    'MDT' => array('use' => 'generic-service',
-        'service_description' => 'MDT Monitor',
-        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
-        'host_name' => ''),
-    'PXE' => array('use' => 'generic-service',
-        'service_description' => 'PXE Boot Service',
-        'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
-        'host_name' => ''),
-    'GPORepl' => array('use' => 'generic-service',
-        'service_description' => 'GPO Replication',
-        'check_command' => 'ADGPOReplication_Check',
-        'normal_check_interval' => '120',
-        'retry_check_interval' => '20',
-        'host_name' => ''),
-    'ADRepl' => array('use' => 'generic-service',
-        'service_description' => 'AD Replication',
-        'check_command' => 'ADReplication_Check',
-        'host_name' => '')
-);
+                                'service_description' => 'D:\ Drive Space',
+                                'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
+                                'host_name' => ''),
+                            'E' => array('use' => 'generic-service',
+                                'service_description' => 'E:\ Drive Space',
+                                'check_command' => 'check_nt!USEDDISKSPACE!-l e -w 80 -c 90',
+                                'host_name' => ''),
+                            'F' => array('use' => 'generic-service',
+                                'service_description' => 'F:\ Drive Space',
+                                'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
+                                'host_name' => ''),
+                            'RLoad' => array('use' => 'generic-service',
+                                'service_description' => 'Remote Loader for IDM',
+                                'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
+                                'host_name' => ''),
+                            'PrintSpool' => array('use' => 'generic-service',
+                                'service_description' => 'Print Spooler',
+                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
+                                'host_name' => ''),
+                            'MDT' => array('use' => 'generic-service',
+                                'service_description' => 'MDT Monitor',
+                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
+                                'host_name' => ''),
+                            'PXE' => array('use' => 'generic-service',
+                                'service_description' => 'PXE Boot Service',
+                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
+                                'host_name' => ''),
+                            'GPORepl' => array('use' => 'generic-service',
+                                'service_description' => 'GPO Replication',
+                                'check_command' => 'ADGPOReplication_Check',
+                                'normal_check_interval' => '120',
+                                'retry_check_interval' => '20',
+                                'host_name' => ''),
+                            'ADRepl' => array('use' => 'generic-service',
+                                'service_description' => 'AD Replication',
+                                'check_command' => 'ADReplication_Check',
+                                'host_name' => '')
+                        );
 
 # Users in this string will have read-only access to any of the CGI tools within nagios.  All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
 $restrictedUsers = '';
@@ -113,8 +120,8 @@ class LansweeperDB
     protected $db;
 
     public static $LansweeperHost = 'lansweeper';
-    public static $LansweeperUser = 'AD\bpeters';
-    public static $LansweeperPassword = 'unit7oscodaisfun';
+    public static $LansweeperUser = 'lansweeperuser';
+    public static $LansweeperPassword = 'mysecretpassword0*';
 
     function __construct()
     {
@@ -264,13 +271,13 @@ if ($Servers = new LansweeperDB()) {
         $output .= '# Team Contact Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
 
-        foreach ($Groups as $group) {
+        foreach ($Groups as $InvGroup => $LDAPGroup) {
 
             # Get members of the group
             $userlist = '';
 
             # Get any sub groups within this main group
-            $subgroups = $LDAP->getGroupMemberGroups('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
+            $subgroups = $LDAP->getGroupMemberGroups('CN=' . $LDAPGroup . ',CN=users,DC=ad,DC=emich,DC=edu');
 
             # Go through each sub group and pull out the members
             $groupnum = 0;
@@ -282,7 +289,7 @@ if ($Servers = new LansweeperDB()) {
                 $usernum = 0;
                 while ($usernum < $users['count']) {
                     $userlist .= $users[$usernum]['samaccountname'][0] . ",";
-                    if ($group == 'doit_lab_attendants') {
+                    if ($LDAPGroup == 'doit_lab_attendants') {
                         $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
                         if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
                             $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
@@ -299,12 +306,12 @@ if ($Servers = new LansweeperDB()) {
 
 
             # Run through all the group members, and build a comma separated list, and add the user to an array for use later
-            $users = $LDAP->getGroupUsers('CN=' . $group . ',CN=users,DC=ad,DC=emich,DC=edu');
+            $users = $LDAP->getGroupUsers('CN=' . $LDAPGroup . ',CN=users,DC=ad,DC=emich,DC=edu');
 
             $i = 0;
             while ($i < $users['count']) {
                 $userlist .= $users[$i]['samaccountname'][0] . ",";
-                if ($group == 'doit_lab_attendants') {
+                if ($LDAPGroup == 'doit_lab_attendants') {
                     $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
                     if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
                         $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
@@ -317,13 +324,13 @@ if ($Servers = new LansweeperDB()) {
             }
 
             # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
-            if ($group == 'doit_lab_attendants') {
+            if ($LDAPGroup == 'doit_lab_attendants') {
                 $userarray['akirkland1@emich.edu'] = 'akirkland1';
                 $userlist .= 'akirkland1,';
             }
 
             # Add Ben for testing
-            if ($group == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
+            if ($LDAPGroup == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
                 $userlist .= 'bpeters,';
             }
 
@@ -333,8 +340,8 @@ if ($Servers = new LansweeperDB()) {
             # Generate the contact group definition
             $output .= PHP_EOL;
             $output .= 'define contactgroup{' . PHP_EOL;
-            $output .= '        contactgroup_name       ' . $group . PHP_EOL;
-            $output .= '        alias                   ' . $group . PHP_EOL;
+            $output .= '        contactgroup_name       ' . $LDAPGroup . PHP_EOL;
+            $output .= '        alias                   ' . $LDAPGroup . PHP_EOL;
             $output .= '        members                 ' . $userlist . PHP_EOL;
             $output .= '        }' . PHP_EOL;
             $output .= PHP_EOL;
@@ -369,32 +376,15 @@ if ($Servers = new LansweeperDB()) {
         foreach ($list as $server) {
 
             # See if each contact is a team.  If so, ignore.  If an individual, add the user to our list of users to add to our contact list later
-            if (substr($server['Primary OS Contact'], 0, 4) != "Team" && $server['Primary OS Contact'] != '') {
-                $username = $server['Primary OS Contact'];
-                $email = $username . "@emich.edu";
-                $userarray[$email] = $username;
-                echo $username . PHP_EOL;
-            }
+            $fieldsToCheck = array('Primary OS Contact', 'Secondary OS Contact', 'Primary App Contact', 'Secondary App Contact');
+            foreach ($fieldsToCheck as $row) {
+                if (substr($server[$row], 0, 4) != "Team" && $server[$row] != '') {
+                    $username = $server[$row];
+                    $email = $username . "@emich.edu";
+                    $userarray[$email] = $username;
+                    echo $username . PHP_EOL;
+                }
 
-            if (substr($server['Secondary OS Contact'], 0, 4) != "Team" && $server['Secondary OS Contact'] != '') {
-                $username = $server['Secondary OS Contact'];
-                $email = $username . "@emich.edu";
-                $userarray[$email] = $username;
-                echo $username . PHP_EOL;
-            }
-
-            if (substr($server['Primary App Contact'], 0, 4) != "Team" && $server['Primary App Contact'] != '') {
-                $username = $server['Primary App Contact'];
-                $email = $username . "@emich.edu";
-                $userarray[$email] = $username;
-                echo $username . PHP_EOL;
-            }
-
-            if (substr($server['Secondary App Contact'], 0, 4) != "Team" && $server['Secondary App Contact'] != '') {
-                $username = $server['Secondary App Contact'];
-                $email = $username . "@emich.edu";
-                $userarray[$email] = $username;
-                echo $username . PHP_EOL;
             }
         }
 
@@ -426,68 +416,41 @@ if ($Servers = new LansweeperDB()) {
         # Build the server list
         ################################################################
 
-        # Get a list of all domain controllers
-        $DCs = $Servers->getDomainControllers();
-
-        # Get a list of all imaging servers
-        $Imaging = $Servers->getImagingServers();
-
         # Start building the server output
         $output =  '###########################################' . PHP_EOL;
         $output .= '# Windows Server Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
 
+        # Get a list of all DCs and imaging servers
+        $DCs = $Servers->getDomainControllers();
+        $Imaging = $Servers->getImagingServers();
+
         foreach ($list as $server) {
 
             # Make sure we aren't supposed to ignore this server for some reason
             if (!in_array($server['AssetName'], $ServersToIgnore)) {
 
-                # Check who the contact people are, and build our host group list accordingly. Add it to basic windows servers by default.
+                # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
                 $contactgroups = 'WindowsTeam';
-                if ($server['Primary OS Contact'] == 'Team - SIT' || $server['Secondary OS Contact'] == 'Team - SIT' || $server['Primary App Contact'] == 'Team - SIT' || $server['Secondary App Contact'] == 'Team - SIT') {
-                    $contactgroups .= ',doit-sit-team';
-                }
-                if ($server['Primary OS Contact'] == 'Team - DBA' || $server['Secondary OS Contact'] == 'Team - DBA' || $server['Primary App Contact'] == 'Team - DBA' || $server['Secondary App Contact'] == 'Team - DBA') {
-                    $contactgroups .= ',doit-dba-team';
-                }
-                if ($server['Primary OS Contact'] == 'Team - PSS' || $server['Secondary OS Contact'] == 'Team - PSS' || $server['Primary App Contact'] == 'Team - PSS' || $server['Secondary App Contact'] == 'Team - PSS') {
-                    $contactgroups .= ',doit-pss-team';
-                }
-                if ($server['Primary OS Contact'] == 'Team - HelpDesk' || $server['Secondary OS Contact'] == 'Team - HelpDesk' || $server['Primary App Contact'] == 'Team - HelpDesk' || $server['Secondary App Contact'] == 'Team - HelpDesk') {
-                    $contactgroups .= ',doit_helpdesk_ft';
+                foreach ($Groups as $INVGroup => $LDAPGroup) {
+                    if ($server['Primary OS Contact'] == $INVGroup || $server['Secondary OS Contact'] == $INVGroup || $server['Primary App Contact'] == $INVGroup || $server['Secondary App Contact'] == $INVGroup) {
+                        $contactgroups .= ',' . $LDAPGroup;
+                    }
                 }
 
-                # If this server is run by an individual, add them as a contact - but only once!
+                # Check to see if this server is run by an individual, add their username as a contact to the individual contact list; but only once!
+                $fieldsToCheck = array('Primary OS Contact', 'Secondary OS Contact', 'Primary App Contact', 'Secondary App Contact');
                 $individualContacts = '';
                 $contactsArray = array();
-                if (substr($server['Primary OS Contact'], 0, 4) != "Team" && $server['Primary OS Contact'] != '') {
-                    if (!in_array($server['Primary OS Contact'], $contactsArray)) {
-                        $individualContacts .= $server['Primary OS Contact'] . ",";
-                        array_push($contactsArray, $server['Primary OS Contact']);
-                    }
+                foreach ($fieldsToCheck as $field) {
+                    if (substr($server[$field], 0, 4) != "Team" && $server[$field] != '') {
+                        if (!in_array($server[$field], $contactsArray)) {
+                            $individualContacts .= $server[$field] . ",";
+                            array_push($contactsArray, $server[$field]);
+                        }
 
-                }
-                if (substr($server['Secondary OS Contact'], 0, 4) != "Team" && $server['Secondary OS Contact'] != '') {
-                    if (!in_array($server['Secondary OS Contact'], $contactsArray)) {
-                        $individualContacts .= $server['Secondary OS Contact'] . ",";
-                        array_push($contactsArray, $server['Secondary OS Contact']);
                     }
-
-                }
-                if (substr($server['Primary App Contact'], 0, 4) != "Team" && $server['Primary App Contact'] != '') {
-                    if (!in_array($server['Primary App Contact'], $contactsArray)) {
-                        $individualContacts .= $server['Primary App Contact'] . ",";
-                        array_push($contactsArray, $server['Primary App Contact']);
-                    }
-
-                }
-                if (substr($server['Secondary App Contact'], 0, 4) != "Team" && $server['Secondary App Contact'] != '') {
-                    if (!in_array($server['Secondary App Contact'], $contactsArray)) {
-                        $individualContacts .= $server['Secondary App Contact'] . ",";
-                        array_push($contactsArray, $server['Secondary App Contact']);
-                    }
-
                 }
 
                 # Strip trailing comma from the contact list
