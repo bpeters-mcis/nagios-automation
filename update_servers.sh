@@ -9,7 +9,7 @@ touch /usr/local/nagios/etc/Servers_last_imported.txt
 RESTART="No"
 
 # Now, check to see if any of the config files are actually different.
-if diff objects/servers_from_lansweeper_new.cfg objects/servers_from_lansweeper.cfg >/dev/null ; then
+if cmp -s objects/servers_from_lansweeper_new.cfg objects/servers_from_lansweeper.cfg ; then
     rm objects/servers_from_lansweeper.cfg
     mv objects/servers_from_lansweeper_new.cfg objects/servers_from_lansweeper.cfg
     RESTART="Yes"
@@ -18,7 +18,7 @@ else
     rm objects/servers_from_lansweeper_new.cfg
 fi
 
-if diff objects/contacts_from_ad_new.cfg objects/contacts_from_ad.cfg >/dev/null ; then
+if cmp -s objects/contacts_from_ad_new.cfg objects/contacts_from_ad.cfg ; then
     rm objects/contacts_from_ad.cfg
     mv objects/contacts_from_ad_new.cfg objects/contacts_from_ad.cfg
     RESTART="Yes"
@@ -27,7 +27,7 @@ else
     rm objects/contacts_from_ad_new.cfg
 fi
 
-if diff cgi_new.cfg cgi.cfg >/dev/null ; then
+if cmp -s cgi_new.cfg cgi.cfg ; then
     rm cgi.cfg
     mv cgi_new.cfg cgi.cfg
     RESTART="Yes"
