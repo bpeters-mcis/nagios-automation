@@ -388,7 +388,7 @@ if ($Servers = new LansweeperDB()) {
         $lines = $lines . $cgiCFGOutput;
 
         # Place the restricted users into the file
-        file_put_contents('/usr/local/nagios/etc/cgi.cfg', $lines);
+        file_put_contents('/usr/local/nagios/etc/cgi_new.cfg', $lines);
 
         # Get all the servers, to find the contact info
         $list = $Servers->getServersWithNagios();
@@ -431,7 +431,7 @@ if ($Servers = new LansweeperDB()) {
             $output .= PHP_EOL;
         }
 
-        file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad.cfg', $output);
+        file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad_new.cfg', $output);
 
         ################################################################
         # Build the server list
@@ -558,7 +558,7 @@ if ($Servers = new LansweeperDB()) {
         }
 
         # Send the list of servers to the nagios config file
-        file_put_contents('/usr/local/nagios/etc/objects/servers_from_lansweeper.cfg', $output);
+        file_put_contents('/usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg', $output);
     }
 }
 ?>
