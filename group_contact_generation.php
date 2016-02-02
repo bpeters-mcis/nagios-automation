@@ -121,7 +121,7 @@ class LansweeperDB
 
     public static $LansweeperHost = 'lansweeper';
     public static $LansweeperUser = 'lansweeperuser';
-    public static $LansweeperPassword = 'mysecretpassword0*';
+    public static $LansweeperPassword = '#hot713outside*';
 
     function __construct()
     {
