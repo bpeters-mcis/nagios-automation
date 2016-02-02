@@ -105,6 +105,7 @@ class LDAP {
         $filter = "(&(objectClass=user)(memberOf=$group))";
         $justthese = array("samaccountname");
         $results = ldap_search($this->AD, LDAP::$ldap_basedn, $filter, $justthese);
+        ldap_sort($this->AD, $results, 'samaccountname');
         $users = ldap_get_entries($this->AD, $results);
         return $users;
     }
@@ -113,6 +114,7 @@ class LDAP {
         $filter = "(&(objectClass=group)(memberOf=$group))";
         $justthese = array("samaccountname");
         $results = ldap_search($this->AD, LDAP::$ldap_basedn, $filter, $justthese);
+        ldap_sort($this->AD, $results, 'samaccountname');
         $groups = ldap_get_entries($this->AD, $results);
         return $groups;
     }
@@ -154,7 +156,7 @@ class LansweeperDB
                   From tblSoftware Inner Join tblSoftwareUni On tblSoftwareUni.SoftID =
             tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%NSClient%') And
-                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1";
+                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
@@ -205,7 +207,7 @@ class LansweeperDB
                   From tblSoftware Inner Join tblSoftwareUni On tblSoftwareUni.SoftID =
                       tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%Deployment Toolkit%') And
-                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1";
+                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
@@ -231,7 +233,7 @@ class LansweeperDB
                   From tblSoftware Inner Join tblSoftwareUni On tblSoftwareUni.SoftID =
                       tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%Microsoft SQL Server%') And
-                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1";
+                  tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
