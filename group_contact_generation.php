@@ -10,6 +10,11 @@
 # Global Config Settings
 ##################################################################################
 
+# Set an array of users in all the groups, so we can use it later to build individual contacts.  Add the people here who MUST show up, at a minimum.
+$userarray = array('bpeters@emich.edu' => 'bpeters',
+                    'pdaughert2@emich.edu' => 'pdaughert2',
+                    'malghait@emich.edu' => 'malghait');
+
 # Define the group names we'll be using to create config files.  Key should be the name used in inventory, value should be the AD/LDAP group name.
 $Groups = array('Team - SIT' => 'doit-sit-team',
                 'Team - DBA' => 'doit-dba-team',
@@ -121,7 +126,7 @@ class LansweeperDB
 
     public static $LansweeperHost = 'lansweeper';
     public static $LansweeperUser = 'lansweeperuser';
-    public static $LansweeperPassword = '#hot713outside*';
+    public static $LansweeperPassword = '#hot713outside';
 
     function __construct()
     {
@@ -252,9 +257,6 @@ if ($Servers = new LansweeperDB()) {
         # Build the contact list
         ################################################################
 
-        # Set an array of users in all the groups, so we can use it later to build individual contacts
-        $userarray = array();
-
         # Start building the team definition output
         $output =  '###########################################' . PHP_EOL;
         $output .=  '# !!!! WARNING !!!!' . PHP_EOL;
@@ -351,18 +353,37 @@ if ($Servers = new LansweeperDB()) {
         # Trim the trailing comma off restricted user list
         $restrictedUsers = rtrim($restrictedUsers, ",");
 
-        # Build the output for the restricted user list
+        # Get all the members of the nagios admin group
+        $users = $LDAP->getGroupUsers('CN=doit_app_nagios_admin,CN=users,DC=ad,DC=emich,DC=edu');
+        $adminUsers = '';
+        $i = 0;
+        while ($i < $users['count']) {
+            $adminUsers .= $users[$i]['samaccountname'][0] . ",";
+            $email = $users[$i]['samaccountname'][0] . "@emich.edu";
+            $userarray[$email] = $users[$i]['samaccountname'][0];
+            $i++;
+        }
+
+        # Trim the trailing comma off admin user list
+        $adminUsers = rtrim($adminUsers, ",");
+
+        # Build the output for the CGI access file
         $cgiCFGOutput = PHP_EOL;
         $cgiCFGOutput .= '###########################################' . PHP_EOL;
-        $cgiCFGOutput .= '# Set Restricted CGI Access for these users' . PHP_EOL;
+        $cgiCFGOutput .= '# Custom CGI Access From LDAP Groups' . PHP_EOL;
         $cgiCFGOutput .= '###########################################' . PHP_EOL;
         $cgiCFGOutput .= PHP_EOL;
         $cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
         $cgiCFGOutput .= PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_system_information=' . $adminUsers . PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_configuration_information=' . $adminUsers . PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_system_commands=' . $adminUsers . PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_all_service_commands=' . $adminUsers . PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_all_host_commands=' . $adminUsers . PHP_EOL;
 
         # Remove the last entry for the restricted users
         $lines = file('/usr/local/nagios/etc/cgi.cfg');
-        $lines = array_slice($lines, 0, -6, true);
+        $lines = array_slice($lines, 0, -12, true);
         $lines = implode($lines);
         $lines = $lines . $cgiCFGOutput;
 
