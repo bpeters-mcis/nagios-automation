@@ -18,8 +18,8 @@
 
  $subject = "$f_notify_type Service: $f_host_name";
  
- $from  ="nagios@winmon.emich.edu";
- $body = "<html><body><h3 style='color: #006600'>Eastern Michigan University - Division of IT Server Monitoring: Host Report Details</h3><br><b>Notification: </b> <font color=#CC0000>$f_notify_type</font><br/> \r\n";
+ $from  ="windowsteam@emich.edu";
+ $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT Server Monitoring: Host Report Details</h2><br><b>Notification: </b> <font color=#CC0000>$f_notify_type</font><br/> \r\n";
  $body .= "<b>Host: </b> <font color=#007700>$f_host_alias</font> </br> \r\n";
  $body .= "<b>Address: </b> <font color=#005555>$f_host_address</font><br/> \r\n";
  $body .= "<b>Date/Time: </b><font color=#005555>$f_long_date</font><br/> \r\n";
@@ -27,9 +27,9 @@
  $body .= "<b>Total Servers Up: </b>$f_totalup<br/>";
  $body .= "<b>Total Servers Down: </b>$f_totaldown<br/> \r\n";
  $body .= "<br> \r\n";
- $body .= "<h3>Why Am I Getting This Notification?</h3><br>\r\n";
+ $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
- $body .= "<h3>What Should I Do?</h3><br>\r\n";
+ $body .= "<h3>What Should I Do?</h3>";
  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
