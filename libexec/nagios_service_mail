@@ -28,6 +28,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $Totwarnings =array_shift($argv);     /*13*/
  $Totcritical =array_shift($argv);      /*14*/
  $Totunknowns =array_shift($argv);     /*15*/
+ $TotOK =array_shift($argv);
  $LastServiceOK = array_shift($argv);    /*16*/
  $LastServiceWarning = array_shift($argv);     /*17*/
  $Attempts= array_shift($argv);     /*18*/
@@ -90,6 +91,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Warnings: </td><td> $Totwarnings</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6><td>Total Service Critical: </td><td> $Totcritical</td></tr>\r\n";
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $Totunknowns</td></tr>\r\n";
+ $body .= "<tr bgcolor=#f6f6ff><td>Total Services OK: </td><td> $TotOK</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6><td>Service <i>DOWN</i> For: </td><td> $f_downwarn<i>m</i></td></tr>\r\n";
  $body .= "</table><br/></td></tr></table><br/>\r\n";
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
