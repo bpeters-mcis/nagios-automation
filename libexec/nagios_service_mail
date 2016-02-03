@@ -67,7 +67,7 @@
  $subject = "$f_notify_type Service:$f_host_name/$f_serv_desc [$f_serv_state]";
  
  $from  ="nagios@winmon.emich.edu";
- $body = "<html><body><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
+ $body = "<html><body><h3 style='color: #006600'>Eastern Michigan University - Division of IT: Service Report Details</h3><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
  $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
  $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
  $body .= "color=#ffffff><b>$f_notify_type [$f_serv_state]</b></font></td></tr>\r\n";
@@ -78,8 +78,6 @@
  $body .= "<tr bgcolor=#fefefe><td><b>Additional Info:</b></td><td>$f_serv_output</td></tr>\r\n";
  $body .= "<tr bgcolor=#eeeeee><td><b>State Duration:</b></td><td><font color=#CC0000><b>$f_duration</b> mins.</font></td></tr> \r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Service ExecTime:</b></td><td><font color=#CC0000><b>$f_exectime</b></font></td></tr></table>\r\n";
- $body .= "<b><font color=#CC0000>Actions: </font></b><a href='https://winmon.emich.edu/nagios/";
- $body .= "cgi-bin/cmd.cgi?cmd_typ=100&host=$f_host_name&service=$f_serv_desc'><b>Stop Obsessing</b></a><br/><br/> \r\n";
  $body .= "</td><td valign='top'><table border=0 cellpadding=0 cellspacing=0 width=250><tr bgcolor=#000055><td><b> \r\n";
  $body .= "<font color=#FFFFFF>Summery</font></b></td><td>.</td></tr> \r\n";
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Warnings: </td><td> $f_totwarnings</td></tr>\r\n";
@@ -87,6 +85,11 @@
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $f_totunknowns</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6><td>Service <i>DOWN</i> For: </td><td> $f_downwarn<i>m</i></td></tr>\r\n";
  $body .= "</table><br/></td></tr></table><br/>\r\n";
+ $body .= "<b>Why Am I Getting This Notification?</b><br>\r\n";
+ $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
+ $body .= "<b>What Should I Do?</b><br>\r\n";
+ $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
+ $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
  
  $headers  = "From: $from\r\n";
