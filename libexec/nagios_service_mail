@@ -8,6 +8,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
                      'CPU Load' => 'You should log into your server, and see if there are any programs or services which are out of control.',
                      'Memory Usage' => 'You should log into your server, and see if there are any programs or services which are out of control.',
                      'Service: Firewall' => 'You should log into your server, and make sure the Windows Firewall service is running.',
+                     'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.'
 );
 
 # Get the inputs from the Nagios service
