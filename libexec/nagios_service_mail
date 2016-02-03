@@ -1,55 +1,61 @@
 #!/usr/bin/php -c /etc/php.ini
 
 <?php
-# Replace the domain "kdog.cmsnagios.com" with your 
-# Own Nagios Server Domain... If you have a /cms/ server
-# like simplecms, replace the img src path accordingly.
+# Build an array of services, and how to fixes
+$resolutions = array('C:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the C drive.',
+                     'D:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the D drive.',
+                     'E:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the E drive.',
+                     'CPU Load' => 'You should log into your server, and see if there are any programs or services which are out of control.',
+                     'Memory Usage' => 'You should log into your server, and see if there are any programs or services which are out of control.',
+                     'Service: Firewall' => 'You should log into your server, and make sure the Windows Firewall service is running.',
+);
 
+# Get the inputs from the Nagios service
  array_shift($argv); 
- $f_notify_type =array_shift($argv);  /*1*/
- $f_host_name =array_shift($argv);    /*2*/
- $f_host_alias =array_shift($argv);   /*3*/
- $f_host_state =array_shift($argv);    /*4*/
- $f_host_address =array_shift($argv);   /*5*/
- $f_serv_output =array_shift($argv);   /*6*/
- $f_long_date =array_shift($argv);     /*7*/
- $f_serv_desc  =array_shift($argv);    /*8*/
- $f_serv_state  =array_shift($argv);   /*9*/
- $f_to  =array_shift($argv);           /*10*/
- $f_duration = round((array_shift($argv))/60,2);   /*11*/
- $f_exectime =array_shift($argv);       /*12*/
- $f_totwarnings =array_shift($argv);     /*13*/
- $f_totcritical =array_shift($argv);      /*14*/
- $f_totunknowns =array_shift($argv);     /*15*/
- $f_lastserviceok = array_shift($argv);    /*16*/
- $f_lastwarning = array_shift($argv);     /*17*/
- $f_attempts= array_shift($argv);     /*18*/
+ $NotifyType =array_shift($argv);  /*1*/
+ $HostName =array_shift($argv);    /*2*/
+ $HostAlias =array_shift($argv);   /*3*/
+ $HostState =array_shift($argv);    /*4*/
+ $HostAddress =array_shift($argv);   /*5*/
+ $ServiceOutput =array_shift($argv);   /*6*/
+ $DateTime =array_shift($argv);     /*7*/
+ $ServiceDescription  =array_shift($argv);    /*8*/
+ $ServiceState  =array_shift($argv);   /*9*/
+ $To  =array_shift($argv);           /*10*/
+ $Duration = round((array_shift($argv))/60,2);   /*11*/
+ $ExecTime =array_shift($argv);       /*12*/
+ $Totwarnings =array_shift($argv);     /*13*/
+ $Totcritical =array_shift($argv);      /*14*/
+ $Totunknowns =array_shift($argv);     /*15*/
+ $LastServiceOK = array_shift($argv);    /*16*/
+ $LastServiceWarning = array_shift($argv);     /*17*/
+ $Attempts= array_shift($argv);     /*18*/
  
- $f_downwarn = $f_duration;
+ $f_downwarn = $Duration;
  $f_color="#dddddd";
- if($f_serv_state=="WARNING") {$f_color="#f48400";}
- if($f_serv_state=="CRITICAL") {$f_color="#f40000";}
- if($f_serv_state=="OK") {$f_color="#00b71a";}
- if($f_serv_state=="UNKNOWN") {$f_color="#cc00de";}
+ if($ServiceState=="WARNING") {$f_color="#f48400";}
+ if($ServiceState=="CRITICAL") {$f_color="#f40000";}
+ if($ServiceState=="OK") {$f_color="#00b71a";}
+ if($ServiceState=="UNKNOWN") {$f_color="#cc00de";}
 
  // Check If File Exists ###########
- if($f_notify_type=="PROBLEM")
+ if($NotifyType=="PROBLEM")
  {
   $currenttime = time();
-  $file_name = "/tmp/$f_host_name.$f_serv_desc.txt";
-  if ($f_attempts==1)
+  $file_name = "/tmp/$HostName.$ServiceDescription.txt";
+  if ($Attempts==1)
    {
      if(file_exists($file_name)==true) {unlink($file_name);}
-     $currenttime = $currenttime+round(($f_duration * 60),0);
+     $currenttime = $currenttime+round(($Duration * 60),0);
      file_put_contents($file_name, "$currenttime");
    }
  }
 
- if($f_notify_type=="RECOVERY")
+ if($NotifyType=="RECOVERY")
  {
   $currenttime = time();
   $oldtime = time();
-  $file_name = "/tmp/$f_host_name.$f_serv_desc.txt";
+  $file_name = "/tmp/$HostName.$ServiceDescription.txt";
   if (file_exists($file_name)==true)
    {
      $oldtime = intval(file_get_contents($file_name));
@@ -58,37 +64,42 @@
  }
 
 
- $f_serv_output = str_replace("(","/",$f_serv_output);
- $f_serv_output = str_replace(")","/",$f_serv_output);
- $f_serv_output = str_replace("[","/",$f_serv_output);
- $f_serv_output = str_replace("]","/",$f_serv_output);
+ $ServiceOutput = str_replace("(","/",$ServiceOutput);
+ $ServiceOutput = str_replace(")","/",$ServiceOutput);
+ $ServiceOutput = str_replace("[","/",$ServiceOutput);
+ $ServiceOutput = str_replace("]","/",$ServiceOutput);
 
 
- $subject = "$f_notify_type Service: $f_host_name/$f_serv_desc [$f_serv_state]";
+ $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
  
  $from  ="windowsteam@emich.edu";
  $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT Server Monitoring: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
  $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
  $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
- $body .= "color=#ffffff><b>$f_notify_type [$f_serv_state]</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Service:</b></td><td><font color=#0000CC><b>$f_serv_desc</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Server:</b></td><td><font color=#005500><b>$f_host_alias</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$f_host_address</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$f_long_date</font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Additional Info:</b></td><td>$f_serv_output</td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>State Duration:</b></td><td><font color=#CC0000><b>$f_duration</b> mins.</font></td></tr> \r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Service ExecTime:</b></td><td><font color=#CC0000><b>$f_exectime</b></font></td></tr></table>\r\n";
+ $body .= "color=#ffffff><b>$NotifyType [$ServiceState]</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Service:</b></td><td><font color=#0000CC><b>$ServiceDescription</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Server:</b></td><td><font color=#005500><b>$HostAlias</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Additional Info:</b></td><td>$ServiceOutput</td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>State Duration:</b></td><td><font color=#CC0000><b>$Duration</b> mins.</font></td></tr> \r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Service ExecTime:</b></td><td><font color=#CC0000><b>$ExecTime</b></font></td></tr></table>\r\n";
  $body .= "</td><td valign='top'><table border=0 cellpadding=0 cellspacing=0 width=250><tr bgcolor=#000055><td><b> \r\n";
  $body .= "<font color=#FFFFFF>Summary</font></b></td><td>.</td></tr> \r\n";
- $body .= "<tr bgcolor=#f6f6ff><td>Total Service Warnings: </td><td> $f_totwarnings</td></tr>\r\n";
- $body .= "<tr bgcolor=#fffef6><td>Total Service Critical: </td><td> $f_totcritical</td></tr>\r\n";
- $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $f_totunknowns</td></tr>\r\n";
+ $body .= "<tr bgcolor=#f6f6ff><td>Total Service Warnings: </td><td> $Totwarnings</td></tr>\r\n";
+ $body .= "<tr bgcolor=#fffef6><td>Total Service Critical: </td><td> $Totcritical</td></tr>\r\n";
+ $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $Totunknowns</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6><td>Service <i>DOWN</i> For: </td><td> $f_downwarn<i>m</i></td></tr>\r\n";
  $body .= "</table><br/></td></tr></table><br/>\r\n";
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
  $body .= "<h3>What Should I Do?</h3>";
+ if (in_array($ServiceDescription, $resolutions)) {
+ $body .= $resolutions[$ServiceDescription];
+ $body .= 'If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
+ } else {
  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
+ }
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
  
@@ -96,7 +107,7 @@
  $headers .= "Content-type: text/html\r\n"; 
 
  /* Send eMail Now... */
- $m_true = mail($f_to, $subject, $body, $headers);
+ $m_true = mail($To, $subject, $body, $headers);
  echo $m_true;
 
 
