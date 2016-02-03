@@ -74,7 +74,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
  
  $from  ="windowsteam@emich.edu";
- $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT Server Monitoring: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
+ $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
  $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
  $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
  $body .= "color=#ffffff><b>$NotifyType [$ServiceState]</b></font></td></tr>\r\n";
@@ -97,7 +97,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "<h3>What Should I Do?</h3>";
  if (array_key_exists($ServiceDescription, $resolutions)) {
  $body .= $resolutions[$ServiceDescription];
- $body .= 'If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
+ $body .= '  If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
  } else {
  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
  }
