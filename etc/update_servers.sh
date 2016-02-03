@@ -6,33 +6,40 @@ php /usr/local/nagios/etc/group_contact_generation.php
 # Note when this was last run
 touch /usr/local/nagios/etc/Servers_last_imported.txt
 
+# Take ownership of the nagios files
+chown -R nagios:nagios /usr/local/nagios/share
+chown -R nagios:nagios /usr/local/nagios/etc
+chown -R nagios:nagios /usr/local/nagios/objects
+chown -R nagios:nagios /usr/local/nagios/libexec
+chown -R nagios:nagios /usr/local/nagios/include
+
 RESTART="No"
 
 # Now, check to see if any of the config files are actually different.
-if cmp -s objects/servers_from_lansweeper_new.cfg objects/servers_from_lansweeper.cfg ; then
-    rm objects/servers_from_lansweeper_new.cfg
+if cmp -s /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg ; then
+    rm /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg
 else
-    rm objects/servers_from_lansweeper.cfg
-    mv objects/servers_from_lansweeper_new.cfg objects/servers_from_lansweeper.cfg
+    rm /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg
+    mv /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg
     RESTART="Yes"
     echo "Server definitions are different."
 fi
 
-if cmp -s objects/contacts_from_ad_new.cfg objects/contacts_from_ad.cfg ; then
-    rm objects/contacts_from_ad_new.cfg
+if cmp -s /usr/local/nagios/etc/objects/contacts_from_ad_new.cfg /usr/local/nagios/etc/objects/contacts_from_ad.cfg ; then
+    rm /usr/local/nagios/etc/objects/contacts_from_ad_new.cfg
 else
 
-    rm objects/contacts_from_ad.cfg
-    mv objects/contacts_from_ad_new.cfg objects/contacts_from_ad.cfg
+    rm /usr/local/nagios/etc/objects/contacts_from_ad.cfg
+    mv /usr/local/nagios/etc/objects/contacts_from_ad_new.cfg /usr/local/nagios/etc/objects/contacts_from_ad.cfg
     RESTART="Yes"
     echo "Contact definitions are different."
 fi
 
-if cmp -s cgi_new.cfg cgi.cfg ; then
-    rm cgi_new.cfg
+if cmp -s /usr/local/nagios/etc/cgi_new.cfg /usr/local/nagios/etc/cgi.cfg ; then
+    rm /usr/local/nagios/etc/cgi_new.cfg
 else
-    rm cgi.cfg
-    mv cgi_new.cfg cgi.cfg
+    rm /usr/local/nagios/etc/cgi.cfg
+    mv /usr/local/nagios/etc/cgi_new.cfg /usr/local/nagios/etc/cgi.cfg
     RESTART="Yes"
     echo "CGI definitions are different."
 fi
