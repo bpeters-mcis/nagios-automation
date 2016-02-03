@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
@@ -55,10 +54,10 @@
       <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38141027">
-              <caret line="21" column="123" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
+            <state vertical-scroll-proportion="0.4722222">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding>
-                <marker date="1454527531512" expanded="true" signature="610:624" placeholder="..." />
+                <marker date="1454527824727" expanded="true" signature="611:625" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -140,10 +139,10 @@
       <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.811321">
-              <caret line="69" column="102" selection-start-line="69" selection-start-column="102" selection-end-line="69" selection-end-column="102" />
+            <state vertical-scroll-proportion="-1.7317073">
+              <caret line="66" column="80" selection-start-line="66" selection-start-column="80" selection-end-line="66" selection-end-column="80" />
               <folding>
-                <marker date="1454527531498" expanded="true" signature="2356:2370" placeholder="..." />
+                <marker date="1454527824719" expanded="true" signature="2357:2371" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -165,8 +164,8 @@
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
-        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
+        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
       </list>
     </option>
   </component>
@@ -467,20 +466,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.811321">
-          <caret line="69" column="102" selection-start-line="69" selection-start-column="102" selection-end-line="69" selection-end-column="102" />
+        <state vertical-scroll-proportion="-1.7317073">
+          <caret line="66" column="80" selection-start-line="66" selection-start-column="80" selection-end-line="66" selection-end-column="80" />
           <folding>
-            <marker date="1454527531498" expanded="true" signature="2356:2370" placeholder="..." />
+            <marker date="1454527824719" expanded="true" signature="2357:2371" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38141027">
-          <caret line="21" column="123" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
+        <state vertical-scroll-proportion="0.4722222">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
-            <marker date="1454527531512" expanded="true" signature="610:624" placeholder="..." />
+            <marker date="1454527824727" expanded="true" signature="611:625" placeholder="..." />
           </folding>
         </state>
       </provider>
