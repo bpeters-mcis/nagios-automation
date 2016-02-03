@@ -13,9 +13,11 @@ $HostName = $argv[1];
 $HostIP = $argv[2];
 $NotificationType = $argv[3];
 $HostState = $argv[4];
-$HostOutput = $argv[5];
+$ServiceOutput = $argv[5];
 $Time = $argv[6];
 $Contacts = $argv[7];
+$ServiceDescription = $argv[8];
+$ServiceState = $argv[9];
 
 # Create formatting arrays
 $BadNotifications = array('PROBLEM', 'FLAPPINGSTART');
@@ -31,20 +33,22 @@ if (in_array($NotificationType, $BadNotifications)) {
 }
 
 # Build the email
-$subject = "$NotificationType On Server: $HostName";
+$subject = "$NotificationType On Server: $HostName For Service: $ServiceDescription";
 
 $from  ="windowsteam@emich.edu";
 $body = "<html>
             <body>
-                <h3 style='color: #006600'>Eastern Michigan University - Division of IT: Host Report Details</h3>
+                <h3 style='color: #006600'>Eastern Michigan University - Division of IT: Service Report Details</h3>
                 <p style='background-color: #ffffcc'><b>Notification Type: </b> <font color=$NotificationColor>$NotificationType</font><br/> \r\n
                 <b>Host: </b> <font color=#3333ff>$HostName</font> </br> \r\n
                 <b>Address: </b> <font color=#3333ff>$HostIP</font><br/> \r\n
+                <b>Service: </b> <font color=#3333ff>$ServiceDescription</font> </br> \r\n
+                <b>Service State: </b> <font color=#3333ff>$ServiceState</font> </br> \r\n
                 <b>Date/Time: </b><font color=#3333ff>$Time</font><br/><br> \r\n
-                <b>Additional Info: </b>$HostOutput<br/> \r\n
+                <b>Additional Info: </b>$ServiceOutput<br/> \r\n
                 <b>View In Nagios: </b><a href='https://winmon.emich.edu/nagios/cgi-bin/extinfo.cgi?type=1&host=$HostName'><b>$HostName</b></a></p><br/><br> \r\n
                 <b>Why Am I Getting This Notification?</b><br>\r\n
-                You are getting this notification because you have been identified as a contact for this server, either personally, or because you belong to a team that was listed.<br/><br> \r\n
+                You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n
                 <b>What Should I Do?</b><br>\r\n
                 The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n
                 <br/> \r\n

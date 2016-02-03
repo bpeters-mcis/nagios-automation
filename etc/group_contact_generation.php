@@ -509,7 +509,7 @@ if ($Servers = new LansweeperDB()) {
                     $HostGroups .= ",Downtime-Prod";
                 } else if ($server['Window'] == "Test") {
                     $HostGroups .= ",Downtime-Test";
-                } else if ($server['Window'] == "Other") {
+                } else if ($server['Window'] == "Tier4") {
                     $HostGroups .= ",Auto-Patch-And-Reboot";
                 }
 
