@@ -95,7 +95,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
  $body .= "<h3>What Should I Do?</h3>";
- if (in_array($ServiceDescription, $resolutions)) {
+ if (array_key_exists($ServiceDescription, $resolutions)) {
  $body .= $resolutions[$ServiceDescription];
  $body .= 'If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
  } else {
