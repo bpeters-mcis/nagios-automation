@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/update_servers.sh" afterPath="$PROJECT_DIR$/etc/update_servers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,26 +136,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.886793">
-              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.2361111">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
-                <marker date="1454533977147" expanded="true" signature="3234:3248" placeholder="..." />
-                <marker date="1454533977147" expanded="true" signature="4788:4801" placeholder="..." />
-                <marker date="1454533977147" expanded="true" signature="4908:4921" placeholder="..." />
-                <marker date="1454533977147" expanded="true" signature="5126:5139" placeholder="..." />
+                <marker date="1454534270469" expanded="true" signature="3234:3248" placeholder="..." />
+                <marker date="1454534270469" expanded="true" signature="4798:4811" placeholder="..." />
+                <marker date="1454534270469" expanded="true" signature="4918:4931" placeholder="..." />
+                <marker date="1454534270469" expanded="true" signature="5136:5149" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_servers.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update_servers.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70475227">
-              <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -177,8 +178,8 @@
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
-        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
+        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
       </list>
     </option>
   </component>
@@ -251,39 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libexec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,24 +456,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+    <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.886793">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-          <folding>
-            <marker date="1454533977147" expanded="true" signature="3234:3248" placeholder="..." />
-            <marker date="1454533977147" expanded="true" signature="4788:4801" placeholder="..." />
-            <marker date="1454533977147" expanded="true" signature="4908:4921" placeholder="..." />
-            <marker date="1454533977147" expanded="true" signature="5126:5139" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70475227">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-          <folding />
+        <state vertical-scroll-proportion="0.2361111">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1454534270469" expanded="true" signature="3234:3248" placeholder="..." />
+            <marker date="1454534270469" expanded="true" signature="4798:4811" placeholder="..." />
+            <marker date="1454534270469" expanded="true" signature="4918:4931" placeholder="..." />
+            <marker date="1454534270469" expanded="true" signature="5136:5149" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

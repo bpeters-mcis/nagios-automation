@@ -87,7 +87,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "<tr bgcolor=#eeeeee><td><b>State Duration:</b></td><td><font color=#CC0000><b>$Duration</b> Hours</font></td></tr> \r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Service ExecTime:</b></td><td><font color=#CC0000><b>$ExecTime</b></font></td></tr></table>\r\n";
  $body .= "</td><td valign='top'><table border=0 cellpadding=0 cellspacing=0 width=250><tr bgcolor=#000055><td><b> \r\n";
- $body .= "<font color=#FFFFFF>Summary</font></b></td><td>.</td></tr> \r\n";
+ $body .= "<font color=#FFFFFF>$HostName Summary</font></b></td><td>.</td></tr> \r\n";
  $body .= "<tr bgcolor=#f6f6ff style='color:#f48400'><td>Total Service Warnings: </td><td> $Totwarnings</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6 style='color:#f40000'><td>Total Service Critical: </td><td> $Totcritical</td></tr>\r\n";
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $Totunknowns</td></tr>\r\n";

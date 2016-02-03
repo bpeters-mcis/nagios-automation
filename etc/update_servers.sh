@@ -9,7 +9,6 @@ touch /usr/local/nagios/etc/Servers_last_imported.txt
 # Take ownership of the nagios files
 chown -R nagios:nagios /usr/local/nagios/share
 chown -R nagios:nagios /usr/local/nagios/etc
-chown -R nagios:nagios /usr/local/nagios/objects
 chown -R nagios:nagios /usr/local/nagios/libexec
 chown -R nagios:nagios /usr/local/nagios/include
 
