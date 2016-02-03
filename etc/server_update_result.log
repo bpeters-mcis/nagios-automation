@@ -1,0 +1,17 @@
+malghait
+rwinterha
+akirkland1
+bpeters
+ext_bpeterstest
+rm: cannot remove `objects/servers_from_lansweeper.cfg': No such file or directory
+mv: cannot stat `objects/servers_from_lansweeper_new.cfg': No such file or directory
+Server definitions are different.
+rm: cannot remove `objects/contacts_from_ad.cfg': No such file or directory
+mv: cannot stat `objects/contacts_from_ad_new.cfg': No such file or directory
+Contact definitions are different.
+rm: cannot remove `cgi.cfg': No such file or directory
+mv: cannot stat `cgi_new.cfg': No such file or directory
+CGI definitions are different.
+Running configuration check...
+Stopping nagios:. done.
+Starting nagios: done.
