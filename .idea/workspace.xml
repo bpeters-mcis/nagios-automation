@@ -138,13 +138,13 @@
       <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36431623">
-              <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4722222">
+              <caret line="86" column="112" selection-start-line="86" selection-start-column="112" selection-end-line="86" selection-end-column="112" />
               <folding>
-                <marker date="1454533863901" expanded="true" signature="3234:3248" placeholder="..." />
-                <marker date="1454533863901" expanded="true" signature="4788:4801" placeholder="..." />
-                <marker date="1454533863901" expanded="true" signature="4908:4921" placeholder="..." />
-                <marker date="1454533863901" expanded="true" signature="5126:5139" placeholder="..." />
+                <marker date="1454533977147" expanded="true" signature="3234:3248" placeholder="..." />
+                <marker date="1454533977147" expanded="true" signature="4788:4801" placeholder="..." />
+                <marker date="1454533977147" expanded="true" signature="4908:4921" placeholder="..." />
+                <marker date="1454533977147" expanded="true" signature="5126:5139" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -496,13 +496,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36431623">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.4722222">
+          <caret line="86" column="112" selection-start-line="86" selection-start-column="112" selection-end-line="86" selection-end-column="112" />
           <folding>
-            <marker date="1454533863901" expanded="true" signature="3234:3248" placeholder="..." />
-            <marker date="1454533863901" expanded="true" signature="4788:4801" placeholder="..." />
-            <marker date="1454533863901" expanded="true" signature="4908:4921" placeholder="..." />
-            <marker date="1454533863901" expanded="true" signature="5126:5139" placeholder="..." />
+            <marker date="1454533977147" expanded="true" signature="3234:3248" placeholder="..." />
+            <marker date="1454533977147" expanded="true" signature="4788:4801" placeholder="..." />
+            <marker date="1454533977147" expanded="true" signature="4908:4921" placeholder="..." />
+            <marker date="1454533977147" expanded="true" signature="5126:5139" placeholder="..." />
           </folding>
         </state>
       </provider>
