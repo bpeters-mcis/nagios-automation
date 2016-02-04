@@ -185,7 +185,7 @@ if ($handle) {
     $output .= '    service_description         Printer Status' . PHP_EOL;
     $output .= '    normal_check_interval       10' . PHP_EOL;
     $output .= '    retry_check_interval        1' . PHP_EOL;
-    $output .= '    check_command               check_hpjd!public' . PHP_EOL;
+    $output .= '    check_command               check_printer_paper!public!"DISPLAY"!20!5' . PHP_EOL;
     $output .= '    host_name                   ' . $PrinterList . PHP_EOL;
     $output .= '}' . PHP_EOL;
     $output .= PHP_EOL;
