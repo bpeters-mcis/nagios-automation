@@ -240,7 +240,16 @@ function check_display(){
 		# Let's make sure we eliminate any extra new lines, or at least replace them with our
 		#	specified SEPARATOR (which could be a new line)
 		EXIT_STRING=$(echo "$DISPLAY" | tr "\n" "$SEPARATOR")
-		return 0
+
+        # Check to see if we have a paper jam or not
+        if [[ $EXIT_STRING == *"JAM"* ]]
+        then
+          return 1
+        else
+          return 0
+        fi
+
+
 	else
 		# Something happened or this OID isn't available
 		EXIT_STRING="UNKNOWN - printer does not appear to support using this OID."

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_printer_paper" afterPath="$PROJECT_DIR$/libexec/check_printer_paper" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5660377">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="-6.4150944">
+              <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
               <folding>
                 <marker date="1454606483658" expanded="true" signature="776:790" placeholder="..." />
               </folding>
@@ -41,14 +39,24 @@
       <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1698112">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="84" selection-end-column="2" />
+            <state vertical-scroll-proportion="-9.622642">
+              <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
               <folding>
                 <marker date="1454605623389" expanded="true" signature="4375:4389" placeholder="..." />
                 <marker date="1454605623389" expanded="true" signature="5939:5952" placeholder="..." />
                 <marker date="1454605623389" expanded="true" signature="6059:6072" placeholder="..." />
                 <marker date="1454605623389" expanded="true" signature="6277:6290" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_printer_paper" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4125379">
+              <caret line="246" column="18" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19479166">
+            <state vertical-scroll-proportion="-6.448276">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
+        <option value="$PROJECT_DIR$/libexec/check_printer_paper" />
       </list>
     </option>
   </component>
@@ -434,10 +443,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.448276">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4150944">
+          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+          <folding>
+            <marker date="1454606483658" expanded="true" signature="776:790" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1698112">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="84" selection-end-column="2" />
+        <state vertical-scroll-proportion="-9.622642">
+          <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
           <folding>
             <marker date="1454605623389" expanded="true" signature="4375:4389" placeholder="..." />
             <marker date="1454605623389" expanded="true" signature="5939:5952" placeholder="..." />
@@ -447,20 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+    <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5660377">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <marker date="1454606483658" expanded="true" signature="776:790" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19479166">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.4125379">
+          <caret line="246" column="18" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
           <folding />
         </state>
       </provider>
