@@ -18,6 +18,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  array_shift($argv); 
  $NotifyType =array_shift($argv);  /*1*/
  $HostName =array_shift($argv);    /*2*/
+ $HostGroupName =array_shift($argv);    /*2*/
  $HostAlias =array_shift($argv);   /*3*/
  $HostState =array_shift($argv);    /*4*/
  $HostAddress =array_shift($argv);   /*5*/
@@ -76,7 +77,13 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $ServiceOutput = str_replace("]","/",$ServiceOutput);
 
 
- $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
+ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
+  $subject = "Printer Issue -- $NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
+ } else {
+  $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
+ }
+
+
  
  $from  ="windowsteam@emich.edu";
  $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
