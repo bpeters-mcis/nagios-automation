@@ -454,7 +454,6 @@ if ($Servers = new LansweeperDB()) {
             $output .= '        contact_name            ' . $value . PHP_EOL;
             $output .= '        use                     student-contact' . PHP_EOL;
             $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
-            $output .= '        email                   ' . $key . PHP_EOL;
             $output .= '}' . PHP_EOL;
             $output .= PHP_EOL;
         }
