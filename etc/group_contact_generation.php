@@ -66,7 +66,7 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                 'host_name' => ''),
                             'Ev364' => array('use' => 'generic-service',
                                 'service_description' => 'Windows Event ID 364',
-                                'check_command' => 'check_event_viewer!1!1!120!364',
+                                'check_command' => 'check_event_viewer!system!1!1!120!364',
                                 'normal_check_interval' => '120',
                                 'retry_check_interval' => '20',
                                 'host_name' => ''),
@@ -328,7 +328,7 @@ if ($Servers = new LansweeperDB()) {
                 if ($LDAPGroup == 'doit_lab_attendants') {
                     $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
                     if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
-                        $studentarray[$email] = $users[$usernum]['samaccountname'][0];
+                        $studentarray[$email] = $users[$i]['samaccountname'][0];
                         $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
                     }
                 } else {
