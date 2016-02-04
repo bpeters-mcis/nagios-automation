@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/templates.cfg" afterPath="$PROJECT_DIR$/etc/objects/templates.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/windows.cfg" afterPath="$PROJECT_DIR$/etc/objects/windows.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76145834">
-              <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+            <state vertical-scroll-proportion="-2.3448277">
+              <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -116,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.9282103">
+              <caret line="153" column="63" selection-start-line="153" selection-start-column="63" selection-end-line="153" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -130,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -174,12 +175,12 @@
         <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification.php" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
-        <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
-        <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
       </list>
     </option>
   </component>
@@ -393,14 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.735849">
@@ -461,18 +454,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+        <state vertical-scroll-proportion="-2.3448277">
+          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76145834">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9282103">
+          <caret line="153" column="63" selection-start-line="153" selection-start-column="63" selection-end-line="153" selection-end-column="63" />
           <folding />
         </state>
       </provider>
