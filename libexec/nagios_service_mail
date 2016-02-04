@@ -11,6 +11,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
                      'Windows Update Services Event 364' => 'Please logon to this server and troubleshoot WSUS, as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Windows Update Services Event 12072' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Windows Update Services Event 10032' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
+                     'Windows Update Services Event 10042' => 'Please logon to Server and Figure out if the WSUS drive needs more space added. Updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.'
 );
 
@@ -78,7 +79,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
 
 
  if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
-  $subject = "Printer Issue -- $NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
+  $subject = "Printer Issue";
  } else {
   $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
  }
@@ -107,13 +108,21 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "</table><br/></td></tr></table><br/>\r\n";
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
+
+if($NotifyType=="RECOVERY") {
+
+ $body .= "<h3>What Should I Do?</h3>";
+ $body .= "The service is back online, so you do not need to do anything.<br/><br> \r\n";
+
+} else {
  $body .= "<h3>What Should I Do?</h3>";
  if (array_key_exists($ServiceDescription, $resolutions)) {
- $body .= $resolutions[$ServiceDescription];
- $body .= '  If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
+  $body .= $resolutions[$ServiceDescription];
+  $body .= '  If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
  } else {
- $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
+  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
  }
+}
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
  
