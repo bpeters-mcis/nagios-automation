@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/objects/contacts_from_ad_new.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/objects/lab_printers.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/objects/servers_from_lansweeper_new.cfg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/group_contact_generation.php" afterPath="$PROJECT_DIR$/etc/group_contact_generation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/lab_printer_generation.php" afterPath="$PROJECT_DIR$/etc/lab_printer_generation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
     <ignored path="Nagios.iws" />
@@ -86,15 +82,15 @@
       <file leaf-file-name="group_contact_generation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/group_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51194185">
-              <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5825545">
+              <caret line="80" column="127" selection-start-line="80" selection-start-column="127" selection-end-line="80" selection-end-column="127" />
               <folding>
-                <marker date="1454601455445" expanded="true" signature="7868:9113" placeholder="Select Top 1..." />
-                <marker date="1454601455445" expanded="true" signature="9529:10228" placeholder="Select Top 1..tblComputersystem..." />
-                <marker date="1454601455445" expanded="true" signature="10646:11404" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1454601455445" expanded="true" signature="11055:11294" placeholder="Select tblSo..tblSoftware..." />
-                <marker date="1454601455445" expanded="true" signature="11820:12580" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1454601455445" expanded="true" signature="12229:12470" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1454601987119" expanded="true" signature="8353:9598" placeholder="Select Top 1..." />
+                <marker date="1454601987119" expanded="true" signature="10014:10713" placeholder="Select Top 1..tblComputersystem..." />
+                <marker date="1454601987119" expanded="true" signature="11131:11889" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1454601987119" expanded="true" signature="11540:11779" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1454601987119" expanded="true" signature="12305:13065" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1454601987119" expanded="true" signature="12714:12955" placeholder="Select tblSo..tblSoftware..." />
               </folding>
             </state>
           </provider>
@@ -143,13 +139,13 @@
       <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.09434">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state vertical-scroll-proportion="-4.811321">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1454601535172" expanded="true" signature="3714:3728" placeholder="..." />
-                <marker date="1454601535172" expanded="true" signature="5278:5291" placeholder="..." />
-                <marker date="1454601535172" expanded="true" signature="5398:5411" placeholder="..." />
-                <marker date="1454601535172" expanded="true" signature="5616:5629" placeholder="..." />
+                <marker date="1454601987106" expanded="true" signature="3931:3945" placeholder="..." />
+                <marker date="1454601987106" expanded="true" signature="5495:5508" placeholder="..." />
+                <marker date="1454601987106" expanded="true" signature="5615:5628" placeholder="..." />
+                <marker date="1454601987106" expanded="true" signature="5833:5846" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -482,28 +478,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.09434">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state vertical-scroll-proportion="-4.811321">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1454601535172" expanded="true" signature="3714:3728" placeholder="..." />
-            <marker date="1454601535172" expanded="true" signature="5278:5291" placeholder="..." />
-            <marker date="1454601535172" expanded="true" signature="5398:5411" placeholder="..." />
-            <marker date="1454601535172" expanded="true" signature="5616:5629" placeholder="..." />
+            <marker date="1454601987106" expanded="true" signature="3931:3945" placeholder="..." />
+            <marker date="1454601987106" expanded="true" signature="5495:5508" placeholder="..." />
+            <marker date="1454601987106" expanded="true" signature="5615:5628" placeholder="..." />
+            <marker date="1454601987106" expanded="true" signature="5833:5846" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/group_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51194185">
-          <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5825545">
+          <caret line="80" column="127" selection-start-line="80" selection-start-column="127" selection-end-line="80" selection-end-column="127" />
           <folding>
-            <marker date="1454601455445" expanded="true" signature="7868:9113" placeholder="Select Top 1..." />
-            <marker date="1454601455445" expanded="true" signature="9529:10228" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1454601455445" expanded="true" signature="10646:11404" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1454601455445" expanded="true" signature="11055:11294" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1454601455445" expanded="true" signature="11820:12580" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1454601455445" expanded="true" signature="12229:12470" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1454601987119" expanded="true" signature="8353:9598" placeholder="Select Top 1..." />
+            <marker date="1454601987119" expanded="true" signature="10014:10713" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1454601987119" expanded="true" signature="11131:11889" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1454601987119" expanded="true" signature="11540:11779" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1454601987119" expanded="true" signature="12305:13065" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1454601987119" expanded="true" signature="12714:12955" placeholder="Select tblSo..tblSoftware..." />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
                      'Service: Firewall' => 'You should log into your server, and make sure the Windows Firewall service is running.',
                      'Windows Update Services Event 364' => 'Please logon to this server and troubleshoot WSUS, as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Windows Update Services Event 12072' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
+                     'Windows Update Services Event 10032' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.'
 );
 
