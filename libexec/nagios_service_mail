@@ -23,6 +23,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $ServiceDescription  =array_shift($argv);    /*8*/
  $ServiceState  =array_shift($argv);   /*9*/
  $To  =array_shift($argv);           /*10*/
+ $Duration = array_shift($argv);   /*11*/
  $Duration = round((array_shift($argv))/3600,2);   /*11*/
  $ExecTime =array_shift($argv);       /*12*/
  $Totwarnings =array_shift($argv);     /*13*/
