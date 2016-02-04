@@ -445,8 +445,10 @@ if ($Servers = new LansweeperDB()) {
             $output .= PHP_EOL;
         }
 
-        # Now go through the list of all the individual users, and remove any duplicates
+        # Now go through the list of all the individual users, and remove any duplicates from it, or that were already in the user array
         $studentarray = array_unique($studentarray);
+        $studentarray = array_diff($studentarray, $userarray);
+
 
         # Build a contact file for each student in the list - but omit e-mail addresses from lab students
         foreach ($studentarray as $key => $value) {
