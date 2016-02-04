@@ -15,6 +15,8 @@ $userarray = array('bpeters@emich.edu' => 'bpeters',
                     'pdaughert2@emich.edu' => 'pdaughert2',
                     'malghait@emich.edu' => 'malghait');
 
+$studentarray = array();
+
 # Define the group names we'll be using to create config files.  Key should be the name used in inventory, value should be the AD/LDAP group name.
 $Groups = array('Team - SIT' => 'doit-sit-team',
                 'Team - DBA' => 'doit-dba-team',
@@ -59,6 +61,12 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                             'GPORepl' => array('use' => 'generic-service',
                                 'service_description' => 'GPO Replication',
                                 'check_command' => 'ADGPOReplication_Check',
+                                'normal_check_interval' => '120',
+                                'retry_check_interval' => '20',
+                                'host_name' => ''),
+                            'Ev364' => array('use' => 'generic-service',
+                                'service_description' => 'Windows Event ID 364',
+                                'check_command' => 'check_event_viewer!1!1!120!364',
                                 'normal_check_interval' => '120',
                                 'retry_check_interval' => '20',
                                 'host_name' => ''),
@@ -296,12 +304,14 @@ if ($Servers = new LansweeperDB()) {
                     if ($LDAPGroup == 'doit_lab_attendants') {
                         $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
                         if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                            $studentarray[$email] = $users[$usernum]['samaccountname'][0];
                             $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
                         }
                     } else {
                         $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
+                        $userarray[$email] = $users[$usernum]['samaccountname'][0];
                     }
-                    $userarray[$email] = $users[$usernum]['samaccountname'][0];
+
                     $usernum++;
                 }
 
@@ -318,12 +328,14 @@ if ($Servers = new LansweeperDB()) {
                 if ($LDAPGroup == 'doit_lab_attendants') {
                     $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
                     if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
+                        $studentarray[$email] = $users[$usernum]['samaccountname'][0];
                         $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
                     }
                 } else {
                     $email = $users[$i]['samaccountname'][0] . "@emich.edu";
+                    $userarray[$email] = $users[$i]['samaccountname'][0];
                 }
-                $userarray[$email] = $users[$i]['samaccountname'][0];
+
                 $i++;
             }
 
@@ -427,6 +439,20 @@ if ($Servers = new LansweeperDB()) {
             $output .= 'define contact{' . PHP_EOL;
             $output .= '        contact_name            ' . $value . PHP_EOL;
             $output .= '        use                     generic-contact' . PHP_EOL;
+            $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
+            $output .= '        email                   ' . $key . PHP_EOL;
+            $output .= '}' . PHP_EOL;
+            $output .= PHP_EOL;
+        }
+
+        # Now go through the list of all the individual users, and remove any duplicates
+        $studentarray = array_unique($studentarray);
+
+        # Build a contact file for each student in the list - but omit e-mail addresses from lab students
+        foreach ($studentarray as $key => $value) {
+            $output .= 'define contact{' . PHP_EOL;
+            $output .= '        contact_name            ' . $value . PHP_EOL;
+            $output .= '        use                     student-contact' . PHP_EOL;
             $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
             $output .= '        email                   ' . $key . PHP_EOL;
             $output .= '}' . PHP_EOL;
