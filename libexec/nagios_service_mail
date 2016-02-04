@@ -79,7 +79,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
 
 
  if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
-  $subject = "Printer Issue";
+  $subject = "Printer Issue - Nagios Warning";
  } else {
   $subject = "$NotifyType Service: $HostName/$ServiceDescription [$ServiceState]";
  }

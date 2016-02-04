@@ -5,6 +5,7 @@
  array_shift($argv);
  $NotificationType =array_shift($argv);
  $HostName =array_shift($argv);
+ $HostGroupName =array_shift($argv);
  $HostAlias =array_shift($argv);
  $HostState =array_shift($argv);
  $HostAddress =array_shift($argv);
@@ -14,9 +15,17 @@
  $ServiceState  =array_shift($argv);
  $To  =array_shift($argv);
  $Totalup  =array_shift($argv);
- $Totaldown=array_shift($argv); 
+ $Totaldown=array_shift($argv);
 
+
+if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
+ $subject = "Printer Issue - Nagios Warning";
+} else {
  $subject = "$NotificationType Service: $HostName";
+}
+
+
+
  
  $from  ="windowsteam@emich.edu";
  $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Host Report Details</h2><br><b>Notification: </b> <font color=#CC0000>$NotificationType</font><br/> \r\n";
