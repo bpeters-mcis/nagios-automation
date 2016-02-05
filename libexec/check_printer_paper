@@ -244,11 +244,20 @@ function check_display(){
         # Check to see if we have a paper jam or not
         if [[ $EXIT_STRING == *"JAM"* ]]
         then
+          EXIT_STRING="Possible Paper Jam Detected!"
+          return 1
+        elif [[ $EXIT_STRING == *"49.4602"* ]]
+        then
+          EXIT_STRING="Error code 49.4602!  Clear Printer Queue"
+          return 1
+        elif [[ $EXIT_STRING == *"49.4C02"* ]]
+        then
+          EXIT_STRING="Error code 49.4C02!  Malformed PDF File?  Clear Printer Queue"
           return 1
         else
+          EXIT_STRING=$(echo "$DISPLAY" | tr "\n" "$SEPARATOR")
           return 0
         fi
-
 
 	else
 		# Something happened or this OID isn't available

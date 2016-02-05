@@ -64,6 +64,10 @@ $ServicesToMonitor = array('D' => array('use' => 'generic-service',
                                 'normal_check_interval' => '120',
                                 'retry_check_interval' => '20',
                                 'host_name' => ''),
+                            'VMTools' => array('use' => 'generic-service',
+                                'service_description' => 'Service: VMWare Tools',
+                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l VMTools',
+                                'host_name' => ''),
                             'EvWu364' => array('use' => 'generic-service',
                                 'service_description' => 'Windows Update Services Event 364',
                                 'check_command' => 'check_event_viewer!application!1!1!120!Windows Server Update Services!364',
@@ -167,6 +171,7 @@ class LansweeperDB
                   tblAssets.AssetName,
                   tblAssets.Description,
                   tsysOS.Image As icon,
+                  tblAssetCustom.Manufacturer As [Make],
                   tblAssetCustom.Custom1 As [Primary OS Contact],
                   tblAssetCustom.Custom2 As [Secondary OS Contact],
                   tblAssetCustom.Custom3 As [Primary App Contact],
@@ -536,6 +541,11 @@ if ($Servers = new LansweeperDB()) {
                         $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
                     }
 
+                }
+
+                # IF this is a VM, add it to the VM Tools monitor
+                if (substr($server['Make'], 0, 6) == "VMware") {
+                    $ServicesToMonitor['VMTools']['host_name'] .= $server['AssetName'] . ',';
                 }
 
                 # Build the host groups for this server, and append extra host groups based on lansweeper query results
