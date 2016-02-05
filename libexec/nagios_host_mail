@@ -29,7 +29,7 @@ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers'
  
  $from  ="windowsteam@emich.edu";
  $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Host Report Details</h2><br><b>Notification: </b> <font color=#CC0000>$NotificationType</font><br/> \r\n";
- $body .= "<b>Host: </b> <font color=#007700>$HostAlias</font> </br> \r\n";
+ $body .= "<b>Host: </b> <font color=#007700>$HostName ($HostAlias)</font> </br> \r\n";
  $body .= "<b>Address: </b> <font color=#005555>$HostAddress</font><br/> \r\n";
  $body .= "<b>Date/Time: </b><font color=#005555>$DateTime</font><br/> \r\n";
  $body .= "<b>Additional Info: </b>$HostOutput<br/> \r\n";
