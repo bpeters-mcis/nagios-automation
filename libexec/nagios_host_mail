@@ -16,6 +16,12 @@
  $To  =array_shift($argv);
  $Totalup  =array_shift($argv);
  $Totaldown=array_shift($argv);
+ $f_color="#dddddd";
+
+ if($HostState=="WARNING") {$f_color="#f48400";}
+ if($HostState=="CRITICAL") {$f_color="#f40000";}
+ if($HostState=="OK") {$f_color="#00b71a";}
+ if($HostState=="UNKNOWN") {$f_color="#cc00de";}
 
 
 if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
@@ -23,18 +29,15 @@ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers'
 } else {
  $subject = "$NotificationType Service: $HostName";
 }
-
-
-
  
  $from  ="windowsteam@emich.edu";
- $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Host Report Details</h2><br><b>Notification: </b> <font color=#CC0000>$NotificationType</font><br/> \r\n";
- $body .= "<b>Host: </b> <font color=#007700>$HostName ($HostAlias)</font> </br> \r\n";
- $body .= "<b>Address: </b> <font color=#005555>$HostAddress</font><br/> \r\n";
- $body .= "<b>Date/Time: </b><font color=#005555>$DateTime</font><br/> \r\n";
- $body .= "<b>Additional Info: </b>$HostOutput<br/> \r\n";
- $body .= "<b>Total Servers Up: </b>$Totalup<br/>";
- $body .= "<b>Total Servers Down: </b>$Totaldown<br/> \r\n";
+ $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Host Report Details</h2><br>";
+ $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
+ $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font color=#ffffff><b>$NotifyType [$HostState]</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Host:</b></td><td><font color=#005500><b>$HostName ($HostAlias)</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Additional Info:</b></td><td>$HostOutput</td></tr></table>\r\n";
  $body .= "<br> \r\n";
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
