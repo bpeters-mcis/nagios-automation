@@ -10,7 +10,8 @@
 # Global Config Settings
 ##################################################################################
 
-# Set an array of users in all the groups, so we can use it later to build individual contacts.  Add the people here who MUST show up, at a minimum.
+# Set an array of users in all the groups, so we can use it later to build individual contacts.  Add the people here who MUST show up, at a minimum.  All other users
+# will be added by polling the various LDAP / AD groups.
 $userarray = array('bpeters@emich.edu' => 'bpeters',
                     'pdaughert2@emich.edu' => 'pdaughert2',
                     'malghait@emich.edu' => 'malghait');
