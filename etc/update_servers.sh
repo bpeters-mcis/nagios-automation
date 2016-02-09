@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
 
-# Run the group updates
-php /usr/local/nagios/etc/group_contact_generation.php
+# Run the server and group config file generation
+php /usr/local/nagios/etc/server_and_contact_generation.php
 
-# Note when this was last run
+# Note when this was last run, for grins
 touch /usr/local/nagios/etc/Servers_last_imported.txt
 
-# Take ownership of the nagios files
+# Change ownership on all the nagios files... as our git deployment can change ownership to the last user to commit.
 chown -R nagios:nagios /usr/local/nagios/share
 chown -R nagios:nagios /usr/local/nagios/etc
 chown -R nagios:nagios /usr/local/nagios/libexec
 chown -R nagios:nagios /usr/local/nagios/include
 
+# Set us to not restart the nagios service by default; only restart if there are changes made.
 RESTART="No"
 
-# Now, check to see if any of the config files are actually different.
+# Now, check to see if any of the config files are actually different.  If they are different, replace with new ones.  If not, just delete the new ones.
 if cmp -s /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg ; then
     rm /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg
 else
@@ -43,7 +44,7 @@ else
     echo "CGI definitions are different."
 fi
 
+# If we made any changes, go ahead and restart the nagios service, so that we use the new config files
 if [ $RESTART == "Yes" ] ; then
-  # Restart nagios service to load the new configs
   service nagios restart
 fi

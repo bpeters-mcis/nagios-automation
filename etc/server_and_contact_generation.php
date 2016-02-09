@@ -16,6 +16,9 @@ $userarray = array('bpeters@emich.edu' => 'bpeters',
                     'pdaughert2@emich.edu' => 'pdaughert2',
                     'malghait@emich.edu' => 'malghait');
 
+
+# This array will contain all the students we find.  Users in this array will NOT get email notifications.  If you wish to add any users to see the printers,
+# but do not want them to get e-mail, go ahead and add them here.  Use the same format as the userarray above.
 $studentarray = array();
 
 # Define the group names we'll be using to create config files.  Key should be the name used in inventory, value should be the AD/LDAP group name.
@@ -27,83 +30,13 @@ $Groups = array('Team - SIT' => 'doit-sit-team',
                 'Team - VMWare' => 'doit-vmware-team',
                 'Team - Security' => 'ib_security_team');
 
-# These servers will be completely ignored, and will never be included in monitoring
+# These servers will be completely ignored, and will never be included in monitoring.  This is useful if there's a system with someone else's nagios or something,
+# that we don't want conflicting with ours I guess.
 $ServersToIgnore = array('INTLTESTDB', 'INTLDB');
 
-# Here is our list of custom services to monitor.  This is where we can add special custom services.  Add as many as you like.
-$ServicesToMonitor = array('D' => array('use' => 'generic-service',
-                                'service_description' => 'D:\ Drive Space',
-                                'check_command' => 'check_nt!USEDDISKSPACE!-l d -w 80 -c 90',
-                                'host_name' => ''),
-                            'E' => array('use' => 'generic-service',
-                                'service_description' => 'E:\ Drive Space',
-                                'check_command' => 'check_nt!USEDDISKSPACE!-l e -w 80 -c 90',
-                                'host_name' => ''),
-                            'F' => array('use' => 'generic-service',
-                                'service_description' => 'F:\ Drive Space',
-                                'check_command' => 'check_nt!USEDDISKSPACE!-l F -w 80 -c 90',
-                                'host_name' => ''),
-                            'RLoad' => array('use' => 'generic-service',
-                                'service_description' => 'Remote Loader for IDM',
-                                'check_command' => 'check_nt!PROCSTATE!-d SHOWALL -l dirxml_remote.exe',
-                                'host_name' => ''),
-                            'PrintSpool' => array('use' => 'generic-service',
-                                'service_description' => 'Print Spooler',
-                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l Spooler',
-                                'host_name' => ''),
-                            'MDT' => array('use' => 'generic-service',
-                                'service_description' => 'MDT Monitor',
-                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l MDT_Monitor',
-                                'host_name' => ''),
-                            'PXE' => array('use' => 'generic-service',
-                                'service_description' => 'PXE Boot Service',
-                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l WDSServer',
-                                'host_name' => ''),
-                            'GPORepl' => array('use' => 'generic-service',
-                                'service_description' => 'GPO Replication',
-                                'check_command' => 'ADGPOReplication_Check',
-                                'normal_check_interval' => '120',
-                                'retry_check_interval' => '5',
-                                'host_name' => ''),
-                            'VMTools' => array('use' => 'generic-service',
-                                'service_description' => 'Service: VMWare Tools',
-                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l VMTools',
-                                'host_name' => ''),
-                            'EvWu364' => array('use' => 'generic-service',
-                                'service_description' => 'Windows Update Services Event 364',
-                                'check_command' => 'check_event_viewer!application!120m!Windows Server Update Services!364',
-                                'normal_check_interval' => '10',
-                                'retry_check_interval' => '2',
-                                'host_name' => ''),
-                            'EvWu12072' => array('use' => 'generic-service',
-                                'service_description' => 'Windows Update Services Event 12072',
-                                'check_command' => 'check_event_viewer!application!120m!Windows Server Update Services!12072',
-                                'normal_check_interval' => '10',
-                                'retry_check_interval' => '2',
-                                'host_name' => ''),
-                            'EvWu10032' => array('use' => 'generic-service',
-                                'service_description' => 'Windows Update Services Event 10032',
-                                'check_command' => 'check_event_viewer!application!120m!Windows Server Update Services!10032',
-                                'normal_check_interval' => '10',
-                                'retry_check_interval' => '2',
-                                'host_name' => ''),
-                            'EvWu10042' => array('use' => 'generic-service',
-                                'service_description' => 'Windows Update Services Event 10042',
-                                'check_command' => 'check_event_viewer!application!120m!Windows Server Update Services!10042',
-                                'normal_check_interval' => '10',
-                                'retry_check_interval' => '2',
-                                'host_name' => ''),
-                            'DDCB' => array('use' => 'generic-service',
-                                'service_description' => 'Service: Dell Backup Agent',
-                                'check_command' => 'check_nt!SERVICESTATE!-d SHOWALL -l ErdAgent',
-                                'host_name' => ''),
-                            'ADRepl' => array('use' => 'generic-service',
-                                'service_description' => 'AD Replication',
-                                'check_command' => 'ADReplication_Check',
-                                'host_name' => '')
-                        );
 
-# Users in this string will have read-only access to any of the CGI tools within nagios.  All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
+# Users in this string will have read-only access to any of the CGI tools within nagios.
+# All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
 $restrictedUsers = '';
 
 # Lab users get read-only access and do not get emails.  If you wish any of them to get access, add them here.
@@ -136,6 +69,7 @@ class LDAP {
         if(!$ldapbind){ die("Bind failed"); }
     }
 
+    # This function should hand back an array containing all the users inside the provided group.
     function getGroupusers($group) {
         $filter = "(&(objectClass=user)(memberOf=$group))";
         $justthese = array("samaccountname");
@@ -145,6 +79,7 @@ class LDAP {
         return $users;
     }
 
+    # This function should hand back an array containing all the GROUPS inside the provided group.  This is important for nested AD groups.
     function getGroupMemberGroups($group) {
         $filter = "(&(objectClass=group)(memberOf=$group))";
         $justthese = array("samaccountname");
@@ -171,6 +106,8 @@ class LansweeperDB
         mssql_select_db('lansweeperdb', $this->db);
     }
 
+    # This function should hand back all the servers we want to monitor in Nagios.  We can hand back as much data as we want, but the essentials are:
+    # Name, Make (to know if it's a VM or not), Contacts, What custom services to monitor, what the downtime window is, and the server's IP address.
     function getServersWithNagios() {
         $sql = "Select Top 1000000 tblAssets.AssetID,
                   tblAssets.AssetName,
@@ -204,6 +141,7 @@ class LansweeperDB
     }
 
     # This function polls Lansweeper, and finds any servers that are domain controllers.  Returns an indexed array.
+    # This is used because we have some services we want to automatically monitor on all domain controllers.
     function getDomainControllers() {
         $sql = "Select Top 1000000 tblAssets.AssetID,
                   tblAssets.AssetName,
@@ -232,6 +170,7 @@ class LansweeperDB
         return $list;
     }
 
+    # This function hands back all servers running MDT toolkit.  This let's us specifiy services to monitor on all imaging servers.
     function getImagingServers() {
         $sql = "Select Top 1000000 tblAssets.AssetID,
                   tblAssets.AssetName
@@ -286,6 +225,64 @@ class LansweeperDB
 
 }
 
+class InventoryDB
+{
+
+    public static $inventory_username = 'nagios';
+    public static $inventory_password = '#hot713outside';
+    public static $inventory_dsn = 'mysql:dbname=inventory;host=itservices.emich.edu';
+
+    protected $db;
+
+    function __construct()
+    {
+        try {
+            $this->db = new PDO(InventoryDB::$inventory_dsn, InventoryDB::$inventory_username, InventoryDB::$inventory_password);
+            $this->db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            echo 'Connection failed: ' . $e->getMessage();
+        }
+    }
+
+    # Get all the monitors, and all the details
+    function BuildMonitorsForNagios()
+    {
+        $ServiceList = array();
+
+        $sql = 'SELECT id, Code, Description from services';
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $list = $sth->fetchAll();
+
+        foreach ($list as $row) {
+
+            # Insert this into our return
+            $ServiceList[$row['Code']] = array();
+
+            # Get all the details for this service
+            $sql = 'SELECT * from service_details WHERE Code = ?';
+            $sth = $this->db->prepare($sql);
+            $sth->execute(array($row['Code']));
+            $details = $sth->fetchAll();
+
+            foreach ($details as $item) {
+                $ServiceList[$row['Code']][$item['name']] = $item['entry'];
+            }
+
+        }
+
+        return $ServiceList;
+    }
+}
+
+###################################################################################################################################
+#
+# The stuff below here is the "nuts and bolts" of the script.  It is what handles the actual generation.  You shouldn't need
+# to edit much of anything here... if you have questions / problems, please let me know.  I tried to comment everthing as best
+# I could, so that if someone does need to make changes, they know what it is doing!
+#
+###################################################################################################################################
+
 # Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything!
 if ($Servers = new LansweeperDB()) {
 
@@ -300,7 +297,7 @@ if ($Servers = new LansweeperDB()) {
         $output .=  '# !!!! WARNING !!!!' . PHP_EOL;
         $output .=  '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
-        $output .= '# This file was automatically generated by group_contact_generation.php.  Do not edit it manually!!!' . PHP_EOL;
+        $output .= '# This file was automatically generated by server_and_contact_generation.php.  Do not edit it manually!!!' . PHP_EOL;
         $output .= '# If you need to change this, please edit that PHP file instead.' . PHP_EOL;
         $output .= PHP_EOL;
         $output .= PHP_EOL;
@@ -496,6 +493,17 @@ if ($Servers = new LansweeperDB()) {
 
         # Start building the server output
         $output =  '###########################################' . PHP_EOL;
+        $output .=  '# !!!! WARNING !!!!' . PHP_EOL;
+        $output .=  '###########################################' . PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= '# This file was automatically generated by server_and_contact_generation.php.  Do not edit it manually!!!' . PHP_EOL;
+        $output .= '# If you need to change this, please edit that PHP file instead.' . PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output .= PHP_EOL;
+        $output =  '###########################################' . PHP_EOL;
         $output .= '# Windows Server Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
@@ -599,6 +607,10 @@ if ($Servers = new LansweeperDB()) {
         $output .= '# Windows Service Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
+
+        # Get a list of all the services we're monitoring
+        $Inventory = new InventoryDB();
+        $ServicesToMonitor  = $Inventory->BuildMonitorsForNagios();
 
         # Go through each custom service defined at the top
         foreach ($ServicesToMonitor as $row) {
