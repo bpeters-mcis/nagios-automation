@@ -1,6 +1,9 @@
 #!/usr/bin/php -c /etc/php.ini
 
 <?php
+# Include the classes file
+include('/usr/local/nagios/etc/Classes.php');
+
 # Build an array of services, and how to fixes
 $resolutions = array('C:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the C drive.',
                      'D:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the D drive.',
@@ -12,7 +15,8 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
                      'Windows Update Services Event 12072' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Windows Update Services Event 10032' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
                      'Windows Update Services Event 10042' => 'Please logon to Server and Figure out if the WSUS drive needs more space added. Updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
-                     'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.'
+                     'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.',
+                     'GPO Replication' => 'There is a log file on this server, in C:\NagiosMonitoring\GPOReplicationErrors.txt.  Please review that file to see which policies are not replicating properly.'
 );
 
 # Get the inputs from the Nagios service
@@ -85,7 +89,9 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
   $subject = "$NotifyType Service: $HostName ($ServiceDescription) [$ServiceState]";
  }
 
-
+ # Find if there's an appropriate resolution for this.
+ $DB = new InventoryDB();
+ $Resolution = $DB->GetResolutions($ServiceDescription);
  
  $from  ="windowsteam@emich.edu";
  $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
@@ -118,8 +124,8 @@ if($NotifyType=="RECOVERY") {
 
 } else {
  $body .= "<h3>What Should I Do?</h3>";
- if (array_key_exists($ServiceDescription, $resolutions)) {
-  $body .= $resolutions[$ServiceDescription];
+ if ($Resolution != '') {
+  $body .= $Resolution . " ";
   $body .= '  If you need assistance, or have questions, please email the Windows Team at windowsteam@emich.edu<br>';
  } else {
   $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
