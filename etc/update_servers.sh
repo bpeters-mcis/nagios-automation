@@ -46,5 +46,11 @@ fi
 
 # If we made any changes, go ahead and restart the nagios service, so that we use the new config files
 if [ $RESTART == "Yes" ] ; then
-  service nagios restart
+  service nagios restart > /usr/local/nagios/etc/restart.log
+
+  # Make sure it restarted properly; if not, email Ben with the explaination of why it didn't work.
+  size=$(wc -c <"/usr/local/nagios/etc/restart.log")
+    if [ $size -gt 100 ]; then
+        php /usr/local/nagios/etc/check_restart.php
+    fi
 fi

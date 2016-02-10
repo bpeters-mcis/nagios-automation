@@ -288,6 +288,10 @@ if ($Servers = new LansweeperDB()) {
 
     if ($LDAP = new LDAP()) {
 
+        # Get a list of all the services we're monitoring
+        $Inventory = new InventoryDB();
+        $ServicesToMonitor  = $Inventory->BuildMonitorsForNagios();
+
         ################################################################
         # Build the contact list
         ################################################################
@@ -442,7 +446,6 @@ if ($Servers = new LansweeperDB()) {
                     $username = $server[$row];
                     $email = $username . "@emich.edu";
                     $userarray[$email] = $username;
-                    echo $username . PHP_EOL;
                 }
 
             }
@@ -607,10 +610,6 @@ if ($Servers = new LansweeperDB()) {
         $output .= '# Windows Service Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
-
-        # Get a list of all the services we're monitoring
-        $Inventory = new InventoryDB();
-        $ServicesToMonitor  = $Inventory->BuildMonitorsForNagios();
 
         # Go through each custom service defined at the top
         foreach ($ServicesToMonitor as $row) {

@@ -913,8 +913,8 @@ else
 	ALL_MARKERS=$(snmpwalk -v1 -On -c $COMMUNITY $HOST_NAME 1.3.6.1.2.1.43.11.1.1.6.1 2>/dev/null)
 	if [ $? -ne 0 ]; then
 		#Check for server response - is SNMP even setup okay?
-		EXIT_STRING="WARNING: No SNMP response from $HOST_NAME! Make sure host is up and SNMP is configured properly.\n"
-		EXIT_CODE=1
+		EXIT_STRING="Unknown: No SNMP response from $HOST_NAME! Make sure host is up and SNMP is configured properly.\n"
+		EXIT_CODE=3
 	else
 		STRING_TYPE=$(echo "$ALL_MARKERS" | tr -d "\n" | cut -d " " -f3)
 		case "$CHECK" in
