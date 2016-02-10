@@ -93,7 +93,7 @@ $resolutions = array('C:\ Drive Space' => 'You should log into your server, and 
  $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
  $body .= "color=#ffffff><b>$NotifyType [$ServiceState]</b></font></td></tr>\r\n";
  $body .= "<tr bgcolor=#eeeeee><td><b>Service:</b></td><td><font color=#0000CC><b>$ServiceDescription</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Server:</b></td><td><font color=#005500><b>$HostAlias</b></font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#fefefe><td><b>Server:</b></td><td><font color=#005500><b>$HostName ($HostAlias)</b></font></td></tr>\r\n";
  $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Additional Info:</b></td><td>$ServiceOutput</td></tr>\r\n";

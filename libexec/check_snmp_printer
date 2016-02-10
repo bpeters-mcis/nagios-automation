@@ -372,7 +372,7 @@ function check_one_consumable () {
 	#	MARKER_STRING. Instead, each entry just says "toner". The OID used here is 
 	#	a place where an associated color string must be stored. We are going to get this 
 	#	info. and use it if not already available in the MARKER_NAME we've parsed.
-	# --- Thanks to Martin Šoltis for letting me know about this problem on some copiers.
+	# --- Thanks to Martin ï¿½oltis for letting me know about this problem on some copiers.
 	GETCOLOR=$(snmpget -v1 -c $COMMUNITY $HOST_NAME 1.3.6.1.2.1.43.12.1.1.4.1.$1 2>/dev/null)
 	MARKER_COLOR=$(echo $GETCOLOR | cut -d " " -f4- | tr -d "\"")
 	
@@ -857,8 +857,8 @@ else
 	ALL_MARKERS=$(snmpwalk -v1 -On -c $COMMUNITY $HOST_NAME 1.3.6.1.2.1.43.11.1.1.6.1 2>/dev/null)
 	if [ $? -ne 0 ]; then
 		#Check for server response - is SNMP even setup okay?
-		EXIT_STRING="WARNING: No SNMP response from $HOST_NAME! Make sure host is up and SNMP is configured properly.\n"
-		EXIT_CODE=1
+		EXIT_STRING="Unknown: No SNMP response from $HOST_NAME. Is the printer off?  Is the network down?\n"
+		EXIT_CODE=3
 	else
 		STRING_TYPE=$(echo "$ALL_MARKERS" | tr -d "\n" | cut -d " " -f3)
 		case "$CHECK" in
