@@ -248,7 +248,7 @@ class InventoryDB
         $sth->execute(array($code[0]['CODE']));
         $resolution = $sth->fetchAll();
 
-        return $resolution[0]['Resolution'];
+        return $resolution['Resolution'];
 
     }
 }
