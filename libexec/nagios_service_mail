@@ -4,21 +4,6 @@
 # Include the classes file
 include('/usr/local/nagios/etc/Classes.php');
 
-# Build an array of services, and how to fixes
-$resolutions = array('C:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the C drive.',
-                     'D:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the D drive.',
-                     'E:\ Drive Space' => 'You should log into your server, and see if you can clean anything off the E drive.',
-                     'CPU Load' => 'You should log into your server, and see if there are any programs or services which are out of control.',
-                     'Memory Usage' => 'You should log into your server, and see if there are any programs or services which are out of control.',
-                     'Service: Firewall' => 'You should log into your server, and make sure the Windows Firewall service is running.',
-                     'Windows Update Services Event 364' => 'Please logon to this server and troubleshoot WSUS, as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
-                     'Windows Update Services Event 12072' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
-                     'Windows Update Services Event 10032' => 'Please logon to Server and Troubleshoot WSUS as updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
-                     'Windows Update Services Event 10042' => 'Please logon to Server and Figure out if the WSUS drive needs more space added. Updates are not being downloaded and are not available to Servers/Clients. Consider this High Priority.',
-                     'Service: Adobe Updater' => 'You should log into your server, and make sure the Adobe Updater service is running.',
-                     'GPO Replication' => 'There is a log file on this server, in C:\NagiosMonitoring\GPOReplicationErrors.txt.  Please review that file to see which policies are not replicating properly.'
-);
-
 # Get the inputs from the Nagios service
  array_shift($argv); 
  $NotifyType =array_shift($argv);  /*1*/
