@@ -8,13 +8,13 @@
 
 
 $subject = 'Nagios Service Restart Failure';
-$headers = "From: DoNotReply@emich.edu\n";
+$headers = "From: DoNotReply@" . Config::$EmailDomain . "\n";
 $headers .= "MIME-Version: 1.0\n";
 $headers .= "Content-Type: text/html; charset=\"iso-8859-1\"\n";
-$to = 'bpeters@emich.edu';
+$to = Config::$RestartWarnlist;
 $body = '<br>';
 
-$output = file('/usr/local/nagios/etc/restart.log');
+$output = file(Config::$NagiosPath . 'etc/restart.log');
 
 foreach ($output as $line) {
  $body .= $line . PHP_EOL;

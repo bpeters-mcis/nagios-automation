@@ -6,64 +6,29 @@
  * Time: 3:30 PM
  */
 
-##################################################################################
-# Global Config Settings
-##################################################################################
-
-# Set an array of users in all the groups, so we can use it later to build individual contacts.  Add the people here who MUST show up, at a minimum.  All other users
-# will be added by polling the various LDAP / AD groups.
-$userarray = array('bpeters@emich.edu' => 'bpeters',
-                    'pdaughert2@emich.edu' => 'pdaughert2',
-                    'malghait@emich.edu' => 'malghait');
-
-
-# This array will contain all the students we find.  Users in this array will NOT get email notifications.  If you wish to add any users to see the printers,
-# but do not want them to get e-mail, go ahead and add them here.  Use the same format as the userarray above.
-$studentarray = array();
-
-# Define the group names we'll be using to create config files.  Key should be the name used in inventory, value should be the AD/LDAP group name.
-$Groups = array('Team - SIT' => 'doit-sit-team',
-                'Team - DBA' => 'doit-dba-team',
-                'Team - PSS' => 'doit-pss-team',
-                'Lab Attendants' => 'doit_lab_attendants',
-                'Team - HelpDesk' => 'doit_helpdesk_ft',
-                'Team - VMWare' => 'doit-vmware-team',
-                'Team - Security' => 'ib_security_team');
-
-# These servers will be completely ignored, and will never be included in monitoring.  This is useful if there's a system with someone else's nagios or something,
-# that we don't want conflicting with ours I guess.
-$ServersToIgnore = array('INTLTESTDB', 'INTLDB');
-
-
-# Users in this string will have read-only access to any of the CGI tools within nagios.
-# All IT Lab and Help Desk students / staff are added by default later, but you may add others here if you wish.
-$restrictedUsers = '';
-
-# Lab users get read-only access and do not get emails.  If you wish any of them to get access, add them here.
-$UsersToOverrideLabRestrictions = array('bpeters', 'akirkland1');
-
-# Adds Ben Peters to the lab group for testing purposes if set to "Yes"
-$AddBenToLabs = 'No';
-
-
-# Include the classes file
+# Include the classes and Config files
 include('Classes.php');
+include('Config.php');
 
 ###################################################################################################################################
 #
 # The stuff below here is the "nuts and bolts" of the script.  It is what handles the actual generation.  You shouldn't need
-# to edit much of anything here... if you have questions / problems, please let me know.  I tried to comment everthing as best
+# to edit much of anything here... if you have questions / problems, please let me know.  I tried to comment everything as best
 # I could, so that if someone does need to make changes, they know what it is doing!
+#
+# It essentially generates a new contact config file, and server config file.
+#
+# Most edits should likely be done to Config.php
 #
 ###################################################################################################################################
 
-# Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything!
+# Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything, or our config files get wrecked!
 if ($Servers = new LansweeperDB()) {
 
     if ($LDAP = new LDAP()) {
 
         # Get a list of all the services we're monitoring
-        $Inventory = new InventoryDB();
+        $Inventory = new MonitorDB();
         $ServicesToMonitor  = $Inventory->BuildMonitorsForNagios();
 
         ################################################################
@@ -86,13 +51,13 @@ if ($Servers = new LansweeperDB()) {
         $output .= '# Team Contact Definitions' . PHP_EOL;
         $output .= '###########################################' . PHP_EOL;
 
-        foreach ($Groups as $InvGroup => $LDAPGroup) {
+        foreach (Config::$Groups as $InvGroup => $LDAPGroup) {
 
             # Get members of the group
             $userlist = '';
 
             # Get any sub groups within this main group
-            $subgroups = $LDAP->getGroupMemberGroups('CN=' . $LDAPGroup . ',CN=users,DC=ad,DC=emich,DC=edu');
+            $subgroups = $LDAP->getGroupMemberGroups('CN=' . $LDAPGroup . ',' . Config::$ldap_basedn);
 
             # Go through each sub group and pull out the members
             $groupnum = 0;
@@ -104,15 +69,15 @@ if ($Servers = new LansweeperDB()) {
                 $usernum = 0;
                 while ($usernum < $users['count']) {
                     $userlist .= $users[$usernum]['samaccountname'][0] . ",";
-                    if ($LDAPGroup == 'doit_lab_attendants') {
-                        $email = $users[$usernum]['samaccountname'][0] . '@winmon.emich.edu';
-                        if (!in_array($users[$usernum]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
-                            $studentarray[$email] = $users[$usernum]['samaccountname'][0];
-                            $restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
+                    if ($LDAPGroup == Config::$LabUserGroup) {
+                        $email = $users[$usernum]['samaccountname'][0] . '@winmon.' . Config::$EmailDomain;
+                        if (!in_array($users[$usernum]['samaccountname'][0], Config::$UsersToOverrideLabRestrictions)) {
+                            Config::$studentarray[$email] = $users[$usernum]['samaccountname'][0];
+                            Config::$restrictedUsers .= $users[$usernum]['samaccountname'][0] . ',';
                         }
                     } else {
-                        $email = $users[$usernum]['samaccountname'][0] . "@emich.edu";
-                        $userarray[$email] = $users[$usernum]['samaccountname'][0];
+                        $email = $users[$usernum]['samaccountname'][0] . "@" . Config::$EmailDomain;
+                        Config::$userarray[$email] = $users[$usernum]['samaccountname'][0];
                     }
 
                     $usernum++;
@@ -128,29 +93,18 @@ if ($Servers = new LansweeperDB()) {
             $i = 0;
             while ($i < $users['count']) {
                 $userlist .= $users[$i]['samaccountname'][0] . ",";
-                if ($LDAPGroup == 'doit_lab_attendants') {
-                    $email = $users[$i]['samaccountname'][0] . '@winmon.emich.edu';
-                    if (!in_array($users[$i]['samaccountname'][0], $UsersToOverrideLabRestrictions)) {
-                        $studentarray[$email] = $users[$i]['samaccountname'][0];
-                        $restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
+                if ($LDAPGroup == Config::$LabUserGroup) {
+                    $email = $users[$i]['samaccountname'][0] . '@winmon' . Config::$EmailDomain;
+                    if (!in_array($users[$i]['samaccountname'][0], Config::$UsersToOverrideLabRestrictions)) {
+                        Config::$studentarray[$email] = $users[$i]['samaccountname'][0];
+                        Config::$restrictedUsers .= $users[$i]['samaccountname'][0] . ',';
                     }
                 } else {
-                    $email = $users[$i]['samaccountname'][0] . "@emich.edu";
-                    $userarray[$email] = $users[$i]['samaccountname'][0];
+                    $email = $users[$i]['samaccountname'][0] . "@" . Config::$EmailDomain;
+                    Config::$userarray[$email] = $users[$i]['samaccountname'][0];
                 }
 
                 $i++;
-            }
-
-            # If this is the lab group, we add Aric so he is included, and make sure his email is properly populated so he actually gets emails
-            if ($LDAPGroup == 'doit_lab_attendants') {
-                $userarray['akirkland1@emich.edu'] = 'akirkland1';
-                $userlist .= 'akirkland1,';
-            }
-
-            # Add Ben for testing
-            if ($LDAPGroup == 'doit_lab_attendants' && $AddBenToLabs == 'Yes') {
-                $userlist .= 'bpeters,';
             }
 
             # Trim trailing comma from user list
@@ -168,16 +122,16 @@ if ($Servers = new LansweeperDB()) {
         }
 
         # Trim the trailing comma off restricted user list
-        $restrictedUsers = rtrim($restrictedUsers, ",");
+        Config::$restrictedUsers = rtrim(Config::$restrictedUsers, ",");
 
         # Get all the members of the nagios admin group
-        $users = $LDAP->getGroupUsers('CN=doit_app_nagios_admin,CN=users,DC=ad,DC=emich,DC=edu');
+        $users = $LDAP->getGroupUsers(Config::$AdminGroup);
         $adminUsers = '';
         $i = 0;
         while ($i < $users['count']) {
             $adminUsers .= $users[$i]['samaccountname'][0] . ",";
-            $email = $users[$i]['samaccountname'][0] . "@emich.edu";
-            $userarray[$email] = $users[$i]['samaccountname'][0];
+            $email = $users[$i]['samaccountname'][0] . "@" . Config::$EmailDomain;
+            Config::$userarray[$email] = $users[$i]['samaccountname'][0];
             $i++;
         }
 
@@ -190,7 +144,7 @@ if ($Servers = new LansweeperDB()) {
         $cgiCFGOutput .= '# Custom CGI Access From LDAP Groups' . PHP_EOL;
         $cgiCFGOutput .= '###########################################' . PHP_EOL;
         $cgiCFGOutput .= PHP_EOL;
-        $cgiCFGOutput .= 'authorized_for_read_only=' . $restrictedUsers . PHP_EOL;
+        $cgiCFGOutput .= 'authorized_for_read_only=' . Config::$restrictedUsers . PHP_EOL;
         $cgiCFGOutput .= PHP_EOL;
         $cgiCFGOutput .= 'authorized_for_system_information=' . $adminUsers . PHP_EOL;
         $cgiCFGOutput .= 'authorized_for_configuration_information=' . $adminUsers . PHP_EOL;
@@ -199,13 +153,13 @@ if ($Servers = new LansweeperDB()) {
         $cgiCFGOutput .= 'authorized_for_all_host_commands=' . $adminUsers . PHP_EOL;
 
         # Remove the last entry for the restricted users
-        $lines = file('/usr/local/nagios/etc/cgi.cfg');
+        $lines = file(Config::$NagiosPath . 'etc/cgi.cfg');
         $lines = array_slice($lines, 0, -12, true);
         $lines = implode($lines);
         $lines = $lines . $cgiCFGOutput;
 
         # Place the restricted users into the file
-        file_put_contents('/usr/local/nagios/etc/cgi_new.cfg', $lines);
+        file_put_contents(Config::$NagiosPath . 'etc/cgi_new.cfg', $lines);
 
         # Get all the servers, to find the contact info
         $list = $Servers->getServersWithNagios();
@@ -218,8 +172,8 @@ if ($Servers = new LansweeperDB()) {
             foreach ($fieldsToCheck as $row) {
                 if (substr($server[$row], 0, 4) != "Team" && $server[$row] != '') {
                     $username = $server[$row];
-                    $email = $username . "@emich.edu";
-                    $userarray[$email] = $username;
+                    $email = $username . "@" . Config::$EmailDomain;
+                    Config::$userarray[$email] = $username;
                 }
 
             }
@@ -234,10 +188,10 @@ if ($Servers = new LansweeperDB()) {
         $output .= PHP_EOL;
 
         # Now go through the list of all the individual users, and remove any duplicates
-        $userarray = array_unique($userarray);
+        Config::$userarray = array_unique(Config::$userarray);
 
         # Build a contact file for each user in the list - but omit e-mail addresses from lab students
-        foreach ($userarray as $key => $value) {
+        foreach (Config::$userarray as $key => $value) {
             $output .= 'define contact{' . PHP_EOL;
             $output .= '        contact_name            ' . $value . PHP_EOL;
             $output .= '        use                     generic-contact' . PHP_EOL;
@@ -248,12 +202,12 @@ if ($Servers = new LansweeperDB()) {
         }
 
         # Now go through the list of all the individual users, and remove any duplicates from it, or that were already in the user array
-        $studentarray = array_unique($studentarray);
-        $studentarray = array_diff($studentarray, $userarray);
+        Config::$studentarray = array_unique(Config::$studentarray);
+        Config::$studentarray = array_diff(Config::$studentarray, Config::$userarray);
 
 
         # Build a contact file for each student in the list - but omit e-mail addresses from lab students
-        foreach ($studentarray as $key => $value) {
+        foreach (Config::$studentarray as $key => $value) {
             $output .= 'define contact{' . PHP_EOL;
             $output .= '        contact_name            ' . $value . PHP_EOL;
             $output .= '        use                     student-contact' . PHP_EOL;
@@ -262,7 +216,7 @@ if ($Servers = new LansweeperDB()) {
             $output .= PHP_EOL;
         }
 
-        file_put_contents('/usr/local/nagios/etc/objects/contacts_from_ad_new.cfg', $output);
+        file_put_contents(Config::$NagiosPath . 'etc/objects/contacts_from_ad_new.cfg', $output);
 
         ################################################################
         # Build the server list
@@ -292,11 +246,11 @@ if ($Servers = new LansweeperDB()) {
         foreach ($list as $server) {
 
             # Make sure we aren't supposed to ignore this server for some reason
-            if (!in_array($server['AssetName'], $ServersToIgnore)) {
+            if (!in_array($server['AssetName'], Config::$ServersToIgnore)) {
 
                 # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
-                $contactgroups = 'WindowsTeam';
-                foreach ($Groups as $INVGroup => $LDAPGroup) {
+                $contactgroups = Config::$ContactGroupForAllServers;
+                foreach (Config::$Groups as $INVGroup => $LDAPGroup) {
                     if ($server['Primary OS Contact'] == $INVGroup || $server['Secondary OS Contact'] == $INVGroup || $server['Primary App Contact'] == $INVGroup || $server['Secondary App Contact'] == $INVGroup) {
                         $contactgroups .= ',' . $LDAPGroup;
                     }
@@ -405,7 +359,7 @@ if ($Servers = new LansweeperDB()) {
         }
 
         # Send the list of servers to the nagios config file
-        file_put_contents('/usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg', $output);
+        file_put_contents(Config::$NagiosPath . 'etc/objects/servers_from_lansweeper_new.cfg', $output);
     }
 }
 ?>

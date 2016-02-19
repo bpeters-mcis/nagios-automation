@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Run the server and group config file generation
-php /usr/local/nagios/etc/server_and_contact_generation.php
+php /usr/local/nagios/etc/CustomScripts/server_and_contact_generation.php
 
 # Note when this was last run, for grins
 touch /usr/local/nagios/etc/Servers_last_imported.txt
@@ -51,6 +51,6 @@ if [ $RESTART == "Yes" ] ; then
   # Make sure it restarted properly; if not, email Ben with the explaination of why it didn't work.
   size=$(wc -c <"/usr/local/nagios/etc/restart.log")
     if [ $size -gt 100 ]; then
-        php /usr/local/nagios/etc/check_restart.php
+        php /usr/local/nagios/etc/CustomScripts/check_restart.php
     fi
 fi

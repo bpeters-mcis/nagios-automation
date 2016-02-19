@@ -2,7 +2,7 @@
 
 <?php
 # Include the classes file
-include('/usr/local/nagios/etc/Classes.php');
+include('/usr/local/nagios/etc/CustomScripts/Classes.php');
 
 # Get the inputs from the Nagios service
  array_shift($argv); 
@@ -75,7 +75,7 @@ include('/usr/local/nagios/etc/Classes.php');
  }
 
  # Find if there's an appropriate resolution for this.
- $DB = new InventoryDB();
+ $DB = new MonitorDB();
  $Resolution = $DB->GetResolutions($ServiceDescription);
  
  $from  ="windowsteam@emich.edu";

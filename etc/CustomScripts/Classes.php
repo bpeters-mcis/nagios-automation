@@ -12,20 +12,13 @@
 
 class LDAP {
 
-    # Enter your LDAP connection details here
-    public static $ldap_host = 'ad.emich.edu';
-    public static $ldap_port = '389';
-    public static $ldap_basedn = 'CN=users,DC=ad,DC=emich,DC=edu';
-    public static $ldap_user = 'ext_windows_nagios';
-    public static $ldap_pass =  '#hot713outside';
-
     protected $AD;
 
     function __construct() {
-        $this->AD = @ldap_connect(LDAP::$ldap_host, LDAP::$ldap_port) or die( "LDAP Service is not available at this time");
+        $this->AD = @ldap_connect(Config::$ldap_host, Config::$ldap_port) or die( "LDAP Service is not available at this time");
         ldap_set_option($this->AD, LDAP_OPT_PROTOCOL_VERSION, 3);
         ldap_set_option($this->AD, LDAP_OPT_REFERRALS, 0);
-        $ldapbind = @ldap_bind($this->AD, LDAP::$ldap_user . "@" . LDAP::$ldap_host, LDAP::$ldap_pass);
+        $ldapbind = @ldap_bind($this->AD, Config::$ldap_user . "@" . Config::$ldap_host, Config::$ldap_pass);
         if(!$ldapbind){ die("Bind failed"); }
     }
 
@@ -33,7 +26,7 @@ class LDAP {
     function getGroupusers($group) {
         $filter = "(&(objectClass=user)(memberOf=$group))";
         $justthese = array("samaccountname");
-        $results = ldap_search($this->AD, LDAP::$ldap_basedn, $filter, $justthese);
+        $results = ldap_search($this->AD, Config::$ldap_basedn, $filter, $justthese);
         ldap_sort($this->AD, $results, 'samaccountname');
         $users = ldap_get_entries($this->AD, $results);
         return $users;
@@ -43,7 +36,7 @@ class LDAP {
     function getGroupMemberGroups($group) {
         $filter = "(&(objectClass=group)(memberOf=$group))";
         $justthese = array("samaccountname");
-        $results = ldap_search($this->AD, LDAP::$ldap_basedn, $filter, $justthese);
+        $results = ldap_search($this->AD, Config::$ldap_basedn, $filter, $justthese);
         ldap_sort($this->AD, $results, 'samaccountname');
         $groups = ldap_get_entries($this->AD, $results);
         return $groups;
@@ -56,13 +49,9 @@ class LansweeperDB
 {
     protected $db;
 
-    public static $LansweeperHost = 'lansweeper';
-    public static $LansweeperUser = 'lansweeperuser';
-    public static $LansweeperPassword = '#hot713outside';
-
     function __construct()
     {
-        $this->db = mssql_connect(LansweeperDB::$LansweeperHost, LansweeperDB::$LansweeperUser, LansweeperDB::$LansweeperPassword);
+        $this->db = mssql_connect(Config::$LansweeperHost, Config::$LansweeperUser, Config::$LansweeperPassword);
         mssql_select_db('lansweeperdb', $this->db);
     }
 
@@ -157,6 +146,7 @@ class LansweeperDB
         return $list;
     }
 
+    # This function should hand back all servers running SQL server.
     function getMSSQLServers() {
         $sql = "Select Top 1000000 tblAssets.AssetID,
                   tblAssets.AssetName
@@ -185,26 +175,22 @@ class LansweeperDB
 
 }
 
-class InventoryDB
+class MonitorDB
 {
-
-    public static $inventory_username = 'nagios';
-    public static $inventory_password = '#hot713outside';
-    public static $inventory_dsn = 'mysql:dbname=inventory;host=itservices.emich.edu';
 
     protected $db;
 
     function __construct()
     {
         try {
-            $this->db = new PDO(InventoryDB::$inventory_dsn, InventoryDB::$inventory_username, InventoryDB::$inventory_password);
+            $this->db = new PDO(Config::$inventory_dsn, Config::$inventory_username, Config::$inventory_password);
             $this->db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         } catch (PDOException $e) {
             echo 'Connection failed: ' . $e->getMessage();
         }
     }
 
-    # Get all the monitors, and all the details
+    # Get all the custom monitors, and all the details
     function BuildMonitorsForNagios()
     {
         $ServiceList = array();
@@ -234,6 +220,7 @@ class InventoryDB
         return $ServiceList;
     }
 
+    # This function should return text about how to fix a problem, based on the service description of the service that threw the error.
     function GetResolutions($serviceDescription) {
 
         # Look up this service, based on the description

@@ -5,7 +5,9 @@
  * Date: 1/22/2016
  * Time: 2:56 PM
  */
-$handle = fopen("/home/akirkland1/printers.csv", "r");
+
+include('Config.php');
+$handle = fopen(Config::$PrinterCSV, "r");
 
 if ($handle) {
 
@@ -115,7 +117,7 @@ if ($handle) {
 
 
         # Find out which consumables we can edit on this printer.  Add to the appropriate consumables group
-        $consumables = shell_exec('/usr/local/nagios/libexec/check_snmp_printer -H ' . $PrinterIP . ' -C public -x "CONSUM TEST" -w 20 -c 10');
+        $consumables = shell_exec(Config::$NagiosPath . 'libexec/check_snmp_printer -H ' . $PrinterIP . ' -C public -x "CONSUM TEST" -w 20 -c 10');
         $consumables = explode(PHP_EOL, $consumables);
 
         foreach ($consumables as $row) {
@@ -127,7 +129,7 @@ if ($handle) {
             array_push($ListOfConsumables[$row], $PrinterName);
         }
 
-        # Determine host group based on the printer model, so we check consumables appropriately
+        # Determine host group based on if the printer name contains "Kiosk" or not.
         if (strpos($line[3], 'Kiosk') !== FALSE) {
             $hostgroup = 'IT-Kiosk-Printers';
             $hosttemplate = 'it-kiosk-printer';
@@ -236,19 +238,19 @@ if ($handle) {
 
     }
 
-    file_put_contents('/usr/local/nagios/etc/objects/lab_printers.cfg', $output);
+    file_put_contents(Config::$NagiosPath . 'etc/objects/lab_printers.cfg', $output);
 
-    # Email Aric about new printers being uploaded
+    # Email Lab Manager about new printers being uploaded
 
     $subject = 'Printers changed on Nagios';
-    $headers = "From: DoNotReply@emich.edu\n";
+    $headers = "From: DoNotReply@" . Config::$EmailDomain . "\n";
     $headers .= "MIME-Version: 1.0\n";
     $headers .= "Content-Type: text/html; charset=\"iso-8859-1\"\n";
-    $to = 'bpeters@emich.edu, akirkland1@emich.edu';
+    $to = Config::$NotifyNewPrinters;
     $body = '<br>';
     $body .= 'A new printer upload has been processed on winmon.  Please log into nagios to make sure everything looks OK. <br>';
     $body .= '<br>';
-    $body .= 'An timestamped copy of the printer configuration file has been saved as /home/akirkland1/lab_printers.cfg in case something broke...<br><br>';
+    $body .= 'An timestamped copy of the printer configuration file has been saved in case something broke...<br><br>';
 
     mail($to, $subject, $body, $headers);
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="" />
+    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etc/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etc/check_restart.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etc/lab_printer_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etc/server_and_contact_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Config.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/update_printers.sh" afterPath="$PROJECT_DIR$/etc/update_printers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/update_servers.sh" afterPath="$PROJECT_DIR$/etc/update_servers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
+    </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,76 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.98857737">
-              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-              <folding>
-                <marker date="1455888916098" expanded="true" signature="2722:2736" placeholder="..." />
-                <marker date="1455888916098" expanded="true" signature="4312:4325" placeholder="..." />
-                <marker date="1455888916098" expanded="true" signature="4421:4434" placeholder="..." />
-                <marker date="1455888916098" expanded="true" signature="4541:4554" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_servers.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="79" selection-start-line="97" selection-start-column="79" selection-end-line="97" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="176" column="42" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab_printer_generation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="55" />
+            <state vertical-scroll-proportion="5.9958463">
+              <caret line="347" column="57" selection-start-line="347" selection-start-column="57" selection-end-line="347" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -110,20 +55,23 @@
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification.php" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
-        <option value="$PROJECT_DIR$/etc/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/etc/database_ldap_class.php" />
         <option value="$PROJECT_DIR$/etc/group_contact_generation.php" />
-        <option value="$PROJECT_DIR$/etc/update_servers.sh" />
-        <option value="$PROJECT_DIR$/etc/check_restart.php" />
         <option value="$PROJECT_DIR$/libexec/check_printer_paper" />
         <option value="$PROJECT_DIR$/libexec/check_snmp_printer" />
-        <option value="$PROJECT_DIR$/etc/server_and_contact_generation.php" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
-        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/Classes.php" />
+        <option value="$PROJECT_DIR$/etc/server_and_contact_generation.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
+        <option value="$PROJECT_DIR$/etc/lab_printer_generation.php" />
+        <option value="$PROJECT_DIR$/etc/update_printers.sh" />
+        <option value="$PROJECT_DIR$/etc/check_restart.php" />
+        <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
       </list>
     </option>
   </component>
@@ -260,6 +208,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bpeters\Google Drive\Work Computer\Documents\Scripts\Nagios\etc\CustomScripts" />
       <recent name="C:\Users\bpeters\Google Drive\Work Computer\Documents\Scripts\Nagios\etc\PHP-Files" />
     </key>
   </component>
@@ -321,7 +270,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -375,13 +324,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libexec/check_snmp_printer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="856" column="98" selection-start-line="856" selection-start-column="98" selection-end-line="856" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -398,10 +340,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="558" column="0" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,18 +355,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/check_restart.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -443,10 +391,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,10 +407,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -481,11 +431,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,10 +462,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="570" column="17" selection-start-line="570" selection-start-column="17" selection-end-line="570" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,11 +477,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,10 +523,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="570" column="17" selection-start-line="570" selection-start-column="17" selection-end-line="570" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,11 +538,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -640,27 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/update_printers.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/check_restart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -682,25 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.003033367">
           <caret line="97" column="79" selection-start-line="97" selection-start-column="79" selection-end-line="97" selection-end-column="79" />
           <folding />
         </state>
@@ -708,16 +629,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5530839">
           <caret line="176" column="42" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/lab_printer_generation.php">
+    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.3265925">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -725,52 +646,104 @@
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/Classes.php">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24714434">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.5472482">
+          <caret line="31" column="115" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1455890255273" expanded="true" signature="2822:4124" placeholder="Select Top 1..." />
-            <marker date="1455890255273" expanded="true" signature="4649:5348" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1455890255273" expanded="true" signature="5898:6656" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1455890255273" expanded="true" signature="6307:6546" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1455890255273" expanded="true" signature="7072:7832" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1455890255273" expanded="true" signature="7481:7722" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1455890255273" expanded="true" signature="8954:8996" placeholder="SELECT id, C..services..." />
-            <marker date="1455890255273" expanded="true" signature="9306:9350" placeholder="SELECT * fro..service_details..." />
-            <marker date="1455890255273" expanded="true" signature="9793:9860" placeholder="SELECT CODE ..service_details..." />
-            <marker date="1455890255273" expanded="true" signature="9793:9874" placeholder="SELECT CODE ..service_details..." />
-            <marker date="1455890255273" expanded="true" signature="10072:10118" placeholder="SELECT Resol..services..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29221436">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28245068">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/update_printers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22345804">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14122534">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.3707165">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91102123">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98857737">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state vertical-scroll-proportion="1.3239875">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <marker date="1455888916098" expanded="true" signature="2722:2736" placeholder="..." />
-            <marker date="1455888916098" expanded="true" signature="4312:4325" placeholder="..." />
-            <marker date="1455888916098" expanded="true" signature="4421:4434" placeholder="..." />
-            <marker date="1455888916098" expanded="true" signature="4541:4554" placeholder="..." />
+            <marker date="1455912584258" expanded="true" signature="2734:2748" placeholder="..." />
+            <marker date="1455912584258" expanded="true" signature="4324:4337" placeholder="..." />
+            <marker date="1455912584258" expanded="true" signature="4433:4446" placeholder="..." />
+            <marker date="1455912584258" expanded="true" signature="4553:4566" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5825545">
+          <caret line="177" column="6" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="15" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1455909107538" expanded="true" signature="2353:3655" placeholder="Select Top 1..." />
+            <marker date="1455909107538" expanded="true" signature="4180:4879" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1455909107538" expanded="true" signature="5429:6187" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1455909107538" expanded="true" signature="5838:6077" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1455909107538" expanded="true" signature="6672:7432" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1455909107538" expanded="true" signature="7081:7322" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1455909107538" expanded="true" signature="8348:8390" placeholder="SELECT id, C..services..." />
+            <marker date="1455909107538" expanded="true" signature="8700:8744" placeholder="SELECT * fro..service_details..." />
+            <marker date="1455909107538" expanded="true" signature="9324:9391" placeholder="SELECT CODE ..service_details..." />
+            <marker date="1455909107538" expanded="true" signature="9324:9405" placeholder="SELECT CODE ..service_details..." />
+            <marker date="1455909107538" expanded="true" signature="9603:9649" placeholder="SELECT Resol..services..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.9958463">
+          <caret line="347" column="57" selection-start-line="347" selection-start-column="57" selection-end-line="347" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
