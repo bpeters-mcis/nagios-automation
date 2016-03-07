@@ -35,7 +35,7 @@ class Config {
 
     # This is the connection ifo into Lansweeper, or whatever other SQL database you use to store server inventory information
     public static $LansweeperHost = 'lansweeper';
-    public static $LansweeperUser = 'lansweeperuser';
+    public static $LansweeperUser = 'lsuser';
     public static $LansweeperPassword = '#hot713outside';
 
     ##############################################################

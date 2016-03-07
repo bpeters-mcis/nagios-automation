@@ -248,26 +248,33 @@ if ($Servers = new LansweeperDB()) {
             # Make sure we aren't supposed to ignore this server for some reason
             if (!in_array($server['AssetName'], Config::$ServersToIgnore)) {
 
-                # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
-                $contactgroups = Config::$ContactGroupForAllServers;
-                foreach (Config::$Groups as $INVGroup => $LDAPGroup) {
-                    if ($server['Primary OS Contact'] == $INVGroup || $server['Secondary OS Contact'] == $INVGroup || $server['Primary App Contact'] == $INVGroup || $server['Secondary App Contact'] == $INVGroup) {
-                        $contactgroups .= ',' . $LDAPGroup;
-                    }
-                }
+                # If the owner(s) have requested monitoring, add them as contacts.  Otherwise, don't
+                if ($server['Moniotored'] == 'Yes') {
 
-                # Check to see if this server is run by an individual, add their username as a contact to the individual contact list; but only once!
-                $fieldsToCheck = array('Primary OS Contact', 'Secondary OS Contact', 'Primary App Contact', 'Secondary App Contact');
-                $individualContacts = '';
-                $contactsArray = array();
-                foreach ($fieldsToCheck as $field) {
-                    if (substr($server[$field], 0, 4) != "Team" && $server[$field] != '') {
-                        if (!in_array($server[$field], $contactsArray)) {
-                            $individualContacts .= $server[$field] . ",";
-                            array_push($contactsArray, $server[$field]);
+                    # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
+                    $contactgroups = Config::$ContactGroupForAllServers;
+                    foreach (Config::$Groups as $INVGroup => $LDAPGroup) {
+                        if ($server['Primary OS Contact'] == $INVGroup || $server['Secondary OS Contact'] == $INVGroup || $server['Primary App Contact'] == $INVGroup || $server['Secondary App Contact'] == $INVGroup) {
+                            $contactgroups .= ',' . $LDAPGroup;
                         }
-
                     }
+
+                    # Check to see if this server is run by an individual, add their username as a contact to the individual contact list; but only once!
+                    $fieldsToCheck = array('Primary OS Contact', 'Secondary OS Contact', 'Primary App Contact', 'Secondary App Contact');
+                    $individualContacts = '';
+                    $contactsArray = array();
+                    foreach ($fieldsToCheck as $field) {
+                        if (substr($server[$field], 0, 4) != "Team" && $server[$field] != '') {
+                            if (!in_array($server[$field], $contactsArray)) {
+                                $individualContacts .= $server[$field] . ",";
+                                array_push($contactsArray, $server[$field]);
+                            }
+
+                        }
+                    }
+                } else {
+                    $contactgroups = Config::$ContactGroupForAllServers;
+                    $individualContacts = '';
                 }
 
                 # Strip trailing comma from the contact list

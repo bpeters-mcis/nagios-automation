@@ -72,6 +72,7 @@ class LansweeperDB
                   tblAssetCustom.Custom4 As [Secondary App Contact],
                   tblAssetCustom.Custom19 AS [NagiosServices],
                   tblAssetCustom.Custom6 As [Window],
+                  tblAssetCustom.Custom15 As [Monitored],
                   tblAssets.IPAddress
                 From tblAssets
                   Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
