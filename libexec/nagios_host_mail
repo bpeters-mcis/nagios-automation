@@ -23,11 +23,15 @@
  if($HostState=="OK") {$f_color="#00b71a";}
  if($HostState=="UNKNOWN") {$f_color="#cc00de";}
 
+ # Get the Lansweeper assetID for this system
+ $Lansweeper = new LansweeperDB();
+ $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
+
 
 if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
  $subject = "Printer Issue - Nagios Warning";
 } else {
- $subject = "$NotificationType Service: $HostName";
+ $subject = "$NotificationType Host: $HostName";
 }
  
  $from  ="windowsteam@emich.edu";
@@ -61,7 +65,11 @@ if($NotifyType=="RECOVERY") {
  /* Send eMail Now... */
  mail($To, $subject, $body, $headers);
 
-
+# Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing Ben Peters
+$comment = $subject;
+if ($To == 'bpeters@emich.edu') {
+ $Lansweeper->addComment($AssetID, $comment);
+}
 
 ?>
 
