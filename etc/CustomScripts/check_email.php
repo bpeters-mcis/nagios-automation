@@ -45,6 +45,18 @@ if($emails) {
 
 
             echo "Would process this message! " . $Subject . PHP_EOL;
+            # See if this code matches anything in the database
+            $matches = $Lansweeper->getCommentsByCode($Subject);
+            if (count($matches) > 0) {
+
+                # Now we know it's a valid code.  Get the info about this server
+                $ServerDetails = $Lansweeper->getServersDetailsByID($matches[0]['AssetID']);
+                print_r($ServerDetails);
+
+                # Email
+
+            }
+
 
 
         } else {
@@ -62,7 +74,7 @@ if($emails) {
                 $body =  "Your recent attempt at acknowledging a Nagios outage has failed.\r\n";
                 $body .= "This is most likely caused by having the wrong subject line in your email.  The subject should be: 'Code: (code from your outage)'\r\n";
                 $body .= "As an example, it could be: 'Code: 00f6cb4b4efd69cc80cf3b7cd07ba2'  Please try again.";
-                mail($to, $subject, $body, $headers);
+                #mail($to, $subject, $body, $headers);
             }
             print_r($senderDomain);
 

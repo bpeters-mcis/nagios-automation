@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
     </list>
     <ignored path="Nagios.iws" />
@@ -27,30 +29,33 @@
       <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-137.3077">
-              <caret line="215" column="13" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
+            <state vertical-scroll-proportion="-19.384615">
+              <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
               <folding>
-                <marker date="1457469278665" expanded="true" signature="2358:3718" placeholder="Select Top 1..." />
-                <marker date="1457469278665" expanded="true" signature="4072:4196" placeholder="Select tblAs..." />
-                <marker date="1457469278665" expanded="true" signature="4072:4197" placeholder="Select tblAs..." />
-                <marker date="1457469278665" expanded="true" signature="4072:4210" placeholder="Select Top 1..." />
-                <marker date="1457469278665" expanded="true" signature="4746:5445" placeholder="Select Top 1..tblComputersystem..." />
-                <marker date="1457469278665" expanded="true" signature="5995:6753" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1457469278665" expanded="true" signature="6404:6643" placeholder="Select tblSo..tblSoftware..." />
-                <marker date="1457469278665" expanded="true" signature="7238:7998" placeholder="Select Top 1..tblAssets..." />
-                <marker date="1457469278665" expanded="true" signature="7647:7888" placeholder="Select tblSo..tblSoftware..." />
-                <marker date="1457469278665" expanded="true" signature="8487:8546" placeholder="Select Asset..tblAssets..." />
-                <marker date="1457469278665" expanded="true" signature="8487:8560" placeholder="Select Asset..tblAssets..." />
-                <marker date="1457469278665" expanded="true" signature="8487:8561" placeholder="Select Asset..tblAssets..." />
-                <marker date="1457469278665" expanded="true" signature="8940:9085" placeholder="SELECT * FRO..tblAssetComments..." />
-                <marker date="1457469278665" expanded="true" signature="9504:9728" placeholder="SELECT Comme..tblAssetComments..." />
-                <marker date="1457469278665" expanded="true" signature="10149:10267" placeholder="SELECT Comme..tblAssetComments..." />
-                <marker date="1457469278665" expanded="true" signature="10149:10282" placeholder="SELECT Comme..tblAssetComments..." />
-                <marker date="1457469278665" expanded="true" signature="10666:10778" placeholder="INSERT INTO tblAssetComments..." />
-                <marker date="1457469278665" expanded="true" signature="11398:11440" placeholder="SELECT id, C..services..." />
-                <marker date="1457469278665" expanded="true" signature="11750:11794" placeholder="SELECT * fro..service_details..." />
-                <marker date="1457469278665" expanded="true" signature="12374:12455" placeholder="SELECT CODE ..service_details..." />
-                <marker date="1457469278665" expanded="true" signature="12653:12699" placeholder="SELECT Resol..services..." />
+                <marker date="1457470826695" expanded="true" signature="2358:3718" placeholder="Select Top 1..." />
+                <marker date="1457470826695" expanded="true" signature="4064:5094" placeholder="Select Top 1..." />
+                <marker date="1457470826695" expanded="true" signature="4064:5111" placeholder="Select Top 1..." />
+                <marker date="1457470826695" expanded="true" signature="4064:5112" placeholder="Select Top 1..." />
+                <marker date="1457470826695" expanded="true" signature="5465:5589" placeholder="Select tblAs..." />
+                <marker date="1457470826695" expanded="true" signature="5465:5590" placeholder="Select tblAs..." />
+                <marker date="1457470826695" expanded="true" signature="5465:5603" placeholder="Select Top 1..." />
+                <marker date="1457470826695" expanded="true" signature="6139:6838" placeholder="Select Top 1..tblComputersystem..." />
+                <marker date="1457470826695" expanded="true" signature="7388:8146" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1457470826695" expanded="true" signature="7797:8036" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1457470826695" expanded="true" signature="8631:9391" placeholder="Select Top 1..tblAssets..." />
+                <marker date="1457470826695" expanded="true" signature="9040:9281" placeholder="Select tblSo..tblSoftware..." />
+                <marker date="1457470826695" expanded="true" signature="9880:9939" placeholder="Select Asset..tblAssets..." />
+                <marker date="1457470826695" expanded="true" signature="9880:9953" placeholder="Select Asset..tblAssets..." />
+                <marker date="1457470826695" expanded="true" signature="9880:9954" placeholder="Select Asset..tblAssets..." />
+                <marker date="1457470826695" expanded="true" signature="10333:10478" placeholder="SELECT * FRO..tblAssetComments..." />
+                <marker date="1457470826695" expanded="true" signature="10897:11121" placeholder="SELECT Comme..tblAssetComments..." />
+                <marker date="1457470826695" expanded="true" signature="11542:11669" placeholder="SELECT Comme..tblAssetComments..." />
+                <marker date="1457470826695" expanded="true" signature="11542:11684" placeholder="SELECT Comme..tblAssetComments..." />
+                <marker date="1457470826695" expanded="true" signature="12068:12180" placeholder="INSERT INTO tblAssetComments..." />
+                <marker date="1457470826695" expanded="true" signature="12800:12842" placeholder="SELECT id, C..services..." />
+                <marker date="1457470826695" expanded="true" signature="13152:13196" placeholder="SELECT * fro..service_details..." />
+                <marker date="1457470826695" expanded="true" signature="13776:13857" placeholder="SELECT CODE ..service_details..." />
+                <marker date="1457470826695" expanded="true" signature="14055:14101" placeholder="SELECT Resol..services..." />
               </folding>
             </state>
           </provider>
@@ -101,16 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="176" column="42" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,8 +131,8 @@
       <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.23077">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state vertical-scroll-proportion="-31.384615">
+              <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -146,8 +141,20 @@
       <file leaf-file-name="check_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1588785">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.61786085">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
@@ -184,6 +191,7 @@
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/test.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
       </list>
@@ -438,13 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="51" selection-start-line="235" selection-start-column="32" selection-end-line="235" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -763,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.23077">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -797,40 +790,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.384615">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-137.3077">
-          <caret line="215" column="13" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
+        <state vertical-scroll-proportion="-19.384615">
+          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
           <folding>
-            <marker date="1457469278665" expanded="true" signature="2358:3718" placeholder="Select Top 1..." />
-            <marker date="1457469278665" expanded="true" signature="4072:4196" placeholder="Select tblAs..." />
-            <marker date="1457469278665" expanded="true" signature="4072:4197" placeholder="Select tblAs..." />
-            <marker date="1457469278665" expanded="true" signature="4072:4210" placeholder="Select Top 1..." />
-            <marker date="1457469278665" expanded="true" signature="4746:5445" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1457469278665" expanded="true" signature="5995:6753" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1457469278665" expanded="true" signature="6404:6643" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1457469278665" expanded="true" signature="7238:7998" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1457469278665" expanded="true" signature="7647:7888" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1457469278665" expanded="true" signature="8487:8546" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457469278665" expanded="true" signature="8487:8560" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457469278665" expanded="true" signature="8487:8561" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457469278665" expanded="true" signature="8940:9085" placeholder="SELECT * FRO..tblAssetComments..." />
-            <marker date="1457469278665" expanded="true" signature="9504:9728" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457469278665" expanded="true" signature="10149:10267" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457469278665" expanded="true" signature="10149:10282" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457469278665" expanded="true" signature="10666:10778" placeholder="INSERT INTO tblAssetComments..." />
-            <marker date="1457469278665" expanded="true" signature="11398:11440" placeholder="SELECT id, C..services..." />
-            <marker date="1457469278665" expanded="true" signature="11750:11794" placeholder="SELECT * fro..service_details..." />
-            <marker date="1457469278665" expanded="true" signature="12374:12455" placeholder="SELECT CODE ..service_details..." />
-            <marker date="1457469278665" expanded="true" signature="12653:12699" placeholder="SELECT Resol..services..." />
+            <marker date="1457470826695" expanded="true" signature="2358:3718" placeholder="Select Top 1..." />
+            <marker date="1457470826695" expanded="true" signature="4064:5094" placeholder="Select Top 1..." />
+            <marker date="1457470826695" expanded="true" signature="4064:5111" placeholder="Select Top 1..." />
+            <marker date="1457470826695" expanded="true" signature="4064:5112" placeholder="Select Top 1..." />
+            <marker date="1457470826695" expanded="true" signature="5465:5589" placeholder="Select tblAs..." />
+            <marker date="1457470826695" expanded="true" signature="5465:5590" placeholder="Select tblAs..." />
+            <marker date="1457470826695" expanded="true" signature="5465:5603" placeholder="Select Top 1..." />
+            <marker date="1457470826695" expanded="true" signature="6139:6838" placeholder="Select Top 1..tblComputersystem..." />
+            <marker date="1457470826695" expanded="true" signature="7388:8146" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1457470826695" expanded="true" signature="7797:8036" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1457470826695" expanded="true" signature="8631:9391" placeholder="Select Top 1..tblAssets..." />
+            <marker date="1457470826695" expanded="true" signature="9040:9281" placeholder="Select tblSo..tblSoftware..." />
+            <marker date="1457470826695" expanded="true" signature="9880:9939" placeholder="Select Asset..tblAssets..." />
+            <marker date="1457470826695" expanded="true" signature="9880:9953" placeholder="Select Asset..tblAssets..." />
+            <marker date="1457470826695" expanded="true" signature="9880:9954" placeholder="Select Asset..tblAssets..." />
+            <marker date="1457470826695" expanded="true" signature="10333:10478" placeholder="SELECT * FRO..tblAssetComments..." />
+            <marker date="1457470826695" expanded="true" signature="10897:11121" placeholder="SELECT Comme..tblAssetComments..." />
+            <marker date="1457470826695" expanded="true" signature="11542:11669" placeholder="SELECT Comme..tblAssetComments..." />
+            <marker date="1457470826695" expanded="true" signature="11542:11684" placeholder="SELECT Comme..tblAssetComments..." />
+            <marker date="1457470826695" expanded="true" signature="12068:12180" placeholder="INSERT INTO tblAssetComments..." />
+            <marker date="1457470826695" expanded="true" signature="12800:12842" placeholder="SELECT id, C..services..." />
+            <marker date="1457470826695" expanded="true" signature="13152:13196" placeholder="SELECT * fro..service_details..." />
+            <marker date="1457470826695" expanded="true" signature="13776:13857" placeholder="SELECT CODE ..service_details..." />
+            <marker date="1457470826695" expanded="true" signature="14055:14101" placeholder="SELECT Resol..services..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1588785">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.61786085">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>

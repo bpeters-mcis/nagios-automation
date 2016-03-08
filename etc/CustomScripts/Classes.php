@@ -93,6 +93,36 @@ class LansweeperDB
         return $result;
     }
 
+    # Get the server info by AssetID
+    function getServersDetailsByID($AssetID) {
+        $sql = "Select Top 1000000 tblAssets.AssetID,
+                  tblAssets.AssetName,
+                  tblAssets.Description,
+                  tsysOS.Image As icon,
+                  tblAssetCustom.Manufacturer As [Make],
+                  tblAssetCustom.Custom1 As [Primary OS Contact],
+                  tblAssetCustom.Custom2 As [Secondary OS Contact],
+                  tblAssetCustom.Custom3 As [Primary App Contact],
+                  tblAssetCustom.Custom4 As [Secondary App Contact],
+                  tblAssetCustom.Custom19 AS [NagiosServices],
+                  tblAssetCustom.Custom6 As [Window],
+                  tblAssetCustom.Custom15 As [Monitored],
+                  tblAssets.IPAddress
+                From tblAssets
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                  Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
+                  Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
+                Where tblAssets.AssetID = '" . $AssetID . "'";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        return $result;
+    }
+
     # Find out what downtime group this server is in
     function getPatchGroup($assetID) {
         $sql = "Select tblAssetCustom.Custom6 As [Window]
@@ -237,7 +267,7 @@ class LansweeperDB
     function getCommentsByCode($code) {
         $time = time();
         $mintime = $time - 30;
-        $sql="SELECT Comment FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
+        $sql="SELECT Comment, AssetID FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
