@@ -19,6 +19,13 @@ class Config {
     public static $RestartWarnlist = 'bpeters@emich.edu';
 
     #############################################################
+    # Email Service Account Settings
+    #############################################################
+    public static $MailUser = 'ext_windowsnagios@emich.edu';
+    public static $MailPassword = 'u27wwrg3dtpftq2';
+    public static $MailHost = '{imap.gmail.com:993/imap/ssl}INBOX';
+
+    #############################################################
     # Active Directory / LDAP Connection Credentials / Settings
     #############################################################
 

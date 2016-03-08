@@ -233,6 +233,21 @@ class LansweeperDB
         return $result;
     }
 
+    # This function gets any comments containing a specified code
+    function getCommentsByCode($code) {
+        $time = time();
+        $mintime = $time - 30;
+        $sql="SELECT Comment FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        return $result;
+    }
+
 
     # This function adds a comment to the Lansweeper record for the server
     function addComment($AssetID, $Comment) {
