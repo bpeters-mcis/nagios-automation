@@ -139,7 +139,7 @@ if($NotifyType=="RECOVERY") {
  echo $m_true;
 
  # Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing Ben Peters
- $comment = "$NotifyType Service: $ServiceDescription [$ServiceState] -- Code: " . $code;
+ $comment = $subject . " -- Code: " . $code;
  if ($To == 'bpeters@emich.edu') {
      $Lansweeper->addComment($AssetID, $comment);
  }

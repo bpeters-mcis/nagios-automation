@@ -51,9 +51,16 @@ if($emails) {
 
                 # Now we know it's a valid code.  Get the info about this server
                 $ServerDetails = $Lansweeper->getServersDetailsByID($matches[0]['AssetID']);
-                print_r($ServerDetails);
 
-                # Email
+                # Process the Acknlowedgement
+                $DescStart = strpos($matches[0]['Comment'], '(');
+                $DescStop = strpos($matches[0]['Comment'], ')');
+                $DescLength = $DescStop - $DescStart;
+                $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
+                $output = 'ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription;
+
+                echo $output;
+
 
             }
 
