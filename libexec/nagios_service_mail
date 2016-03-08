@@ -37,7 +37,11 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  if($ServiceState=="OK") {$f_color="#00b71a";}
  if($ServiceState=="UNKNOWN") {$f_color="#cc00de";}
 
- // Check If File Exists ###########
+ # Get the Lansweeper assetID for this system
+ $Lansweeper = new LansweeperDB();
+ $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
+
+// Check If File Exists ###########
  if($NotifyType=="PROBLEM")
  {
   $currenttime = time();
@@ -127,7 +131,9 @@ if($NotifyType=="RECOVERY") {
  $m_true = mail($To, $subject, $body, $headers);
  echo $m_true;
 
-
+ # Add a comment in the Lansweeper database about this service outage
+ $comment = "$NotifyType Service: $HostName ($ServiceDescription) [$ServiceState]";
+ $Lansweeper->addComment($AssetID, $comment);
 ?>
 
 

@@ -177,6 +177,26 @@ class LansweeperDB
         return $list;
     }
 
+    # This function gets the server's assetID from the server name
+    function getAssetIDByName($name) {
+        $sql = "Select AssetID from tblAssets WHERE tblAssets.AssetName = '" . $name . "'";
+        $query=mssql_query($sql);
+        $list = array();
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                array_push($list, $row['AssetID']);
+            }
+        }
+        return $list[0];
+    }
+
+    # This function adds a comment to the Lansweeper record for the server
+    function addComment($AssetID, $Comment) {
+        $sql = "INSERT INTO tblAssetComments (AssetID, Comment, AddedBy) VALUES ('" . $AssetID . "','" . $Comment . "','Nagios')";
+        $result = mssql_query($sql);
+        return $result;
+    }
+
 }
 
 class MonitorDB
