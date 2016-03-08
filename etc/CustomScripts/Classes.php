@@ -59,7 +59,7 @@ class LansweeperDB
     }
 
     # This function should hand back all the servers we want to monitor in Nagios.  We can hand back as much data as we want, but the essentials are:
-    # Name, Make (to know if it's a VM or not), Contacts, What custom services to monitor, what the downtime window is, and the server's IP address.
+    # Name, Make (to know if it's a VM or not),:q Contacts, What custom services to monitor, what the downtime window is, and the server's IP address.
     function getServersWithNagios() {
         $sql = "Select Top 1000000 tblAssets.AssetID,
                   tblAssets.AssetName,
@@ -83,6 +83,21 @@ class LansweeperDB
             tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%NSClient%') And
                   tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        return $result;
+    }
+
+    # Find out what downtime group this server is in
+    function getPatchGroup($assetID) {
+        $sql = "Select tblAssetCustom.Custom6 As [Window]
+                From tblAssetCustom
+                Where tblAssetCustom.AssetID = " . $assetID;
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
