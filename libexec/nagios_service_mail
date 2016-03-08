@@ -40,6 +40,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  # Get the Lansweeper assetID for this system
  $Lansweeper = new LansweeperDB();
  $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
+ $Downtime = $Lansweeper->getPatchGroup($AssetID);
 
 // Check If File Exists ###########
  if($NotifyType=="PROBLEM")
@@ -102,6 +103,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  $body .= "<tr bgcolor=#fffef6 style='color:#f40000'><td>Total Service Critical: </td><td> $Totcritical</td></tr>\r\n";
  $body .= "<tr bgcolor=#f6f6ff><td>Total Service Unknowns: </td><td> $Totunknowns</td></tr>\r\n";
  $body .= "<tr bgcolor=#fffef6><td>Service State Duration: </td><td> $DurationH:$DurationM (H:M)</td></tr>\r\n";
+ $body .= "<tr bgcolor=#fffef6><td>Downtime Group: </td><td> $Downtime</td></tr>\r\n";
  $body .= "</table><br/></td></tr></table><br/>\r\n";
 
  $body .= "<h3>Why Am I Getting This Notification?</h3>";

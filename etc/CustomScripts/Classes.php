@@ -105,7 +105,7 @@ class LansweeperDB
                 $result[] = $row;
             }
         }
-        return $result;
+        return $result[0]['Window'];
     }
 
     # This function polls Lansweeper, and finds any servers that are domain controllers.  Returns an indexed array.
