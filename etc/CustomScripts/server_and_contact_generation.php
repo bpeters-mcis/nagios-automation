@@ -249,7 +249,7 @@ if ($Servers = new LansweeperDB()) {
             if (!in_array($server['AssetName'], Config::$ServersToIgnore)) {
 
                 # If the owner(s) have requested monitoring, add them as contacts.  Otherwise, don't
-                if ($server['Moniotored'] == 'Yes') {
+                if ($server['Monitored'] == 'Yes') {
 
                     # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
                     $contactgroups = Config::$ContactGroupForAllServers;
