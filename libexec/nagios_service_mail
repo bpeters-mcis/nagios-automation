@@ -131,9 +131,12 @@ if($NotifyType=="RECOVERY") {
  $m_true = mail($To, $subject, $body, $headers);
  echo $m_true;
 
- # Add a comment in the Lansweeper database about this service outage
- $comment = "$NotifyType Service: $HostName ($ServiceDescription) [$ServiceState]";
- $Lansweeper->addComment($AssetID, $comment);
+ # Add a comment in the Lansweeper database about this service status, only if it's not already been done
+ $comment = "$NotifyType Service: $ServiceDescription [$ServiceState]";
+ if (count($Lansweeper->getRecentServerComments($AssetID)) == 0) {
+     $Lansweeper->addComment($AssetID, $comment);
+ }
+
 ?>
 
 

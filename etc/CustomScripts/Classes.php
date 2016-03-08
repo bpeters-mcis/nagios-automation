@@ -190,6 +190,35 @@ class LansweeperDB
         return $list[0];
     }
 
+    # This function gets any comments about the server
+    function getAllServerComments($AssetID) {
+        $sql = "SELECT * FROM tblAssetComments WHERE tblAssetComments.AssetID = '" . $AssetID . "' AND tblAssetComments.AddedBy LIKE 'Nagios' ORDER BY Added DESC";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        return $result;
+    }
+
+    # This function gets any comments about the server
+    function getRecentServerComments($AssetID) {
+        $time = time();
+        $mintime = $time - 30;
+        $sql="SELECT Comment FROM tblAssetComments WHERE tblAssetComments.AssetID = '" . $AssetID . "' AND tblAssetComments.AddedBy LIKE 'Nagios' AND DATEDIFF(SECOND,{d '1970-01-01'}, tblAssetComments.Added) > $mintime ORDER BY Added DESC";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        return $result;
+    }
+
+
     # This function adds a comment to the Lansweeper record for the server
     function addComment($AssetID, $Comment) {
         $sql = "INSERT INTO tblAssetComments (AssetID, Comment, AddedBy) VALUES ('" . $AssetID . "','" . $Comment . "','Nagios')";
