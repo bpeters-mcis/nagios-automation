@@ -7,8 +7,8 @@
  */
 
 # Include Files
-include('Config.php');
-include('Classes.php');
+include('/usr/local/nagios/etc/CustomScripts/Config.php');
+include('/usr/local/nagios/etc/CustomScripts/Classes.php');
 
 # Connect To Inbox
 $inbox = imap_open(Config::$MailHost, Config::$MailUser, Config::$MailPassword) or die('Cannot connect to Gmail: ' . imap_last_error());
