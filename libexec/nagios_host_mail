@@ -28,6 +28,11 @@
  $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
  $Downtime = $Lansweeper->getPatchGroup($AssetID);
 
+ # Generate a service code for this outage
+ $code = $HostName . $HostAlias . $DateTime . $HostGroupName;
+ $code = md5($code);
+ $code = substr($code, 2, 30);
+
 
 if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
  $subject = "Printer Issue - Nagios Warning";
@@ -68,7 +73,7 @@ if($NotifyType=="RECOVERY") {
  mail($To, $subject, $body, $headers);
 
 # Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing Ben Peters
-$comment = $subject;
+$comment = $subject . " -- Code: " . $code;
 if ($To == 'bpeters@emich.edu') {
  $Lansweeper->addComment($AssetID, $comment);
 }
