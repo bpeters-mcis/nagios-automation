@@ -1,6 +1,10 @@
 #!/usr/bin/php -c /etc/php.ini
 
 <?php
+
+ # Includes
+include('/usr/local/nagios/etc/CustomScripts/Config.php');
+include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  
  array_shift($argv);
  $NotificationType =array_shift($argv);
@@ -63,6 +67,12 @@ if($NotifyType=="RECOVERY") {
  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
 
 }
+# If this is not an acknloledgement, include a link for people to kill notification.
+if ($NotifyType != "ACKNOWLEDGEMENT") {
+ $body .= "<h3>How Can I Acknowledge This Host Alert / Stop Getting Notifed About This Host?</h3>";
+ $body .= "To acknowledge this alert and prevent further notifications, simply click this link for a pre-generated email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=HOST Code: " . $code . "'>Acknlowledgement Link</a><br><br>";
+}
+
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
  

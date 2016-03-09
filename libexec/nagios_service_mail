@@ -91,7 +91,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  $Resolution = $DB->GetResolutions($ServiceDescription);
  
  $from  ="windowsteam@emich.edu";
- $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Division of IT - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
+ $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Information Technology - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
  $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
  $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
  $body .= "color=#ffffff><b>$NotifyType [$ServiceState]</b></font></td></tr>\r\n";
@@ -129,9 +129,13 @@ if($NotifyType=="RECOVERY") {
  } else {
   $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
  }
-  $body .= "<h3>How Can I Acknowledge This / Stop Getting Notifed?</h3>";
-  $body .= "To acknowledge this alert and prevent further notifications, simply click this link for a pre-generated email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=Code: " . $code . "'>Acknlowledgement Link</a><br><br>";
-  $body .= "If that does not work, send an email to 'ext_windowsnagios@emich.edu' with the subject: <b>Code: " . $code . "</b>.  The message contents do not matter.<br><br>";
+
+  # If this is not an acknloledgement, include a link for people to kill notification.
+  if ($NotifyType != "ACKNOWLEDGEMENT") {
+      $body .= "<h3>How Can I Acknowledge This Service Alert / Stop Getting Notifed About This Service?</h3>";
+      $body .= "To acknowledge this alert and prevent further notifications, simply click this link for a pre-generated email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=SVC Code: " . $code . "'>Acknlowledgement Link</a><br><br>";
+  }
+
 }
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";

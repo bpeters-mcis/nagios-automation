@@ -44,7 +44,7 @@ if($emails) {
         echo "===========================================" . PHP_EOL . PHP_EOL;
 
         # Check to see if this subject is properly formatted... as close to SQL injection protection as we can get
-        if (substr($Subject, 0, 6) == "Code: " && ctype_alnum(substr($Subject, 6, 30)) && strlen($Subject) == 36) {
+        if (substr($Subject, 0, 10) == "SVC Code: " && ctype_alnum(substr($Subject, 10, 30)) && strlen($Subject) == 40) {
 
 
             # See if this code matches anything in the database
@@ -60,6 +60,30 @@ if($emails) {
                 $DescLength = $DescStop - $DescStart;
                 $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
                 $output = '[' . time() . '] ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription . ';2;1;;bpeters-AD;Acknowledged by: ' . $Sender;
+                $command = 'echo "' . $output . '" > /usr/local/nagios/var/rw/nagios.cmd';
+
+                # Write to the command processor
+                shell_exec($command);
+                echo $command;
+
+            }
+
+        # Check to see if this subject is properly formatted... as close to SQL injection protection as we can get
+        } else if (substr($Subject, 0, 11) == "HOST Code: " && ctype_alnum(substr($Subject, 11, 30)) && strlen($Subject) == 41) {
+
+            # See if this code matches anything in the database
+            $matches = $Lansweeper->getCommentsByCode($Subject);
+            if (count($matches) > 0) {
+
+                # Now we know it's a valid code.  Get the info about this server
+                $ServerDetails = $Lansweeper->getServersDetailsByID($matches[0]['AssetID']);
+
+                # Process the Acknlowedgement
+                $DescStart = strpos($matches[0]['Comment'], '(') + 1;
+                $DescStop = strpos($matches[0]['Comment'], ')');
+                $DescLength = $DescStop - $DescStart;
+                $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
+                $output = '[' . time() . '] ACKNOWLEDGE_HOST_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';2;1;;bpeters-AD;Acknowledged by: ' . $Sender;
                 $command = 'echo "' . $output . '" > /usr/local/nagios/var/rw/nagios.cmd';
 
                 # Write to the command processor
