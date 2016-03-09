@@ -129,8 +129,9 @@ if($NotifyType=="RECOVERY") {
  } else {
   $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
  }
-  $body .= "To acknowledge this alert and prevent further notifications, please click this link: <A HREF='mailto:ext_windowsnagios@emich.edu?Subject=" . $code . "&Body=Please%20do%20not%20edit%20the%20subject%20or%20body%20of%20this%20email.%20%20By%20sending%20this%20email%20as-is%2C%20our%20Nagios%20system%20will%20process%20this%20acknowledgement.'>linkText</A>";
-}
+  $body .= "<h3>How Can I Acknowledge This / Stop Getting Notifed?</h3>";
+  $body .= "To acknowledge this alert and prevent further notifications, send an email to 'ext_windowsnagios@emich.edu' with the subject: '<b>Code: " . $code . "</b>.  The message contents do not matter.<br><br>";
+  $body .= "If you are using an email client, you may instead simply click this link for a pre-generated email: <A HREF='mailto:ext_windowsnagios@emich.edu?Subject=Code:%20" . $code . "&Body=Please%20do%20not%20edit%20the%20subject%20or%20body%20of%20this%20email.%20%20By%20sending%20this%20email%20as-is%2C%20our%20Nagios%20system%20will%20process%20this%20acknowledgement.'>Acknowledgement Email</A>";}
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
  
