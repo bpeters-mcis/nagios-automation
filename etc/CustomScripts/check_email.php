@@ -66,6 +66,8 @@ if($emails) {
                 shell_exec($command);
                 echo $command;
 
+            } else {
+                echo "No matches found for " . $Subject;
             }
 
         # Check to see if this subject is properly formatted... as close to SQL injection protection as we can get
@@ -90,6 +92,8 @@ if($emails) {
                 shell_exec($command);
                 echo $command;
 
+            } else {
+                echo "No matches found for " . $Subject;
             }
 
         } else {
