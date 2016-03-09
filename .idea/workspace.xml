@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/check_email.sh" afterPath="$PROJECT_DIR$/etc/check_email.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,13 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.807693">
-              <caret line="72" column="224" selection-start-line="72" selection-start-column="224" selection-end-line="72" selection-end-column="224" />
+            <state vertical-scroll-proportion="0.6292835">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
               <folding>
-                <marker date="1457542796330" expanded="true" signature="1495:1509" placeholder="..." />
+                <marker date="1457542868360" expanded="true" signature="1495:1509" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -70,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48909658">
+            <state vertical-scroll-proportion="-18.115385">
               <caret line="137" column="383" selection-start-line="137" selection-start-column="273" selection-end-line="137" selection-end-column="383" />
               <folding>
                 <marker date="1457542796320" expanded="true" signature="3176:3190" placeholder="..." />
@@ -754,25 +752,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.807693">
-          <caret line="72" column="224" selection-start-line="72" selection-start-column="224" selection-end-line="72" selection-end-column="224" />
-          <folding>
-            <marker date="1457542796330" expanded="true" signature="1495:1509" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48909658">
+        <state vertical-scroll-proportion="-18.115385">
           <caret line="137" column="383" selection-start-line="137" selection-start-column="273" selection-end-line="137" selection-end-column="383" />
           <folding>
             <marker date="1457542796320" expanded="true" signature="3176:3190" placeholder="..." />
             <marker date="1457542796320" expanded="true" signature="4888:4901" placeholder="..." />
             <marker date="1457542796320" expanded="true" signature="4997:5010" placeholder="..." />
             <marker date="1457542796320" expanded="true" signature="5117:5130" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6292835">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding>
+            <marker date="1457542868360" expanded="true" signature="1495:1509" placeholder="..." />
           </folding>
         </state>
       </provider>
