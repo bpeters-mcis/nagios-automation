@@ -13,7 +13,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
 # Open up a lansweeper connection, as we'll need it later
 $Lansweeper = new LansweeperDB();
 
-$matches = $Lansweeper->getCommentsByCode('00f6cb4b4efd69cc80cf3b7cd07ba2');
+$matches = $Lansweeper->getCommentsByCode('f98afcf4686d9f9c9a402e3404cf46');
 
 print_r($matches);
 
@@ -23,11 +23,12 @@ if (count($matches) > 0) {
     $ServerDetails = $Lansweeper->getServersDetailsByID($matches[0]['AssetID']);
 
     # Process the Acknlowedgement
-    $DescStart = strpos($matches[0]['Comment'], '(');
+    $Comment = 'By email from: ' . $
+    $DescStart = strpos($matches[0]['Comment'], '(') + 1;
     $DescStop = strpos($matches[0]['Comment'], ')');
     $DescLength = $DescStop - $DescStart;
     $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
-    $output = 'ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription;
+    $output = 'ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription . ';2;1;;bpeters-AD;Aknowledged by: ' . $Sender
 
     echo $output;
 

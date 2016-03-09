@@ -40,11 +40,13 @@ if($emails) {
         # Get the subject line
         $Subject = $overview->subject;
 
+        echo PHP_EOL . $Subject . PHP_EOL;
+        echo "===========================================" . PHP_EOL . PHP_EOL;
+
         # Check to see if this subject is properly formatted... as close to SQL injection protection as we can get
         if (substr($Subject, 0, 6) == "Code: " && ctype_alnum(substr($Subject, 6, 30)) && strlen($Subject) == 36) {
 
 
-            echo "Would process this message! " . $Subject . PHP_EOL;
             # See if this code matches anything in the database
             $matches = $Lansweeper->getCommentsByCode($Subject);
             if (count($matches) > 0) {
@@ -53,18 +55,18 @@ if($emails) {
                 $ServerDetails = $Lansweeper->getServersDetailsByID($matches[0]['AssetID']);
 
                 # Process the Acknlowedgement
-                $DescStart = strpos($matches[0]['Comment'], '(');
+                $DescStart = strpos($matches[0]['Comment'], '(') + 1;
                 $DescStop = strpos($matches[0]['Comment'], ')');
                 $DescLength = $DescStop - $DescStart;
                 $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
-                $output = 'ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription;
+                $output = '[' . time() . '] ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription . ';2;1;;bpeters-AD;Acknowledged by: ' . $Sender;
+                $command = 'echo "' . $output . '" > /usr/local/nagios/var/rw/nagios.cmd';
 
-                echo $output;
-
+                # Write to the command processor
+                shell_exec($command);
+                echo $command;
 
             }
-
-
 
         } else {
 
@@ -81,12 +83,13 @@ if($emails) {
                 $body =  "Your recent attempt at acknowledging a Nagios outage has failed.\r\n";
                 $body .= "This is most likely caused by having the wrong subject line in your email.  The subject should be: 'Code: (code from your outage)'\r\n";
                 $body .= "As an example, it could be: 'Code: 00f6cb4b4efd69cc80cf3b7cd07ba2'  Please try again.";
-                #mail($to, $subject, $body, $headers);
+                mail($to, $subject, $body, $headers);
             }
-            print_r($senderDomain);
 
-            #imap_delete($inbox, $email_number);
         }
+
+    # Done processing, delete the email
+    imap_delete($inbox, $email_number);
 
     }
 }

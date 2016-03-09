@@ -265,8 +265,6 @@ class LansweeperDB
 
     # This function gets any comments containing a specified code
     function getCommentsByCode($code) {
-        $time = time();
-        $mintime = $time - 30;
         $sql="SELECT Comment, AssetID FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
         $result = array();
         $query=mssql_query($sql);
