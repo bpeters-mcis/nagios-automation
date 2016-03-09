@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/check_email.sh" afterPath="$PROJECT_DIR$/etc/check_email.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
@@ -25,13 +26,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43509865">
-              <caret line="74" column="326" selection-start-line="74" selection-start-column="326" selection-end-line="74" selection-end-column="326" />
+            <state vertical-scroll-proportion="-14.807693">
+              <caret line="72" column="224" selection-start-line="72" selection-start-column="224" selection-end-line="72" selection-end-column="224" />
               <folding>
-                <marker date="1457540248468" expanded="true" signature="1495:1509" placeholder="..." />
+                <marker date="1457542796330" expanded="true" signature="1495:1509" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.076923">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_email.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48909658">
+              <caret line="137" column="383" selection-start-line="137" selection-start-column="273" selection-end-line="137" selection-end-column="383" />
+              <folding>
+                <marker date="1457542796320" expanded="true" signature="3176:3190" placeholder="..." />
+                <marker date="1457542796320" expanded="true" signature="4888:4901" placeholder="..." />
+                <marker date="1457542796320" expanded="true" signature="4997:5010" placeholder="..." />
+                <marker date="1457542796320" expanded="true" signature="5117:5130" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,8 +114,8 @@
         <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
-        <option value="$PROJECT_DIR$/etc/check_email.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
+        <option value="$PROJECT_DIR$/etc/check_email.sh" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
       </list>
@@ -597,28 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.529595">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="149" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6417445">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
@@ -653,14 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8078868">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="167" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03437816">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -706,25 +728,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33852544">
-          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.076923">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
-            <marker date="1457540248458" expanded="true" signature="3176:3190" placeholder="..." />
-            <marker date="1457540248458" expanded="true" signature="4888:4901" placeholder="..." />
-            <marker date="1457540248458" expanded="true" signature="4997:5010" placeholder="..." />
-            <marker date="1457540248458" expanded="true" signature="5117:5130" placeholder="..." />
+            <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43509865">
-          <caret line="74" column="326" selection-start-line="74" selection-start-column="326" selection-end-line="74" selection-end-column="326" />
+        <state vertical-scroll-proportion="-14.807693">
+          <caret line="72" column="224" selection-start-line="72" selection-start-column="224" selection-end-line="72" selection-end-column="224" />
           <folding>
-            <marker date="1457540248468" expanded="true" signature="1495:1509" placeholder="..." />
+            <marker date="1457542796330" expanded="true" signature="1495:1509" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48909658">
+          <caret line="137" column="383" selection-start-line="137" selection-start-column="273" selection-end-line="137" selection-end-column="383" />
+          <folding>
+            <marker date="1457542796320" expanded="true" signature="3176:3190" placeholder="..." />
+            <marker date="1457542796320" expanded="true" signature="4888:4901" placeholder="..." />
+            <marker date="1457542796320" expanded="true" signature="4997:5010" placeholder="..." />
+            <marker date="1457542796320" expanded="true" signature="5117:5130" placeholder="..." />
           </folding>
         </state>
       </provider>
