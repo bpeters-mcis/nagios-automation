@@ -66,14 +66,19 @@ if($NotifyType=="RECOVERY") {
 
 } else {
  $body .= "<h3>What Should I Do?</h3>";
- $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
+
+
+ # If this is not an acknloledgement, include a link for people to kill notification.
+ if ($NotifyType != "ACKNOWLEDGEMENT") {
+  $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
+  $body .= "<h3>How Can I Acknowledge This Service Alert / Stop Getting Notifed About This Service?</h3>";
+  $body .= "To acknowledge this alert and prevent further notifications, simply click this link for a pre-generated email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=HOST Code: " . $code . "'>Acknlowledgement Link</a><br><br>";
+ } else {
+  $body .= "This outage has been " . $Comments . ".  If you have questions, please contact them to check on the outage status and what steps have been taken to resolve the issue.";
+ }
 
 }
-# If this is not an acknloledgement, include a link for people to kill notification.
-if ($NotifyType != "ACKNOWLEDGEMENT") {
- $body .= "<h3>How Can I Acknowledge This Host Alert / Stop Getting Notifed About This Host?</h3>";
- $body .= "To acknowledge this alert and prevent further notifications, simply click this link for a pre-generated email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=HOST Code: " . $code . "'>Acknlowledgement Link</a><br><br>";
-}
+
 
  $body .= "<br/> \r\n";
  $body .= "</body></html> \r\n";
