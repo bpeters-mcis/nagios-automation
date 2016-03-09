@@ -20,7 +20,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  $To  =array_shift($argv);
  $Totalup  =array_shift($argv);
  $Totaldown=array_shift($argv);
- $Comments = array_shift($argv)
+ $Comments = array_shift($argv);
  $f_color="#dddddd";
 
  if($HostState=="WARNING") {$f_color="#f48400";}
