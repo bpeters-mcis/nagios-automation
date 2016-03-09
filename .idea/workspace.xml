@@ -149,12 +149,12 @@
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3997923">
-              <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
+              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
               <folding>
-                <marker date="1457534245705" expanded="true" signature="3176:3190" placeholder="..." />
-                <marker date="1457534245705" expanded="true" signature="4880:4893" placeholder="..." />
-                <marker date="1457534245705" expanded="true" signature="4989:5002" placeholder="..." />
-                <marker date="1457534245705" expanded="true" signature="5109:5122" placeholder="..." />
+                <marker date="1457534614402" expanded="true" signature="3176:3190" placeholder="..." />
+                <marker date="1457534614402" expanded="true" signature="4880:4893" placeholder="..." />
+                <marker date="1457534614402" expanded="true" signature="4989:5002" placeholder="..." />
+                <marker date="1457534614402" expanded="true" signature="5109:5122" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -840,12 +840,12 @@
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3997923">
-          <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding>
-            <marker date="1457534245705" expanded="true" signature="3176:3190" placeholder="..." />
-            <marker date="1457534245705" expanded="true" signature="4880:4893" placeholder="..." />
-            <marker date="1457534245705" expanded="true" signature="4989:5002" placeholder="..." />
-            <marker date="1457534245705" expanded="true" signature="5109:5122" placeholder="..." />
+            <marker date="1457534614402" expanded="true" signature="3176:3190" placeholder="..." />
+            <marker date="1457534614402" expanded="true" signature="4880:4893" placeholder="..." />
+            <marker date="1457534614402" expanded="true" signature="4989:5002" placeholder="..." />
+            <marker date="1457534614402" expanded="true" signature="5109:5122" placeholder="..." />
           </folding>
         </state>
       </provider>
