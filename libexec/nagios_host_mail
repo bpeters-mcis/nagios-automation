@@ -20,6 +20,7 @@ include('/usr/local/nagios/etc/CustomScripts/Classes.php');
  $To  =array_shift($argv);
  $Totalup  =array_shift($argv);
  $Totaldown=array_shift($argv);
+ $Comments = array_shift($argv)
  $f_color="#dddddd";
 
  if($HostState=="WARNING") {$f_color="#f48400";}
@@ -51,8 +52,9 @@ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers'
  $body .= "<tr bgcolor=#fefefe><td><b>Host:</b></td><td><font color=#005500><b>$HostName ($HostAlias)</b></font></td></tr>\r\n";
  $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Additional Info:</b></td><td>$HostOutput</td></tr></table>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Additional Info:</b></td><td>$HostOutput</td></tr>\r\n";
  $body .= "<tr bgcolor=#fefefe><td><b>Downtime Window:</b></td><td><font color=#005555>$Downtime</font></td></tr>\r\n";
+ $body .= "<tr bgcolor=#eeeeee><td><b>Comments:</b></td><td>$Comments</td></tr></table>\r\n";
  $body .= "<br> \r\n";
  $body .= "<h3>Why Am I Getting This Notification?</h3>";
  $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
