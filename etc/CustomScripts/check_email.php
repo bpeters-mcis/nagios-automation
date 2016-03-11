@@ -66,6 +66,10 @@ if($emails) {
                 shell_exec($command);
                 echo $command;
 
+                # Strip the code out of the database
+                $newComment = substr($matches[0]['Comment'], 0, -44);
+                $update = $Lansweeper->updateComment($matches[0]['CommentID'], $newComment);
+
             } else {
                 echo "No matches found for " . $Subject;
             }
@@ -91,6 +95,10 @@ if($emails) {
                 # Write to the command processor
                 shell_exec($command);
                 echo $command;
+
+                # Strip the code out of the database
+                $newComment = substr($matches[0]['Comment'], 0, -45);
+                $update = $Lansweeper->updateComment($matches[0]['CommentID'], $newComment);
 
             } else {
                 echo "No matches found for " . $Subject;

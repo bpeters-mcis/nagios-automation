@@ -265,7 +265,7 @@ class LansweeperDB
 
     # This function gets any comments containing a specified code
     function getCommentsByCode($code) {
-        $sql="SELECT Comment, AssetID FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
+        $sql="SELECT Comment, AssetID, CommentID FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
         $result = array();
         $query=mssql_query($sql);
         if (mssql_num_rows($query)) {
@@ -280,6 +280,13 @@ class LansweeperDB
     # This function adds a comment to the Lansweeper record for the server
     function addComment($AssetID, $Comment) {
         $sql = "INSERT INTO tblAssetComments (AssetID, Comment, AddedBy) VALUES ('" . $AssetID . "','" . $Comment . "','Nagios')";
+        $result = mssql_query($sql);
+        return $result;
+    }
+
+    # This function updates comments
+    function updateComment($CommentID, $text) {
+        $sql = "UPDATE tblAssetComments (Comment) VALUES ('" . $text . "') WHERE tblAssetComments.CommentID = '" . $CommentID . "'";
         $result = mssql_query($sql);
         return $result;
     }
