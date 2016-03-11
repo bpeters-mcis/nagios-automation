@@ -59,7 +59,7 @@ if($emails) {
                 $DescStop = strpos($matches[0]['Comment'], ')');
                 $DescLength = $DescStop - $DescStart;
                 $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
-                $output = '[' . time() . '] ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription . ';2;1;;bpeters-AD;Acknowledged by: ' . $Sender;
+                $output = '[' . time() . '] ACKNOWLEDGE_SVC_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';' . $ServiceDescription . ';2;1;1;bpeters-AD;Acknowledged by: ' . $Sender;
                 $command = 'echo "' . $output . '" > /usr/local/nagios/var/rw/nagios.cmd';
 
                 # Write to the command processor
@@ -89,7 +89,7 @@ if($emails) {
                 $DescStop = strpos($matches[0]['Comment'], ')');
                 $DescLength = $DescStop - $DescStart;
                 $ServiceDescription = substr($matches[0]['Comment'], $DescStart, $DescLength);
-                $output = '[' . time() . '] ACKNOWLEDGE_HOST_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';2;1;;bpeters-AD;Acknowledged by: ' . $Sender;
+                $output = '[' . time() . '] ACKNOWLEDGE_HOST_PROBLEM;' . $ServerDetails[0]['AssetName'] . ';2;1;1;bpeters-AD;Acknowledged by: ' . $Sender;
                 $command = 'echo "' . $output . '" > /usr/local/nagios/var/rw/nagios.cmd';
 
                 # Write to the command processor
