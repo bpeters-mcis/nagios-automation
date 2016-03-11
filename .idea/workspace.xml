@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Config.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5503634">
-              <caret line="83" column="80" selection-start-line="83" selection-start-column="80" selection-end-line="83" selection-end-column="80" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.961538">
+            <state vertical-scroll-proportion="0.64693666">
               <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
               <folding />
             </state>
@@ -168,9 +168,9 @@
         <option value="$PROJECT_DIR$/etc/check_email.sh" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
       </list>
     </option>
   </component>
@@ -779,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.961538">
-          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.384615">
@@ -822,11 +814,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5503634">
-          <caret line="83" column="80" selection-start-line="83" selection-start-column="80" selection-end-line="83" selection-end-column="80" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64693666">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
