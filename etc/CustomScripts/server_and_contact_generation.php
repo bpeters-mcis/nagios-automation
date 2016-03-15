@@ -23,9 +23,12 @@ include('Config.php');
 ###################################################################################################################################
 
 # Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything, or our config files get wrecked!
-if ($Servers = new LansweeperDB()) {
+$Servers = new LansweeperDB();
+$list = $Servers->getServersWithNagios();
+$LDAP = new LDAP();
+$test2 = $LDAP->getGroupUsers(Config::$AdminGroup);
 
-    if ($LDAP = new LDAP()) {
+if (!empty($list) && !empty($test2)) {
 
         # Get a list of all the services we're monitoring
         $Inventory = new MonitorDB();
@@ -160,9 +163,6 @@ if ($Servers = new LansweeperDB()) {
 
         # Place the restricted users into the file
         file_put_contents(Config::$NagiosPath . 'etc/cgi_new.cfg', $lines);
-
-        # Get all the servers, to find the contact info
-        $list = $Servers->getServersWithNagios();
 
         # Use this data to pull all individual contacts out, and add them to our array
         foreach ($list as $server) {
@@ -367,6 +367,5 @@ if ($Servers = new LansweeperDB()) {
 
         # Send the list of servers to the nagios config file
         file_put_contents(Config::$NagiosPath . 'etc/objects/servers_from_lansweeper_new.cfg', $output);
-    }
 }
 ?>
