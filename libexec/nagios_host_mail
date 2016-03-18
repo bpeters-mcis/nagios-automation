@@ -1,74 +1,88 @@
 #!/usr/bin/php -c /etc/php.ini
 
 <?php
+/**
+ * Created by PhpStorm.
+ * User: bpeters
+ * Date: 3/15/2016
+ * Time: 9:22 AM
+ */
 
- # Includes
+# Includes
 include('/usr/local/nagios/etc/CustomScripts/Config.php');
 include('/usr/local/nagios/etc/CustomScripts/Classes.php');
- 
- array_shift($argv);
- $NotificationType =array_shift($argv);
- $HostName =array_shift($argv);
- $HostGroupName =array_shift($argv);
- $HostAlias =array_shift($argv);
- $HostState =array_shift($argv);
- $HostAddress =array_shift($argv);
- $HostOutput =array_shift($argv);
- $DateTime =array_shift($argv);
- $ServiceDescription  =array_shift($argv);
- $ServiceState  =array_shift($argv);
- $To  =array_shift($argv);
- $Totalup  =array_shift($argv);
- $Totaldown=array_shift($argv);
- $Comments = array_shift($argv);
- $f_color="#dddddd";
 
- if($HostState=="WARNING") {$f_color="#f48400";}
- if($HostState=="CRITICAL") {$f_color="#f40000";}
- if($HostState=="OK") {$f_color="#00b71a";}
- if($HostState=="UNKNOWN") {$f_color="#cc00de";}
+# Take all the arguments passed by the Nagios engine, and set the variables accordingly
+array_shift($argv);
+$NotificationType = array_shift($argv);
+$HostName = array_shift($argv);
+$HostGroupName = array_shift($argv);
+$HostAlias = array_shift($argv);
+$HostState = array_shift($argv);
+$HostAddress = array_shift($argv);
+$HostOutput = array_shift($argv);
+$DateTime = array_shift($argv);
+$ServiceDescription  = array_shift($argv);
+$ServiceState  = array_shift($argv);
+$To  = array_shift($argv);
+$Totalup  = array_shift($argv);
+$Totaldown= array_shift($argv);
+$Comments = array_shift($argv);
+$f_color="#dddddd";
 
- # Get the Lansweeper assetID for this system
- $Lansweeper = new LansweeperDB();
- $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
- $Downtime = $Lansweeper->getPatchGroup($AssetID);
+# Set our background color depending on the type of notification
+if($HostState=="WARNING") {$f_color="#f48400";}
+if($HostState=="CRITICAL") {$f_color="#f40000";}
+if($HostState=="OK") {$f_color="#00b71a";}
+if($HostState=="UNKNOWN") {$f_color="#cc00de";}
 
- # Generate a service code for this outage
- $code = $HostName . $HostAlias . $DateTime . $HostGroupName;
- $code = md5($code);
- $code = substr($code, 2, 30);
+# Get the Lansweeper assetID for this system
+$Lansweeper = new LansweeperDB();
+$AssetID = $Lansweeper->getAssetIDByName($HostAlias);
+$Downtime = $Lansweeper->getPatchGroup($AssetID);
 
+# Generate a service code for this outage.  This is used by the acknowledgement system, and must be unique
+$code = $HostName . $HostAlias . $DateTime . $HostGroupName;
+$code = md5($code);
+$code = substr($code, 2, 30);
 
+# Check which hostgroup this is.  We use that to set a custom subject if necessary
 if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers' ) {
  $subject = "Printer Issue - Nagios Warning";
 } else {
  $subject = "$NotificationType Host: $HostName";
 }
- 
- $from  ="windowsteam@emich.edu";
- $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Information Technology - Windows Systems Team: Host Report Details</h2><br>";
- $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
- $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font color=#ffffff><b>$NotifyType [$HostState]</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Host:</b></td><td><font color=#005500><b>$HostName ($HostAlias)</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Additional Info:</b></td><td>$HostOutput</td></tr>\r\n";
- $body .= "<tr bgcolor=#fefefe><td><b>Downtime Window:</b></td><td><font color=#005555>$Downtime</font></td></tr>\r\n";
- $body .= "<tr bgcolor=#eeeeee><td><b>Comments:</b></td><td>$Comments</td></tr></table>\r\n";
- $body .= "<br> \r\n";
- $body .= "<h3>Why Am I Getting This Notification?</h3>";
- $body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
 
+# Set our email headers
+$headers = "From: $from\r\n";
+$headers = $headers."Content-type: text/html\r\n";
+
+# Generate the actual email body
+$from  ="windowsteam@emich.edu";
+$body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Information Technology - Windows Systems Team: Host Report Details</h2><br>";
+$body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
+$body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font color=#ffffff><b>$NotifyType [$HostState]</b></font></td></tr>\r\n";
+$body .= "<tr bgcolor=#fefefe><td><b>Host:</b></td><td><font color=#005500><b>$HostName ($HostAlias)</b></font></td></tr>\r\n";
+$body .= "<tr bgcolor=#eeeeee><td><b>Address:</b></td><td><font color=#005555><b>$HostAddress</b></font></td></tr>\r\n";
+$body .= "<tr bgcolor=#fefefe><td><b>Date/Time:</b></td><td><font color=#005555>$DateTime</font></td></tr>\r\n";
+$body .= "<tr bgcolor=#eeeeee><td><b>Additional Info:</b></td><td>$HostOutput</td></tr>\r\n";
+$body .= "<tr bgcolor=#fefefe><td><b>Downtime Window:</b></td><td><font color=#005555>$Downtime</font></td></tr>\r\n";
+$body .= "<tr bgcolor=#eeeeee><td><b>Comments:</b></td><td>$Comments</td></tr></table>\r\n";
+$body .= "<br> \r\n";
+$body .= "<h3>Why Am I Getting This Notification?</h3>";
+$body .= "You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n";
+
+# Now customize the end of the email, depending on the notification type
 if($NotificationType=="RECOVERY") {
 
  $body .= "<h3>What Should I Do?</h3>";
  $body .= "The service is back online, so you do not need to do anything.<br/><br> \r\n";
 
 } else {
+
  $body .= "<h3>What Should I Do?</h3>";
 
-
- # If this is not an acknloledgement, include a link for people to kill notification.
+ # If this is not an acknowledgement, include a link for people to kill notification.
  if ($NotificationType != "ACKNOWLEDGEMENT") {
   $body .= "The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n";
   $body .= "<h3>How Can I Acknowledge This Service Alert / Stop Getting Notifed About This Service?</h3>";
@@ -79,22 +93,16 @@ if($NotificationType=="RECOVERY") {
 
 }
 
+# Finish up the email body
+$body .= "<br/> \r\n";
+$body .= "</body></html> \r\n";
 
- $body .= "<br/> \r\n";
- $body .= "</body></html> \r\n";
- 
- $headers = "From: $from\r\n";
- $headers = $headers."Content-type: text/html\r\n"; 
-
- /* Send eMail Now... */
- mail($To, $subject, $body, $headers);
+# Send the email!
+mail($To, $subject, $body, $headers);
 
 # Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing Ben Peters
+# The problem is that email notifications are processed in parallel, not serial; so if we don't control this, the database will get multiple code copies and notifications!
 $comment = $subject . " -- HOST Code: " . $code;
 if ($To == 'bpeters@emich.edu') {
  $Lansweeper->addComment($AssetID, $comment);
 }
-
-?>
-
-
