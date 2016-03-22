@@ -2,7 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/Nagios.iml" afterPath="$PROJECT_DIR$/etc/.idea/Nagios.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/encodings.xml" afterPath="$PROJECT_DIR$/etc/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/misc.xml" afterPath="$PROJECT_DIR$/etc/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/modules.xml" afterPath="$PROJECT_DIR$/etc/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/vcs.xml" afterPath="$PROJECT_DIR$/etc/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/etc/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/nagios.cfg" afterPath="$PROJECT_DIR$/etc/nagios.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/contacts.cfg" afterPath="$PROJECT_DIR$/etc/objects/contacts.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/localhost.cfg" afterPath="$PROJECT_DIR$/etc/objects/localhost.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/printer.cfg" afterPath="$PROJECT_DIR$/etc/objects/printer.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/switch.cfg" afterPath="$PROJECT_DIR$/etc/objects/switch.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/templates.cfg" afterPath="$PROJECT_DIR$/etc/objects/templates.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/timeperiods.cfg" afterPath="$PROJECT_DIR$/etc/objects/timeperiods.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/windows.cfg" afterPath="$PROJECT_DIR$/etc/objects/windows.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/resource.cfg" afterPath="$PROJECT_DIR$/etc/resource.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/schedule_downtime.sh" afterPath="$PROJECT_DIR$/etc/schedule_downtime.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_breeze" afterPath="$PROJECT_DIR$/libexec/check_breeze" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_disk_smb" afterPath="$PROJECT_DIR$/libexec/check_disk_smb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_file_age" afterPath="$PROJECT_DIR$/libexec/check_file_age" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_flexlm" afterPath="$PROJECT_DIR$/libexec/check_flexlm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ifoperstatus" afterPath="$PROJECT_DIR$/libexec/check_ifoperstatus" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ifstatus" afterPath="$PROJECT_DIR$/libexec/check_ifstatus" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ircd" afterPath="$PROJECT_DIR$/libexec/check_ircd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_log" afterPath="$PROJECT_DIR$/libexec/check_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_mailq" afterPath="$PROJECT_DIR$/libexec/check_mailq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_oracle" afterPath="$PROJECT_DIR$/libexec/check_oracle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_printer_paper" afterPath="$PROJECT_DIR$/libexec/check_printer_paper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_rpc" afterPath="$PROJECT_DIR$/libexec/check_rpc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_sensors" afterPath="$PROJECT_DIR$/libexec/check_sensors" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_snmp_printer" afterPath="$PROJECT_DIR$/libexec/check_snmp_printer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_wave" afterPath="$PROJECT_DIR$/libexec/check_wave" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/cpp.old" afterPath="$PROJECT_DIR$/libexec/cpp.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/utils.pm" afterPath="$PROJECT_DIR$/libexec/utils.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/utils.sh" afterPath="$PROJECT_DIR$/libexec/utils.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js" afterPath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js.map" afterPath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/ui-bootstrap-tpls-0.12.0.min.js" afterPath="$PROJECT_DIR$/share/angularjs/ui-bootstrap-tpls-0.12.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" afterPath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/config.inc.php" afterPath="$PROJECT_DIR$/share/config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A1.html" afterPath="$PROJECT_DIR$/share/contexthelp/A1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A2.html" afterPath="$PROJECT_DIR$/share/contexthelp/A2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A3.html" afterPath="$PROJECT_DIR$/share/contexthelp/A3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A4.html" afterPath="$PROJECT_DIR$/share/contexthelp/A4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A5.html" afterPath="$PROJECT_DIR$/share/contexthelp/A5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A6.html" afterPath="$PROJECT_DIR$/share/contexthelp/A6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A7.html" afterPath="$PROJECT_DIR$/share/contexthelp/A7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/B1.html" afterPath="$PROJECT_DIR$/share/contexthelp/B1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/C1.html" afterPath="$PROJECT_DIR$/share/contexthelp/C1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/D1.html" afterPath="$PROJECT_DIR$/share/contexthelp/D1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/E1.html" afterPath="$PROJECT_DIR$/share/contexthelp/E1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/F1.html" afterPath="$PROJECT_DIR$/share/contexthelp/F1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G1.html" afterPath="$PROJECT_DIR$/share/contexthelp/G1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G2.html" afterPath="$PROJECT_DIR$/share/contexthelp/G2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G3.html" afterPath="$PROJECT_DIR$/share/contexthelp/G3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G4.html" afterPath="$PROJECT_DIR$/share/contexthelp/G4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G5.html" afterPath="$PROJECT_DIR$/share/contexthelp/G5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G6.html" afterPath="$PROJECT_DIR$/share/contexthelp/G6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H1.html" afterPath="$PROJECT_DIR$/share/contexthelp/H1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H2.html" afterPath="$PROJECT_DIR$/share/contexthelp/H2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H3.html" afterPath="$PROJECT_DIR$/share/contexthelp/H3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H4.html" afterPath="$PROJECT_DIR$/share/contexthelp/H4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H5.html" afterPath="$PROJECT_DIR$/share/contexthelp/H5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H6.html" afterPath="$PROJECT_DIR$/share/contexthelp/H6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H7.html" afterPath="$PROJECT_DIR$/share/contexthelp/H7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H8.html" afterPath="$PROJECT_DIR$/share/contexthelp/H8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I1.html" afterPath="$PROJECT_DIR$/share/contexthelp/I1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I2.html" afterPath="$PROJECT_DIR$/share/contexthelp/I2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I3.html" afterPath="$PROJECT_DIR$/share/contexthelp/I3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I4.html" afterPath="$PROJECT_DIR$/share/contexthelp/I4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I5.html" afterPath="$PROJECT_DIR$/share/contexthelp/I5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I6.html" afterPath="$PROJECT_DIR$/share/contexthelp/I6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I7.html" afterPath="$PROJECT_DIR$/share/contexthelp/I7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I8.html" afterPath="$PROJECT_DIR$/share/contexthelp/I8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I9.html" afterPath="$PROJECT_DIR$/share/contexthelp/I9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/J1.html" afterPath="$PROJECT_DIR$/share/contexthelp/J1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/K1.html" afterPath="$PROJECT_DIR$/share/contexthelp/K1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L1.html" afterPath="$PROJECT_DIR$/share/contexthelp/L1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L10.html" afterPath="$PROJECT_DIR$/share/contexthelp/L10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L11.html" afterPath="$PROJECT_DIR$/share/contexthelp/L11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L12.html" afterPath="$PROJECT_DIR$/share/contexthelp/L12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L13.html" afterPath="$PROJECT_DIR$/share/contexthelp/L13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L2.html" afterPath="$PROJECT_DIR$/share/contexthelp/L2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L3.html" afterPath="$PROJECT_DIR$/share/contexthelp/L3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L4.html" afterPath="$PROJECT_DIR$/share/contexthelp/L4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L5.html" afterPath="$PROJECT_DIR$/share/contexthelp/L5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L6.html" afterPath="$PROJECT_DIR$/share/contexthelp/L6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L7.html" afterPath="$PROJECT_DIR$/share/contexthelp/L7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L8.html" afterPath="$PROJECT_DIR$/share/contexthelp/L8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L9.html" afterPath="$PROJECT_DIR$/share/contexthelp/L9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M1.html" afterPath="$PROJECT_DIR$/share/contexthelp/M1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M2.html" afterPath="$PROJECT_DIR$/share/contexthelp/M2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M3.html" afterPath="$PROJECT_DIR$/share/contexthelp/M3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M4.html" afterPath="$PROJECT_DIR$/share/contexthelp/M4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M5.html" afterPath="$PROJECT_DIR$/share/contexthelp/M5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M6.html" afterPath="$PROJECT_DIR$/share/contexthelp/M6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N1.html" afterPath="$PROJECT_DIR$/share/contexthelp/N1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N2.html" afterPath="$PROJECT_DIR$/share/contexthelp/N2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N3.html" afterPath="$PROJECT_DIR$/share/contexthelp/N3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N4.html" afterPath="$PROJECT_DIR$/share/contexthelp/N4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N5.html" afterPath="$PROJECT_DIR$/share/contexthelp/N5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N6.html" afterPath="$PROJECT_DIR$/share/contexthelp/N6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N7.html" afterPath="$PROJECT_DIR$/share/contexthelp/N7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/d3/d3.min.js" afterPath="$PROJECT_DIR$/share/d3/d3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/graph-header.html" afterPath="$PROJECT_DIR$/share/graph-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-form.html" afterPath="$PROJECT_DIR$/share/histogram-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-graph.html" afterPath="$PROJECT_DIR$/share/histogram-graph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-links.html" afterPath="$PROJECT_DIR$/share/histogram-links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram.html" afterPath="$PROJECT_DIR$/share/histogram.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/share/includes/jquery-1.7.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/extlib/Snoopy.class.inc" afterPath="$PROJECT_DIR$/share/includes/rss/extlib/Snoopy.class.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_cache.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_cache.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_fetch.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_fetch.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_parse.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_parse.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_utils.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_utils.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/utils.inc.php" afterPath="$PROJECT_DIR$/share/includes/utils.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index.php" afterPath="$PROJECT_DIR$/share/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index_old.php" afterPath="$PROJECT_DIR$/share/index_old.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index_working.php" afterPath="$PROJECT_DIR$/share/index_working.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/infobox.html" afterPath="$PROJECT_DIR$/share/infobox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-events.js" afterPath="$PROJECT_DIR$/share/js/histogram-events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-form.js" afterPath="$PROJECT_DIR$/share/js/histogram-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-graph.js" afterPath="$PROJECT_DIR$/share/js/histogram-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram.js" afterPath="$PROJECT_DIR$/share/js/histogram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/share/js/jquery-1.7.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/jsonquery.js" afterPath="$PROJECT_DIR$/share/js/jsonquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map-directive.js" afterPath="$PROJECT_DIR$/share/js/map-directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map-form.js" afterPath="$PROJECT_DIR$/share/js/map-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map.js" afterPath="$PROJECT_DIR$/share/js/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/nagios-decorations.js" afterPath="$PROJECT_DIR$/share/js/nagios-decorations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/nagios-time.js" afterPath="$PROJECT_DIR$/share/js/nagios-time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends-form.js" afterPath="$PROJECT_DIR$/share/js/trends-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends-graph.js" afterPath="$PROJECT_DIR$/share/js/trends-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends.js" afterPath="$PROJECT_DIR$/share/js/trends.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/jsonquery.html" afterPath="$PROJECT_DIR$/share/jsonquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/main.php" afterPath="$PROJECT_DIR$/share/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-directive.html" afterPath="$PROJECT_DIR$/share/map-directive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-form.html" afterPath="$PROJECT_DIR$/share/map-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-links.html" afterPath="$PROJECT_DIR$/share/map-links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-popup.html" afterPath="$PROJECT_DIR$/share/map-popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map.html" afterPath="$PROJECT_DIR$/share/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/robots.txt" afterPath="$PROJECT_DIR$/share/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corebanner.php" afterPath="$PROJECT_DIR$/share/rss-corebanner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corefeed.html" afterPath="$PROJECT_DIR$/share/rss-corefeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corefeed.php" afterPath="$PROJECT_DIR$/share/rss-corefeed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-newsfeed.html" afterPath="$PROJECT_DIR$/share/rss-newsfeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-newsfeed.php" afterPath="$PROJECT_DIR$/share/rss-newsfeed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/side.php" afterPath="$PROJECT_DIR$/share/side.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/spin/spin.min.js" afterPath="$PROJECT_DIR$/share/spin/spin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/avail.css" afterPath="$PROJECT_DIR$/share/stylesheets/avail.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/checksanity.css" afterPath="$PROJECT_DIR$/share/stylesheets/checksanity.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/cmd.css" afterPath="$PROJECT_DIR$/share/stylesheets/cmd.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/config.css" afterPath="$PROJECT_DIR$/share/stylesheets/config.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/extinfo.css" afterPath="$PROJECT_DIR$/share/stylesheets/extinfo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/histogram.css" afterPath="$PROJECT_DIR$/share/stylesheets/histogram.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/histogramgraph.css" afterPath="$PROJECT_DIR$/share/stylesheets/histogramgraph.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/history.css" afterPath="$PROJECT_DIR$/share/stylesheets/history.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/jsonquery.css" afterPath="$PROJECT_DIR$/share/stylesheets/jsonquery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/map-directive.css" afterPath="$PROJECT_DIR$/share/stylesheets/map-directive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/map.css" afterPath="$PROJECT_DIR$/share/stylesheets/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/ministatus.css" afterPath="$PROJECT_DIR$/share/stylesheets/ministatus.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/notifications.css" afterPath="$PROJECT_DIR$/share/stylesheets/notifications.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/outages.css" afterPath="$PROJECT_DIR$/share/stylesheets/outages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/showlog.css" afterPath="$PROJECT_DIR$/share/stylesheets/showlog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/status.css" afterPath="$PROJECT_DIR$/share/stylesheets/status.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/statusmap.css" afterPath="$PROJECT_DIR$/share/stylesheets/statusmap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/summary.css" afterPath="$PROJECT_DIR$/share/stylesheets/summary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/tac.css" afterPath="$PROJECT_DIR$/share/stylesheets/tac.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/trends.css" afterPath="$PROJECT_DIR$/share/stylesheets/trends.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/trendsgraph.css" afterPath="$PROJECT_DIR$/share/stylesheets/trendsgraph.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/test.php" afterPath="$PROJECT_DIR$/share/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-form.html" afterPath="$PROJECT_DIR$/share/trends-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-graph.html" afterPath="$PROJECT_DIR$/share/trends-graph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-host-yaxis.html" afterPath="$PROJECT_DIR$/share/trends-host-yaxis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-links.html" afterPath="$PROJECT_DIR$/share/trends-links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-service-yaxis.html" afterPath="$PROJECT_DIR$/share/trends-service-yaxis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends.html" afterPath="$PROJECT_DIR$/share/trends.html" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +207,7 @@
       <file leaf-file-name="check_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
+            <state relative-caret-position="340">
               <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
@@ -36,31 +216,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6188069">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="-2023">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
+      <file leaf-file-name="localhost.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/localhost.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switch.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/switch.cfg">
+      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -69,8 +259,18 @@
       <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="110" selection-end-column="5" />
+            <state relative-caret-position="302">
+              <caret line="171" column="84" selection-start-line="171" selection-start-column="84" selection-end-line="171" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -79,21 +279,9 @@
       <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+            <state relative-caret-position="458">
+              <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <marker date="1458048511964" expanded="true" signature="1999:2013" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +298,6 @@
         <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification.php" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
-        <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/database_ldap_class.php" />
         <option value="$PROJECT_DIR$/etc/group_contact_generation.php" />
         <option value="$PROJECT_DIR$/libexec/check_printer_paper" />
@@ -133,6 +320,10 @@
         <option value="$PROJECT_DIR$/libexec/service-mail-temp.php" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
+        <option value="$PROJECT_DIR$/etc/nagios.cfg" />
       </list>
     </option>
   </component>
@@ -146,8 +337,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="26" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -176,7 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,7 +382,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -202,25 +392,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libexec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -230,38 +406,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nagios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CustomScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +458,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -310,11 +469,14 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -323,15 +485,20 @@
       <changelist id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="" />
       <created>1454507488727</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1454507488727</updated>
+      <workItem from="1458668103650" duration="788000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="788000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
+    <frame x="0" y="26" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -385,348 +552,290 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="235" column="51" selection-start-line="235" selection-start-column="32" selection-end-line="235" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="570" column="17" selection-start-line="570" selection-start-column="17" selection-end-line="570" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="570" column="17" selection-start-line="570" selection-start-column="17" selection-end-line="570" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.862069">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8650052">
+        <state relative-caret-position="0">
           <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_email_notification">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.423676">
+        <state relative-caret-position="0">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_nrpe">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/printer.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_printer_paper">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="876" column="31" selection-start-line="876" selection-start-column="31" selection-end-line="876" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_snmp_printer">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="856" column="98" selection-start-line="856" selection-start-column="98" selection-end-line="856" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3265925">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5472482">
+        <state relative-caret-position="0">
           <caret line="31" column="115" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/update_printers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22345804">
+        <state relative-caret-position="0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.529595">
+        <state relative-caret-position="0">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19418484">
+        <state relative-caret-position="0">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8078868">
+        <state relative-caret-position="0">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="167" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
+        <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <marker date="1458048511964" expanded="true" signature="1999:2013" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8744814">
+        <state relative-caret-position="0">
           <caret line="284" column="5" selection-start-line="284" selection-start-column="5" selection-end-line="284" selection-end-column="5" />
-          <folding>
-            <marker date="1457709464926" expanded="true" signature="2358:3718" placeholder="Select Top 1..." />
-            <marker date="1457709464926" expanded="true" signature="4064:5094" placeholder="Select Top 1..." />
-            <marker date="1457709464926" expanded="true" signature="4064:5111" placeholder="Select Top 1..." />
-            <marker date="1457709464926" expanded="true" signature="4064:5112" placeholder="Select Top 1..." />
-            <marker date="1457709464926" expanded="true" signature="5465:5589" placeholder="Select tblAs..." />
-            <marker date="1457709464926" expanded="true" signature="5465:5590" placeholder="Select tblAs..." />
-            <marker date="1457709464926" expanded="true" signature="5465:5603" placeholder="Select Top 1..." />
-            <marker date="1457709464926" expanded="true" signature="6139:6838" placeholder="Select Top 1..tblComputersystem..." />
-            <marker date="1457709464926" expanded="true" signature="7388:8146" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1457709464926" expanded="true" signature="7797:8036" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1457709464926" expanded="true" signature="8631:9391" placeholder="Select Top 1..tblAssets..." />
-            <marker date="1457709464926" expanded="true" signature="9040:9281" placeholder="Select tblSo..tblSoftware..." />
-            <marker date="1457709464926" expanded="true" signature="9880:9939" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457709464926" expanded="true" signature="9880:9953" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457709464926" expanded="true" signature="9880:9954" placeholder="Select Asset..tblAssets..." />
-            <marker date="1457709464926" expanded="true" signature="10333:10478" placeholder="SELECT * FRO..tblAssetComments..." />
-            <marker date="1457709464926" expanded="true" signature="10897:11121" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457709464926" expanded="true" signature="11487:11625" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457709464926" expanded="true" signature="11487:11640" placeholder="SELECT Comme..tblAssetComments..." />
-            <marker date="1457709464926" expanded="true" signature="12024:12136" placeholder="INSERT INTO tblAssetComments..." />
-            <marker date="1457709464926" expanded="true" signature="13042:13084" placeholder="SELECT id, C..services..." />
-            <marker date="1457709464926" expanded="true" signature="13394:13438" placeholder="SELECT * fro..service_details..." />
-            <marker date="1457709464926" expanded="true" signature="14018:14099" placeholder="SELECT CODE ..service_details..." />
-            <marker date="1457709464926" expanded="true" signature="14297:14343" placeholder="SELECT Resol..services..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034343433">
+        <state relative-caret-position="0">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2821577">
+        <state relative-caret-position="0">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
+        <state relative-caret-position="340">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
@@ -736,54 +845,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45850623">
+        <state relative-caret-position="0">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="e#38#122#0#PHP" expanded="true" />
-            <marker date="1458048814941" expanded="true" signature="3462:3476" placeholder="..." />
-            <marker date="1458048814941" expanded="true" signature="5160:5173" placeholder="..." />
-            <marker date="1458048814941" expanded="true" signature="5268:5281" placeholder="..." />
-            <marker date="1458048814941" expanded="true" signature="5387:5400" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
+        <state relative-caret-position="306">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/switch.cfg">
+    <entry file="file://$PROJECT_DIR$/etc/objects/localhost.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="110" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6188069">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="-2023">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/switch.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="171" column="84" selection-start-line="171" selection-start-column="84" selection-end-line="171" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
