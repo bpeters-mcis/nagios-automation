@@ -2,187 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/Nagios.iml" afterPath="$PROJECT_DIR$/etc/.idea/Nagios.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/encodings.xml" afterPath="$PROJECT_DIR$/etc/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/misc.xml" afterPath="$PROJECT_DIR$/etc/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/modules.xml" afterPath="$PROJECT_DIR$/etc/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/vcs.xml" afterPath="$PROJECT_DIR$/etc/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/etc/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/nagios.cfg" afterPath="$PROJECT_DIR$/etc/nagios.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/contacts.cfg" afterPath="$PROJECT_DIR$/etc/objects/contacts.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/localhost.cfg" afterPath="$PROJECT_DIR$/etc/objects/localhost.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/printer.cfg" afterPath="$PROJECT_DIR$/etc/objects/printer.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/switch.cfg" afterPath="$PROJECT_DIR$/etc/objects/switch.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/templates.cfg" afterPath="$PROJECT_DIR$/etc/objects/templates.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/timeperiods.cfg" afterPath="$PROJECT_DIR$/etc/objects/timeperiods.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/windows.cfg" afterPath="$PROJECT_DIR$/etc/objects/windows.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/resource.cfg" afterPath="$PROJECT_DIR$/etc/resource.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/schedule_downtime.sh" afterPath="$PROJECT_DIR$/etc/schedule_downtime.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_breeze" afterPath="$PROJECT_DIR$/libexec/check_breeze" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_disk_smb" afterPath="$PROJECT_DIR$/libexec/check_disk_smb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_file_age" afterPath="$PROJECT_DIR$/libexec/check_file_age" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_flexlm" afterPath="$PROJECT_DIR$/libexec/check_flexlm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ifoperstatus" afterPath="$PROJECT_DIR$/libexec/check_ifoperstatus" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ifstatus" afterPath="$PROJECT_DIR$/libexec/check_ifstatus" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ircd" afterPath="$PROJECT_DIR$/libexec/check_ircd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_log" afterPath="$PROJECT_DIR$/libexec/check_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_mailq" afterPath="$PROJECT_DIR$/libexec/check_mailq" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_oracle" afterPath="$PROJECT_DIR$/libexec/check_oracle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_printer_paper" afterPath="$PROJECT_DIR$/libexec/check_printer_paper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_rpc" afterPath="$PROJECT_DIR$/libexec/check_rpc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_sensors" afterPath="$PROJECT_DIR$/libexec/check_sensors" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_snmp_printer" afterPath="$PROJECT_DIR$/libexec/check_snmp_printer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_wave" afterPath="$PROJECT_DIR$/libexec/check_wave" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/cpp.old" afterPath="$PROJECT_DIR$/libexec/cpp.old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/utils.pm" afterPath="$PROJECT_DIR$/libexec/utils.pm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/utils.sh" afterPath="$PROJECT_DIR$/libexec/utils.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js" afterPath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js.map" afterPath="$PROJECT_DIR$/share/angularjs/angular-1.3.9/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/ui-bootstrap-tpls-0.12.0.min.js" afterPath="$PROJECT_DIR$/share/angularjs/ui-bootstrap-tpls-0.12.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" afterPath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/share/bootstrap-3.3.0/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/config.inc.php" afterPath="$PROJECT_DIR$/share/config.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A1.html" afterPath="$PROJECT_DIR$/share/contexthelp/A1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A2.html" afterPath="$PROJECT_DIR$/share/contexthelp/A2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A3.html" afterPath="$PROJECT_DIR$/share/contexthelp/A3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A4.html" afterPath="$PROJECT_DIR$/share/contexthelp/A4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A5.html" afterPath="$PROJECT_DIR$/share/contexthelp/A5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A6.html" afterPath="$PROJECT_DIR$/share/contexthelp/A6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/A7.html" afterPath="$PROJECT_DIR$/share/contexthelp/A7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/B1.html" afterPath="$PROJECT_DIR$/share/contexthelp/B1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/C1.html" afterPath="$PROJECT_DIR$/share/contexthelp/C1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/D1.html" afterPath="$PROJECT_DIR$/share/contexthelp/D1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/E1.html" afterPath="$PROJECT_DIR$/share/contexthelp/E1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/F1.html" afterPath="$PROJECT_DIR$/share/contexthelp/F1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G1.html" afterPath="$PROJECT_DIR$/share/contexthelp/G1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G2.html" afterPath="$PROJECT_DIR$/share/contexthelp/G2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G3.html" afterPath="$PROJECT_DIR$/share/contexthelp/G3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G4.html" afterPath="$PROJECT_DIR$/share/contexthelp/G4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G5.html" afterPath="$PROJECT_DIR$/share/contexthelp/G5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/G6.html" afterPath="$PROJECT_DIR$/share/contexthelp/G6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H1.html" afterPath="$PROJECT_DIR$/share/contexthelp/H1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H2.html" afterPath="$PROJECT_DIR$/share/contexthelp/H2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H3.html" afterPath="$PROJECT_DIR$/share/contexthelp/H3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H4.html" afterPath="$PROJECT_DIR$/share/contexthelp/H4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H5.html" afterPath="$PROJECT_DIR$/share/contexthelp/H5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H6.html" afterPath="$PROJECT_DIR$/share/contexthelp/H6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H7.html" afterPath="$PROJECT_DIR$/share/contexthelp/H7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/H8.html" afterPath="$PROJECT_DIR$/share/contexthelp/H8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I1.html" afterPath="$PROJECT_DIR$/share/contexthelp/I1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I2.html" afterPath="$PROJECT_DIR$/share/contexthelp/I2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I3.html" afterPath="$PROJECT_DIR$/share/contexthelp/I3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I4.html" afterPath="$PROJECT_DIR$/share/contexthelp/I4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I5.html" afterPath="$PROJECT_DIR$/share/contexthelp/I5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I6.html" afterPath="$PROJECT_DIR$/share/contexthelp/I6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I7.html" afterPath="$PROJECT_DIR$/share/contexthelp/I7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I8.html" afterPath="$PROJECT_DIR$/share/contexthelp/I8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/I9.html" afterPath="$PROJECT_DIR$/share/contexthelp/I9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/J1.html" afterPath="$PROJECT_DIR$/share/contexthelp/J1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/K1.html" afterPath="$PROJECT_DIR$/share/contexthelp/K1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L1.html" afterPath="$PROJECT_DIR$/share/contexthelp/L1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L10.html" afterPath="$PROJECT_DIR$/share/contexthelp/L10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L11.html" afterPath="$PROJECT_DIR$/share/contexthelp/L11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L12.html" afterPath="$PROJECT_DIR$/share/contexthelp/L12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L13.html" afterPath="$PROJECT_DIR$/share/contexthelp/L13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L2.html" afterPath="$PROJECT_DIR$/share/contexthelp/L2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L3.html" afterPath="$PROJECT_DIR$/share/contexthelp/L3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L4.html" afterPath="$PROJECT_DIR$/share/contexthelp/L4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L5.html" afterPath="$PROJECT_DIR$/share/contexthelp/L5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L6.html" afterPath="$PROJECT_DIR$/share/contexthelp/L6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L7.html" afterPath="$PROJECT_DIR$/share/contexthelp/L7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L8.html" afterPath="$PROJECT_DIR$/share/contexthelp/L8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/L9.html" afterPath="$PROJECT_DIR$/share/contexthelp/L9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M1.html" afterPath="$PROJECT_DIR$/share/contexthelp/M1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M2.html" afterPath="$PROJECT_DIR$/share/contexthelp/M2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M3.html" afterPath="$PROJECT_DIR$/share/contexthelp/M3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M4.html" afterPath="$PROJECT_DIR$/share/contexthelp/M4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M5.html" afterPath="$PROJECT_DIR$/share/contexthelp/M5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/M6.html" afterPath="$PROJECT_DIR$/share/contexthelp/M6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N1.html" afterPath="$PROJECT_DIR$/share/contexthelp/N1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N2.html" afterPath="$PROJECT_DIR$/share/contexthelp/N2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N3.html" afterPath="$PROJECT_DIR$/share/contexthelp/N3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N4.html" afterPath="$PROJECT_DIR$/share/contexthelp/N4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N5.html" afterPath="$PROJECT_DIR$/share/contexthelp/N5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N6.html" afterPath="$PROJECT_DIR$/share/contexthelp/N6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/contexthelp/N7.html" afterPath="$PROJECT_DIR$/share/contexthelp/N7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/d3/d3.min.js" afterPath="$PROJECT_DIR$/share/d3/d3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/graph-header.html" afterPath="$PROJECT_DIR$/share/graph-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-form.html" afterPath="$PROJECT_DIR$/share/histogram-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-graph.html" afterPath="$PROJECT_DIR$/share/histogram-graph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram-links.html" afterPath="$PROJECT_DIR$/share/histogram-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/histogram.html" afterPath="$PROJECT_DIR$/share/histogram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/share/includes/jquery-1.7.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/extlib/Snoopy.class.inc" afterPath="$PROJECT_DIR$/share/includes/rss/extlib/Snoopy.class.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_cache.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_cache.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_fetch.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_fetch.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_parse.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_parse.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/rss/rss_utils.inc" afterPath="$PROJECT_DIR$/share/includes/rss/rss_utils.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/includes/utils.inc.php" afterPath="$PROJECT_DIR$/share/includes/utils.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index.php" afterPath="$PROJECT_DIR$/share/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index_old.php" afterPath="$PROJECT_DIR$/share/index_old.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/index_working.php" afterPath="$PROJECT_DIR$/share/index_working.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/infobox.html" afterPath="$PROJECT_DIR$/share/infobox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-events.js" afterPath="$PROJECT_DIR$/share/js/histogram-events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-form.js" afterPath="$PROJECT_DIR$/share/js/histogram-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram-graph.js" afterPath="$PROJECT_DIR$/share/js/histogram-graph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/histogram.js" afterPath="$PROJECT_DIR$/share/js/histogram.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/share/js/jquery-1.7.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/jsonquery.js" afterPath="$PROJECT_DIR$/share/js/jsonquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map-directive.js" afterPath="$PROJECT_DIR$/share/js/map-directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map-form.js" afterPath="$PROJECT_DIR$/share/js/map-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/map.js" afterPath="$PROJECT_DIR$/share/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/nagios-decorations.js" afterPath="$PROJECT_DIR$/share/js/nagios-decorations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/nagios-time.js" afterPath="$PROJECT_DIR$/share/js/nagios-time.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends-form.js" afterPath="$PROJECT_DIR$/share/js/trends-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends-graph.js" afterPath="$PROJECT_DIR$/share/js/trends-graph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/js/trends.js" afterPath="$PROJECT_DIR$/share/js/trends.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/jsonquery.html" afterPath="$PROJECT_DIR$/share/jsonquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/main.php" afterPath="$PROJECT_DIR$/share/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-directive.html" afterPath="$PROJECT_DIR$/share/map-directive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-form.html" afterPath="$PROJECT_DIR$/share/map-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-links.html" afterPath="$PROJECT_DIR$/share/map-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map-popup.html" afterPath="$PROJECT_DIR$/share/map-popup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/map.html" afterPath="$PROJECT_DIR$/share/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/robots.txt" afterPath="$PROJECT_DIR$/share/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corebanner.php" afterPath="$PROJECT_DIR$/share/rss-corebanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corefeed.html" afterPath="$PROJECT_DIR$/share/rss-corefeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-corefeed.php" afterPath="$PROJECT_DIR$/share/rss-corefeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-newsfeed.html" afterPath="$PROJECT_DIR$/share/rss-newsfeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/rss-newsfeed.php" afterPath="$PROJECT_DIR$/share/rss-newsfeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/side.php" afterPath="$PROJECT_DIR$/share/side.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/spin/spin.min.js" afterPath="$PROJECT_DIR$/share/spin/spin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/avail.css" afterPath="$PROJECT_DIR$/share/stylesheets/avail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/checksanity.css" afterPath="$PROJECT_DIR$/share/stylesheets/checksanity.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/cmd.css" afterPath="$PROJECT_DIR$/share/stylesheets/cmd.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/config.css" afterPath="$PROJECT_DIR$/share/stylesheets/config.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/extinfo.css" afterPath="$PROJECT_DIR$/share/stylesheets/extinfo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/histogram.css" afterPath="$PROJECT_DIR$/share/stylesheets/histogram.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/histogramgraph.css" afterPath="$PROJECT_DIR$/share/stylesheets/histogramgraph.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/history.css" afterPath="$PROJECT_DIR$/share/stylesheets/history.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/jsonquery.css" afterPath="$PROJECT_DIR$/share/stylesheets/jsonquery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/map-directive.css" afterPath="$PROJECT_DIR$/share/stylesheets/map-directive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/map.css" afterPath="$PROJECT_DIR$/share/stylesheets/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/ministatus.css" afterPath="$PROJECT_DIR$/share/stylesheets/ministatus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/notifications.css" afterPath="$PROJECT_DIR$/share/stylesheets/notifications.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/outages.css" afterPath="$PROJECT_DIR$/share/stylesheets/outages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/showlog.css" afterPath="$PROJECT_DIR$/share/stylesheets/showlog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/status.css" afterPath="$PROJECT_DIR$/share/stylesheets/status.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/statusmap.css" afterPath="$PROJECT_DIR$/share/stylesheets/statusmap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/summary.css" afterPath="$PROJECT_DIR$/share/stylesheets/summary.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/tac.css" afterPath="$PROJECT_DIR$/share/stylesheets/tac.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/trends.css" afterPath="$PROJECT_DIR$/share/stylesheets/trends.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/trendsgraph.css" afterPath="$PROJECT_DIR$/share/stylesheets/trendsgraph.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/test.php" afterPath="$PROJECT_DIR$/share/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-form.html" afterPath="$PROJECT_DIR$/share/trends-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-graph.html" afterPath="$PROJECT_DIR$/share/trends-graph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-host-yaxis.html" afterPath="$PROJECT_DIR$/share/trends-host-yaxis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-links.html" afterPath="$PROJECT_DIR$/share/trends-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends-service-yaxis.html" afterPath="$PROJECT_DIR$/share/trends-service-yaxis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/trends.html" afterPath="$PROJECT_DIR$/share/trends.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" afterPath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,22 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2023">
+            <state relative-caret-position="-1194">
               <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
@@ -239,28 +47,8 @@
       <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="171" column="84" selection-start-line="171" selection-start-column="84" selection-end-line="171" selection-end-column="84" />
+            <state relative-caret-position="476">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -276,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+            <state relative-caret-position="455">
+              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -322,8 +110,8 @@
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
-        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/nagios.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
       </list>
     </option>
   </component>
@@ -487,12 +275,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454507488727</updated>
-      <workItem from="1458668103650" duration="788000" />
+      <workItem from="1458668103650" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="788000" />
+    <option name="totallyTimeSpent" value="1193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1936" height="1176" extended-state="0" />
@@ -858,26 +646,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/localhost.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2023">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/switch.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/localhost.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -890,10 +670,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="171" column="84" selection-start-line="171" selection-start-column="84" selection-end-line="171" selection-end-column="84" />
+        <state relative-caret-position="455">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -906,18 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
