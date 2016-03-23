@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="" />
+    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" afterPath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
+    </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -46,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="829">
-              <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+              <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -286,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454507488727</updated>
-      <workItem from="1458668103650" duration="6647000" />
+      <workItem from="1458668103650" duration="6709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6647000" />
+    <option name="totallyTimeSpent" value="6709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -718,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="829">
-          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
           <folding />
         </state>
       </provider>
