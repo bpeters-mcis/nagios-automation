@@ -54,12 +54,11 @@ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers'
 }
 
 # Set our email headers
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= "From: Windows Nagios <nagios@winmon.emich.edu>\r\n";
-$headers .= "Reply-to: windowsteam@emich.edu\r\n";
+$headers = "From: windowsteam@emich.edu\r\n";
+$headers .= "Content-type: text/html\r\n";
 
 # Generate the actual email body
+$from  ="windowsteam@emich.edu";
 $body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Information Technology - Windows Systems Team: Host Report Details</h2><br>";
 $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
 $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font color=#ffffff><b>$NotifyType [$HostState]</b></font></td></tr>\r\n";
