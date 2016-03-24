@@ -88,11 +88,11 @@
       <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="60" />
+            <state relative-caret-position="544">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="58" selection-end-column="42" />
               <folding>
                 <element signature="e#38#122#0#PHP" expanded="true" />
-                <marker date="1458838053177" expanded="true" signature="2030:2044" placeholder="..." />
+                <marker date="1458840051365" expanded="true" signature="2077:2091" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -101,14 +101,14 @@
       <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state relative-caret-position="544">
+              <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
               <folding>
                 <element signature="e#38#122#0#PHP" expanded="true" />
-                <marker date="1458838053152" expanded="true" signature="3492:3506" placeholder="..." />
-                <marker date="1458838053152" expanded="true" signature="5190:5203" placeholder="..." />
-                <marker date="1458838053152" expanded="true" signature="5298:5311" placeholder="..." />
-                <marker date="1458838053152" expanded="true" signature="5417:5430" placeholder="..." />
+                <marker date="1458840051328" expanded="true" signature="3547:3561" placeholder="..." />
+                <marker date="1458840051328" expanded="true" signature="5245:5258" placeholder="..." />
+                <marker date="1458840051328" expanded="true" signature="5353:5366" placeholder="..." />
+                <marker date="1458840051328" expanded="true" signature="5472:5485" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -332,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454507488727</updated>
-      <workItem from="1458668103650" duration="9798000" />
+      <workItem from="1458668103650" duration="10600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9798000" />
+    <option name="totallyTimeSpent" value="10600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -757,25 +757,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+        <state relative-caret-position="544">
+          <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
           <folding>
             <element signature="e#38#122#0#PHP" expanded="true" />
-            <marker date="1458838053152" expanded="true" signature="3492:3506" placeholder="..." />
-            <marker date="1458838053152" expanded="true" signature="5190:5203" placeholder="..." />
-            <marker date="1458838053152" expanded="true" signature="5298:5311" placeholder="..." />
-            <marker date="1458838053152" expanded="true" signature="5417:5430" placeholder="..." />
+            <marker date="1458840051328" expanded="true" signature="3547:3561" placeholder="..." />
+            <marker date="1458840051328" expanded="true" signature="5245:5258" placeholder="..." />
+            <marker date="1458840051328" expanded="true" signature="5353:5366" placeholder="..." />
+            <marker date="1458840051328" expanded="true" signature="5472:5485" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="60" />
+        <state relative-caret-position="544">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="58" selection-end-column="42" />
           <folding>
             <element signature="e#38#122#0#PHP" expanded="true" />
-            <marker date="1458838053177" expanded="true" signature="2030:2044" placeholder="..." />
+            <marker date="1458840051365" expanded="true" signature="2077:2091" placeholder="..." />
           </folding>
         </state>
       </provider>

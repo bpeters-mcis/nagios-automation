@@ -54,8 +54,9 @@ if ($HostGroupName == 'IT-Kiosk-Printers' || $HostGroupName == 'IT-Lab-Printers'
 }
 
 # Set our email headers
-$headers = "From: $from\r\nReply-to: windowsteam@emich.edu";
-$headers = $headers."Content-type: text/html\r\n";
+$headers = "From: Windows Nagios <nagios@winmon.emich.edu>\r\n";
+$headers .= "Reply-to: windowsteam@emich.edu\r\n";
+$headers .= "Content-type: text/html\r\n";
 
 # Generate the actual email body
 $from  ="windowsteam@emich.edu";
