@@ -10,7 +10,7 @@ if [ -f /home/akirkland1/printers.csv ]; then
     find /home/akirkland1 -type f -mtime +30 -exec rm {} \;
 
     # Run the PHP script to generate a new config file for lab printers
-    php /usr/local/nagios/etc/lab_printer_generation.php
+    php /usr/local/nagios/etc/CustomScripts/lab_printer_generation.php
 
     # Delete the uploaded CSV
     mv /home/akirkland1/printers.csv /home/akirkland1/printers._$(date +%F).csv
