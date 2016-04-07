@@ -6,8 +6,8 @@
  * Time: 2:56 PM
  */
 
-include('Config.php');
-$handle = fopen(Config::$PrinterCSV, "r");
+include('/usr/local/nagios/etc/CustomScripts/Config.php');
+$handle = fopen('/home/akirkland1/printers.csv', "r");
 
 if ($handle) {
 
@@ -111,8 +111,8 @@ if ($handle) {
         $line = fgets($handle);
         $line = explode("," , $line);
 
-        $PrinterName = $line[0];
-        $PrinterIP = substr($line[1], 6);
+        $PrinterName = $line[1];
+        $PrinterIP = substr($line[2], 6);
 
 
 
@@ -130,7 +130,7 @@ if ($handle) {
         }
 
         # Determine host group based on if the printer name contains "Kiosk" or not.
-        if (strpos($line[3], 'Kiosk') !== FALSE) {
+        if (strpos($line[4], 'Kiosk') !== FALSE) {
             $hostgroup = 'IT-Kiosk-Printers';
             $hosttemplate = 'it-kiosk-printer';
         } else {
@@ -142,7 +142,7 @@ if ($handle) {
             $output .= 'define host{' . PHP_EOL;
             $output .= '    use                     ' . $hosttemplate . PHP_EOL;
             $output .= '    host_name               ' . $PrinterName . PHP_EOL;
-            $output .= '    alias                   ' . rtrim($line[3]) . ' - ' . $line[2] . PHP_EOL;
+            $output .= '    alias                   ' . rtrim($line[3]) . ' - ' . $line[1] . PHP_EOL;
             $output .= '    address                 ' . $PrinterIP . PHP_EOL;
             $output .= '    hostgroups              ' . $hostgroup . PHP_EOL;
             $output .= '}' . PHP_EOL;
@@ -238,7 +238,7 @@ if ($handle) {
 
     }
 
-    file_put_contents(Config::$NagiosPath . 'etc/objects/lab_printers.cfg', $output);
+    file_put_contents('/home/akirkland1/lab_printers.cfg', $output);
 
     # Email Lab Manager about new printers being uploaded
 
