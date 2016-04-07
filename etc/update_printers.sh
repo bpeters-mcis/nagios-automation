@@ -13,7 +13,7 @@ if [ -f /home/akirkland1/printers.csv ]; then
     php /usr/local/nagios/etc/lab_printer_generation.php
 
     # Delete the uploaded CSV
-    mv /home/akirkland1/printers.csv /home/akirkland1/home/akirkland1/printers._$(date +%F).csv
+    mv /home/akirkland1/printers.csv /home/akirkland1/printers._$(date +%F).csv
 
     # Note when this was last run
     touch /usr/local/nagios/etc/Printers_last_imported.txt
