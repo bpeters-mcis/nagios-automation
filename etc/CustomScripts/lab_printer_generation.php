@@ -114,19 +114,20 @@ if ($handle) {
         $PrinterName = $line[1];
         $PrinterIP = substr($line[2], 6);
 
-
-
         # Find out which consumables we can edit on this printer.  Add to the appropriate consumables group
         $consumables = shell_exec(Config::$NagiosPath . 'libexec/check_snmp_printer -H ' . $PrinterIP . ' -C public -x "CONSUM TEST" -w 20 -c 10');
         $consumables = explode(PHP_EOL, $consumables);
 
         foreach ($consumables as $row) {
 
-            if (!isset($ListOfConsumables[$row])) {
-                $ListOfConsumables[$row] = array();
-            }
+            if (strpos($row, 'No SNMP response') == FALSE) {
 
-            array_push($ListOfConsumables[$row], $PrinterName);
+                if (!isset($ListOfConsumables[$row])) {
+                    $ListOfConsumables[$row] = array();
+                }
+
+                array_push($ListOfConsumables[$row], $PrinterName);
+            }
         }
 
         # Determine host group based on if the printer name contains "Kiosk" or not.

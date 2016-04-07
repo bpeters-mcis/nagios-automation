@@ -13,16 +13,14 @@ if [ -f /home/akirkland1/printers.csv ]; then
     php /usr/local/nagios/etc/lab_printer_generation.php
 
     # Delete the uploaded CSV
-    cp /home/akirkland1/printers.csv /home/akirkland1//home/akirkland1/printers._$(date +%F).csv
-    rm /home/akirkland1/printers.csv
+    mv /home/akirkland1/printers.csv /home/akirkland1/home/akirkland1/printers._$(date +%F).csv
 
     # Note when this was last run
     touch /usr/local/nagios/etc/Printers_last_imported.txt
     touch /home/akirkland1/Printers_last_imported.txt
 
     # Replace the config file
-    rm /usr/local/nagios/etc/objects/lab_printers.cfg
-    cp /home/akirkland1/lab_printers.cfg /usr/local/nagios/etc/objects/
+    mv /home/akirkland1/lab_printers.cfg /usr/local/nagios/etc/objects/lab_printers.cfg
     chown nagios:nagios /usr/local/nagios/etc/objects/lab_printers.cfg
 
     # Restart nagios service to load the new configs
