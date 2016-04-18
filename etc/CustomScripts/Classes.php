@@ -322,6 +322,10 @@ class LansweeperDB
         return $result;
     }
 
+    function __destruct() {
+        mssql_close($this->db);
+    }
+
 }
 
 class MonitorDB
