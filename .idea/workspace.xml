@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/windows.cfg" afterPath="$PROJECT_DIR$/etc/objects/windows.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_email_notification" afterPath="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_email_notification" afterPath="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,101 +28,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_servers.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab_printer_generation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2822">
-              <caret line="171" column="77" selection-start-line="171" selection-start-column="77" selection-end-line="171" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_printers.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/update_printers.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4641">
-              <caret line="273" column="34" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+            <state relative-caret-position="340">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="34" />
+              <folding>
+                <marker date="1460983985736" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
+                <marker date="1460983985736" expanded="true" signature="4064:5111" placeholder="Select Top 1... " />
+                <marker date="1460983985736" expanded="true" signature="5453:6496" placeholder="Select Top 1... " />
+                <marker date="1460983985736" expanded="true" signature="5453:6499" placeholder="Select Top 1... " />
+                <marker date="1460983985736" expanded="true" signature="5453:6527" placeholder="Select Top 1... " />
+                <marker date="1460983985736" expanded="true" signature="6862:6987" placeholder="Select tblAs... " />
+                <marker date="1460983985736" expanded="true" signature="7536:8235" placeholder="Select Top 1... tblComputersystem" />
+                <marker date="1460983985736" expanded="true" signature="8785:9543" placeholder="Select Top 1... tblAssets" />
+                <marker date="1460983985736" expanded="true" signature="9194:9433" placeholder="Select tblSo... tblSoftware" />
+                <marker date="1460983985736" expanded="true" signature="10028:10788" placeholder="Select Top 1... tblAssets" />
+                <marker date="1460983985736" expanded="true" signature="10437:10678" placeholder="Select tblSo... tblSoftware" />
+                <marker date="1460983985736" expanded="true" signature="11277:11350" placeholder="Select Asset... tblAssets" />
+                <marker date="1460983985736" expanded="true" signature="11730:11875" placeholder="SELECT * FRO... tblAssetComments" />
+                <marker date="1460983985736" expanded="true" signature="12294:12518" placeholder="SELECT Comme... tblAssetComments" />
+                <marker date="1460983985736" expanded="true" signature="12884:13037" placeholder="SELECT Comme... tblAssetComments" />
+                <marker date="1460983985736" expanded="true" signature="13421:13533" placeholder="INSERT INTO tblAssetComments... " />
+                <marker date="1460983985736" expanded="true" signature="14439:14481" placeholder="SELECT id, C... services" />
+                <marker date="1460983985736" expanded="true" signature="14791:14835" placeholder="SELECT * fro... service_details" />
+                <marker date="1460983985736" expanded="true" signature="15415:15496" placeholder="SELECT CODE service_details" />
+                <marker date="1460983985736" expanded="true" signature="15694:15740" placeholder="SELECT Resol... services" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios_service_email_notification" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_email_notification">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="e#38#121#0#PHP" expanded="true" />
+                <marker date="1460984532746" expanded="true" signature="1437:3122" placeholder="..." />
+                <marker date="1460984532746" expanded="true" signature="1456:3042" placeholder="..." />
+                <marker date="1460984532746" expanded="true" signature="1456:3106" placeholder="..." />
+                <marker date="1460984532746" expanded="false" signature="1485:1499" placeholder="..." />
+                <marker date="1460984532746" expanded="false" signature="1601:1626" placeholder="..." />
+                <marker date="1460984532746" expanded="true" signature="1627:2351" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios_host_email_notification" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <marker date="1460984532781" expanded="true" signature="1034:2375" placeholder="..." />
+                <marker date="1460984532781" expanded="true" signature="1053:2359" placeholder="..." />
+                <marker date="1460984532781" expanded="false" signature="1082:1096" placeholder="..." />
+                <marker date="1460984532781" expanded="false" signature="1195:1220" placeholder="..." />
+                <marker date="1460984532781" expanded="true" signature="1221:1760" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="182" />
+              <folding>
+                <marker date="1460984483362" expanded="true" signature="3717:3731" placeholder="..." />
+                <marker date="1460984483362" expanded="true" signature="5415:5428" placeholder="..." />
+                <marker date="1460984483362" expanded="true" signature="5523:5536" placeholder="..." />
+                <marker date="1460984483362" expanded="true" signature="5642:5655" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="43" column="182" selection-start-line="43" selection-start-column="182" selection-end-line="43" selection-end-column="182" />
+              <folding>
+                <marker date="1460984483336" expanded="true" signature="2247:2261" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,9 +149,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification.php" />
-        <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification.php" />
-        <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
         <option value="$PROJECT_DIR$/etc/database_ldap_class.php" />
         <option value="$PROJECT_DIR$/etc/group_contact_generation.php" />
         <option value="$PROJECT_DIR$/libexec/check_printer_paper" />
@@ -147,7 +160,6 @@
         <option value="$PROJECT_DIR$/etc/check_restart.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/test.php" />
         <option value="$PROJECT_DIR$/etc/check_email.sh" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
@@ -157,8 +169,6 @@
         <option value="$PROJECT_DIR$/etc/nagios.cfg" />
         <option value="$PROJECT_DIR$/temp.sh" />
         <option value="$PROJECT_DIR$/temp2.sh" />
-        <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
-        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/etc/update_printers.sh" />
         <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
@@ -166,6 +176,11 @@
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+        <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
+        <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
+        <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
+        <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
       </list>
     </option>
   </component>
@@ -368,12 +383,12 @@
       <workItem from="1460037502926" duration="3599000" />
       <workItem from="1460562278816" duration="4033000" />
       <workItem from="1460728327455" duration="707000" />
-      <workItem from="1460981046555" duration="52000" />
+      <workItem from="1460981046555" duration="1822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28066000" />
+    <option name="totallyTimeSpent" value="29836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
@@ -587,20 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_email_notification">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/check_nrpe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -650,24 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="284" column="5" selection-start-line="284" selection-start-column="5" selection-end-line="284" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -694,40 +681,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp2.sh" />
     <entry file="file://$PROJECT_DIR$/temp.sh" />
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="982">
+          <caret line="273" column="34" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
+        <state relative-caret-position="982">
           <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4641">
-          <caret line="273" column="34" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -742,24 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
+        <state relative-caret-position="956">
           <caret line="171" column="77" selection-start-line="171" selection-start-column="77" selection-end-line="171" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -780,10 +737,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="982">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+        <state relative-caret-position="680">
+          <caret line="40" column="89" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="34" />
+          <folding>
+            <marker date="1460983985736" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
+            <marker date="1460983985736" expanded="true" signature="4064:5111" placeholder="Select Top 1... " />
+            <marker date="1460983985736" expanded="true" signature="5453:6496" placeholder="Select Top 1... " />
+            <marker date="1460983985736" expanded="true" signature="5453:6499" placeholder="Select Top 1... " />
+            <marker date="1460983985736" expanded="true" signature="5453:6527" placeholder="Select Top 1... " />
+            <marker date="1460983985736" expanded="true" signature="6862:6987" placeholder="Select tblAs... " />
+            <marker date="1460983985736" expanded="true" signature="7536:8235" placeholder="Select Top 1... tblComputersystem" />
+            <marker date="1460983985736" expanded="true" signature="8785:9543" placeholder="Select Top 1... tblAssets" />
+            <marker date="1460983985736" expanded="true" signature="9194:9433" placeholder="Select tblSo... tblSoftware" />
+            <marker date="1460983985736" expanded="true" signature="10028:10788" placeholder="Select Top 1... tblAssets" />
+            <marker date="1460983985736" expanded="true" signature="10437:10678" placeholder="Select tblSo... tblSoftware" />
+            <marker date="1460983985736" expanded="true" signature="11277:11350" placeholder="Select Asset... tblAssets" />
+            <marker date="1460983985736" expanded="true" signature="11730:11875" placeholder="SELECT * FRO... tblAssetComments" />
+            <marker date="1460983985736" expanded="true" signature="12294:12518" placeholder="SELECT Comme... tblAssetComments" />
+            <marker date="1460983985736" expanded="true" signature="12884:13037" placeholder="SELECT Comme... tblAssetComments" />
+            <marker date="1460983985736" expanded="true" signature="13421:13533" placeholder="INSERT INTO tblAssetComments... " />
+            <marker date="1460983985736" expanded="true" signature="14439:14481" placeholder="SELECT id, C... services" />
+            <marker date="1460983985736" expanded="true" signature="14791:14835" placeholder="SELECT * fro... service_details" />
+            <marker date="1460983985736" expanded="true" signature="15415:15496" placeholder="SELECT CODE service_details" />
+            <marker date="1460983985736" expanded="true" signature="15694:15740" placeholder="SELECT Resol... services" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_email_notification">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#38#121#0#PHP" expanded="true" />
+            <marker date="1460984532746" expanded="true" signature="1437:3122" placeholder="..." />
+            <marker date="1460984532746" expanded="true" signature="1456:3042" placeholder="..." />
+            <marker date="1460984532746" expanded="true" signature="1456:3106" placeholder="..." />
+            <marker date="1460984532746" expanded="false" signature="1485:1499" placeholder="..." />
+            <marker date="1460984532746" expanded="false" signature="1601:1626" placeholder="..." />
+            <marker date="1460984532746" expanded="true" signature="1627:2351" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <marker date="1460984532781" expanded="true" signature="1034:2375" placeholder="..." />
+            <marker date="1460984532781" expanded="true" signature="1053:2359" placeholder="..." />
+            <marker date="1460984532781" expanded="false" signature="1082:1096" placeholder="..." />
+            <marker date="1460984532781" expanded="false" signature="1195:1220" placeholder="..." />
+            <marker date="1460984532781" expanded="true" signature="1221:1760" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="182" />
+          <folding>
+            <marker date="1460984483362" expanded="true" signature="3717:3731" placeholder="..." />
+            <marker date="1460984483362" expanded="true" signature="5415:5428" placeholder="..." />
+            <marker date="1460984483362" expanded="true" signature="5523:5536" placeholder="..." />
+            <marker date="1460984483362" expanded="true" signature="5642:5655" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="43" column="182" selection-start-line="43" selection-start-column="182" selection-end-line="43" selection-end-column="182" />
+          <folding>
+            <marker date="1460984483336" expanded="true" signature="2247:2261" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,6 +8,20 @@
  * Time: 9:15 AM
  */
 
+########################################################
+#
+#
+#
+#
+#  THIS IS NOT USED.  Edit "nagios_host_mail" instead!
+#
+#
+#
+#
+#
+#########################################################
+
+
 # Get the variables passed to this system
 $HostName = $argv[1];
 $HostIP = $argv[2];

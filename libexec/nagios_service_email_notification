@@ -8,6 +8,19 @@
  * Time: 9:15 AM
  */
 
+########################################################
+#
+#
+#
+#
+#  THIS IS NOT USED.  Edit "nagios_service_mail" instead!
+#
+#
+#
+#
+#
+#########################################################
+
 # Get the variables passed to this system
 $HostName = $argv[1];
 $HostIP = $argv[2];
@@ -18,6 +31,11 @@ $Time = $argv[6];
 $Contacts = $argv[7];
 $ServiceDescription = $argv[8];
 $ServiceState = $argv[9];
+
+# Get the server information
+$Connection = new LansweeperDB();
+$Details = $Connection->getServersDetailsByName($HostName);
+$Contacts = "Primary OS: " . $Details['Custom01'] . ", Secondary OS: " . $Details['Custom02'] . ", Primary App: " . $Details['Custom03'] . ", Secondary App: " . $Details['Custom04'];
 
 # Create formatting arrays
 $BadNotifications = array('PROBLEM', 'FLAPPINGSTART');
@@ -51,6 +69,9 @@ $body = "<html>
                 You are getting this notification because you have been identified as a contact for this server/service, either personally, or because you belong to a team that was listed.<br/><br> \r\n
                 <b>What Should I Do?</b><br>\r\n
                 The IT Windows Team will reach out to you for further instructions.  If you do anything on this server before then, please notify them at windowsteam@emich.edu to avoid any duplication of efforts.<br/><br> \r\n
+                <br/> \r\n                
+                <b>Who Are The Contacts For This Server??</b><br>\r\n
+                $Contacts<br> \r\n
                 <br/> \r\n
             </body>
         </html> \r\n";
