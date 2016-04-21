@@ -50,7 +50,7 @@ if($ServiceState=="UNKNOWN") {$f_color="#cc00de";}
 $Lansweeper = new LansweeperDB();
 $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
 $Downtime = $Lansweeper->getPatchGroup($AssetID);
-$Details = $Connection->getServersDetailsByID($AssetID);
+$Details = $Lansweeper->getServersDetailsByID($AssetID);
 $Contacts = "Primary OS: " . $Details['Custom01'] . ", Secondary OS: " . $Details['Custom02'] . ", Primary App: " . $Details['Custom03'] . ", Secondary App: " . $Details['Custom04'];
 
 # Generate a service code for this outage
