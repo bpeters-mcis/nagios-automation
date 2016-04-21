@@ -51,7 +51,7 @@ $Lansweeper = new LansweeperDB();
 $AssetID = $Lansweeper->getAssetIDByName($HostAlias);
 $Downtime = $Lansweeper->getPatchGroup($AssetID);
 $Details = $Lansweeper->getServersDetailsByID($AssetID);
-$Contacts = "Primary OS: " . $Details['Primary OS Contact'] . ", Secondary OS: " . $Details['Secondary OS Contact'] . ", Primary App: " . $Details['Primary App Contact'] . ", Secondary App: " . $Details['Secondary App Contact'];
+$Contacts = "Primary OS: " . $Details[0]['Primary OS Contact'] . ", Secondary OS: " . $Details[0]['Secondary OS Contact'] . ", Primary App: " . $Details[0]['Primary App Contact'] . ", Secondary App: " . $Details[0]['Secondary App Contact'];
 
 # Generate a service code for this outage
 $code = $HostName . $HostAlias . $DateTime . $ServiceDescription;
