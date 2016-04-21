@@ -35,7 +35,7 @@ $ServiceState = $argv[9];
 # Get the server information
 $Connection = new LansweeperDB();
 $Details = $Connection->getServersDetailsByName($HostName);
-$Contacts = "Primary OS: " . $Details['Custom01'] . ", Secondary OS: " . $Details['Custom02'] . ", Primary App: " . $Details['Custom03'] . ", Secondary App: " . $Details['Custom04'];
+$Contacts = "Primary OS: " . $Details['Primary OS Contact'] . ", Secondary OS: " . $Details['Secondary OS Contact'] . ", Primary App: " . $Details['Custom03'] . ", Secondary App: " . $Details['Custom04'];
 
 # Create formatting arrays
 $BadNotifications = array('PROBLEM', 'FLAPPINGSTART');
