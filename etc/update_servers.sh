@@ -3,6 +3,9 @@
 # Run the server and group config file generation
 php /usr/local/nagios/etc/CustomScripts/server_and_contact_generation.php
 
+# Run the linux server file generation
+php /usr/local/nagios/etc/CustomScripts/build_linux_definitions.php
+
 # Note when this was last run, for grins
 touch /usr/local/nagios/etc/Servers_last_imported.txt
 
@@ -25,7 +28,7 @@ if [ -f /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg ]; then
         rm /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg
         mv /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/servers_from_lansweeper.cfg
         RESTART="Yes"
-        echo "Server definitions are different."
+        echo "Windows Server definitions are different."
     fi
 
     if cmp -s /usr/local/nagios/etc/objects/contacts_from_ad_new.cfg /usr/local/nagios/etc/objects/contacts_from_ad.cfg ; then
@@ -46,6 +49,18 @@ if [ -f /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg ]; then
         RESTART="Yes"
         echo "CGI definitions are different."
     fi
+
+    if cmp -s /usr/local/nagios/etc/objects/linux_servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/linux_servers_from_lansweeper.cfg ; then
+        rm /usr/local/nagios/etc/objects/linux_servers_from_lansweeper_new.cfg
+    else
+        rm /usr/local/nagios/etc/objects/linux_servers_from_lansweeper.cfg
+        mv /usr/local/nagios/etc/objects/linux_servers_from_lansweeper_new.cfg /usr/local/nagios/etc/objects/linux_servers_from_lansweeper.cfg
+        RESTART="Yes"
+        echo "Linux Server definitions are different."
+    fi
+
+
+
 
     # If we made any changes, go ahead and restart the nagios service, so that we use the new config files
     if [ $RESTART == "Yes" ] ; then
