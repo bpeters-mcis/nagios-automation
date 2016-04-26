@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Config.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/nagios.cfg" afterPath="$PROJECT_DIR$/etc/nagios.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/contacts.cfg" afterPath="$PROJECT_DIR$/etc/objects/contacts.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/templates.cfg" afterPath="$PROJECT_DIR$/etc/objects/templates.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,17 +24,97 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="357">
+                    <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-1547">
+                    <caret line="56" column="48" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="48" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Nagios" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5321">
-              <caret line="318" column="50" selection-start-line="318" selection-start-column="50" selection-end-line="318" selection-end-column="50" />
+            <state relative-caret-position="-1298">
+              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linux.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/linux.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagios.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_linux_definitions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -39,66 +123,44 @@
       <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="688">
+              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
               <folding>
-                <marker date="1460990757113" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
-                <marker date="1460990757113" expanded="true" signature="4064:5111" placeholder="Select Top 1... " />
-                <marker date="1460990757113" expanded="true" signature="5453:6496" placeholder="Select Top 1... " />
-                <marker date="1460990757113" expanded="true" signature="5453:6499" placeholder="Select Top 1... " />
-                <marker date="1460990757113" expanded="true" signature="5453:6527" placeholder="Select Top 1... " />
-                <marker date="1460990757113" expanded="true" signature="6862:6987" placeholder="Select tblAs... " />
-                <marker date="1460990757113" expanded="true" signature="7536:8235" placeholder="Select Top 1... tblComputersystem" />
-                <marker date="1460990757113" expanded="true" signature="8785:9543" placeholder="Select Top 1... tblAssets" />
-                <marker date="1460990757113" expanded="true" signature="9194:9433" placeholder="Select tblSo... tblSoftware" />
-                <marker date="1460990757113" expanded="true" signature="10028:10788" placeholder="Select Top 1... tblAssets" />
-                <marker date="1460990757113" expanded="true" signature="10437:10678" placeholder="Select tblSo... tblSoftware" />
-                <marker date="1460990757113" expanded="true" signature="11277:11350" placeholder="Select Asset... tblAssets" />
-                <marker date="1460990757113" expanded="true" signature="11730:11875" placeholder="SELECT * FRO... tblAssetComments" />
-                <marker date="1460990757113" expanded="true" signature="12294:12518" placeholder="SELECT Comme... tblAssetComments" />
-                <marker date="1460990757113" expanded="true" signature="12884:13037" placeholder="SELECT Comme... tblAssetComments" />
-                <marker date="1460990757113" expanded="true" signature="13421:13533" placeholder="INSERT INTO tblAssetComments... " />
-                <marker date="1460990757113" expanded="true" signature="14506:14548" placeholder="SELECT id, C... services" />
-                <marker date="1460990757113" expanded="true" signature="14858:14902" placeholder="SELECT * fro... service_details" />
-                <marker date="1460990757113" expanded="true" signature="15482:15563" placeholder="SELECT CODE service_details" />
-                <marker date="1460990757113" expanded="true" signature="15761:15807" placeholder="SELECT Resol... services" />
+                <marker date="1461681155011" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="4083:4117" placeholder="Select Asset... tblLinuxSystem" />
+                <marker date="1461681155011" expanded="true" signature="4472:5257" placeholder="Select tblAs... " />
+                <marker date="1461681155011" expanded="true" signature="4472:5623" placeholder="Select tblAs... " />
+                <marker date="1461681155011" expanded="true" signature="5515:5621" placeholder="Select tblAs... " />
+                <marker date="1461681155011" expanded="true" signature="5623:6651" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="5623:6670" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="7012:8055" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="7012:8058" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="7012:8086" placeholder="Select Top 1... " />
+                <marker date="1461681155011" expanded="true" signature="8421:8546" placeholder="Select tblAs... " />
+                <marker date="1461681155011" expanded="true" signature="9095:9794" placeholder="Select Top 1... tblComputersystem" />
+                <marker date="1461681155011" expanded="true" signature="10344:11102" placeholder="Select Top 1... tblAssets" />
+                <marker date="1461681155011" expanded="true" signature="10753:10992" placeholder="Select tblSo... tblSoftware" />
+                <marker date="1461681155011" expanded="true" signature="11587:12347" placeholder="Select Top 1... tblAssets" />
+                <marker date="1461681155011" expanded="true" signature="11996:12237" placeholder="Select tblSo... tblSoftware" />
+                <marker date="1461681155011" expanded="true" signature="12836:12909" placeholder="Select Asset... tblAssets" />
+                <marker date="1461681155011" expanded="true" signature="13289:13434" placeholder="SELECT * FRO... tblAssetComments" />
+                <marker date="1461681155011" expanded="true" signature="13853:14077" placeholder="SELECT Comme... tblAssetComments" />
+                <marker date="1461681155011" expanded="true" signature="14443:14596" placeholder="SELECT Comme... tblAssetComments" />
+                <marker date="1461681155011" expanded="true" signature="14980:15092" placeholder="INSERT INTO tblAssetComments... " />
+                <marker date="1461681155011" expanded="true" signature="16065:16107" placeholder="SELECT id, C... services" />
+                <marker date="1461681155011" expanded="true" signature="16417:16461" placeholder="SELECT * fro... service_details" />
+                <marker date="1461681155011" expanded="true" signature="17041:17122" placeholder="SELECT CODE service_details" />
+                <marker date="1461681155011" expanded="true" signature="17320:17366" placeholder="SELECT Resol... services" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="43" column="214" selection-start-line="43" selection-start-column="214" selection-end-line="43" selection-end-column="214" />
-              <folding>
-                <marker date="1461240852092" expanded="true" signature="2305:2319" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="53" column="214" selection-start-line="53" selection-start-column="214" selection-end-line="53" selection-end-column="214" />
-              <folding>
-                <marker date="1461240852073" expanded="true" signature="3775:3789" placeholder="..." />
-                <marker date="1461240852073" expanded="true" signature="5473:5486" placeholder="..." />
-                <marker date="1461240852073" expanded="true" signature="5581:5594" placeholder="..." />
-                <marker date="1461240852073" expanded="true" signature="5700:5713" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab_printer_generation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="117" column="144" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="144" />
+            <state relative-caret-position="437">
+              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="243" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -107,28 +169,8 @@
       <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="63" column="149" selection-start-line="63" selection-start-column="149" selection-end-line="63" selection-end-column="149" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="564">
+              <caret line="102" column="47" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -155,26 +197,28 @@
         <option value="$PROJECT_DIR$/etc/CustomScripts/test.php" />
         <option value="$PROJECT_DIR$/etc/check_email.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
         <option value="$PROJECT_DIR$/libexec/host_notification_email.php" />
         <option value="$PROJECT_DIR$/libexec/service-mail-temp.php" />
-        <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
-        <option value="$PROJECT_DIR$/etc/nagios.cfg" />
         <option value="$PROJECT_DIR$/temp.sh" />
         <option value="$PROJECT_DIR$/temp2.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/etc/update_printers.sh" />
-        <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+        <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
+        <option value="$PROJECT_DIR$/etc/nagios.cfg" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" />
+        <option value="$PROJECT_DIR$/etc/objects/linux.cfg" />
       </list>
     </option>
   </component>
@@ -218,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,10 +346,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/bpeters/Google Drive/Work Computer/Documents/Deployed Scripts/Nagios/etc/CustomScripts/server_and_contact_generation.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -378,18 +423,19 @@
       <workItem from="1460562278816" duration="4033000" />
       <workItem from="1460728327455" duration="707000" />
       <workItem from="1460981046555" duration="7967000" />
-      <workItem from="1461239897076" duration="954000" />
+      <workItem from="1461239897076" duration="5284000" />
+      <workItem from="1461680669290" duration="2258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36935000" />
+    <option name="totallyTimeSpent" value="43523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,20 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/localhost.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -676,13 +701,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp2.sh" />
     <entry file="file://$PROJECT_DIR$/temp.sh" />
-    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/update_printers.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -697,20 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="89" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -718,41 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="117" column="144" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="63" column="149" selection-start-line="63" selection-start-column="149" selection-end-line="63" selection-end-column="149" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5321">
-          <caret line="318" column="50" selection-start-line="318" selection-start-column="50" selection-end-line="318" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <marker date="1460984532781" expanded="true" signature="1034:2375" placeholder="..." />
-            <marker date="1460984532781" expanded="true" signature="1053:2359" placeholder="..." />
-            <marker date="1460984532781" expanded="false" signature="1082:1096" placeholder="..." />
-            <marker date="1460984532781" expanded="false" signature="1195:1220" placeholder="..." />
-            <marker date="1460984532781" expanded="true" signature="1221:1760" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,54 +745,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <marker date="1460990757113" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
-            <marker date="1460990757113" expanded="true" signature="4064:5111" placeholder="Select Top 1... " />
-            <marker date="1460990757113" expanded="true" signature="5453:6496" placeholder="Select Top 1... " />
-            <marker date="1460990757113" expanded="true" signature="5453:6499" placeholder="Select Top 1... " />
-            <marker date="1460990757113" expanded="true" signature="5453:6527" placeholder="Select Top 1... " />
-            <marker date="1460990757113" expanded="true" signature="6862:6987" placeholder="Select tblAs... " />
-            <marker date="1460990757113" expanded="true" signature="7536:8235" placeholder="Select Top 1... tblComputersystem" />
-            <marker date="1460990757113" expanded="true" signature="8785:9543" placeholder="Select Top 1... tblAssets" />
-            <marker date="1460990757113" expanded="true" signature="9194:9433" placeholder="Select tblSo... tblSoftware" />
-            <marker date="1460990757113" expanded="true" signature="10028:10788" placeholder="Select Top 1... tblAssets" />
-            <marker date="1460990757113" expanded="true" signature="10437:10678" placeholder="Select tblSo... tblSoftware" />
-            <marker date="1460990757113" expanded="true" signature="11277:11350" placeholder="Select Asset... tblAssets" />
-            <marker date="1460990757113" expanded="true" signature="11730:11875" placeholder="SELECT * FRO... tblAssetComments" />
-            <marker date="1460990757113" expanded="true" signature="12294:12518" placeholder="SELECT Comme... tblAssetComments" />
-            <marker date="1460990757113" expanded="true" signature="12884:13037" placeholder="SELECT Comme... tblAssetComments" />
-            <marker date="1460990757113" expanded="true" signature="13421:13533" placeholder="INSERT INTO tblAssetComments... " />
-            <marker date="1460990757113" expanded="true" signature="14506:14548" placeholder="SELECT id, C... services" />
-            <marker date="1460990757113" expanded="true" signature="14858:14902" placeholder="SELECT * fro... service_details" />
-            <marker date="1460990757113" expanded="true" signature="15482:15563" placeholder="SELECT CODE service_details" />
-            <marker date="1460990757113" expanded="true" signature="15761:15807" placeholder="SELECT Resol... services" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="646">
           <caret line="43" column="214" selection-start-line="43" selection-start-column="214" selection-end-line="43" selection-end-column="214" />
           <folding>
             <marker date="1461240852092" expanded="true" signature="2305:2319" placeholder="..." />
@@ -827,16 +755,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="117" column="144" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="53" column="214" selection-start-line="53" selection-start-column="214" selection-end-line="53" selection-end-column="214" />
+        <state relative-caret-position="527">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
           <folding>
             <marker date="1461240852073" expanded="true" signature="3775:3789" placeholder="..." />
             <marker date="1461240852073" expanded="true" signature="5473:5486" placeholder="..." />
             <marker date="1461240852073" expanded="true" signature="5581:5594" placeholder="..." />
             <marker date="1461240852073" expanded="true" signature="5700:5713" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <marker date="1461681155011" expanded="true" signature="2358:3718" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="4083:4117" placeholder="Select Asset... tblLinuxSystem" />
+            <marker date="1461681155011" expanded="true" signature="4472:5257" placeholder="Select tblAs... " />
+            <marker date="1461681155011" expanded="true" signature="4472:5623" placeholder="Select tblAs... " />
+            <marker date="1461681155011" expanded="true" signature="5515:5621" placeholder="Select tblAs... " />
+            <marker date="1461681155011" expanded="true" signature="5623:6651" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="5623:6670" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="7012:8055" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="7012:8058" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="7012:8086" placeholder="Select Top 1... " />
+            <marker date="1461681155011" expanded="true" signature="8421:8546" placeholder="Select tblAs... " />
+            <marker date="1461681155011" expanded="true" signature="9095:9794" placeholder="Select Top 1... tblComputersystem" />
+            <marker date="1461681155011" expanded="true" signature="10344:11102" placeholder="Select Top 1... tblAssets" />
+            <marker date="1461681155011" expanded="true" signature="10753:10992" placeholder="Select tblSo... tblSoftware" />
+            <marker date="1461681155011" expanded="true" signature="11587:12347" placeholder="Select Top 1... tblAssets" />
+            <marker date="1461681155011" expanded="true" signature="11996:12237" placeholder="Select tblSo... tblSoftware" />
+            <marker date="1461681155011" expanded="true" signature="12836:12909" placeholder="Select Asset... tblAssets" />
+            <marker date="1461681155011" expanded="true" signature="13289:13434" placeholder="SELECT * FRO... tblAssetComments" />
+            <marker date="1461681155011" expanded="true" signature="13853:14077" placeholder="SELECT Comme... tblAssetComments" />
+            <marker date="1461681155011" expanded="true" signature="14443:14596" placeholder="SELECT Comme... tblAssetComments" />
+            <marker date="1461681155011" expanded="true" signature="14980:15092" placeholder="INSERT INTO tblAssetComments... " />
+            <marker date="1461681155011" expanded="true" signature="16065:16107" placeholder="SELECT id, C... services" />
+            <marker date="1461681155011" expanded="true" signature="16417:16461" placeholder="SELECT * fro... service_details" />
+            <marker date="1461681155011" expanded="true" signature="17041:17122" placeholder="SELECT CODE service_details" />
+            <marker date="1461681155011" expanded="true" signature="17320:17366" placeholder="SELECT Resol... services" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="102" column="47" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="243" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1547">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/linux.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/nagios.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

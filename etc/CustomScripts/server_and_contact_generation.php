@@ -367,5 +367,10 @@ if (!empty($list) && !empty($test2)) {
 
         # Send the list of servers to the nagios config file
         file_put_contents(Config::$NagiosPath . 'etc/objects/servers_from_lansweeper_new.cfg', $output);
+
+    
 }
+
+$Servers = null;
+$LDAP = null;
 ?>

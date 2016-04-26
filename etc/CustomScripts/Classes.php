@@ -93,6 +93,47 @@ class LansweeperDB
         return $result;
     }
 
+    function getLinuxServersForNagios() {
+        # Get Linux servers AssetIDs
+        $IDs = array();
+        $sql = "Select AssetID from tblLinuxSystem";
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                array_push($IDs, $row['AssetID']);
+            }
+        }
+
+        # Go through each linux AssetID, and get the details for it
+        $servers = array();
+
+        foreach ($IDs as $ID) {
+            $sql = "Select tblAssets.AssetName,
+                  tblAssets.Description,
+                  tblAssetCustom.Manufacturer As [Make],
+                  tblAssetCustom.Custom1 As [Primary OS Contact],
+                  tblAssetCustom.Custom2 As [Secondary OS Contact],
+                  tblAssetCustom.Custom3 As [Primary App Contact],
+                  tblAssetCustom.Custom4 As [Secondary App Contact],
+                  tblAssetCustom.Custom19 AS [NagiosServices],
+                  tblAssetCustom.Custom6 As [Window],
+                  tblAssetCustom.Custom15 As [Monitored],
+                  tblAssets.IPAddress
+                From tblAssets
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                WHERE tblAssets.AssetID = '" . $ID . "'";
+            $query=mssql_query($sql);
+            if (mssql_num_rows($query)) {
+                while ($row = mssql_fetch_assoc($query)) {
+                    array_push($servers, $row);
+                }
+            }
+        }
+
+        return $servers;
+    }
+
+
     # Get the server info by AssetID
     function getServersDetailsByID($AssetID) {
         $sql = "Select Top 1000000 tblAssets.AssetID,
