@@ -24,9 +24,9 @@ include('Config.php');
 
 # Make sure we can even connect to Lansweeper and AD.  If we can't, don't do anything, or our config files get wrecked!
 $Servers = new LansweeperDB();
-$list = $Servers->getServersWithNagios();
-#$LDAP = new LDAP();
-#$test2 = $LDAP->getGroupUsers(Config::$AdminGroup);
+$list = $Servers->getLinuxServersForNagios();
+$LDAP = new LDAP();
+$test2 = $LDAP->getGroupUsers(Config::$AdminGroup);
 
 if (!empty($list) && !empty($test2)) {
 
@@ -53,6 +53,8 @@ if (!empty($list) && !empty($test2)) {
             } else if ($server['Window'] == "Test") {
                 $HostGroups .= ",Downtime-Test-Linux";
             }
+
+            echo "Building " . $server['AssetName'] . PHP_EOL;
 
             # Build the individual host output
             $output .= 'define host{' . PHP_EOL;
