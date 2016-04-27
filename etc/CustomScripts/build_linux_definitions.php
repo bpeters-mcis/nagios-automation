@@ -54,8 +54,6 @@ if (!empty($list) && !empty($test2)) {
                 $HostGroups .= ",Downtime-Test-Linux";
             }
 
-            echo "Building " . $server['AssetName'] . PHP_EOL;
-
             # Build the individual host output
             $output .= 'define host{' . PHP_EOL;
             $output .= '    use             linux-server' . PHP_EOL;

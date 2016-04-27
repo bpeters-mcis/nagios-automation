@@ -5,8 +5,8 @@
 ###################################################################
 
 # Downtime Date Arrays
-TESTDATES=(2016-02-05 2016-02-26 2016-04-01 2016-05-13 2016-06-03)
-PRODDATES=(2016-02-12 2016-03-04 2016-04-08 2016-05-20 2016-06-10)
+TESTDATES=(2016-05-13 2016-06-03 2016-07-15 2016-07-29 2016-09-16 2016-10-07)
+PRODDATES=(2016-05-20 2016-06-10 2016-07-22 2016-08-05 2016-09-23 2016-10-14)
 
 # Get the day of the week, and the full date
 day=$(date +%a)
@@ -34,6 +34,7 @@ if [[ " ${TESTDATES[*]} " == *" $DATE "* ]]; then
     endtime=`date +%s -d "+975 minutes"`
     # Send the downtime request
     echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Test;$starttime;$endtime;1;0;7200;bpeters-AD;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Test;$starttime;$endtime;1;0;7200;bpeters-AD;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 fi
 
@@ -46,5 +47,6 @@ if [[ " ${PRODATES[*]} " == *" $DATE "* ]]; then
     endtime=`date +%s -d "+1350 minutes"`
     # Send the downtime request
     echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Prod;$starttime;$endtime;1;0;7200;bpeters-AD;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Prod;$starttime;$endtime;1;0;7200;bpeters-AD;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 fi

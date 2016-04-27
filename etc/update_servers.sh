@@ -60,8 +60,6 @@ if [ -f /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg ]; then
     fi
 
 
-
-
     # If we made any changes, go ahead and restart the nagios service, so that we use the new config files
     if [ $RESTART == "Yes" ] ; then
       service nagios restart > /usr/local/nagios/etc/restart.log
