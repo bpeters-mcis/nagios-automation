@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/linux.cfg" afterPath="$PROJECT_DIR$/etc/objects/linux.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" afterPath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="linux.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linux.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/linux.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
+            <state relative-caret-position="799">
               <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
@@ -65,7 +66,7 @@
       <file leaf-file-name="contacts.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="680">
               <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
             </state>
@@ -104,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="216">
+              <caret line="124" column="97" selection-start-line="124" selection-start-column="97" selection-end-line="124" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -127,8 +128,8 @@
       <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="252" column="91" selection-start-line="252" selection-start-column="91" selection-end-line="252" selection-end-column="91" />
+            <state relative-caret-position="454">
+              <caret line="294" column="15" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -164,7 +165,6 @@
         <option value="$PROJECT_DIR$/temp2.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" />
         <option value="$PROJECT_DIR$/etc/update_printers.sh" />
-        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
@@ -178,9 +178,10 @@
         <option value="$PROJECT_DIR$/etc/schedule_downtime.sh" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" />
         <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
-        <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/linux.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
+        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
       </list>
     </option>
   </component>
@@ -224,8 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -387,7 +388,9 @@
       <workItem from="1460981046555" duration="7967000" />
       <workItem from="1461239897076" duration="5284000" />
       <workItem from="1461680669290" duration="9415000" />
-      <workItem from="1462895490565" duration="644000" />
+      <workItem from="1462895490565" duration="1259000" />
+      <workItem from="1463399498789" duration="598000" />
+      <workItem from="1463486535318" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -403,17 +406,24 @@
       <option name="project" value="LOCAL" />
       <updated>1461787335118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removing haproxy monitor">
+      <created>1462979028120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1462979028120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51324000" />
+    <option name="totallyTimeSpent" value="54083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20415778" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,7 +475,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding haproxy monitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding haproxy monitor" />
+    <MESSAGE value="Removing haproxy monitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing haproxy monitor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -781,14 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="252" column="91" selection-start-line="252" selection-start-column="91" selection-end-line="252" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_email_notification">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -814,24 +817,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/contacts.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="680">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/linux.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="799">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="294" column="15" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="124" column="97" selection-start-line="124" selection-start-column="97" selection-end-line="124" selection-end-column="97" />
           <folding />
         </state>
       </provider>
