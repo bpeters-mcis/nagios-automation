@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" afterPath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,17 +82,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IDMServers.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="782">
+              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check_restart.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="check_restart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -179,8 +179,8 @@
         <option value="$PROJECT_DIR$/etc/objects/linux.cfg" />
         <option value="$PROJECT_DIR$/libexec/check_ldap.sh" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
-        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" />
+        <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
       </list>
     </option>
   </component>
@@ -394,7 +394,7 @@
       <workItem from="1464094974475" duration="15000" />
       <workItem from="1464095029011" duration="97000" />
       <workItem from="1464095137435" duration="8000" />
-      <workItem from="1464178390257" duration="1590000" />
+      <workItem from="1464178390257" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -466,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464182919527</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removing haproxy monitor">
+      <created>1464183289100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1464183289100</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60310000" />
+    <option name="totallyTimeSpent" value="60346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -886,18 +893,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/IDMServers.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
           <folding />
         </state>
       </provider>
