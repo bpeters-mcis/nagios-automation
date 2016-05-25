@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libexec/check_ldap.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libexec/check_ldap.sh" afterPath="$PROJECT_DIR$/libexec/check_ldap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Nagios.iws" />
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check_ldap.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libexec/check_ldap.sh">
+      <file leaf-file-name="check_ldap" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libexec/check_ldap">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -395,7 +395,7 @@
       <workItem from="1464094974475" duration="15000" />
       <workItem from="1464095029011" duration="97000" />
       <workItem from="1464095137435" duration="8000" />
-      <workItem from="1464178390257" duration="703000" />
+      <workItem from="1464178390257" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -446,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463786882977</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Removing haproxy monitor">
+      <created>1464182401160</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1464182401160</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59423000" />
+    <option name="totallyTimeSpent" value="59463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
@@ -873,10 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libexec/check_ldap.sh">
+    <entry file="file://$PROJECT_DIR$/libexec/check_ldap">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
