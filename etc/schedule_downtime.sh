@@ -15,7 +15,7 @@ datetime=`date +%s`
 
 # Schedule downtime for the people.campus replication - we know that happens every night, don't sweat it
 starttime=`date +%s -d "+1 hours"`
-endtime=`date +%s -d "+4 hours"`
+endtime=`date +%s -d "+6 hours"`
 echo "[$datetime] SCHEDULE_SVC_DOWNTIME;idm2.emich.edu;People.campus Replication;$starttime;$endtime;1;0;7200;bpeters-AD;People.campus Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 
