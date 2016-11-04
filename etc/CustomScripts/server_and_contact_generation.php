@@ -246,7 +246,7 @@ if (!empty($list) && !empty($test2)) {
         foreach ($list as $server) {
 
             # Make sure we aren't supposed to ignore this server for some reason, due to the server name or who runs it.
-            if ((!in_array($server['AssetName'], Config::$ServersToIgnore)) || (!in_array($server['Primary OS Contact'], Config::$ContactsToTriggerServerIgnore))) {
+            if ((!in_array($server['AssetName'], Config::$ServersToIgnore)) && (!in_array($server['Primary OS Contact'], Config::$ContactsToTriggerServerIgnore))) {
 
                 # If the owner(s) have requested monitoring, add them as contacts.  Otherwise, don't
                 if ($server['Monitored'] == 'Yes') {
