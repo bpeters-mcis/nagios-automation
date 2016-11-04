@@ -110,6 +110,10 @@ class Config {
     # Comma separated list of any contact group(s) that should be added to ALL servers
     public static $ContactGroupForAllServers = 'WindowsTeam';
 
+    # Comma separated list of any users/contacts that run a server, that would cause us to ignore that server completely.
+    # If a server has one of these users listed as the primary OS contact, it will not show up in Nagios.
+    public static $ContactsToTriggerServerIgnore = array('akirkland1');
+
     ##############################################################
     # Printer Definition Generation Settings
     ##############################################################

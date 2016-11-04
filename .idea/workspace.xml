@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/schedule_downtime.sh" afterPath="$PROJECT_DIR$/etc/schedule_downtime.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Config.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="schedule_downtime.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schedule_downtime.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="408">
               <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding />
             </state>
@@ -47,18 +48,18 @@
       <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+            <state relative-caret-position="3009">
+              <caret line="182" column="55" selection-start-line="182" selection-start-column="55" selection-end-line="182" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="57" />
+            <state relative-caret-position="1550">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,7 +68,7 @@
       <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
+            <state relative-caret-position="6120">
               <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="369" selection-end-column="1" />
               <folding>
                 <marker date="1461681155011" expanded="true" signature="2358:3718" ph="Select Top 1... " />
@@ -181,8 +182,6 @@
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
         <option value="$PROJECT_DIR$/etc/nagios.cfg" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" />
         <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
@@ -194,6 +193,8 @@
         <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/etc/schedule_downtime.sh" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
       </list>
     </option>
   </component>
@@ -208,9 +209,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1167" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,8 +325,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,7 +422,8 @@
       <workItem from="1469720501671" duration="604000" />
       <workItem from="1474289192187" duration="649000" />
       <workItem from="1474310535091" duration="12000" />
-      <workItem from="1476187370715" duration="118000" />
+      <workItem from="1476187370715" duration="740000" />
+      <workItem from="1478263167256" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -527,17 +530,24 @@
       <option name="project" value="LOCAL" />
       <updated>1474289671764</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added IDM2 people.campus monitor downtime">
+      <created>1476187496992</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1476187496992</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75786000" />
+    <option name="totallyTimeSpent" value="76775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1934" height="1167" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24599786" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24840085" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -921,25 +931,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
+        <state relative-caret-position="6120">
           <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="369" selection-end-column="1" />
           <folding>
             <marker date="1461681155011" expanded="true" signature="2358:3718" ph="Select Top 1... " />
@@ -968,8 +962,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="408">
           <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="182" column="55" selection-start-line="182" selection-start-column="55" selection-end-line="182" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
