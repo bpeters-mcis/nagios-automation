@@ -5,8 +5,8 @@
 ###################################################################
 
 # Downtime Date Arrays
-TESTDATES=(2016-10-14 2016-11-04 2016-11-18)
-PRODDATES=(2016-09-23 2016-10-21 2016-11-11 2016-12-02)
+TESTDATES=(2017-02-24 2017-03-31 2017-05-12 2017-06-02 2017-07-14 2017-07-28 2017-09-15 2017-10-06 2017-11-10 2017-11-20)
+PRODDATES=(2017-03-03 2017-04-07 2017-05-19 2017-06-09 2017-07-21 2017-08-04 2017-09-22 2017-10-13 2017-11-17 2017-12-01)
 
 # Get the day of the week, and the full date
 day=$(date +%a)
@@ -14,8 +14,8 @@ DATE=`date +%Y-%m-%d`
 datetime=`date +%s`
 
 # Schedule downtime for the people.campus replication - we know that happens every night, don't sweat it
-starttime=`date +%s -d "+1 hours"`
-endtime=`date +%s -d "+6 hours"`
+starttime=`date +%s -d`
+endtime=`date +%s -d "+4 hours"`
 echo "[$datetime] SCHEDULE_SVC_DOWNTIME;idm2.emich.edu;People.campus Replication;$starttime;$endtime;1;0;7200;bpeters-AD;People.campus Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 
