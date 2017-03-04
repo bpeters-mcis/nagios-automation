@@ -52,7 +52,7 @@ class Config {
     # This is the database that contains the custom Nagios monitors, if used.
     public static $inventory_username = 'nagios';
     public static $inventory_password = '#hot713outside';
-    public static $inventory_dsn = 'mysql:dbname=inventory;host=itservices.emich.edu';
+    public static $inventory_dsn = 'mysql:dbname=inventory;host=mustang.emich.edu';
 
     ##############################################################
     # Contact List Generation Settings
