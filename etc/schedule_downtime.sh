@@ -18,6 +18,10 @@ starttime=`date +%s -d`
 endtime=`date +%s -d "+4 hours"`
 echo "[$datetime] SCHEDULE_SVC_DOWNTIME;idm2.emich.edu;People.campus Replication;$starttime;$endtime;1;0;7200;bpeters-AD;People.campus Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
+# Schedule downtime for the imaging server, that reboots every single night
+starttime=`date +%s -d "+21 hours"`
+endtime=`date +%s -d "+23 hours"`
+echo "[$datetime] SCHEDULE_HOST_DOWNTIME;IMAGES;$starttime;$endtime;1;0;7200;bpeters-AD;Nightly Reboot" > /usr/local/nagios/var/rw/nagios.cmd
 
 # If it's Wednesday, mark reboot servers for downtime
 if [ $day == 'Wed' ]; then
