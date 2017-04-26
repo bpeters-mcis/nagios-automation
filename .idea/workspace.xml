@@ -108,8 +108,8 @@
       <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="144" column="33" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1488597505518" duration="1315000" />
       <workItem from="1489582604821" duration="323000" />
       <workItem from="1490272681571" duration="1230000" />
-      <workItem from="1493218851588" duration="1378000" />
+      <workItem from="1493218851588" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -584,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489582875733</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added SSL monitoring for all windows servers">
+      <created>1493231536126</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1493231536126</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88573000" />
+    <option name="totallyTimeSpent" value="88697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -653,7 +660,8 @@
     <MESSAGE value="Changed hosts to check every minute, and alert sooner" />
     <MESSAGE value="Changed config to talk to the correct database" />
     <MESSAGE value="Added nightly downtime for images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added nightly downtime for images" />
+    <MESSAGE value="Added SSL monitoring for all windows servers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SSL monitoring for all windows servers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1030,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="144" column="33" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
           <folding />
         </state>
       </provider>
