@@ -240,6 +240,29 @@ class LansweeperDB
         return $list;
     }
 
+    # This function hands back all servers running 2012 or higher.  This let's us specifiy services to monitor on these.
+    function get2012Servers() {
+        $sql = "Select Top 1000000 tblAssets.AssetID,
+                  tblAssets.AssetName
+                From tblAssets
+                  Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
+                  Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
+                  Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
+                  Where tsysOS.OSname Like '%Win 2012%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
+        $result = array();
+        $query=mssql_query($sql);
+        if (mssql_num_rows($query)) {
+            while ($row = mssql_fetch_assoc($query)) {
+                $result[] = $row;
+            }
+        }
+        $list = array();
+        foreach ($result as $item) {
+            array_push($list, $item['AssetName']);
+        }
+        return $list;
+    }
+
     # This function hands back all servers running MDT toolkit.  This let's us specifiy services to monitor on all imaging servers.
     function getImagingServers() {
         $sql = "Select Top 1000000 tblAssets.AssetID,

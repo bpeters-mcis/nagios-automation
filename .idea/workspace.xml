@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/windows.cfg" afterPath="$PROJECT_DIR$/etc/objects/windows.cfg" />
     </list>
     <ignored path="Nagios.iws" />
@@ -54,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server_and_contact_generation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="52" column="75" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+            <state relative-caret-position="5253">
+              <caret line="317" column="59" selection-start-line="317" selection-start-column="59" selection-end-line="317" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -77,39 +79,40 @@
       <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="356" column="5" selection-start-line="356" selection-start-column="5" selection-end-line="356" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="238" column="9" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
               <folding>
-                <marker date="1461681155011" expanded="true" signature="2358:3718" ph="Select Top 1... " />
-                <marker date="1461681155011" expanded="true" signature="4083:4117" ph="Select Asset... tblLinuxSystem" />
-                <marker date="1461681155011" expanded="true" signature="4472:5257" ph="Select tblAs... " />
-                <marker date="1461681155011" expanded="true" signature="5623:6670" ph="Select Top 1... " />
-                <marker date="1461681155011" expanded="true" signature="7012:8058" ph="Select Top 1... " />
-                <marker date="1461681155011" expanded="true" signature="8421:8546" ph="Select tblAs... " />
-                <marker date="1461681155011" expanded="true" signature="9095:9794" ph="Select Top 1... tblComputersystem" />
-                <marker date="1461681155011" expanded="true" signature="10344:11102" ph="Select Top 1... tblAssets" />
-                <marker date="1461681155011" expanded="true" signature="10753:10992" ph="Select tblSo... tblSoftware" />
-                <marker date="1461681155011" expanded="true" signature="11587:12347" ph="Select Top 1... tblAssets" />
-                <marker date="1461681155011" expanded="true" signature="11996:12237" ph="Select tblSo... tblSoftware" />
-                <marker date="1461681155011" expanded="true" signature="12836:12909" ph="Select Asset... tblAssets" />
-                <marker date="1461681155011" expanded="true" signature="13289:13434" ph="SELECT * FRO... tblAssetComments" />
-                <marker date="1461681155011" expanded="true" signature="13853:14077" ph="SELECT Comme... tblAssetComments" />
-                <marker date="1461681155011" expanded="true" signature="14443:14596" ph="SELECT Comme... tblAssetComments" />
-                <marker date="1461681155011" expanded="true" signature="14980:15092" ph="INSERT INTO tblAssetComments... " />
-                <marker date="1461681155011" expanded="true" signature="16065:16107" ph="SELECT id, C... services" />
-                <marker date="1461681155011" expanded="true" signature="16417:16461" ph="SELECT * fro... service_details" />
-                <marker date="1461681155011" expanded="true" signature="17041:17122" ph="SELECT CODE service_details" />
-                <marker date="1461681155011" expanded="true" signature="17320:17366" ph="SELECT Resol... services" />
+                <marker date="1493306110486" expanded="true" signature="2358:3718" ph="Select Top 1... " />
+                <marker date="1493306110486" expanded="true" signature="4083:4117" ph="Select Asset... tblLinuxSystem" />
+                <marker date="1493306110486" expanded="true" signature="4472:5257" ph="Select tblAs... " />
+                <marker date="1493306110486" expanded="true" signature="5623:6670" ph="Select Top 1... " />
+                <marker date="1493306110486" expanded="true" signature="7012:8058" ph="Select Top 1... " />
+                <marker date="1493306110486" expanded="true" signature="8421:8546" ph="Select tblAs... " />
+                <marker date="1493306110486" expanded="true" signature="9095:9794" ph="Select Top 1... tblComputersystem" />
+                <marker date="1493306110486" expanded="true" signature="10330:10808" ph="Select Top 1... tblAssets" />
+                <marker date="1493306110486" expanded="true" signature="11358:12116" ph="Select Top 1... tblAssets" />
+                <marker date="1493306110486" expanded="true" signature="11767:12006" ph="Select tblSo... tblSoftware" />
+                <marker date="1493306110486" expanded="true" signature="12601:13361" ph="Select Top 1... tblAssets" />
+                <marker date="1493306110486" expanded="true" signature="13010:13251" ph="Select tblSo... tblSoftware" />
+                <marker date="1493306110486" expanded="true" signature="13850:13923" ph="Select Asset... tblAssets" />
+                <marker date="1493306110486" expanded="true" signature="14303:14448" ph="SELECT * FRO... tblAssetComments" />
+                <marker date="1493306110486" expanded="true" signature="14867:15091" ph="SELECT Comme... tblAssetComments" />
+                <marker date="1493306110486" expanded="true" signature="15457:15610" ph="SELECT Comme... tblAssetComments" />
+                <marker date="1493306110486" expanded="true" signature="15994:16106" ph="INSERT INTO tblAssetComments... " />
+                <marker date="1493306110486" expanded="true" signature="17079:17121" ph="SELECT id, C... services" />
+                <marker date="1493306110486" expanded="true" signature="17431:17475" ph="SELECT * fro... service_details" />
+                <marker date="1493306110486" expanded="true" signature="18055:18136" ph="SELECT CODE service_details" />
+                <marker date="1493306110486" expanded="true" signature="18334:18380" ph="SELECT Resol... services" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -118,7 +121,7 @@
       <file leaf-file-name="templates.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="981">
+            <state relative-caret-position="114">
               <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
               <folding />
             </state>
@@ -128,7 +131,7 @@
       <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="-1071">
               <caret line="96" column="31" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="31" />
               <folding />
             </state>
@@ -169,7 +172,6 @@
         <option value="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/nagios.cfg" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" />
         <option value="$PROJECT_DIR$/etc/objects/contacts.cfg" />
@@ -179,11 +181,12 @@
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
-        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
         <option value="$PROJECT_DIR$/etc/objects/templates.cfg" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
         <option value="$PROJECT_DIR$/etc/schedule_downtime.sh" />
         <option value="$PROJECT_DIR$/etc/objects/windows.cfg" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
+        <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
       </list>
     </option>
   </component>
@@ -421,7 +424,7 @@
       <workItem from="1488597505518" duration="1315000" />
       <workItem from="1489582604821" duration="323000" />
       <workItem from="1490272681571" duration="1230000" />
-      <workItem from="1493218851588" duration="2464000" />
+      <workItem from="1493218851588" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="Adding haproxy monitor">
       <created>1461786165873</created>
@@ -598,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493231653771</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Removed SSL monitor - have to fix for &lt; 2012">
+      <created>1493234535060</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1493234535060</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89659000" />
+    <option name="totallyTimeSpent" value="91265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -668,7 +678,8 @@
     <MESSAGE value="Changed config to talk to the correct database" />
     <MESSAGE value="Added nightly downtime for images" />
     <MESSAGE value="Added SSL monitoring for all windows servers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SSL monitoring for all windows servers" />
+    <MESSAGE value="Removed SSL monitor - have to fix for &lt; 2012" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed SSL monitor - have to fix for &lt; 2012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -958,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="52" column="75" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -982,47 +985,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="356" column="5" selection-start-line="356" selection-start-column="5" selection-end-line="356" selection-end-column="5" />
-          <folding>
-            <marker date="1461681155011" expanded="true" signature="2358:3718" ph="Select Top 1... " />
-            <marker date="1461681155011" expanded="true" signature="4083:4117" ph="Select Asset... tblLinuxSystem" />
-            <marker date="1461681155011" expanded="true" signature="4472:5257" ph="Select tblAs... " />
-            <marker date="1461681155011" expanded="true" signature="5623:6670" ph="Select Top 1... " />
-            <marker date="1461681155011" expanded="true" signature="7012:8058" ph="Select Top 1... " />
-            <marker date="1461681155011" expanded="true" signature="8421:8546" ph="Select tblAs... " />
-            <marker date="1461681155011" expanded="true" signature="9095:9794" ph="Select Top 1... tblComputersystem" />
-            <marker date="1461681155011" expanded="true" signature="10344:11102" ph="Select Top 1... tblAssets" />
-            <marker date="1461681155011" expanded="true" signature="10753:10992" ph="Select tblSo... tblSoftware" />
-            <marker date="1461681155011" expanded="true" signature="11587:12347" ph="Select Top 1... tblAssets" />
-            <marker date="1461681155011" expanded="true" signature="11996:12237" ph="Select tblSo... tblSoftware" />
-            <marker date="1461681155011" expanded="true" signature="12836:12909" ph="Select Asset... tblAssets" />
-            <marker date="1461681155011" expanded="true" signature="13289:13434" ph="SELECT * FRO... tblAssetComments" />
-            <marker date="1461681155011" expanded="true" signature="13853:14077" ph="SELECT Comme... tblAssetComments" />
-            <marker date="1461681155011" expanded="true" signature="14443:14596" ph="SELECT Comme... tblAssetComments" />
-            <marker date="1461681155011" expanded="true" signature="14980:15092" ph="INSERT INTO tblAssetComments... " />
-            <marker date="1461681155011" expanded="true" signature="16065:16107" ph="SELECT id, C... services" />
-            <marker date="1461681155011" expanded="true" signature="16417:16461" ph="SELECT * fro... service_details" />
-            <marker date="1461681155011" expanded="true" signature="17041:17122" ph="SELECT CODE service_details" />
-            <marker date="1461681155011" expanded="true" signature="17320:17366" ph="SELECT Resol... services" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_restart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="96" column="31" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1035,18 +1001,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/templates.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
+        <state relative-caret-position="114">
           <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="238" column="9" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
+          <folding>
+            <marker date="1493306110486" expanded="true" signature="2358:3718" ph="Select Top 1... " />
+            <marker date="1493306110486" expanded="true" signature="4083:4117" ph="Select Asset... tblLinuxSystem" />
+            <marker date="1493306110486" expanded="true" signature="4472:5257" ph="Select tblAs... " />
+            <marker date="1493306110486" expanded="true" signature="5623:6670" ph="Select Top 1... " />
+            <marker date="1493306110486" expanded="true" signature="7012:8058" ph="Select Top 1... " />
+            <marker date="1493306110486" expanded="true" signature="8421:8546" ph="Select tblAs... " />
+            <marker date="1493306110486" expanded="true" signature="9095:9794" ph="Select Top 1... tblComputersystem" />
+            <marker date="1493306110486" expanded="true" signature="10330:10808" ph="Select Top 1... tblAssets" />
+            <marker date="1493306110486" expanded="true" signature="11358:12116" ph="Select Top 1... tblAssets" />
+            <marker date="1493306110486" expanded="true" signature="11767:12006" ph="Select tblSo... tblSoftware" />
+            <marker date="1493306110486" expanded="true" signature="12601:13361" ph="Select Top 1... tblAssets" />
+            <marker date="1493306110486" expanded="true" signature="13010:13251" ph="Select tblSo... tblSoftware" />
+            <marker date="1493306110486" expanded="true" signature="13850:13923" ph="Select Asset... tblAssets" />
+            <marker date="1493306110486" expanded="true" signature="14303:14448" ph="SELECT * FRO... tblAssetComments" />
+            <marker date="1493306110486" expanded="true" signature="14867:15091" ph="SELECT Comme... tblAssetComments" />
+            <marker date="1493306110486" expanded="true" signature="15457:15610" ph="SELECT Comme... tblAssetComments" />
+            <marker date="1493306110486" expanded="true" signature="15994:16106" ph="INSERT INTO tblAssetComments... " />
+            <marker date="1493306110486" expanded="true" signature="17079:17121" ph="SELECT id, C... services" />
+            <marker date="1493306110486" expanded="true" signature="17431:17475" ph="SELECT * fro... service_details" />
+            <marker date="1493306110486" expanded="true" signature="18055:18136" ph="SELECT CODE service_details" />
+            <marker date="1493306110486" expanded="true" signature="18334:18380" ph="SELECT Resol... services" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+        <state relative-caret-position="493">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5253">
+          <caret line="317" column="59" selection-start-line="317" selection-start-column="59" selection-end-line="317" selection-end-column="59" />
           <folding />
         </state>
       </provider>

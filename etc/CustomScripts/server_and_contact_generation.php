@@ -239,9 +239,10 @@ if (!empty($list) && !empty($test2)) {
         $output .= '###########################################' . PHP_EOL;
         $output .= PHP_EOL;
 
-        # Get a list of all DCs and imaging servers
+        # Get a list of all DCs, 2012, and imaging servers
         $DCs = $Servers->getDomainControllers();
         $Imaging = $Servers->getImagingServers();
+        $CurrentServers = $Servers->get2012Servers();
 
         foreach ($list as $server) {
 
@@ -308,6 +309,10 @@ if (!empty($list) && !empty($test2)) {
 
                 if (in_array($server['AssetName'], $Imaging)) {
                     $HostGroups .= ",windows-servers-imaging";
+                }
+
+                if (in_array($server['AssetName'], $CurrentServers)) {
+                    $HostGroups .= ",windows-2012-and-higher";
                 }
 
                 # Check which downtime window for this host
