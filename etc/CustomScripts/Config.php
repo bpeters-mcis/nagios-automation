@@ -105,7 +105,7 @@ class Config {
 
     # These servers will be completely ignored, and will never be included in monitoring.  This is useful if there's a system with someone else's nagios or something,
     # that we don't want conflicting with ours I guess.
-    public static $ServersToIgnore = array('idm1', 'idm2', 'idm3', 'idmrbs', 'idmrbstest', 'idm4');
+    public static $ServersToIgnore = array('idm1', 'idm2', 'idm3', 'idmrbs', 'idmrbstest', 'idm4', 'directaccess');
 
     # Comma separated list of any contact group(s) that should be added to ALL servers
     public static $ContactGroupForAllServers = 'WindowsTeam';
