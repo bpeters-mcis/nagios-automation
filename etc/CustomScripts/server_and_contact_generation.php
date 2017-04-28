@@ -246,11 +246,14 @@ if (!empty($list) && !empty($test2)) {
 
         foreach ($list as $server) {
 
+            # Assume we're not ignoring this server
+            $ignoreServer = "No";
+
             # Make sure we aren't supposed to ignore this server for some reason, due to the server name or who runs it.
             if ((!in_array($server['AssetName'], Config::$ServersToIgnore)) && (!in_array($server['Primary OS Contact'], Config::$ContactsToTriggerServerIgnore))) {
 
                 # If the owner(s) have requested monitoring, add them as contacts.  Otherwise, don't
-                if ($server['Monitored'] == 'Yes') {
+                if ($server['Monitored'] == 'Yes' || $server['Monitored'] == 'All Contacts') {
 
                     # Go through each defined group.  If this server has one listed as a contact, add it to the contact group list for the server.
                     $contactgroups = Config::$ContactGroupForAllServers;
@@ -273,72 +276,78 @@ if (!empty($list) && !empty($test2)) {
 
                         }
                     }
-                } else {
+                } else if ($server['Monitored'] == 'No' || $server['Monitored'] == 'Windows Team Only' || $server['Monitored'] == '') {
                     $contactgroups = Config::$ContactGroupForAllServers;
                     $individualContacts = '';
+                } else {
+                    $ignoreServer = "Yes";
                 }
 
-                # Strip trailing comma from the contact list
-                $individualContacts = rtrim($individualContacts, ',');
+                # Build the server definition, if we're not set to ignore this box
+                if ($ignoreServer == "No") {
 
-                # See what special services should be monitored on this server
-                $services = $server['NagiosServices'];
-                $services = explode(',', $services);
+                    # Strip trailing comma from the contact list
+                    $individualContacts = rtrim($individualContacts, ',');
 
-                # See which customs services this server should monitor
-                foreach ($services as $service) {
+                    # See what special services should be monitored on this server
+                    $services = $server['NagiosServices'];
+                    $services = explode(',', $services);
 
-                    # Make sure this is a known service defined above.  Only add it to the list only if it's a legitimate service name
-                    if (isset($ServicesToMonitor[$service])) {
-                        $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
+                    # See which customs services this server should monitor
+                    foreach ($services as $service) {
+
+                        # Make sure this is a known service defined above.  Only add it to the list only if it's a legitimate service name
+                        if (isset($ServicesToMonitor[$service])) {
+                            $ServicesToMonitor[$service]['host_name'] .= $server['AssetName'] . ',';
+                        }
+
                     }
 
+                    # IF this is a VM, add it to the VM Tools monitor
+                    if (substr($server['Make'], 0, 6) == "VMware") {
+                        $ServicesToMonitor['VMTools']['host_name'] .= $server['AssetName'] . ',';
+                    }
+
+                    # Build the host groups for this server, and append extra host groups based on lansweeper query results
+                    $HostGroups = "windows-servers";
+
+                    if (in_array($server['AssetName'], $DCs)) {
+                        $HostGroups .= ",windows-servers-dcs";
+                    }
+
+                    if (in_array($server['AssetName'], $Imaging)) {
+                        $HostGroups .= ",windows-servers-imaging";
+                    }
+
+                    if (in_array($server['AssetName'], $CurrentServers)) {
+                        $HostGroups .= ",windows-2012-and-higher";
+                    }
+
+                    # Check which downtime window for this host
+                    if ($server['Window'] == "Prod") {
+                        $HostGroups .= ",Downtime-Prod";
+                    } else if ($server['Window'] == "Test") {
+                        $HostGroups .= ",Downtime-Test";
+                    } else if ($server['Window'] == "Tier4") {
+                        $HostGroups .= ",Auto-Patch-And-Reboot";
+                    }
+
+                    # Build the individual host output
+                    $output .= 'define host{' . PHP_EOL;
+                    $output .= '    use             windows-server' . PHP_EOL;
+                    $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
+                    $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
+                    $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
+                    $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
+                    $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
+                    if ($individualContacts != '') {
+                        $output .= '    contacts        ' . $individualContacts . PHP_EOL;
+                    }
+                    $output .= '}' . PHP_EOL;
+                    $output .= PHP_EOL;
                 }
 
-                # IF this is a VM, add it to the VM Tools monitor
-                if (substr($server['Make'], 0, 6) == "VMware") {
-                    $ServicesToMonitor['VMTools']['host_name'] .= $server['AssetName'] . ',';
-                }
-
-                # Build the host groups for this server, and append extra host groups based on lansweeper query results
-                $HostGroups = "windows-servers";
-
-                if (in_array($server['AssetName'], $DCs)) {
-                    $HostGroups .= ",windows-servers-dcs";
-                }
-
-                if (in_array($server['AssetName'], $Imaging)) {
-                    $HostGroups .= ",windows-servers-imaging";
-                }
-
-                if (in_array($server['AssetName'], $CurrentServers)) {
-                    $HostGroups .= ",windows-2012-and-higher";
-                }
-
-                # Check which downtime window for this host
-                if ($server['Window'] == "Prod") {
-                    $HostGroups .= ",Downtime-Prod";
-                } else if ($server['Window'] == "Test") {
-                    $HostGroups .= ",Downtime-Test";
-                } else if ($server['Window'] == "Tier4") {
-                    $HostGroups .= ",Auto-Patch-And-Reboot";
-                }
-
-                # Build the individual host output
-                $output .= 'define host{' . PHP_EOL;
-                $output .= '    use             windows-server' . PHP_EOL;
-                $output .= '    host_name       ' . $server['AssetName'] . PHP_EOL;
-                $output .= '    alias           ' . $server['AssetName'] . PHP_EOL;
-                $output .= '    address         ' . $server['IPAddress'] . PHP_EOL;
-                $output .= '    hostgroups      ' . $HostGroups . PHP_EOL;
-                $output .= '    contact_groups  ' . $contactgroups . PHP_EOL;
-                if ($individualContacts != '') {
-                    $output .= '    contacts        ' . $individualContacts . PHP_EOL;
-                }
-                $output .= '}' . PHP_EOL;
-                $output .= PHP_EOL;
             }
-
 
         }
 
