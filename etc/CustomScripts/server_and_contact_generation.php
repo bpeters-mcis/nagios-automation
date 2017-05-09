@@ -192,13 +192,16 @@ if (!empty($list) && !empty($test2)) {
 
         # Build a contact file for each user in the list - but omit e-mail addresses from lab students
         foreach (Config::$userarray as $key => $value) {
-            $output .= 'define contact{' . PHP_EOL;
-            $output .= '        contact_name            ' . $value . PHP_EOL;
-            $output .= '        use                     generic-contact' . PHP_EOL;
-            $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
-            $output .= '        email                   ' . $key . PHP_EOL;
-            $output .= '}' . PHP_EOL;
-            $output .= PHP_EOL;
+            if ($value != '' && $value != ' ') {
+                $output .= 'define contact{' . PHP_EOL;
+                $output .= '        contact_name            ' . $value . PHP_EOL;
+                $output .= '        use                     generic-contact' . PHP_EOL;
+                $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
+                $output .= '        email                   ' . $key . PHP_EOL;
+                $output .= '}' . PHP_EOL;
+                $output .= PHP_EOL;
+            }
+
         }
 
         # Now go through the list of all the individual users, and remove any duplicates from it, or that were already in the user array
@@ -208,12 +211,14 @@ if (!empty($list) && !empty($test2)) {
 
         # Build a contact file for each student in the list - but omit e-mail addresses from lab students
         foreach (Config::$studentarray as $key => $value) {
-            $output .= 'define contact{' . PHP_EOL;
-            $output .= '        contact_name            ' . $value . PHP_EOL;
-            $output .= '        use                     student-contact' . PHP_EOL;
-            $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
-            $output .= '}' . PHP_EOL;
-            $output .= PHP_EOL;
+            if ($value != '' && $value != ' ') {
+                $output .= 'define contact{' . PHP_EOL;
+                $output .= '        contact_name            ' . $value . PHP_EOL;
+                $output .= '        use                     student-contact' . PHP_EOL;
+                $output .= '        alias                   ' . $value . '-AD' . PHP_EOL;
+                $output .= '}' . PHP_EOL;
+                $output .= PHP_EOL;
+            }
         }
 
         file_put_contents(Config::$NagiosPath . 'etc/objects/contacts_from_ad_new.cfg', $output);

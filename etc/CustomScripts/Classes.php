@@ -52,10 +52,9 @@ class LansweeperDB
 {
     protected $db;
 
-    function __construct()
-    {
-        $this->db = mssql_connect(Config::$LansweeperHost, Config::$LansweeperUser, Config::$LansweeperPassword);
-        mssql_select_db('lansweeperdb', $this->db);
+    function __construct() {
+        $this->db = new PDO (Config::$LansweeperHost,Config::$LansweeperUser,Config::$LansweeperPassword);
+        $this->db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     }
 
     # This function should hand back all the servers we want to monitor in Nagios.  We can hand back as much data as we want, but the essentials are:
@@ -83,13 +82,9 @@ class LansweeperDB
             tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%NSClient%') And
                   tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $result = $sth->fetchAll();
         return $result;
     }
 
@@ -97,11 +92,12 @@ class LansweeperDB
         # Get Linux servers AssetIDs
         $IDs = array();
         $sql = "Select AssetID from tblLinuxSystem";
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                array_push($IDs, $row['AssetID']);
-            }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+
+        foreach ($results as $row) {
+            array_push($IDs, $row['AssetID']);
         }
 
         # Go through each linux AssetID, and get the details for it
@@ -122,12 +118,10 @@ class LansweeperDB
                 From tblAssets
                   Inner Join tblAssetCustom On tblAssets.AssetID = tblAssetCustom.AssetID
                 WHERE tblAssets.AssetID = '" . $ID . "'";
-            $query=mssql_query($sql);
-            if (mssql_num_rows($query)) {
-                while ($row = mssql_fetch_assoc($query)) {
-                    array_push($servers, $row);
-                }
-            }
+            $sth = $this->db->prepare($sql);
+            $sth->execute(array());
+            $results = $sth->fetchAll();
+            array_push($servers, $results[0]);
         }
 
         return $servers;
@@ -154,14 +148,10 @@ class LansweeperDB
                   Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
                   Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
                 Where tblAssets.AssetID = '" . $AssetID . "'";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result;
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results;
     }
 
     # Get the server info by Name
@@ -184,30 +174,22 @@ class LansweeperDB
                   Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
                   Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
                 WHERE tblAssets.AssetName = '" . $Name . "'";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result;
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results;
     }
 
-        
+
     # Find out what downtime group this server is in
     function getPatchGroup($assetID) {
         $sql = "Select tblAssetCustom.Custom6 As [Window]
                 From tblAssetCustom
                 Where tblAssetCustom.AssetID = " . $assetID;
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result[0]['Window'];
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results[0]['Window'];
     }
 
     # This function polls Lansweeper, and finds any servers that are domain controllers.  Returns an indexed array.
@@ -226,15 +208,12 @@ class LansweeperDB
                   Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
                 Where tblComputersystem.Domainrole = 4 Or tblComputersystem.Domainrole = 5
                 Order By tblAssets.AssetName";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+
         $list = array();
-        foreach ($result as $item) {
+        foreach ($results as $item) {
             array_push($list, $item['AssetName']);
         }
         return $list;
@@ -249,15 +228,12 @@ class LansweeperDB
                   Inner Join tsysOS On tblAssets.OScode = tsysOS.OScode
                   Inner Join tblComputersystem On tblAssets.AssetID = tblComputersystem.AssetID
                   Where tsysOS.OSname Like '%Win 2012%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+
         $list = array();
-        foreach ($result as $item) {
+        foreach ($results as $item) {
             array_push($list, $item['AssetName']);
         }
         return $list;
@@ -276,15 +252,12 @@ class LansweeperDB
                       tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%Deployment Toolkit%') And
                   tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+
         $list = array();
-        foreach ($result as $item) {
+        foreach ($results as $item) {
             array_push($list, $item['AssetName']);
         }
         return $list;
@@ -303,15 +276,12 @@ class LansweeperDB
                       tblSoftware.softID
                   Where dbo.tblsoftwareuni.softwareName Like '%Microsoft SQL Server%') And
                   tsysOS.OSname Like '%Win 2%' And tblAssetCustom.State = 1 Order By tblAssets.AssetName";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+
         $list = array();
-        foreach ($result as $item) {
+        foreach ($results as $item) {
             array_push($list, $item['AssetName']);
         }
         return $list;
@@ -320,27 +290,19 @@ class LansweeperDB
     # This function gets the server's assetID from the server name
     function getAssetIDByName($name) {
         $sql = "Select AssetID from tblAssets WHERE tblAssets.AssetName = '" . $name . "'";
-        $query=mssql_query($sql);
-        $list = array();
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                array_push($list, $row['AssetID']);
-            }
-        }
-        return $list[0];
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results[0]['AssetID'];
     }
 
     # This function gets any comments about the server
     function getAllServerComments($AssetID) {
         $sql = "SELECT * FROM tblAssetComments WHERE tblAssetComments.AssetID = '" . $AssetID . "' AND tblAssetComments.AddedBy LIKE 'Nagios' ORDER BY Added DESC";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result;
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results;
     }
 
     # This function gets any comments about the server
@@ -348,46 +310,38 @@ class LansweeperDB
         $time = time();
         $mintime = $time - 30;
         $sql="SELECT Comment FROM tblAssetComments WHERE tblAssetComments.AssetID = '" . $AssetID . "' AND tblAssetComments.AddedBy LIKE 'Nagios' AND DATEDIFF(SECOND,{d '1970-01-01'}, tblAssetComments.Added) > $mintime ORDER BY Added DESC";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result;
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results;
     }
 
     # This function gets any comments containing a specified code
     function getCommentsByCode($code) {
         $sql="SELECT Comment, AssetID, CommentID FROM tblAssetComments WHERE tblAssetComments.AddedBy LIKE 'Nagios' AND tblAssetComments.Comment LIKE '%" . $code . "%'";
-        $result = array();
-        $query=mssql_query($sql);
-        if (mssql_num_rows($query)) {
-            while ($row = mssql_fetch_assoc($query)) {
-                $result[] = $row;
-            }
-        }
-        return $result;
+        $sth = $this->db->prepare($sql);
+        $sth->execute(array());
+        $results = $sth->fetchAll();
+        return $results;
     }
 
 
     # This function adds a comment to the Lansweeper record for the server
-    function addComment($AssetID, $Comment) {
-        $sql = "INSERT INTO tblAssetComments (AssetID, Comment, AddedBy) VALUES ('" . $AssetID . "','" . $Comment . "','Nagios')";
-        $result = mssql_query($sql);
-        return $result;
+    function addComment($AssetID, $Comment, $AddedBy) {
+        $sql = "INSERT INTO tblAssetComments (AssetID, Comment, AddedBy) VALUES (?,?,?)";
+        $sth = $this->db->prepare($sql);
+        return $sth->execute(array($AssetID, $Comment, $AddedBy));
     }
 
     # This function updates comments
     function updateComment($CommentID, $text) {
-        $sql = "UPDATE tblAssetComments (Comment) VALUES ('" . $text . "') WHERE tblAssetComments.CommentID = '" . $CommentID . "'";
-        $result = mssql_query($sql);
-        return $result;
+        $sql = "UPDATE tblAssetComments SET Comment = ? WHERE tblAssetComments.CommentID = ?";
+        $sth = $this->db->prepare($sql);
+        return $sth->execute(array($text, $CommentID));
     }
 
     function __destruct() {
-        mssql_close($this->db);
+        $this->db = null;
     }
 
 }

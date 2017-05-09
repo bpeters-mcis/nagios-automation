@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
 # Run the server and group config file generation
-php /usr/local/nagios/etc/CustomScripts/server_and_contact_generation.php
+/usr/local/bin/php /usr/local/nagios/etc/CustomScripts/server_and_contact_generation.php
 
 # Run the linux server file generation
-php /usr/local/nagios/etc/CustomScripts/build_linux_definitions.php
+/usr/local/bin/php /usr/local/nagios/etc/CustomScripts/build_linux_definitions.php
 
 # Note when this was last run, for grins
 touch /usr/local/nagios/etc/Servers_last_imported.txt
 
 # Change ownership on all the nagios files... as our git deployment can change ownership to the last user to commit.
-chown -R nagios:nagios /usr/local/nagios/share
-chown -R nagios:nagios /usr/local/nagios/etc
-chown -R nagios:nagios /usr/local/nagios/libexec
-chown -R nagios:nagios /usr/local/nagios/include
+#chown -R nagios:nagios /usr/local/nagios/share
+#chown -R nagios:nagios /usr/local/nagios/etc
+#chown -R nagios:nagios /usr/local/nagios/libexec
+#chown -R nagios:nagios /usr/local/nagios/include
 
 # Set us to not restart the nagios service by default; only restart if there are changes made.
 RESTART="No"
