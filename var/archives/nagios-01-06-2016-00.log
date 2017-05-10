@@ -1,0 +1,660 @@
+[1451970000] LOG ROTATION: DAILY
+[1451970000] LOG VERSION: 2.0
+[1451970000] CURRENT HOST STATE: adauthdc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1451970000] CURRENT HOST STATE: adauthdc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1451970000] CURRENT HOST STATE: adauthdc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1451970000] CURRENT HOST STATE: addc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1451970000] CURRENT HOST STATE: addc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451970000] CURRENT HOST STATE: addc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1451970000] CURRENT HOST STATE: addc4;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1451970000] CURRENT HOST STATE: addc5;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1451970000] CURRENT HOST STATE: adwsusclients;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1451970000] CURRENT HOST STATE: adwsusservers;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1451970000] CURRENT HOST STATE: cscfileserv;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.26 ms
+[1451970000] CURRENT HOST STATE: emuprintps;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1451970000] CURRENT HOST STATE: emuscript;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1451970000] CURRENT HOST STATE: images;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1451970000] CURRENT HOST STATE: lansweeper;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1451970000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451970000] CURRENT SERVICE STATE: adauthdc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.76 Gb (24%) - free 37.90 Gb (76%)
+[1451970000] CURRENT SERVICE STATE: adauthdc1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 729.32 MB (15%) - free: 4070.27 MB (85%)
+[1451970000] CURRENT SERVICE STATE: adauthdc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc1;Uptime;OK;HARD;1;System Uptime - 0 day(s) 10 hour(s) 4 minute(s)
+[1451970000] CURRENT SERVICE STATE: adauthdc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.83 Gb (24%) - free 37.83 Gb (76%)
+[1451970000] CURRENT SERVICE STATE: adauthdc2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1299.80 MB (27%) - free: 3499.79 MB (73%)
+[1451970000] CURRENT SERVICE STATE: adauthdc2;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc2;Uptime;OK;HARD;1;System Uptime - 24 day(s) 12 hour(s) 28 minute(s)
+[1451970000] CURRENT SERVICE STATE: adauthdc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 12.65 Gb (25%) - free 37.00 Gb (75%)
+[1451970000] CURRENT SERVICE STATE: adauthdc3;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1792.59 MB (37%) - free: 3007.00 MB (63%)
+[1451970000] CURRENT SERVICE STATE: adauthdc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Remote Loader for IDM;OK;HARD;1;dirxml_remote.exe: Running
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: adauthdc3;Uptime;OK;HARD;1;System Uptime - 24 day(s) 12 hour(s) 15 minute(s)
+[1451970000] CURRENT SERVICE STATE: addc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 11.90 Gb (15%) - free 67.75 Gb (85%)
+[1451970000] CURRENT SERVICE STATE: addc1;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451970000] CURRENT SERVICE STATE: addc1;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 2267.09 MB (24%) - free: 7204.48 MB (76%)
+[1451970000] CURRENT SERVICE STATE: addc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: addc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: addc1;Uptime;OK;HARD;1;System Uptime - 17 day(s) 1 hour(s) 15 minute(s)
+[1451970000] CURRENT SERVICE STATE: addc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 12.01 Gb (15%) - free 67.64 Gb (85%)
+[1451970000] CURRENT SERVICE STATE: addc2;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451970000] CURRENT SERVICE STATE: addc2;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 2050.93 MB (22%) - free: 7420.64 MB (78%)
+[1451970000] CURRENT SERVICE STATE: addc2;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451970000] CURRENT SERVICE STATE: addc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: addc2;Uptime;OK;HARD;1;System Uptime - 17 day(s) 9 hour(s) 42 minute(s)
+[1451970000] CURRENT SERVICE STATE: addc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 11.84 Gb (15%) - free 67.82 Gb (85%)
+[1451970000] CURRENT SERVICE STATE: addc3;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451970000] CURRENT SERVICE STATE: addc3;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 1204.28 MB (13%) - free: 8267.29 MB (87%)
+[1451970000] CURRENT SERVICE STATE: addc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: addc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: addc3;Uptime;OK;HARD;1;System Uptime - 0 day(s) 10 hour(s) 7 minute(s)
+[1451970000] CURRENT SERVICE STATE: addc4;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 12.07 Gb (15%) - free 67.59 Gb (85%)
+[1451970000] CURRENT SERVICE STATE: addc4;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: addc4;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 2080.59 MB (22%) - free: 7390.98 MB (78%)
+[1451970000] CURRENT SERVICE STATE: addc4;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: addc4;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: addc4;Uptime;OK;HARD;1;System Uptime - 17 day(s) 9 hour(s) 28 minute(s)
+[1451970000] CURRENT SERVICE STATE: addc5;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 12.06 Gb (15%) - free 67.59 Gb (85%)
+[1451970000] CURRENT SERVICE STATE: addc5;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: addc5;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 1894.96 MB (20%) - free: 7576.61 MB (80%)
+[1451970000] CURRENT SERVICE STATE: addc5;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: addc5;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: addc5;Uptime;OK;HARD;1;System Uptime - 17 day(s) 9 hour(s) 26 minute(s)
+[1451970000] CURRENT SERVICE STATE: adwsusclients;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 19.81 Gb (25%) - free 59.85 Gb (75%)
+[1451970000] CURRENT SERVICE STATE: adwsusclients;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2964.81 MB (29%) - free: 7274.76 MB (71%)
+[1451970000] CURRENT SERVICE STATE: adwsusclients;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: adwsusclients;Uptime;OK;HARD;1;System Uptime - 13 day(s) 11 hour(s) 40 minute(s)
+[1451970000] CURRENT SERVICE STATE: adwsusservers;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 18.99 Gb (24%) - free 60.67 Gb (76%)
+[1451970000] CURRENT SERVICE STATE: adwsusservers;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2724.72 MB (27%) - free: 7514.86 MB (73%)
+[1451970000] CURRENT SERVICE STATE: adwsusservers;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: adwsusservers;Uptime;OK;HARD;1;System Uptime - 14 day(s) 10 hour(s) 37 minute(s)
+[1451970000] CURRENT SERVICE STATE: cscfileserv;C:\ Drive Space;OK;HARD;1;c:\ - total: 58.50 Gb - used: 22.71 Gb (39%) - free 35.78 Gb (61%)
+[1451970000] CURRENT SERVICE STATE: cscfileserv;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Memory Usage;OK;HARD;1;Memory usage: total:8188.82 MB - used: 1365.89 MB (17%) - free: 6822.93 MB (83%)
+[1451970000] CURRENT SERVICE STATE: cscfileserv;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: cscfileserv;Uptime;OK;HARD;1;System Uptime - 52 day(s) 5 hour(s) 44 minute(s)
+[1451970000] CURRENT SERVICE STATE: emuprintps;C:\ Drive Space;OK;HARD;1;c:\ - total: 44.66 Gb - used: 16.60 Gb (37%) - free 28.06 Gb (63%)
+[1451970000] CURRENT SERVICE STATE: emuprintps;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: emuprintps;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1222.64 MB (25%) - free: 3576.95 MB (75%)
+[1451970000] CURRENT SERVICE STATE: emuprintps;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: emuprintps;Uptime;OK;HARD;1;System Uptime - 0 day(s) 9 hour(s) 51 minute(s)
+[1451970000] CURRENT SERVICE STATE: emuscript;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 15.14 Gb (19%) - free 64.52 Gb (81%)
+[1451970000] CURRENT SERVICE STATE: emuscript;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451970000] CURRENT SERVICE STATE: emuscript;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 909.25 MB (8%) - free: 10034.39 MB (92%)
+[1451970000] CURRENT SERVICE STATE: emuscript;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: emuscript;Uptime;OK;HARD;1;System Uptime - 0 day(s) 8 hour(s) 37 minute(s)
+[1451970000] CURRENT SERVICE STATE: images;C:\ Drive Space;OK;HARD;1;c:\ - total: 1841.16 Gb - used: 978.86 Gb (53%) - free 862.30 Gb (47%)
+[1451970000] CURRENT SERVICE STATE: images;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: images;Memory Usage;OK;HARD;1;Memory usage: total:37074.86 MB - used: 1808.50 MB (5%) - free: 35266.36 MB (95%)
+[1451970000] CURRENT SERVICE STATE: images;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451970000] CURRENT SERVICE STATE: images;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: MDT Monitor;OK;HARD;1;MDT_Monitor: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: PXE Boot;OK;HARD;1;WDSServer: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: Print Spooler;OK;HARD;1;Spooler: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: images;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: images;Uptime;OK;HARD;1;System Uptime - 0 day(s) 12 hour(s) 39 minute(s)
+[1451970000] CURRENT SERVICE STATE: lansweeper;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.48 Gb - used: 27.05 Gb (55%) - free 22.43 Gb (45%)
+[1451970000] CURRENT SERVICE STATE: lansweeper;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451970000] CURRENT SERVICE STATE: lansweeper;Memory Usage;OK;HARD;1;Memory usage: total:5299.49 MB - used: 2863.61 MB (54%) - free: 2435.88 MB (46%)
+[1451970000] CURRENT SERVICE STATE: lansweeper;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.19 2015-12-10
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451970000] CURRENT SERVICE STATE: lansweeper;Uptime;OK;HARD;1;System Uptime - 13 day(s) 10 hour(s) 42 minute(s)
+[1451970000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1451970000] CURRENT SERVICE STATE: localhost;HTTP;CRITICAL;HARD;4;HTTP CRITICAL - Invalid HTTP response received from host: <?xml version="1.0" encoding="ISO-8859-1"?>
+[1451970000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451970000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 69306 MB (92% inode=95%):
+[1451970000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1451970000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2053 MB out of 2053 MB)
+[1451970000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 54 processes with STATE = RSZDT
+[1451972926] Auto-save of retention data completed successfully.
+[1451976526] Auto-save of retention data completed successfully.
+[1451980126] Auto-save of retention data completed successfully.
+[1451983726] Auto-save of retention data completed successfully.
+[1451987326] Auto-save of retention data completed successfully.
+[1451990926] Auto-save of retention data completed successfully.
+[1451994526] Auto-save of retention data completed successfully.
+[1451998126] Auto-save of retention data completed successfully.
+[1451998480] SERVICE ALERT: lansweeper;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998580] SERVICE ALERT: lansweeper;Service: User Profile;OK;SOFT;2;ProfSvc: Started
+[1451998589] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;lansweeper;1451998574;1451999774;1;0;1200;Nagios Admin;Reboot
+[1451998589] HOST DOWNTIME ALERT: lansweeper;STARTED; Host has entered a period of scheduled downtime
+[1451998669] SERVICE ALERT: lansweeper;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998691] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998699] HOST ALERT: lansweeper;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451998738] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998768] HOST ALERT: lansweeper;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451998775] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998789] SERVICE ALERT: lansweeper;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451998805] HOST ALERT: lansweeper;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451998811] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451998841] HOST ALERT: lansweeper;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451998858] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451998884] SERVICE ALERT: lansweeper;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998887] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998888] HOST ALERT: lansweeper;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451998895] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451998909] SERVICE ALERT: lansweeper;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451998925] HOST ALERT: lansweeper;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451998931] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451998961] HOST ALERT: lansweeper;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451998969] SERVICE ALERT: lansweeper;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451998977] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc1;1451998971;1452006171;1;0;7200;Nagios Admin;Pagefile
+[1451998977] HOST DOWNTIME ALERT: adauthdc1;STARTED; Host has entered a period of scheduled downtime
+[1451998978] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451998990] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc2;1451998986;1452006186;1;0;7200;Nagios Admin;Pagefile
+[1451998990] HOST DOWNTIME ALERT: adauthdc2;STARTED; Host has entered a period of scheduled downtime
+[1451998999] HOST ALERT: lansweeper;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451999000] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc3;1451998997;1452006197;1;0;7200;Nagios Admin;Pagefile
+[1451999000] HOST DOWNTIME ALERT: adauthdc3;STARTED; Host has entered a period of scheduled downtime
+[1451999004] SERVICE ALERT: lansweeper;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999005] SERVICE ALERT: lansweeper;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999007] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999015] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999034] HOST ALERT: lansweeper;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451999042] SERVICE ALERT: lansweeper;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999046] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999049] SERVICE ALERT: adauthdc1;Service: WMI;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999072] HOST ALERT: lansweeper;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451999089] SERVICE ALERT: lansweeper;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999107] SERVICE ALERT: adauthdc2;Service: RPC;UNKNOWN;SOFT;1;Failed to open service manager: 1115: A system shutdown is in progress.
+[1451999117] SERVICE ALERT: lansweeper;Service: WMI;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999124] SERVICE ALERT: lansweeper;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999125] SERVICE ALERT: lansweeper;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999127] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999146] SERVICE ALERT: adauthdc1;NSClient++ Version;OK;SOFT;2;NSClient++ 0.4.4.15 2015-11-25
+[1451999149] SERVICE ALERT: adauthdc1;Service: WMI;OK;SOFT;2;Winmgmt: Started
+[1451999154] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999162] SERVICE ALERT: lansweeper;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999192] SERVICE ALERT: lansweeper;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999200] SERVICE ALERT: lansweeper;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451999209] SERVICE ALERT: lansweeper;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999227] SERVICE ALERT: adauthdc2;Service: RPC;OK;SOFT;2;RpcSs: Started
+[1451999237] SERVICE ALERT: lansweeper;Service: WMI;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999245] SERVICE ALERT: lansweeper;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999274] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451999282] SERVICE ALERT: lansweeper;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451999292] SERVICE ALERT: lansweeper;Uptime;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1451999296] HOST ALERT: lansweeper;UP;HARD;10;PING OK - Packet loss = 78%, RTA = 0.38 ms
+[1451999300] SERVICE ALERT: lansweeper;Service: User Profile;OK;SOFT;2;ProfSvc: Started
+[1451999337] SERVICE ALERT: lansweeper;Service: WMI;OK;SOFT;3;Winmgmt: Started
+[1451999374] SERVICE ALERT: lansweeper;Service: Windows Time;OK;SOFT;3;W32Time: Started
+[1451999412] SERVICE ALERT: lansweeper;Uptime;OK;SOFT;3;System Uptime - 0 day(s) 0 hour(s) 2 minute(s)
+[1451999489] SERVICE ALERT: lansweeper;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1451999511] SERVICE ALERT: lansweeper;Memory Usage;OK;HARD;3;Memory usage: total:10943.15 MB - used: 2033.20 MB (19%) - free: 8909.95 MB (81%)
+[1451999558] SERVICE ALERT: lansweeper;C:\ Drive Space;OK;HARD;3;c:\ - total: 49.48 Gb - used: 26.53 Gb (54%) - free 22.95 Gb (46%)
+[1451999595] SERVICE ALERT: lansweeper;CPU Load;OK;HARD;3;CPU Load 52% (5 min average)
+[1451999704] SERVICE ALERT: lansweeper;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1451999707] SERVICE ALERT: lansweeper;NSClient++ Version;OK;HARD;3;NSClient++ 0.5.0.19 2015-12-10
+[1451999773] HOST DOWNTIME ALERT: lansweeper;STOPPED; Host has exited from a period of scheduled downtime
+[1451999789] SERVICE ALERT: lansweeper;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1451999825] SERVICE ALERT: lansweeper;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1451999862] SERVICE ALERT: lansweeper;Service: RPC;OK;HARD;3;RpcSs: Started
+[1452001726] Auto-save of retention data completed successfully.
+[1452001891] SERVICE ALERT: addc3;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452001991] SERVICE ALERT: addc3;Service: DNS Service;OK;SOFT;2;DNS: Started
+[1452005326] Auto-save of retention data completed successfully.
+[1452006170] HOST DOWNTIME ALERT: adauthdc1;STOPPED; Host has exited from a period of scheduled downtime
+[1452006185] HOST DOWNTIME ALERT: adauthdc2;STOPPED; Host has exited from a period of scheduled downtime
+[1452006196] HOST DOWNTIME ALERT: adauthdc3;STOPPED; Host has exited from a period of scheduled downtime
+[1452006353] Caught SIGTERM, shutting down...
+[1452006353] Successfully shutdown... (PID=10591)
+[1452006353] Event broker module 'NERD' deinitialized successfully.
+[1452006354] Nagios 4.1.1 starting... (PID=21385)
+[1452006354] Local time is Tue Jan 05 10:05:54 EST 2016
+[1452006354] LOG VERSION: 2.0
+[1452006354] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452006354] qh: core query handler registered
+[1452006354] nerd: Channel hostchecks registered successfully
+[1452006354] nerd: Channel servicechecks registered successfully
+[1452006354] nerd: Channel opathchecks registered successfully
+[1452006354] nerd: Fully initialized and ready to rock!
+[1452006354] wproc: Successfully registered manager as @wproc with query handler
+[1452006354] wproc: Registry request: name=Core Worker 21389;pid=21389
+[1452006354] wproc: Registry request: name=Core Worker 21387;pid=21387
+[1452006354] wproc: Registry request: name=Core Worker 21390;pid=21390
+[1452006354] wproc: Registry request: name=Core Worker 21388;pid=21388
+[1452006354] Successfully launched command file worker with pid 21393
+[1452006414] SERVICE ALERT: directaccess;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006441] HOST ALERT: hdbackups;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1452006452] SERVICE ALERT: directaccess;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006490] SERVICE ALERT: directaccess;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006503] HOST ALERT: hdbackups;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1452006528] SERVICE ALERT: directaccess;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006534] SERVICE ALERT: directaccess;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006541] HOST ALERT: hdbackups;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1452006566] SERVICE ALERT: directaccess;Service: WMI;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006572] SERVICE ALERT: directaccess;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006579] HOST ALERT: hdbackups;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1452006604] SERVICE ALERT: directaccess;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006610] SERVICE ALERT: directaccess;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006617] HOST ALERT: hdbackups;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1452006642] SERVICE ALERT: directaccess;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006648] SERVICE ALERT: directaccess;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006654] SERVICE ALERT: directaccess;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006654] SERVICE NOTIFICATION: BenPeters;directaccess;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006654] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006654] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006655] HOST ALERT: hdbackups;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1452006657] SERVICE ALERT: directaccess;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006686] SERVICE ALERT: directaccess;Service: WMI;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006692] SERVICE ALERT: directaccess;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006692] SERVICE NOTIFICATION: BenPeters;directaccess;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006692] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006692] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006693] HOST ALERT: hdbackups;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1452006724] SERVICE ALERT: directaccess;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006730] SERVICE ALERT: directaccess;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006730] SERVICE NOTIFICATION: BenPeters;directaccess;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006730] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006730] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006730] HOST ALERT: hdbackups;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1452006762] SERVICE ALERT: directaccess;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006768] SERVICE ALERT: directaccess;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006768] SERVICE NOTIFICATION: BenPeters;directaccess;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006768] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006768] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006768] HOST ALERT: hdbackups;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1452006777] SERVICE ALERT: directaccess;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006792] SERVICE ALERT: directaccess;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006806] SERVICE ALERT: directaccess;Service: WMI;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006806] SERVICE NOTIFICATION: BenPeters;directaccess;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006806] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006806] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006806] HOST ALERT: hdbackups;UP;SOFT;10;PING WARNING - Packet loss = 93%, RTA = 0.31 ms
+[1452006830] SERVICE ALERT: directaccess;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006844] SERVICE ALERT: directaccess;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006844] SERVICE NOTIFICATION: BenPeters;directaccess;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006844] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006844] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006868] SERVICE ALERT: directaccess;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006882] SERVICE ALERT: directaccess;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006882] SERVICE NOTIFICATION: BenPeters;directaccess;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006882] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006882] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006897] SERVICE ALERT: directaccess;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452006897] SERVICE NOTIFICATION: BenPeters;directaccess;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006897] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006897] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452006906] SERVICE ALERT: directaccess;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006912] SERVICE ALERT: directaccess;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006944] SERVICE ALERT: directaccess;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452006950] SERVICE ALERT: directaccess;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452006988] SERVICE ALERT: directaccess;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452007026] SERVICE ALERT: directaccess;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452007032] SERVICE ALERT: directaccess;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452007032] SERVICE NOTIFICATION: BenPeters;directaccess;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007032] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007032] SERVICE NOTIFICATION: PatricDaugherty;directaccess;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007064] SERVICE ALERT: directaccess;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452007070] SERVICE ALERT: directaccess;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452007070] SERVICE NOTIFICATION: BenPeters;directaccess;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007070] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007070] SERVICE NOTIFICATION: PatricDaugherty;directaccess;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007108] SERVICE ALERT: directaccess;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452007108] SERVICE NOTIFICATION: BenPeters;directaccess;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007108] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007108] SERVICE NOTIFICATION: PatricDaugherty;directaccess;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007146] SERVICE ALERT: directaccess;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452007146] SERVICE NOTIFICATION: BenPeters;directaccess;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007146] SERVICE NOTIFICATION: MohamedAlghaithi;directaccess;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007146] SERVICE NOTIFICATION: PatricDaugherty;directaccess;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1452007181] Caught SIGTERM, shutting down...
+[1452007181] Successfully shutdown... (PID=21385)
+[1452007181] Event broker module 'NERD' deinitialized successfully.
+[1452007182] Nagios 4.1.1 starting... (PID=22525)
+[1452007182] Local time is Tue Jan 05 10:19:42 EST 2016
+[1452007182] LOG VERSION: 2.0
+[1452007182] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452007182] qh: core query handler registered
+[1452007182] nerd: Channel hostchecks registered successfully
+[1452007182] nerd: Channel servicechecks registered successfully
+[1452007182] nerd: Channel opathchecks registered successfully
+[1452007182] nerd: Fully initialized and ready to rock!
+[1452007182] wproc: Successfully registered manager as @wproc with query handler
+[1452007182] wproc: Registry request: name=Core Worker 22529;pid=22529
+[1452007182] wproc: Registry request: name=Core Worker 22527;pid=22527
+[1452007182] wproc: Registry request: name=Core Worker 22530;pid=22530
+[1452007182] wproc: Registry request: name=Core Worker 22528;pid=22528
+[1452007182] Successfully launched command file worker with pid 22533
+[1452007205] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;directaccess;1452007201;1452014401;1;0;7200;Nagios Admin;Test
+[1452007205] HOST DOWNTIME ALERT: directaccess;STARTED; Host has entered a period of scheduled downtime
+[1452007230] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;directaccess;1452007229
+[1452007289] SERVICE ALERT: directaccess;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1452007396] SERVICE ALERT: hdbackups;F:\ Drive Space;UNKNOWN;SOFT;1;Free disk space : Invalid drive
+[1452007516] SERVICE ALERT: hdbackups;F:\ Drive Space;UNKNOWN;SOFT;2;Free disk space : Invalid drive
+[1452007625] Caught SIGTERM, shutting down...
+[1452007625] Successfully shutdown... (PID=22525)
+[1452007625] Event broker module 'NERD' deinitialized successfully.
+[1452007626] Nagios 4.1.1 starting... (PID=23075)
+[1452007626] Local time is Tue Jan 05 10:27:06 EST 2016
+[1452007626] LOG VERSION: 2.0
+[1452007626] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452007626] qh: core query handler registered
+[1452007626] nerd: Channel hostchecks registered successfully
+[1452007626] nerd: Channel servicechecks registered successfully
+[1452007626] nerd: Channel opathchecks registered successfully
+[1452007626] nerd: Fully initialized and ready to rock!
+[1452007626] wproc: Successfully registered manager as @wproc with query handler
+[1452007626] wproc: Registry request: name=Core Worker 23078;pid=23078
+[1452007626] wproc: Registry request: name=Core Worker 23080;pid=23080
+[1452007626] wproc: Registry request: name=Core Worker 23079;pid=23079
+[1452007626] wproc: Registry request: name=Core Worker 23077;pid=23077
+[1452007626] Successfully launched command file worker with pid 23083
+[1452007626] HOST DOWNTIME ALERT: directaccess;STARTED; Host has entered a period of scheduled downtime
+[1452007636] SERVICE ALERT: hdbackups;F:\ Drive Space;OK;SOFT;3;f:\ - total: 3315.22 Gb - used: 2547.19 Gb (77%) - free 768.04 Gb (23%)
+[1452007677] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;directaccess;1452007672
+[1452008188] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;directaccess;1452008187
+[1452009273] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;directaccess;1452009273
+[1452010606] Caught SIGTERM, shutting down...
+[1452010606] Successfully shutdown... (PID=23075)
+[1452010606] Event broker module 'NERD' deinitialized successfully.
+[1452010607] Nagios 4.1.1 starting... (PID=26245)
+[1452010607] Local time is Tue Jan 05 11:16:47 EST 2016
+[1452010607] LOG VERSION: 2.0
+[1452010607] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452010607] qh: core query handler registered
+[1452010607] nerd: Channel hostchecks registered successfully
+[1452010607] nerd: Channel servicechecks registered successfully
+[1452010607] nerd: Channel opathchecks registered successfully
+[1452010607] nerd: Fully initialized and ready to rock!
+[1452010607] wproc: Successfully registered manager as @wproc with query handler
+[1452010607] wproc: Registry request: name=Core Worker 26248;pid=26248
+[1452010607] wproc: Registry request: name=Core Worker 26250;pid=26250
+[1452010607] wproc: Registry request: name=Core Worker 26249;pid=26249
+[1452010607] wproc: Registry request: name=Core Worker 26247;pid=26247
+[1452010607] Successfully launched command file worker with pid 26253
+[1452010644] SERVICE ALERT: emusqlexpress;Service: MSSQL;UNKNOWN;SOFT;1;Failed to open service MSSQL$: 1060: The specified service does not exist as an installed service.
+[1452010682] SERVICE ALERT: lansweeper;Service: MSSQL;UNKNOWN;SOFT;1;Failed to open service MSSQL$: 1060: The specified service does not exist as an installed service.
+[1452010762] Caught SIGTERM, shutting down...
+[1452010762] Successfully shutdown... (PID=26245)
+[1452010762] Event broker module 'NERD' deinitialized successfully.
+[1452010763] Nagios 4.1.1 starting... (PID=26488)
+[1452010763] Local time is Tue Jan 05 11:19:23 EST 2016
+[1452010763] LOG VERSION: 2.0
+[1452010763] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452010763] qh: core query handler registered
+[1452010763] nerd: Channel hostchecks registered successfully
+[1452010763] nerd: Channel servicechecks registered successfully
+[1452010763] nerd: Channel opathchecks registered successfully
+[1452010763] nerd: Fully initialized and ready to rock!
+[1452010763] wproc: Successfully registered manager as @wproc with query handler
+[1452010763] wproc: Registry request: name=Core Worker 26491;pid=26491
+[1452010763] wproc: Registry request: name=Core Worker 26490;pid=26490
+[1452010763] wproc: Registry request: name=Core Worker 26493;pid=26493
+[1452010763] wproc: Registry request: name=Core Worker 26492;pid=26492
+[1452010763] Successfully launched command file worker with pid 26496
+[1452010838] SERVICE ALERT: emusqlexpress;Service: MSSQL Express;CRITICAL;SOFT;1;sqlsevr.exe: not running
+[1452010875] SERVICE ALERT: lansweeper;Service: MSSQL Express;WARNING;SOFT;1;sqlsevr.exe: not running
+[1452010958] SERVICE ALERT: emusqlexpress;Service: MSSQL Express;CRITICAL;SOFT;2;sqlsevr.exe: not running
+[1452010995] SERVICE ALERT: lansweeper;Service: MSSQL Express;WARNING;SOFT;2;sqlsevr.exe: not running
+[1452011078] SERVICE ALERT: emusqlexpress;Service: MSSQL Express;CRITICAL;HARD;3;sqlsevr.exe: not running
+[1452011078] SERVICE NOTIFICATION: BenPeters;emusqlexpress;Service: MSSQL Express;CRITICAL;notify-service-by-email;sqlsevr.exe: not running
+[1452011078] SERVICE NOTIFICATION: MohamedAlghaithi;emusqlexpress;Service: MSSQL Express;CRITICAL;notify-service-by-email;sqlsevr.exe: not running
+[1452011078] SERVICE NOTIFICATION: PatricDaugherty;emusqlexpress;Service: MSSQL Express;CRITICAL;notify-service-by-email;sqlsevr.exe: not running
+[1452011115] SERVICE ALERT: lansweeper;Service: MSSQL Express;WARNING;HARD;3;sqlsevr.exe: not running
+[1452011115] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: MSSQL Express;WARNING;notify-service-by-email;sqlsevr.exe: not running
+[1452011115] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Service: MSSQL Express;WARNING;notify-service-by-email;sqlsevr.exe: not running
+[1452011115] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Service: MSSQL Express;WARNING;notify-service-by-email;sqlsevr.exe: not running
+[1452011231] SERVICE ALERT: addc5;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452011331] SERVICE ALERT: addc5;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1452011339] Caught SIGTERM, shutting down...
+[1452011339] Successfully shutdown... (PID=26488)
+[1452011339] Event broker module 'NERD' deinitialized successfully.
+[1452011340] Nagios 4.1.1 starting... (PID=27158)
+[1452011340] Local time is Tue Jan 05 11:29:00 EST 2016
+[1452011340] LOG VERSION: 2.0
+[1452011340] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452011340] qh: core query handler registered
+[1452011340] nerd: Channel hostchecks registered successfully
+[1452011340] nerd: Channel servicechecks registered successfully
+[1452011340] nerd: Channel opathchecks registered successfully
+[1452011340] nerd: Fully initialized and ready to rock!
+[1452011340] wproc: Successfully registered manager as @wproc with query handler
+[1452011340] wproc: Registry request: name=Core Worker 27162;pid=27162
+[1452011340] wproc: Registry request: name=Core Worker 27163;pid=27163
+[1452011340] wproc: Registry request: name=Core Worker 27161;pid=27161
+[1452011340] wproc: Registry request: name=Core Worker 27160;pid=27160
+[1452011340] Successfully launched command file worker with pid 27166
+[1452011678] SERVICE ALERT: emusqlexpress;Service: MSSQL Express;OK;HARD;3;sqlservr.exe: Running
+[1452011678] SERVICE NOTIFICATION: BenPeters;emusqlexpress;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011678] SERVICE NOTIFICATION: MohamedAlghaithi;emusqlexpress;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011678] SERVICE NOTIFICATION: PatricDaugherty;emusqlexpress;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011715] SERVICE ALERT: lansweeper;Service: MSSQL Express;OK;HARD;3;sqlservr.exe: Running
+[1452011715] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011715] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011715] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Service: MSSQL Express;OK;notify-service-by-email;sqlservr.exe: Running
+[1452011828] Caught SIGTERM, shutting down...
+[1452011828] Successfully shutdown... (PID=27158)
+[1452011828] Event broker module 'NERD' deinitialized successfully.
+[1452011829] Nagios 4.1.1 starting... (PID=27755)
+[1452011829] Local time is Tue Jan 05 11:37:09 EST 2016
+[1452011829] LOG VERSION: 2.0
+[1452011829] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452011829] qh: core query handler registered
+[1452011829] nerd: Channel hostchecks registered successfully
+[1452011829] nerd: Channel servicechecks registered successfully
+[1452011829] nerd: Channel opathchecks registered successfully
+[1452011829] nerd: Fully initialized and ready to rock!
+[1452011829] wproc: Successfully registered manager as @wproc with query handler
+[1452011829] wproc: Registry request: name=Core Worker 27758;pid=27758
+[1452011829] wproc: Registry request: name=Core Worker 27757;pid=27757
+[1452011829] wproc: Registry request: name=Core Worker 27760;pid=27760
+[1452011829] wproc: Registry request: name=Core Worker 27759;pid=27759
+[1452011829] Successfully launched command file worker with pid 27763
+[1452015428] Auto-save of retention data completed successfully.
+[1452018314] Caught SIGTERM, shutting down...
+[1452018314] Successfully shutdown... (PID=27755)
+[1452018314] Event broker module 'NERD' deinitialized successfully.
+[1452018315] Nagios 4.1.1 starting... (PID=1477)
+[1452018315] Local time is Tue Jan 05 13:25:15 EST 2016
+[1452018315] LOG VERSION: 2.0
+[1452018315] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1452018315] qh: core query handler registered
+[1452018315] nerd: Channel hostchecks registered successfully
+[1452018315] nerd: Channel servicechecks registered successfully
+[1452018315] nerd: Channel opathchecks registered successfully
+[1452018315] nerd: Fully initialized and ready to rock!
+[1452018315] wproc: Successfully registered manager as @wproc with query handler
+[1452018315] wproc: Registry request: name=Core Worker 1481;pid=1481
+[1452018315] wproc: Registry request: name=Core Worker 1482;pid=1482
+[1452018315] wproc: Registry request: name=Core Worker 1480;pid=1480
+[1452018315] wproc: Registry request: name=Core Worker 1479;pid=1479
+[1452018316] Successfully launched command file worker with pid 1485
+[1452021915] Auto-save of retention data completed successfully.
+[1452025515] Auto-save of retention data completed successfully.
+[1452029115] Auto-save of retention data completed successfully.
+[1452032715] Auto-save of retention data completed successfully.
+[1452036315] Auto-save of retention data completed successfully.
+[1452039915] Auto-save of retention data completed successfully.
+[1452043515] Auto-save of retention data completed successfully.
+[1452047115] Auto-save of retention data completed successfully.
+[1452050715] Auto-save of retention data completed successfully.
+[1452054315] Auto-save of retention data completed successfully.

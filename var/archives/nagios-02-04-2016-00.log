@@ -1,0 +1,725 @@
+[1454552700] Warning: command_check_interval is deprecated and will be removed. Commands are always handled on arrival
+[1454552700] Nagios 4.1.1 starting... (PID=26253)
+[1454552700] Local time is Wed Feb 03 21:25:00 EST 2016
+[1454552700] LOG VERSION: 2.0
+[1454552700] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1454552700] qh: core query handler registered
+[1454552700] nerd: Channel hostchecks registered successfully
+[1454552700] nerd: Channel servicechecks registered successfully
+[1454552700] nerd: Channel opathchecks registered successfully
+[1454552700] nerd: Fully initialized and ready to rock!
+[1454552700] wproc: Successfully registered manager as @wproc with query handler
+[1454552700] wproc: Registry request: name=Core Worker 26255;pid=26255
+[1454552700] wproc: Registry request: name=Core Worker 26258;pid=26258
+[1454552700] wproc: Registry request: name=Core Worker 26257;pid=26257
+[1454552700] wproc: Registry request: name=Core Worker 26256;pid=26256
+[1454552701] Successfully launched command file worker with pid 26300
+[1454552767] EXTERNAL COMMAND: SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Auto-Patch-And-Reboot;1454552740;1454563840;1;0;7200;bpeters-AD;Temp Downtime
+[1454552767] HOST DOWNTIME ALERT: AD-RMAD;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: EMU-VALUE01;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: EMUSCRIPT;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: EMUSQLEXPRESS;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: HDBACKUPS;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: IMAGES;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: LANSWEEPER;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: MBAM;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: MBAMDB;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: OFFICEKMS;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: REFWIN;STARTED; Host has entered a period of scheduled downtime
+[1454552767] HOST DOWNTIME ALERT: SANDBOX-DB;STARTED; Host has entered a period of scheduled downtime
+[1454552872] SERVICE ALERT: AD-RMAD;E:\ Drive Space;WARNING;SOFT;1;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454552874] SERVICE ALERT: owen101lab3;Black Print Cartridge HP C8543X;WARNING;SOFT;1;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454552904] HOST ALERT: owen101lab3;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1454552931] SERVICE ALERT: owen101lab3;Device Status;WARNING;SOFT;1;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454552934] SERVICE ALERT: owen101lab3;Black Print Cartridge HP C8543X;WARNING;SOFT;2;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454552941] SERVICE ALERT: DB01-2012;CPU Load;WARNING;SOFT;1;CPU Load 88% (5 min average)
+[1454552956] HOST ALERT: hallethirdsouth;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1454552961] HOST ALERT: owen101lab3;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1454552988] SERVICE ALERT: owen101lab3;Paper Tray Status;WARNING;SOFT;1;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454552991] SERVICE ALERT: owen101lab3;Device Status;WARNING;SOFT;2;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454552992] SERVICE ALERT: AD-RMAD;E:\ Drive Space;WARNING;SOFT;2;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454552994] SERVICE ALERT: owen101lab3;Black Print Cartridge HP C8543X;WARNING;HARD;3;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454553018] HOST ALERT: owen101lab3;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1454553031] SERVICE ALERT: SANDBOX-DB;C:\ Drive Space;WARNING;SOFT;1;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553046] HOST ALERT: hallethirdsouth;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1454553048] SERVICE ALERT: owen101lab3;Paper Tray Status;WARNING;SOFT;2;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454553051] SERVICE ALERT: owen101lab3;Device Status;WARNING;HARD;3;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454553061] SERVICE ALERT: DB01-2012;CPU Load;OK;SOFT;2;CPU Load 76% (5 min average)
+[1454553078] HOST ALERT: owen101lab3;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1454553098] SERVICE ALERT: prayharroldpk;Black Print Cartridge HP C8543X;WARNING;SOFT;1;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553108] SERVICE ALERT: owen101lab3;Paper Tray Status;WARNING;HARD;3;WARNING: No SNMP response from 164.76.203.103! Make sure host is up and SNMP is configured properly.
+[1454553112] SERVICE ALERT: AD-RMAD;E:\ Drive Space;WARNING;HARD;3;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454553130] SERVICE ALERT: DB01-2012;CPU Load;WARNING;SOFT;1;CPU Load 81% (5 min average)
+[1454553136] HOST ALERT: hallethirdsouth;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1454553138] HOST ALERT: owen101lab3;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1454553151] SERVICE ALERT: SANDBOX-DB;C:\ Drive Space;WARNING;SOFT;2;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553158] SERVICE ALERT: prayharroldpk;Black Print Cartridge HP C8543X;WARNING;SOFT;2;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553199] SERVICE ALERT: hallefirst2;Black Print Cartridge HP C8543X;WARNING;SOFT;1;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553216] SERVICE ALERT: hallethirdsouth;Device Status;WARNING;SOFT;1;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553219] SERVICE ALERT: prayharroldpk;Black Print Cartridge HP C8543X;WARNING;HARD;3;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: adilling;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: apowdhar;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: asmolin1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: atanner1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: cbibins1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ccunni11;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: cgillon;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: cmitropo;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: crpowell;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: csabella;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ctrigose;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: djacks35;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: dpowder;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ewhitmye;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: gcolsto1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jdiegelb;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jhentsch;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jkenne23;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jlatham3;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: kcoberle;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: kmcfarla;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: lmier;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ogloster;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: pavian;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: pmcmacke;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rdulinii;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: relam;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rgarci12;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rneet;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rwoody;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ahan4;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ahunte25;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: akauer;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: akerby;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: amadar;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: amarti94;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: asebieh;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: bander30;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: bcarte13;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ccarter1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: clanier1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: dwilso73;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: edowden;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ehobbs1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: esmith78;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: eupshaw;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: hferenca;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ibell1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jbrescol;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jlee91;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jmolnar8;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: jsibert;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: kalzouba;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: kbonds2;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: kmahanta;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: larcher3;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: lbellan1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: malqaht4;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: mhatton3;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: mlahey1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: mleddy1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: mmarti61;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: nsulaima;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: ppatel10;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rashokku;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rcho;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rhuff7;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rmagyar;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rpallye;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rrober25;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: rwinterha;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: sbenton1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: scarey7;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: sgangwar;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: shonaker;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: slove10;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: spolk5;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: sstampe2;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: twalke35;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: zbloss;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: zfeil;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553219] SERVICE NOTIFICATION: akirkland1;prayharroldpk;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at 4% - WARNING!
+[1454553224] SERVICE ALERT: markjeffersonpk;Paper Tray Status;WARNING;SOFT;1;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553226] HOST ALERT: hallethirdsouth;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1454553228] HOST ALERT: owen101lab3;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1454553239] SERVICE NOTIFICATION: bpeters;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553239] SERVICE NOTIFICATION: malghait;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553239] SERVICE NOTIFICATION: pdaughert2;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553250] SERVICE ALERT: DB01-2012;CPU Load;CRITICAL;SOFT;2;CPU Load 90% (5 min average)
+[1454553259] SERVICE ALERT: hallefirst2;Black Print Cartridge HP C8543X;WARNING;SOFT;2;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553259] Auto-save of retention data completed successfully.
+[1454553271] SERVICE ALERT: SANDBOX-DB;C:\ Drive Space;WARNING;HARD;3;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454553271] SERVICE ALERT: strongpk;Paper Tray Status;WARNING;SOFT;1;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553273] SERVICE ALERT: hallethirdsouth;Paper Tray Status;WARNING;SOFT;1;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553276] SERVICE ALERT: hallethirdsouth;Device Status;WARNING;SOFT;2;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553284] SERVICE ALERT: markjeffersonpk;Paper Tray Status;WARNING;SOFT;2;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553303] HOST ALERT: hallethirdsouth;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1454553318] HOST ALERT: owen101lab3;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1454553320] SERVICE ALERT: hallefirst2;Black Print Cartridge HP C8543X;WARNING;HARD;3;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: adilling;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: apowdhar;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: asmolin1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: atanner1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: cbibins1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ccunni11;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: cgillon;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: cmitropo;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: crpowell;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: csabella;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ctrigose;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: djacks35;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: dpowder;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ewhitmye;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: gcolsto1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jdiegelb;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jhentsch;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jkenne23;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jlatham3;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: kcoberle;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: kmcfarla;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: lmier;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ogloster;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: pavian;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: pmcmacke;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rdulinii;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: relam;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rgarci12;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rneet;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rwoody;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ahan4;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ahunte25;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: akauer;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: akerby;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: amadar;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: amarti94;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: asebieh;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: bander30;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: bcarte13;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ccarter1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: clanier1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: dwilso73;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: edowden;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ehobbs1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: esmith78;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: eupshaw;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: hferenca;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ibell1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jbrescol;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jlee91;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jmolnar8;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: jsibert;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: kalzouba;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: kbonds2;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: kmahanta;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: larcher3;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: lbellan1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: malqaht4;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: mhatton3;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: mlahey1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: mleddy1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: mmarti61;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: nsulaima;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: ppatel10;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rashokku;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rcho;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rhuff7;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rmagyar;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rpallye;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rrober25;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: rwinterha;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: sbenton1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: scarey7;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: sgangwar;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: shonaker;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: slove10;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: spolk5;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: sstampe2;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: twalke35;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: zbloss;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: zfeil;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553320] SERVICE NOTIFICATION: akirkland1;hallefirst2;Black Print Cartridge HP C8543X;WARNING;notify-service-by-email;Black Print Cartridge HP C8543X is at WARNING level!
+[1454553332] SERVICE ALERT: strongpk;Paper Tray Status;WARNING;SOFT;2;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553333] SERVICE ALERT: hallethirdsouth;Paper Tray Status;WARNING;SOFT;2;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553336] SERVICE ALERT: hallethirdsouth;Device Status;WARNING;HARD;3;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553344] SERVICE ALERT: markjeffersonpk;Paper Tray Status;WARNING;HARD;3;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: adilling;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: apowdhar;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: asmolin1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: atanner1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: cbibins1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ccunni11;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: cgillon;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: cmitropo;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: crpowell;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: csabella;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ctrigose;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: djacks35;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: dpowder;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ewhitmye;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: gcolsto1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jdiegelb;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jhentsch;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jkenne23;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jlatham3;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: kcoberle;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: kmcfarla;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: lmier;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ogloster;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: pavian;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: pmcmacke;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rdulinii;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: relam;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rgarci12;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rneet;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rwoody;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ahan4;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ahunte25;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: akauer;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: akerby;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: amadar;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: amarti94;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: asebieh;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: bander30;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: bcarte13;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ccarter1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: clanier1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: dwilso73;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: edowden;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ehobbs1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: esmith78;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: eupshaw;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: hferenca;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ibell1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jbrescol;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jlee91;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jmolnar8;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: jsibert;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: kalzouba;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: kbonds2;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: kmahanta;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: larcher3;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: lbellan1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: malqaht4;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: mhatton3;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: mlahey1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: mleddy1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: mmarti61;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: nsulaima;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: ppatel10;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rashokku;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rcho;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rhuff7;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rmagyar;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rpallye;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rrober25;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: rwinterha;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: sbenton1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: scarey7;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: sgangwar;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: shonaker;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: slove10;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: spolk5;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: sstampe2;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: twalke35;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: zbloss;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: zfeil;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553344] SERVICE NOTIFICATION: akirkland1;markjeffersonpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 3 Trays Empty
+[1454553363] HOST ALERT: hallethirdsouth;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1454553370] SERVICE ALERT: DB01-2012;CPU Load;WARNING;HARD;3;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: bpeters;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: malghait;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: pdaughert2;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: jmorast;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: lnerella;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: xqin;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: jlyle1;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: phaggood;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553370] SERVICE NOTIFICATION: pwelke;DB01-2012;CPU Load;WARNING;notify-service-by-email;CPU Load 83% (5 min average)
+[1454553391] SERVICE ALERT: strongpk;Paper Tray Status;WARNING;HARD;3;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: adilling;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: apowdhar;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: asmolin1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: atanner1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: cbibins1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ccunni11;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: cgillon;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: cmitropo;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: crpowell;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: csabella;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ctrigose;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: djacks35;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: dpowder;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ewhitmye;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: gcolsto1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jdiegelb;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jhentsch;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jkenne23;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jlatham3;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: kcoberle;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: kmcfarla;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: lmier;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ogloster;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: pavian;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: pmcmacke;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rdulinii;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: relam;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rgarci12;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rneet;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rwoody;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ahan4;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ahunte25;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: akauer;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: akerby;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: amadar;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: amarti94;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: asebieh;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: bander30;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: bcarte13;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ccarter1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: clanier1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: dwilso73;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: edowden;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ehobbs1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: esmith78;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: eupshaw;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: hferenca;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ibell1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jbrescol;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jlee91;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jmolnar8;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: jsibert;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: kalzouba;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: kbonds2;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: kmahanta;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: larcher3;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: lbellan1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: malqaht4;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: mhatton3;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: mlahey1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: mleddy1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: mmarti61;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: nsulaima;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: ppatel10;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rashokku;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rcho;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rhuff7;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553391] SERVICE NOTIFICATION: rmagyar;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: rpallye;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: rrober25;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: rwinterha;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: sbenton1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: scarey7;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: sgangwar;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: shonaker;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: slove10;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: spolk5;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: sstampe2;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: twalke35;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: zbloss;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: zfeil;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553392] SERVICE NOTIFICATION: akirkland1;strongpk;Paper Tray Status;WARNING;notify-service-by-email;WARNING! Printer Needs Paper! 2 Trays Empty
+[1454553393] SERVICE ALERT: hallethirdsouth;Paper Tray Status;WARNING;HARD;3;WARNING: No SNMP response from 164.76.107.213! Make sure host is up and SNMP is configured properly.
+[1454553408] HOST ALERT: owen101lab3;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1454553423] HOST ALERT: hallethirdsouth;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1454553498] HOST ALERT: owen101lab3;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1454553513] HOST ALERT: hallethirdsouth;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST ALERT: owen101lab3;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: adilling;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: apowdhar;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: asmolin1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: atanner1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: cbibins1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ccunni11;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: cgillon;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: cmitropo;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: crpowell;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: csabella;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ctrigose;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: djacks35;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: dpowder;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ewhitmye;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: gcolsto1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jdiegelb;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jhentsch;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jkenne23;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jlatham3;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: kcoberle;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: kmcfarla;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: lmier;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ogloster;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: pavian;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: pmcmacke;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rdulinii;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: relam;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rgarci12;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rneet;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rwoody;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ahan4;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ahunte25;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: akauer;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: akerby;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: amadar;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: amarti94;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: asebieh;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: bander30;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: bcarte13;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ccarter1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: clanier1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: dwilso73;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: edowden;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ehobbs1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: esmith78;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: eupshaw;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: hferenca;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ibell1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jbrescol;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jlee91;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jmolnar8;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: jsibert;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: kalzouba;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: kbonds2;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: kmahanta;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: larcher3;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: lbellan1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: malqaht4;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: mhatton3;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: mlahey1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: mleddy1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: mmarti61;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: nsulaima;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: ppatel10;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rashokku;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rcho;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rhuff7;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rmagyar;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rpallye;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rrober25;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: rwinterha;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: sbenton1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: scarey7;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: sgangwar;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: shonaker;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: slove10;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: spolk5;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: sstampe2;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: twalke35;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: zbloss;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: zfeil;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553588] HOST NOTIFICATION: akirkland1;owen101lab3;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553603] HOST ALERT: hallethirdsouth;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST ALERT: hallethirdsouth;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: adilling;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: apowdhar;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: asmolin1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: atanner1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: cbibins1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ccunni11;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: cgillon;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: cmitropo;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: crpowell;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: csabella;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ctrigose;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: djacks35;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: dpowder;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ewhitmye;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: gcolsto1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jdiegelb;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jhentsch;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jkenne23;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jlatham3;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: kcoberle;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: kmcfarla;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: lmier;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ogloster;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: pavian;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: pmcmacke;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rdulinii;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: relam;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rgarci12;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rneet;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rwoody;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ahan4;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ahunte25;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: akauer;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: akerby;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: amadar;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: amarti94;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: asebieh;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: bander30;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: bcarte13;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ccarter1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: clanier1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: dwilso73;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: edowden;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ehobbs1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: esmith78;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: eupshaw;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: hferenca;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ibell1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jbrescol;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jlee91;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jmolnar8;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: jsibert;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: kalzouba;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: kbonds2;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: kmahanta;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: larcher3;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: lbellan1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: malqaht4;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: mhatton3;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: mlahey1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: mleddy1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: mmarti61;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: nsulaima;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: ppatel10;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rashokku;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rcho;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rhuff7;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rmagyar;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rpallye;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rrober25;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: rwinterha;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: sbenton1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: scarey7;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: sgangwar;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: shonaker;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: slove10;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: spolk5;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: sstampe2;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: twalke35;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: zbloss;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: zfeil;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553693] HOST NOTIFICATION: akirkland1;hallethirdsouth;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1454553738] wproc: Core Worker 26255: job 447 (pid=13984) timed out. Killing it
+[1454553738] wproc: CHECK job 447 from worker Core Worker 26255 timed out after 30.00s
+[1454553738] wproc:   host=owen101lab3; service=(null);
+[1454553738] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454553738] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454553738] Warning: Check of host 'owen101lab3' timed out after 30.00 seconds
+[1454553970] SERVICE ALERT: DB01-2012;CPU Load;OK;HARD;3;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: bpeters;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: malghait;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: pdaughert2;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: jmorast;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: lnerella;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: xqin;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: jlyle1;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: phaggood;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454553970] SERVICE NOTIFICATION: pwelke;DB01-2012;CPU Load;OK;notify-service-by-email;CPU Load 19% (5 min average)
+[1454554281] wproc: Core Worker 26255: job 618 (pid=23845) timed out. Killing it
+[1454554281] wproc: CHECK job 618 from worker Core Worker 26255 timed out after 30.00s
+[1454554281] wproc:   host=owen101lab3; service=(null);
+[1454554281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454554281] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454554281] Warning: Check of host 'owen101lab3' timed out after 30.00 seconds
+[1454554281] wproc: Core Worker 26255: job 618 (pid=23845): Dormant child reaped
+[1454555673] SERVICE NOTIFICATION: bpeters;AD-RMAD;E:\ Drive Space;WARNING;notify-service-by-email;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454555673] SERVICE NOTIFICATION: malghait;AD-RMAD;E:\ Drive Space;WARNING;notify-service-by-email;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454555673] SERVICE NOTIFICATION: pdaughert2;AD-RMAD;E:\ Drive Space;WARNING;notify-service-by-email;e:\ - total: 39.87 Gb - used: 34.86 Gb (87%) - free 5.02 Gb (13%)
+[1454555757] SERVICE ALERT: VC;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454555857] SERVICE ALERT: VC;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1454556300] Auto-save of retention data completed successfully.
+[1454556399] wproc: Core Worker 20695: job 13636 (pid=29323) timed out. Killing it
+[1454556399] wproc: CHECK job 13636 from worker Core Worker 20695 timed out after 30.00s
+[1454556399] wproc:   host=owen101lab3; service=(null);
+[1454556399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454556399] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454556399] Warning: Check of host 'owen101lab3' timed out after 30.00 seconds
+[1454556399] wproc: Core Worker 20695: job 13636 (pid=29323): Dormant child reaped
+[1454556600] HOST DOWNTIME ALERT: LANSWEEPER;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: ADWSUSCLIENTS;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: EMUSCRIPT;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: MBAM;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: OFFICEKMS;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: MBAMDB;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: EMUSQLEXPRESS;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: REFWIN;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: HDBACKUPS;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: VC;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: IMAGES;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: AD-RMAD;STARTED; Host has entered a period of scheduled downtime
+[1454556600] HOST DOWNTIME ALERT: ADWSUSSERVERS;STARTED; Host has entered a period of scheduled downtime
+[1454556839] SERVICE NOTIFICATION: bpeters;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454556839] SERVICE NOTIFICATION: malghait;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454556839] SERVICE NOTIFICATION: pdaughert2;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.54 Gb (82%) - free 7.11 Gb (18%)
+[1454556860] Auto-save of retention data completed successfully.
+[1454558424] SERVICE ALERT: LANSWEEPER;CPU Load;CRITICAL;SOFT;1;CPU Load 92% (5 min average)
+[1454558544] SERVICE ALERT: LANSWEEPER;CPU Load;WARNING;SOFT;2;CPU Load 85% (5 min average)
+[1454558664] SERVICE ALERT: LANSWEEPER;CPU Load;CRITICAL;HARD;3;CPU Load 96% (5 min average)
+[1454558736] SERVICE ALERT: LANSWEEPER;CPU Load;CRITICAL;SOFT;1;CPU Load 92% (5 min average)
+[1454558856] SERVICE ALERT: LANSWEEPER;CPU Load;CRITICAL;SOFT;2;CPU Load 91% (5 min average)
+[1454558976] SERVICE ALERT: LANSWEEPER;CPU Load;CRITICAL;HARD;3;CPU Load 92% (5 min average)
+[1454559150] SERVICE ALERT: EMU-VALUE01;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559151] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559152] SERVICE ALERT: EMU-VALUE01;Service: WMI;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559180] HOST ALERT: EMU-VALUE01;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1454559182] HOST ALERT: EMU-VALUE01;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1454559208] SERVICE ALERT: EMU-VALUE01;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559209] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559212] SERVICE ALERT: EMU-VALUE01;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559215] SERVICE ALERT: EMU-VALUE01;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559231] SERVICE ALERT: EMU-VALUE01;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559238] HOST ALERT: EMU-VALUE01;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1454559242] HOST ALERT: EMU-VALUE01;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1454559256] SERVICE ALERT: EMU-VALUE01;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559264] SERVICE ALERT: LANSWEEPER;CPU Load;OK;HARD;3;CPU Load 62% (5 min average)
+[1454559265] SERVICE ALERT: EMU-VALUE01;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559266] SERVICE ALERT: EMU-VALUE01;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559270] SERVICE ALERT: EMU-VALUE01;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559271] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559272] SERVICE ALERT: EMU-VALUE01;Service: WMI;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559278] SERVICE ALERT: EMU-VALUE01;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559286] HOST ALERT: EMU-VALUE01;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1454559300] HOST ALERT: EMU-VALUE01;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1454559328] SERVICE ALERT: EMU-VALUE01;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559329] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559332] SERVICE ALERT: EMU-VALUE01;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559335] SERVICE ALERT: EMU-VALUE01;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1454559340] SERVICE ALERT: EMU-VALUE01;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1454559342] SERVICE ALERT: EMU-VALUE01;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559355] HOST ALERT: EMU-VALUE01;UP;SOFT;4;PING OK - Packet loss = 79%, RTA = 0.45 ms
+[1454559355] HOST ALERT: EMU-VALUE01;UP;SOFT;4;PING WARNING - Packet loss = 82%, RTA = 0.37 ms
+[1454559356] SERVICE ALERT: EMU-VALUE01;NSClient++ Version;OK;SOFT;2;NSClient++ 0.4.4.15 2015-11-25
+[1454559365] SERVICE ALERT: EMU-VALUE01;CPU Load;OK;SOFT;2;CPU Load 6% (5 min average)
+[1454559366] SERVICE ALERT: EMU-VALUE01;Uptime;OK;SOFT;2;System Uptime - 0 day(s) 0 hour(s) 3 minute(s)
+[1454559370] SERVICE ALERT: EMU-VALUE01;CPU Load;OK;SOFT;3;CPU Load 8% (5 min average)
+[1454559371] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;OK;SOFT;3;W32Time: Started
+[1454559372] SERVICE ALERT: EMU-VALUE01;Service: WMI;OK;SOFT;3;Winmgmt: Started
+[1454559377] SERVICE ALERT: EMU-VALUE01;NSClient++ Version;OK;SOFT;2;NSClient++ 0.4.4.15 2015-11-25
+[1454559428] SERVICE ALERT: EMU-VALUE01;C:\ Drive Space;OK;SOFT;3;c:\ - total: 465.42 Gb - used: 14.79 Gb (3%) - free 450.63 Gb (97%)
+[1454559429] SERVICE ALERT: EMU-VALUE01;Service: Windows Time;OK;SOFT;3;W32Time: Started
+[1454559432] SERVICE ALERT: EMU-VALUE01;Memory Usage;OK;SOFT;3;Memory usage: total:9444.43 MB - used: 2096.24 MB (22%) - free: 7348.19 MB (78%)
+[1454559435] SERVICE ALERT: EMU-VALUE01;Uptime;OK;SOFT;3;System Uptime - 0 day(s) 0 hour(s) 4 minute(s)
+[1454559442] SERVICE ALERT: EMU-VALUE01;Service: DNS Client;OK;SOFT;2;Dnscache: Started
+[1454559468] wproc: Core Worker 26256: job 2236 (pid=19886) timed out. Killing it
+[1454559468] wproc: CHECK job 2236 from worker Core Worker 26256 timed out after 30.00s
+[1454559468] wproc:   host=owen101lab3; service=(null);
+[1454559468] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454559468] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454559468] Warning: Check of host 'owen101lab3' timed out after 30.00 seconds
+[1454559468] wproc: Core Worker 26256: job 2236 (pid=19886): Dormant child reaped
+[1454559575] SERVICE ALERT: LANSWEEPER;CPU Load;OK;HARD;3;CPU Load 0% (5 min average)
+[1454559653] SERVICE ALERT: AD-RMAD;Service: DNS Client;CRITICAL;SOFT;1;connect to address 164.76.102.135 and port 12489: Connection refused
+[1454559655] SERVICE ALERT: AD-RMAD;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1454559755] SERVICE ALERT: AD-RMAD;Service: Windows Time;OK;SOFT;2;W32Time: Started
+[1454559764] SERVICE ALERT: AD-RMAD;Service: DNS Client;OK;SOFT;2;Dnscache: Started
+[1454559899] Auto-save of retention data completed successfully.
+[1454560439] SERVICE NOTIFICATION: bpeters;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.53 Gb (82%) - free 7.13 Gb (18%)
+[1454560439] SERVICE NOTIFICATION: malghait;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.53 Gb (82%) - free 7.13 Gb (18%)
+[1454560439] SERVICE NOTIFICATION: pdaughert2;SANDBOX-DB;C:\ Drive Space;WARNING;notify-service-by-email;c:\ - total: 39.66 Gb - used: 32.53 Gb (82%) - free 7.13 Gb (18%)
+[1454560460] Auto-save of retention data completed successfully.
+[1454560592] wproc: Core Worker 20694: job 14948 (pid=7886) timed out. Killing it
+[1454560592] wproc: CHECK job 14948 from worker Core Worker 20694 timed out after 30.00s
+[1454560592] wproc:   host=hallethirdsouth; service=(null);
+[1454560592] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454560592] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454560592] Warning: Check of host 'hallethirdsouth' timed out after 30.00 seconds
+[1454560592] wproc: Core Worker 20694: job 14948 (pid=7886): Dormant child reaped
+[1454560862] wproc: Core Worker 20696: job 15022 (pid=12642) timed out. Killing it
+[1454560862] wproc: CHECK job 15022 from worker Core Worker 20696 timed out after 30.00s
+[1454560862] wproc:   host=hallethirdsouth; service=(null);
+[1454560862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1454560862] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1454560862] Warning: Check of host 'hallethirdsouth' timed out after 30.00 seconds
+[1454560862] wproc: Core Worker 20696: job 15022 (pid=12642): Dormant child reaped
+[1455663039] Caught SIGTERM, shutting down...

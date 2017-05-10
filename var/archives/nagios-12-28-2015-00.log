@@ -1,0 +1,214 @@
+[1451192400] LOG ROTATION: DAILY
+[1451192400] LOG VERSION: 2.0
+[1451192400] CURRENT HOST STATE: adauthdc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.26 ms
+[1451192400] CURRENT HOST STATE: adauthdc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1451192400] CURRENT HOST STATE: adauthdc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1451192400] CURRENT HOST STATE: addc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1451192400] CURRENT HOST STATE: adwsusclients;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1451192400] CURRENT HOST STATE: adwsusservers;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1451192400] CURRENT HOST STATE: emuprintps;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451192400] CURRENT HOST STATE: emuscript;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1451192400] CURRENT HOST STATE: images;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1451192400] CURRENT HOST STATE: lansweeper;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1451192400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1451192400] CURRENT SERVICE STATE: adauthdc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.78 Gb (24%) - free 37.88 Gb (76%)
+[1451192400] CURRENT SERVICE STATE: adauthdc1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1607.72 MB (33%) - free: 3191.87 MB (67%)
+[1451192400] CURRENT SERVICE STATE: adauthdc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc1;Uptime;OK;HARD;1;System Uptime - 11 day(s) 17 hour(s) 18 minute(s)
+[1451192400] CURRENT SERVICE STATE: adauthdc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.83 Gb (24%) - free 37.83 Gb (76%)
+[1451192400] CURRENT SERVICE STATE: adauthdc2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1252.71 MB (26%) - free: 3546.88 MB (74%)
+[1451192400] CURRENT SERVICE STATE: adauthdc2;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc2;Uptime;OK;HARD;1;System Uptime - 15 day(s) 12 hour(s) 27 minute(s)
+[1451192400] CURRENT SERVICE STATE: adauthdc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 12.63 Gb (25%) - free 37.02 Gb (75%)
+[1451192400] CURRENT SERVICE STATE: adauthdc3;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1619.53 MB (34%) - free: 3180.06 MB (66%)
+[1451192400] CURRENT SERVICE STATE: adauthdc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Remote Loader for IDM;OK;HARD;1;dirxml_remote.exe: Running
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: adauthdc3;Uptime;OK;HARD;1;System Uptime - 15 day(s) 12 hour(s) 21 minute(s)
+[1451192400] CURRENT SERVICE STATE: addc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 11.75 Gb (15%) - free 67.91 Gb (85%)
+[1451192400] CURRENT SERVICE STATE: addc2;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451192400] CURRENT SERVICE STATE: addc2;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 1979.95 MB (21%) - free: 7491.62 MB (79%)
+[1451192400] CURRENT SERVICE STATE: addc2;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451192400] CURRENT SERVICE STATE: addc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: addc2;Uptime;OK;HARD;1;System Uptime - 8 day(s) 9 hour(s) 39 minute(s)
+[1451192400] CURRENT SERVICE STATE: adwsusclients;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 26.71 Gb (34%) - free 52.94 Gb (66%)
+[1451192400] CURRENT SERVICE STATE: adwsusclients;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2616.26 MB (26%) - free: 7623.31 MB (74%)
+[1451192400] CURRENT SERVICE STATE: adwsusclients;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: adwsusclients;Uptime;OK;HARD;1;System Uptime - 4 day(s) 11 hour(s) 36 minute(s)
+[1451192400] CURRENT SERVICE STATE: adwsusservers;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 26.07 Gb (33%) - free 53.58 Gb (67%)
+[1451192400] CURRENT SERVICE STATE: adwsusservers;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2485.47 MB (24%) - free: 7754.10 MB (76%)
+[1451192400] CURRENT SERVICE STATE: adwsusservers;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: adwsusservers;Uptime;OK;HARD;1;System Uptime - 5 day(s) 10 hour(s) 33 minute(s)
+[1451192400] CURRENT SERVICE STATE: emuprintps;C:\ Drive Space;OK;HARD;1;c:\ - total: 44.66 Gb - used: 16.49 Gb (37%) - free 28.16 Gb (63%)
+[1451192400] CURRENT SERVICE STATE: emuprintps;CPU Load;OK;HARD;1;CPU Load 2% (5 min average)
+[1451192400] CURRENT SERVICE STATE: emuprintps;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1521.52 MB (32%) - free: 3278.07 MB (68%)
+[1451192400] CURRENT SERVICE STATE: emuprintps;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: emuprintps;Uptime;OK;HARD;1;System Uptime - 8 day(s) 1 hour(s) 14 minute(s)
+[1451192400] CURRENT SERVICE STATE: emuscript;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 15.56 Gb (20%) - free 64.10 Gb (80%)
+[1451192400] CURRENT SERVICE STATE: emuscript;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: emuscript;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1041.54 MB (22%) - free: 3758.05 MB (78%)
+[1451192400] CURRENT SERVICE STATE: emuscript;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: emuscript;Uptime;OK;HARD;1;System Uptime - 5 day(s) 13 hour(s) 7 minute(s)
+[1451192400] CURRENT SERVICE STATE: images;C:\ Drive Space;OK;HARD;1;c:\ - total: 1841.16 Gb - used: 978.60 Gb (53%) - free 862.55 Gb (47%)
+[1451192400] CURRENT SERVICE STATE: images;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: images;Memory Usage;OK;HARD;1;Memory usage: total:37074.86 MB - used: 2260.40 MB (6%) - free: 34814.46 MB (94%)
+[1451192400] CURRENT SERVICE STATE: images;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451192400] CURRENT SERVICE STATE: images;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: MDT Monitor;OK;HARD;1;MDT_Monitor: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: PXE Boot;OK;HARD;1;WDSServer: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: Print Spooler;OK;HARD;1;Spooler: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: images;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: images;Uptime;OK;HARD;1;System Uptime - 11 day(s) 8 hour(s) 42 minute(s)
+[1451192400] CURRENT SERVICE STATE: lansweeper;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.48 Gb - used: 26.77 Gb (54%) - free 22.72 Gb (46%)
+[1451192400] CURRENT SERVICE STATE: lansweeper;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451192400] CURRENT SERVICE STATE: lansweeper;Memory Usage;OK;HARD;1;Memory usage: total:4991.10 MB - used: 2436.92 MB (49%) - free: 2554.18 MB (51%)
+[1451192400] CURRENT SERVICE STATE: lansweeper;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.19 2015-12-10
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451192400] CURRENT SERVICE STATE: lansweeper;Uptime;OK;HARD;1;System Uptime - 4 day(s) 10 hour(s) 39 minute(s)
+[1451192400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1451192400] CURRENT SERVICE STATE: localhost;HTTP;CRITICAL;HARD;4;HTTP CRITICAL - Invalid HTTP response received from host: <?xml version="1.0" encoding="ISO-8859-1"?>
+[1451192400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1451192400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 69321 MB (92% inode=95%):
+[1451192400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1451192400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2053 MB out of 2053 MB)
+[1451192400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 91 processes with STATE = RSZDT
+[1451193630] Auto-save of retention data completed successfully.
+[1451197230] Auto-save of retention data completed successfully.
+[1451200830] Auto-save of retention data completed successfully.
+[1451204430] Auto-save of retention data completed successfully.
+[1451208030] Auto-save of retention data completed successfully.
+[1451211630] Auto-save of retention data completed successfully.
+[1451215230] Auto-save of retention data completed successfully.
+[1451218830] Auto-save of retention data completed successfully.
+[1451222430] Auto-save of retention data completed successfully.
+[1451226030] Auto-save of retention data completed successfully.
+[1451229630] Auto-save of retention data completed successfully.
+[1451233230] Auto-save of retention data completed successfully.
+[1451236830] Auto-save of retention data completed successfully.
+[1451240430] Auto-save of retention data completed successfully.
+[1451244030] Auto-save of retention data completed successfully.
+[1451247630] Auto-save of retention data completed successfully.
+[1451251230] Auto-save of retention data completed successfully.
+[1451254830] Auto-save of retention data completed successfully.
+[1451258430] Auto-save of retention data completed successfully.
+[1451262030] Auto-save of retention data completed successfully.
+[1451265630] Auto-save of retention data completed successfully.
+[1451269230] Auto-save of retention data completed successfully.
+[1451272830] Auto-save of retention data completed successfully.
+[1451276430] Auto-save of retention data completed successfully.

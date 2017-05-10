@@ -1,0 +1,1586 @@
+[1450798993] Nagios 4.1.1 starting... (PID=29886)
+[1450798993] Local time is Tue Dec 22 10:43:13 EST 2015
+[1450798993] LOG VERSION: 2.0
+[1450798993] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450798993] qh: core query handler registered
+[1450798993] nerd: Channel hostchecks registered successfully
+[1450798993] nerd: Channel servicechecks registered successfully
+[1450798993] nerd: Channel opathchecks registered successfully
+[1450798993] nerd: Fully initialized and ready to rock!
+[1450798993] wproc: Successfully registered manager as @wproc with query handler
+[1450798993] wproc: Registry request: name=Core Worker 29888;pid=29888
+[1450798993] wproc: Registry request: name=Core Worker 29891;pid=29891
+[1450798993] wproc: Registry request: name=Core Worker 29890;pid=29890
+[1450798993] wproc: Registry request: name=Core Worker 29889;pid=29889
+[1450798993] Successfully launched command file worker with pid 29892
+[1450799105] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 1336 bytes in 0.001 second response time
+[1450799165] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 1336 bytes in 0.002 second response time
+[1450799225] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 1336 bytes in 0.002 second response time
+[1450799285] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 1336 bytes in 0.002 second response time
+[1450800208] Caught SIGTERM, shutting down...
+[1450800208] Successfully shutdown... (PID=29886)
+[1450800208] Event broker module 'NERD' deinitialized successfully.
+[1450800209] Nagios 4.1.1 starting... (PID=31150)
+[1450800209] Local time is Tue Dec 22 11:03:29 EST 2015
+[1450800209] LOG VERSION: 2.0
+[1450800209] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450800209] qh: core query handler registered
+[1450800209] nerd: Channel hostchecks registered successfully
+[1450800209] nerd: Channel servicechecks registered successfully
+[1450800209] nerd: Channel opathchecks registered successfully
+[1450800209] nerd: Fully initialized and ready to rock!
+[1450800209] wproc: Successfully registered manager as @wproc with query handler
+[1450800209] wproc: Registry request: name=Core Worker 31154;pid=31154
+[1450800209] wproc: Registry request: name=Core Worker 31153;pid=31153
+[1450800209] wproc: Registry request: name=Core Worker 31155;pid=31155
+[1450800209] wproc: Registry request: name=Core Worker 31152;pid=31152
+[1450800209] Successfully launched command file worker with pid 31156
+[1450800277] SERVICE ALERT: emuscript;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800336] SERVICE ALERT: emuscript;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800395] SERVICE ALERT: emuscript;Explorer;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800397] SERVICE ALERT: emuscript;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800453] SERVICE ALERT: emuscript;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800456] SERVICE ALERT: emuscript;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800512] SERVICE ALERT: emuscript;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800515] SERVICE ALERT: emuscript;Explorer;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800517] SERVICE ALERT: emuscript;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800517] SERVICE NOTIFICATION: nagiosadmin;emuscript;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800571] SERVICE ALERT: emuscript;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800573] SERVICE ALERT: emuscript;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800576] SERVICE ALERT: emuscript;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800576] SERVICE NOTIFICATION: nagiosadmin;emuscript;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800629] SERVICE ALERT: emuscript;W3SVC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450800632] SERVICE ALERT: emuscript;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800635] SERVICE ALERT: emuscript;Explorer;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800635] SERVICE NOTIFICATION: nagiosadmin;emuscript;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800691] SERVICE ALERT: emuscript;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800693] SERVICE ALERT: emuscript;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800693] SERVICE NOTIFICATION: nagiosadmin;emuscript;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800749] SERVICE ALERT: emuscript;W3SVC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450800752] SERVICE ALERT: emuscript;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800752] SERVICE NOTIFICATION: nagiosadmin;emuscript;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800811] SERVICE ALERT: emuscript;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800811] SERVICE NOTIFICATION: nagiosadmin;emuscript;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450800869] SERVICE ALERT: emuscript;W3SVC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[1450800869] SERVICE NOTIFICATION: nagiosadmin;emuscript;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450803808] Auto-save of retention data completed successfully.
+[1450804117] SERVICE NOTIFICATION: nagiosadmin;emuscript;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804176] SERVICE NOTIFICATION: nagiosadmin;emuscript;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804235] SERVICE NOTIFICATION: nagiosadmin;emuscript;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804293] SERVICE NOTIFICATION: nagiosadmin;emuscript;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804352] SERVICE NOTIFICATION: nagiosadmin;emuscript;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804411] SERVICE NOTIFICATION: nagiosadmin;emuscript;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450804469] SERVICE NOTIFICATION: nagiosadmin;emuscript;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1450806001] Caught SIGTERM, shutting down...
+[1450806001] Successfully shutdown... (PID=31150)
+[1450806001] Event broker module 'NERD' deinitialized successfully.
+[1450806002] Nagios 4.1.1 starting... (PID=957)
+[1450806002] Local time is Tue Dec 22 12:40:02 EST 2015
+[1450806002] LOG VERSION: 2.0
+[1450806002] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450806002] qh: core query handler registered
+[1450806002] nerd: Channel hostchecks registered successfully
+[1450806002] nerd: Channel servicechecks registered successfully
+[1450806002] nerd: Channel opathchecks registered successfully
+[1450806002] nerd: Fully initialized and ready to rock!
+[1450806002] wproc: Successfully registered manager as @wproc with query handler
+[1450806002] wproc: Registry request: name=Core Worker 961;pid=961
+[1450806002] wproc: Registry request: name=Core Worker 960;pid=960
+[1450806002] wproc: Registry request: name=Core Worker 959;pid=959
+[1450806002] wproc: Registry request: name=Core Worker 962;pid=962
+[1450806002] Successfully launched command file worker with pid 963
+[1450806083] SERVICE ALERT: adwsusclients;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450806101] SERVICE ALERT: adwsusservers;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450806154] SERVICE ALERT: adwsusclients;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450806172] SERVICE ALERT: adwsusservers;Explorer;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1450806203] SERVICE ALERT: adwsusclients;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450806216] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;SOFT;1;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806221] SERVICE ALERT: adwsusservers;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1450806235] Caught SIGTERM, shutting down...
+[1450806235] Successfully shutdown... (PID=957)
+[1450806235] Event broker module 'NERD' deinitialized successfully.
+[1450806236] Nagios 4.1.1 starting... (PID=1163)
+[1450806236] Local time is Tue Dec 22 12:43:56 EST 2015
+[1450806236] LOG VERSION: 2.0
+[1450806236] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450806236] qh: core query handler registered
+[1450806236] nerd: Channel hostchecks registered successfully
+[1450806236] nerd: Channel servicechecks registered successfully
+[1450806236] nerd: Channel opathchecks registered successfully
+[1450806236] nerd: Fully initialized and ready to rock!
+[1450806236] wproc: Successfully registered manager as @wproc with query handler
+[1450806236] wproc: Registry request: name=Core Worker 1167;pid=1167
+[1450806236] wproc: Registry request: name=Core Worker 1168;pid=1168
+[1450806236] wproc: Registry request: name=Core Worker 1165;pid=1165
+[1450806236] wproc: Registry request: name=Core Worker 1166;pid=1166
+[1450806236] Successfully launched command file worker with pid 1169
+[1450806264] SERVICE ALERT: adwsusclients;CPU Load;CRITICAL;SOFT;2;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806287] SERVICE ALERT: adwsusclients;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806294] HOST ALERT: adwsusclients;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1450806302] SERVICE ALERT: adwsusservers;Explorer;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806313] SERVICE ALERT: adwsusclients;C:\ Drive Space;CRITICAL;HARD;3;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806325] SERVICE ALERT: adwsusservers;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806327] SERVICE ALERT: adwsusservers;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806336] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;SOFT;2;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806343] HOST ALERT: adwsusclients;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1450806351] SERVICE ALERT: adwsusservers;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806351] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806358] SERVICE ALERT: adwsusclients;NSClient++ Version;CRITICAL;SOFT;1;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806384] SERVICE ALERT: adwsusclients;CPU Load;CRITICAL;HARD;3;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806388] HOST ALERT: adwsusclients;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1450806396] SERVICE ALERT: adwsusservers;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806407] SERVICE ALERT: adwsusclients;Memory Usage;CRITICAL;SOFT;2;connect to address 164.76.102.134 and port 12489: Connection refused
+[1450806422] SERVICE ALERT: adwsusservers;Explorer;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806422] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806426] HOST ALERT: adwsusclients;UP;SOFT;4;PING OK - Packet loss = 75%, RTA = 0.57 ms
+[1450806445] SERVICE ALERT: adwsusservers;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806447] SERVICE ALERT: adwsusservers;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806450] SERVICE ALERT: adwsusclients;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806467] SERVICE ALERT: adwsusservers;W3SVC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806476] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806476] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806498] SERVICE ALERT: adwsusclients;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806516] SERVICE ALERT: adwsusservers;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806521] SERVICE ALERT: adwsusclients;W3SVC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806528] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;1;Usage:
+[1450806547] SERVICE ALERT: adwsusclients;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806547] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806565] SERVICE ALERT: adwsusservers;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806565] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806567] SERVICE ALERT: adwsusservers;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806567] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806570] SERVICE ALERT: adwsusclients;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806587] SERVICE ALERT: adwsusservers;W3SVC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806588] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;2;Usage:
+[1450806592] SERVICE ALERT: adwsusservers;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450806618] SERVICE ALERT: adwsusclients;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806618] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806636] SERVICE ALERT: adwsusservers;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806636] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806641] SERVICE ALERT: adwsusclients;W3SVC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806648] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;3;Usage:
+[1450806690] SERVICE ALERT: adwsusclients;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806690] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806707] SERVICE ALERT: adwsusservers;W3SVC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806707] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806708] SERVICE ALERT: localhost;Current Load;UNKNOWN;HARD;4;Usage:
+[1450806708] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450806712] SERVICE ALERT: adwsusservers;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450806761] SERVICE ALERT: adwsusclients;W3SVC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806761] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806832] SERVICE ALERT: adwsusservers;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450806832] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450806933] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807004] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807268] Caught SIGTERM, shutting down...
+[1450807268] Successfully shutdown... (PID=1163)
+[1450807268] Event broker module 'NERD' deinitialized successfully.
+[1450807269] Nagios 4.1.1 starting... (PID=2046)
+[1450807269] Local time is Tue Dec 22 13:01:09 EST 2015
+[1450807269] LOG VERSION: 2.0
+[1450807269] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450807269] qh: core query handler registered
+[1450807269] nerd: Channel hostchecks registered successfully
+[1450807269] nerd: Channel servicechecks registered successfully
+[1450807269] nerd: Channel opathchecks registered successfully
+[1450807269] nerd: Fully initialized and ready to rock!
+[1450807269] wproc: Successfully registered manager as @wproc with query handler
+[1450807269] wproc: Registry request: name=Core Worker 2049;pid=2049
+[1450807269] wproc: Registry request: name=Core Worker 2050;pid=2050
+[1450807269] wproc: Registry request: name=Core Worker 2051;pid=2051
+[1450807269] wproc: Registry request: name=Core Worker 2048;pid=2048
+[1450807269] Successfully launched command file worker with pid 2053
+[1450807343] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807417] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807463] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807491] SERVICE ALERT: lansweeper;Explorer;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807537] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807565] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807583] SERVICE ALERT: lansweeper;C:\ Drive Space;CRITICAL;HARD;3;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807583] SERVICE NOTIFICATION: nagiosadmin;lansweeper;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807611] SERVICE ALERT: lansweeper;Explorer;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807639] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807657] SERVICE ALERT: lansweeper;CPU Load;CRITICAL;HARD;3;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807657] SERVICE NOTIFICATION: nagiosadmin;lansweeper;CPU Load;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807685] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807713] SERVICE ALERT: lansweeper;Uptime;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807722] Caught SIGTERM, shutting down...
+[1450807722] Successfully shutdown... (PID=2046)
+[1450807722] Event broker module 'NERD' deinitialized successfully.
+[1450807723] Nagios 4.1.1 starting... (PID=2361)
+[1450807723] Local time is Tue Dec 22 13:08:43 EST 2015
+[1450807723] LOG VERSION: 2.0
+[1450807723] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450807723] qh: core query handler registered
+[1450807723] nerd: Channel hostchecks registered successfully
+[1450807723] nerd: Channel servicechecks registered successfully
+[1450807723] nerd: Channel opathchecks registered successfully
+[1450807723] nerd: Fully initialized and ready to rock!
+[1450807723] wproc: Successfully registered manager as @wproc with query handler
+[1450807723] wproc: Registry request: name=Core Worker 2365;pid=2365
+[1450807723] wproc: Registry request: name=Core Worker 2364;pid=2364
+[1450807723] wproc: Registry request: name=Core Worker 2363;pid=2363
+[1450807723] wproc: Registry request: name=Core Worker 2366;pid=2366
+[1450807723] Successfully launched command file worker with pid 2367
+[1450807731] SERVICE ALERT: lansweeper;Explorer;CRITICAL;HARD;3;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807731] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Explorer;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807759] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;SOFT;2;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807786] SERVICE NOTIFICATION: nagiosadmin;emuscript;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807787] SERVICE ALERT: lansweeper;W3SVC;CRITICAL;SOFT;1;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807805] SERVICE ALERT: lansweeper;Memory Usage;CRITICAL;HARD;3;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807805] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Memory Usage;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450807817] SERVICE NOTIFICATION: nagiosadmin;emuscript;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807845] SERVICE NOTIFICATION: nagiosadmin;emuscript;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807853] SERVICE ALERT: lansweeper;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450807883] HOST ALERT: lansweeper;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1450807899] SERVICE ALERT: lansweeper;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450807903] SERVICE NOTIFICATION: nagiosadmin;emuscript;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807927] SERVICE ALERT: lansweeper;W3SVC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450807929] HOST ALERT: lansweeper;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1450807962] SERVICE NOTIFICATION: nagiosadmin;emuscript;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450807973] SERVICE ALERT: lansweeper;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450807994] HOST ALERT: lansweeper;UP;SOFT;3;PING OK - Packet loss = 77%, RTA = 0.81 ms
+[1450808006] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;C:\ Drive Space;1450808001
+[1450808021] SERVICE NOTIFICATION: nagiosadmin;emuscript;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450808027] SERVICE ALERT: lansweeper;W3SVC;CRITICAL;HARD;3;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450808027] SERVICE NOTIFICATION: nagiosadmin;lansweeper;W3SVC;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450808079] SERVICE NOTIFICATION: nagiosadmin;emuscript;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450808479] SERVICE NOTIFICATION: nagiosadmin;lansweeper;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450808553] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Uptime;CRITICAL;notify-service-by-email;connect to address 164.76.2.33 and port 12489: Connection refused
+[1450808579] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;C:\ Drive Space;1450808578
+[1450808857] SERVICE ALERT: lansweeper;CPU Load;OK;HARD;3;CPU Load 32% (5 min average)
+[1450808857] SERVICE NOTIFICATION: nagiosadmin;lansweeper;CPU Load;OK;notify-service-by-email;CPU Load 32% (5 min average)
+[1450808887] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;CPU Load;1450808885
+[1450808931] SERVICE ALERT: lansweeper;Explorer;WARNING;HARD;3;Explorer.exe: not running
+[1450808931] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Explorer;WARNING;notify-service-by-email;Explorer.exe: not running
+[1450808988] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;NSClient++ Version;1450808987
+[1450808988] SERVICE ALERT: lansweeper;NSClient++ Version;OK;HARD;3;NSClient++ 0.5.0.19 2015-12-10
+[1450808988] SERVICE NOTIFICATION: nagiosadmin;lansweeper;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.5.0.19 2015-12-10
+[1450808999] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Memory Usage;1450808998
+[1450808999] SERVICE ALERT: lansweeper;Memory Usage;OK;HARD;3;Memory usage: total:4991.10 MB - used: 3199.97 MB (64%) - free: 1791.12 MB (36%)
+[1450808999] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:4991.10 MB - used: 3199.97 MB (64%) - free: 1791.12 MB (36%)
+[1450809077] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;emuscript;CPU Load;1450809075
+[1450809119] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;emuscript;C:\ Drive Space;1450809117
+[1450809142] SERVICE ALERT: emuscript;NSClient++ Version;OK;HARD;3;NSClient++ 0,4,1,73 2012-12-17
+[1450809142] SERVICE NOTIFICATION: nagiosadmin;emuscript;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0,4,1,73 2012-12-17
+[1450809153] SERVICE ALERT: lansweeper;Uptime;OK;HARD;3;System Uptime - 0 day(s) 0 hour(s) 19 minute(s)
+[1450809153] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Uptime;OK;notify-service-by-email;System Uptime - 0 day(s) 0 hour(s) 19 minute(s)
+[1450809179] SERVICE ALERT: lansweeper;C:\ Drive Space;OK;HARD;3;c:\ - total: 49.48 Gb - used: 26.73 Gb (54%) - free 22.75 Gb (46%)
+[1450809179] SERVICE NOTIFICATION: nagiosadmin;lansweeper;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 49.48 Gb - used: 26.73 Gb (54%) - free 22.75 Gb (46%)
+[1450809201] SERVICE ALERT: emuscript;Uptime;OK;HARD;3;System Uptime - 1 day(s) 2 hour(s) 46 minute(s)
+[1450809201] SERVICE NOTIFICATION: nagiosadmin;emuscript;Uptime;OK;notify-service-by-email;System Uptime - 1 day(s) 2 hour(s) 46 minute(s)
+[1450809221] SERVICE ALERT: adwsusservers;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 26.03 Gb (33%) - free 53.63 Gb (67%)
+[1450809221] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 79.66 Gb - used: 26.03 Gb (33%) - free 53.63 Gb (67%)
+[1450809227] SERVICE ALERT: lansweeper;W3SVC;OK;HARD;3;W3SVC: Started
+[1450809227] SERVICE NOTIFICATION: nagiosadmin;lansweeper;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1450809238] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;W3SVC;1450809236
+[1450809256] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;adwsusclients;1450809254
+[1450809257] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;emuscript;1450809256
+[1450809280] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;emuscript;W3SVC;1450809279
+[1450809313] SERVICE ALERT: adwsusclients;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 26.49 Gb (33%) - free 53.16 Gb (67%)
+[1450809313] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 79.66 Gb - used: 26.49 Gb (33%) - free 53.16 Gb (67%)
+[1450809331] SERVICE ALERT: adwsusservers;CPU Load;OK;HARD;3;CPU Load 1% (5 min average)
+[1450809331] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;CPU Load;OK;notify-service-by-email;CPU Load 1% (5 min average)
+[1450809384] SERVICE ALERT: adwsusclients;CPU Load;OK;HARD;3;CPU Load 5% (5 min average)
+[1450809384] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;CPU Load;OK;notify-service-by-email;CPU Load 5% (5 min average)
+[1450809402] SERVICE ALERT: adwsusservers;Explorer;OK;HARD;3;explorer.exe: Running
+[1450809402] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Explorer;OK;notify-service-by-email;explorer.exe: Running
+[1450809527] SERVICE ALERT: adwsusclients;Memory Usage;OK;HARD;3;Memory usage: total:10239.58 MB - used: 2372.99 MB (23%) - free: 7866.58 MB (77%)
+[1450809527] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Memory Usage;OK;notify-service-by-email;Memory usage: total:10239.58 MB - used: 2372.99 MB (23%) - free: 7866.58 MB (77%)
+[1450809545] SERVICE ALERT: adwsusservers;NSClient++ Version;OK;HARD;3;NSClient++ 0,4,1,73 2012-12-17
+[1450809545] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0,4,1,73 2012-12-17
+[1450809547] SERVICE ALERT: adwsusservers;Memory Usage;OK;HARD;3;Memory usage: total:10239.58 MB - used: 2765.23 MB (27%) - free: 7474.34 MB (73%)
+[1450809547] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Memory Usage;OK;notify-service-by-email;Memory usage: total:10239.58 MB - used: 2765.23 MB (27%) - free: 7474.34 MB (73%)
+[1450809598] SERVICE ALERT: adwsusclients;NSClient++ Version;OK;HARD;3;NSClient++ 0,4,1,73 2012-12-17
+[1450809598] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0,4,1,73 2012-12-17
+[1450809616] SERVICE ALERT: adwsusservers;Uptime;OK;HARD;3;System Uptime - 1 day(s) 0 hour(s) 23 minute(s)
+[1450809616] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;Uptime;OK;notify-service-by-email;System Uptime - 1 day(s) 0 hour(s) 23 minute(s)
+[1450809625] SERVICE ALERT: emuscript;Explorer;OK;HARD;3;explorer.exe: Running
+[1450809625] SERVICE NOTIFICATION: nagiosadmin;emuscript;Explorer;OK;notify-service-by-email;explorer.exe: Running
+[1450809670] SERVICE ALERT: adwsusclients;Uptime;OK;HARD;3;System Uptime - 0 day(s) 1 hour(s) 26 minute(s)
+[1450809670] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Uptime;OK;notify-service-by-email;System Uptime - 0 day(s) 1 hour(s) 26 minute(s)
+[1450809677] SERVICE ALERT: emuscript;CPU Load;OK;HARD;3;CPU Load 1% (5 min average)
+[1450809677] SERVICE NOTIFICATION: nagiosadmin;emuscript;CPU Load;OK;notify-service-by-email;CPU Load 1% (5 min average)
+[1450809683] SERVICE ALERT: emuscript;Memory Usage;OK;HARD;3;Memory usage: total:4799.59 MB - used: 1497.18 MB (31%) - free: 3302.41 MB (69%)
+[1450809683] SERVICE NOTIFICATION: nagiosadmin;emuscript;Memory Usage;OK;notify-service-by-email;Memory usage: total:4799.59 MB - used: 1497.18 MB (31%) - free: 3302.41 MB (69%)
+[1450809687] SERVICE ALERT: adwsusservers;W3SVC;OK;HARD;3;W3SVC: Started
+[1450809687] SERVICE NOTIFICATION: nagiosadmin;adwsusservers;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1450809719] SERVICE ALERT: emuscript;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 15.49 Gb (19%) - free 64.16 Gb (81%)
+[1450809719] SERVICE NOTIFICATION: nagiosadmin;emuscript;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 79.66 Gb - used: 15.49 Gb (19%) - free 64.16 Gb (81%)
+[1450809741] SERVICE ALERT: adwsusclients;W3SVC;OK;HARD;3;W3SVC: Started
+[1450809741] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1450809881] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;adwsusclients;Explorer;1450809880
+[1450809881] SERVICE ALERT: adwsusclients;Explorer;OK;HARD;3;explorer.exe: Running
+[1450809881] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Explorer;OK;notify-service-by-email;explorer.exe: Running
+[1450809894] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;emuscript;W3SVC;1450809893
+[1450810002] Caught SIGTERM, shutting down...
+[1450810002] Successfully shutdown... (PID=2361)
+[1450810002] Event broker module 'NERD' deinitialized successfully.
+[1450810003] Nagios 4.1.1 starting... (PID=3860)
+[1450810003] Local time is Tue Dec 22 13:46:43 EST 2015
+[1450810003] LOG VERSION: 2.0
+[1450810003] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450810003] qh: core query handler registered
+[1450810003] nerd: Channel hostchecks registered successfully
+[1450810003] nerd: Channel servicechecks registered successfully
+[1450810003] nerd: Channel opathchecks registered successfully
+[1450810003] nerd: Fully initialized and ready to rock!
+[1450810003] wproc: Successfully registered manager as @wproc with query handler
+[1450810003] wproc: Registry request: name=Core Worker 3864;pid=3864
+[1450810003] wproc: Registry request: name=Core Worker 3863;pid=3863
+[1450810003] wproc: Registry request: name=Core Worker 3862;pid=3862
+[1450810003] wproc: Registry request: name=Core Worker 3865;pid=3865
+[1450810003] Successfully launched command file worker with pid 3866
+[1450810190] Caught SIGTERM, shutting down...
+[1450810190] Successfully shutdown... (PID=3860)
+[1450810190] Event broker module 'NERD' deinitialized successfully.
+[1450810191] Nagios 4.1.1 starting... (PID=4010)
+[1450810191] Local time is Tue Dec 22 13:49:51 EST 2015
+[1450810191] LOG VERSION: 2.0
+[1450810191] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450810191] qh: core query handler registered
+[1450810191] nerd: Channel hostchecks registered successfully
+[1450810191] nerd: Channel servicechecks registered successfully
+[1450810191] nerd: Channel opathchecks registered successfully
+[1450810191] nerd: Fully initialized and ready to rock!
+[1450810191] wproc: Successfully registered manager as @wproc with query handler
+[1450810191] wproc: Registry request: name=Core Worker 4014;pid=4014
+[1450810191] wproc: Registry request: name=Core Worker 4013;pid=4013
+[1450810191] wproc: Registry request: name=Core Worker 4012;pid=4012
+[1450810191] wproc: Registry request: name=Core Worker 4015;pid=4015
+[1450810191] Successfully launched command file worker with pid 4016
+[1450810251] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;lansweeper;1450810250
+[1450810308] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450810340] Caught SIGTERM, shutting down...
+[1450810340] Successfully shutdown... (PID=4010)
+[1450810340] Event broker module 'NERD' deinitialized successfully.
+[1450810341] Nagios 4.1.1 starting... (PID=4162)
+[1450810341] Local time is Tue Dec 22 13:52:21 EST 2015
+[1450810341] LOG VERSION: 2.0
+[1450810341] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450810341] qh: core query handler registered
+[1450810341] nerd: Channel hostchecks registered successfully
+[1450810341] nerd: Channel servicechecks registered successfully
+[1450810341] nerd: Channel opathchecks registered successfully
+[1450810341] nerd: Fully initialized and ready to rock!
+[1450810341] wproc: Successfully registered manager as @wproc with query handler
+[1450810341] wproc: Registry request: name=Core Worker 4166;pid=4166
+[1450810341] wproc: Registry request: name=Core Worker 4165;pid=4165
+[1450810341] wproc: Registry request: name=Core Worker 4167;pid=4167
+[1450810341] wproc: Registry request: name=Core Worker 4164;pid=4164
+[1450810341] Successfully launched command file worker with pid 4168
+[1450810471] Caught SIGTERM, shutting down...
+[1450810471] Successfully shutdown... (PID=4162)
+[1450810471] Event broker module 'NERD' deinitialized successfully.
+[1450810472] Nagios 4.1.1 starting... (PID=4282)
+[1450810472] Local time is Tue Dec 22 13:54:32 EST 2015
+[1450810472] LOG VERSION: 2.0
+[1450810472] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450810472] qh: core query handler registered
+[1450810472] nerd: Channel hostchecks registered successfully
+[1450810472] nerd: Channel servicechecks registered successfully
+[1450810472] nerd: Channel opathchecks registered successfully
+[1450810472] nerd: Fully initialized and ready to rock!
+[1450810472] wproc: Successfully registered manager as @wproc with query handler
+[1450810472] wproc: Registry request: name=Core Worker 4286;pid=4286
+[1450810472] wproc: Registry request: name=Core Worker 4285;pid=4285
+[1450810472] wproc: Registry request: name=Core Worker 4284;pid=4284
+[1450810472] wproc: Registry request: name=Core Worker 4287;pid=4287
+[1450810472] Successfully launched command file worker with pid 4288
+[1450810481] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;SOFT;1;Explorer.exe: not running
+[1450810601] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;SOFT;2;Explorer.exe: not running
+[1450810721] SERVICE ALERT: adwsusclients;Explorer;CRITICAL;HARD;3;Explorer.exe: not running
+[1450810721] SERVICE NOTIFICATION: nagiosadmin;adwsusclients;Explorer;CRITICAL;notify-service-by-email;Explorer.exe: not running
+[1450810942] Caught SIGTERM, shutting down...
+[1450810942] Successfully shutdown... (PID=4282)
+[1450810942] Event broker module 'NERD' deinitialized successfully.
+[1450810943] Nagios 4.1.1 starting... (PID=4618)
+[1450810943] Local time is Tue Dec 22 14:02:23 EST 2015
+[1450810943] LOG VERSION: 2.0
+[1450810943] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450810943] qh: core query handler registered
+[1450810943] nerd: Channel hostchecks registered successfully
+[1450810943] nerd: Channel servicechecks registered successfully
+[1450810943] nerd: Channel opathchecks registered successfully
+[1450810943] nerd: Fully initialized and ready to rock!
+[1450810943] wproc: Successfully registered manager as @wproc with query handler
+[1450810943] wproc: Registry request: name=Core Worker 4622;pid=4622
+[1450810943] wproc: Registry request: name=Core Worker 4621;pid=4621
+[1450810943] wproc: Registry request: name=Core Worker 4620;pid=4620
+[1450810943] wproc: Registry request: name=Core Worker 4623;pid=4623
+[1450810943] Successfully launched command file worker with pid 4624
+[1450811015] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811024] SERVICE ALERT: adauthdc1;Windows Time Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811068] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811121] SERVICE ALERT: adauthdc1;Group Policy Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811135] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811144] SERVICE ALERT: adauthdc1;Windows Time Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811173] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811188] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811226] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811241] SERVICE ALERT: adauthdc1;Group Policy Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811255] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811255] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811264] SERVICE ALERT: adauthdc1;Windows Time Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811264] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Windows Time Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811279] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811282] Caught SIGTERM, shutting down...
+[1450811282] Successfully shutdown... (PID=4618)
+[1450811282] Event broker module 'NERD' deinitialized successfully.
+[1450811283] Nagios 4.1.1 starting... (PID=4866)
+[1450811283] Local time is Tue Dec 22 14:08:03 EST 2015
+[1450811283] LOG VERSION: 2.0
+[1450811283] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450811283] qh: core query handler registered
+[1450811283] nerd: Channel hostchecks registered successfully
+[1450811283] nerd: Channel servicechecks registered successfully
+[1450811283] nerd: Channel opathchecks registered successfully
+[1450811283] nerd: Fully initialized and ready to rock!
+[1450811283] wproc: Successfully registered manager as @wproc with query handler
+[1450811283] wproc: Registry request: name=Core Worker 4870;pid=4870
+[1450811283] wproc: Registry request: name=Core Worker 4869;pid=4869
+[1450811283] wproc: Registry request: name=Core Worker 4871;pid=4871
+[1450811283] wproc: Registry request: name=Core Worker 4868;pid=4868
+[1450811283] Successfully launched command file worker with pid 4872
+[1450811308] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811308] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811332] SERVICE ALERT: adauthdc1;Windows DNS Client Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811346] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811348] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811353] SERVICE ALERT: adauthdc2;Windows Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811359] SERVICE ALERT: adauthdc3;Windows DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811361] SERVICE ALERT: adauthdc1;Group Policy Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811361] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Group Policy Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811384] SERVICE ALERT: adauthdc1;Windows DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811393] SERVICE ALERT: adauthdc1;Windows AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811399] SERVICE ALERT: adauthdc2;Windows Login Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811399] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811404] SERVICE ALERT: adauthdc3;Windows Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811437] SERVICE ALERT: adauthdc1;Windows Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811438] SERVICE ALERT: adauthdc1;Windows AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811444] SERVICE ALERT: adauthdc2;Windows RPC Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811449] SERVICE ALERT: adauthdc3;Windows Login Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811452] SERVICE ALERT: adauthdc1;Windows DNS Client Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811466] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811466] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811468] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811468] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811473] SERVICE ALERT: adauthdc2;Windows Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811479] SERVICE ALERT: adauthdc3;Windows DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811483] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811489] SERVICE ALERT: adauthdc2;Windows Time Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811490] SERVICE ALERT: adauthdc1;Windows Login Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811495] SERVICE ALERT: adauthdc3;Windows RPC Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811504] SERVICE ALERT: adauthdc1;Windows DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811513] SERVICE ALERT: adauthdc1;Windows AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811519] SERVICE ALERT: adauthdc2;Windows Login Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811519] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811519] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811524] SERVICE ALERT: adauthdc3;Windows Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811529] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811534] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811540] SERVICE ALERT: adauthdc3;Windows Time Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811543] SERVICE ALERT: adauthdc1;Windows RPC Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811557] SERVICE ALERT: adauthdc1;Windows Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811558] SERVICE ALERT: adauthdc1;Windows AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811564] SERVICE ALERT: adauthdc2;Windows RPC Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811565] SERVICE ALERT: adwsusclients;Windows AD Domain Service;CRITICAL;SOFT;1;NTDCS: Not found
+[1450811569] SERVICE ALERT: adauthdc3;Windows Login Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811572] SERVICE ALERT: adauthdc1;Windows DNS Client Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811572] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Windows DNS Client Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811574] SERVICE ALERT: adauthdc2;Group Policy Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811579] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811593] SERVICE ALERT: adauthdc2;Windows Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811593] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Windows Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811599] SERVICE ALERT: adauthdc3;Windows DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811599] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Windows DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811601] Caught SIGTERM, shutting down...
+[1450811601] Successfully shutdown... (PID=4866)
+[1450811601] Event broker module 'NERD' deinitialized successfully.
+[1450811602] Nagios 4.1.1 starting... (PID=5232)
+[1450811602] Local time is Tue Dec 22 14:13:22 EST 2015
+[1450811602] LOG VERSION: 2.0
+[1450811602] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450811602] qh: core query handler registered
+[1450811602] nerd: Channel hostchecks registered successfully
+[1450811602] nerd: Channel servicechecks registered successfully
+[1450811602] nerd: Channel opathchecks registered successfully
+[1450811602] nerd: Fully initialized and ready to rock!
+[1450811602] wproc: Successfully registered manager as @wproc with query handler
+[1450811602] wproc: Registry request: name=Core Worker 5235;pid=5235
+[1450811602] wproc: Registry request: name=Core Worker 5236;pid=5236
+[1450811602] wproc: Registry request: name=Core Worker 5237;pid=5237
+[1450811602] wproc: Registry request: name=Core Worker 5234;pid=5234
+[1450811602] Successfully launched command file worker with pid 5238
+[1450811625] SERVICE ALERT: adauthdc3;Group Policy Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811639] SERVICE ALERT: adauthdc2;Windows Login Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811639] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Windows Login Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811644] SERVICE ALERT: adauthdc3;Windows Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811644] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Windows Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811649] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811654] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811657] SERVICE ALERT: adauthdc2;Windows Time Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811660] SERVICE ALERT: adauthdc3;Windows Time Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811663] SERVICE ALERT: adauthdc1;Windows RPC Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811664] SERVICE ALERT: adauthdc3;Windows RPC Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811664] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811665] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811670] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811671] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811677] SERVICE ALERT: adauthdc1;Windows Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811677] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Windows Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811684] SERVICE ALERT: adauthdc2;Windows RPC Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811684] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Windows RPC Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811689] SERVICE ALERT: adauthdc3;Windows Login Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811689] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Windows Login Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811694] SERVICE ALERT: adauthdc2;Group Policy Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811699] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811701] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811709] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811709] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811714] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811715] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811727] SERVICE ALERT: adauthdc1;Windows Login Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811745] SERVICE ALERT: adauthdc3;Group Policy Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811752] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811758] SERVICE ALERT: adauthdc2;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811760] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811769] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811769] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811774] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811774] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811777] SERVICE ALERT: adauthdc2;Windows Time Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811777] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Windows Time Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811780] SERVICE ALERT: adauthdc3;Windows Time Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811780] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Windows Time Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811781] Caught SIGTERM, shutting down...
+[1450811781] Successfully shutdown... (PID=5232)
+[1450811781] Event broker module 'NERD' deinitialized successfully.
+[1450811782] Nagios 4.1.1 starting... (PID=5514)
+[1450811782] Local time is Tue Dec 22 14:16:22 EST 2015
+[1450811782] LOG VERSION: 2.0
+[1450811782] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450811782] qh: core query handler registered
+[1450811782] nerd: Channel hostchecks registered successfully
+[1450811782] nerd: Channel servicechecks registered successfully
+[1450811782] nerd: Channel opathchecks registered successfully
+[1450811782] nerd: Fully initialized and ready to rock!
+[1450811782] wproc: Successfully registered manager as @wproc with query handler
+[1450811782] wproc: Registry request: name=Core Worker 5516;pid=5516
+[1450811782] wproc: Registry request: name=Core Worker 5518;pid=5518
+[1450811782] wproc: Registry request: name=Core Worker 5519;pid=5519
+[1450811782] wproc: Registry request: name=Core Worker 5517;pid=5517
+[1450811782] Successfully launched command file worker with pid 5520
+[1450811814] SERVICE ALERT: adauthdc2;Group Policy Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811814] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Group Policy Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811819] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811819] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811821] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811821] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811829] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811829] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811834] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811835] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811839] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811840] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811843] SERVICE ALERT: addc1;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811845] SERVICE ALERT: adauthdc2;Windows DNS Client Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811845] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811846] SERVICE ALERT: addc2;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811847] SERVICE ALERT: adauthdc1;Windows Login Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811847] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Windows Login Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811848] SERVICE ALERT: addc3;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811851] SERVICE ALERT: addc4;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811854] SERVICE ALERT: addc5;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811857] SERVICE ALERT: addc5;Windows Time Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811859] SERVICE ALERT: addc6;Windows Login Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811865] SERVICE ALERT: adauthdc3;Group Policy Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811865] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Group Policy Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811872] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811878] SERVICE ALERT: adauthdc2;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811879] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811880] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811881] SERVICE ALERT: addc1;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811883] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811884] SERVICE ALERT: addc2;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811887] SERVICE ALERT: addc3;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811887] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811888] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811890] SERVICE ALERT: addc4;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811890] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811892] SERVICE ALERT: addc5;Group Policy Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811893] SERVICE ALERT: adauthdc3;Windows RPC Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811893] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Windows RPC Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811895] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811896] SERVICE ALERT: adauthdc3;Windows DNS Client Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811898] SERVICE ALERT: addc6;Windows RPC Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811909] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811912] Caught SIGTERM, shutting down...
+[1450811912] Successfully shutdown... (PID=5514)
+[1450811912] Event broker module 'NERD' deinitialized successfully.
+[1450811913] Nagios 4.1.1 starting... (PID=5776)
+[1450811913] Local time is Tue Dec 22 14:18:33 EST 2015
+[1450811913] LOG VERSION: 2.0
+[1450811913] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450811913] qh: core query handler registered
+[1450811913] nerd: Channel hostchecks registered successfully
+[1450811913] nerd: Channel servicechecks registered successfully
+[1450811913] nerd: Channel opathchecks registered successfully
+[1450811913] nerd: Fully initialized and ready to rock!
+[1450811913] wproc: Successfully registered manager as @wproc with query handler
+[1450811913] wproc: Registry request: name=Core Worker 5779;pid=5779
+[1450811913] wproc: Registry request: name=Core Worker 5780;pid=5780
+[1450811913] wproc: Registry request: name=Core Worker 5781;pid=5781
+[1450811913] wproc: Registry request: name=Core Worker 5778;pid=5778
+[1450811913] Successfully launched command file worker with pid 5782
+[1450811934] SERVICE ALERT: addc6;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811936] SERVICE ALERT: addc5;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811936] SERVICE ALERT: addc6;Windows Time Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811949] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811949] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811949] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811949] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811954] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811954] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811954] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811955] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811955] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811958] SERVICE ALERT: addc3;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811958] SERVICE ALERT: addc1;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811959] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811960] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811960] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811961] SERVICE ALERT: addc2;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811963] SERVICE ALERT: addc1;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811964] SERVICE ALERT: addc3;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811965] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811965] SERVICE ALERT: adauthdc2;Windows DNS Client Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811966] SERVICE ALERT: addc2;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811967] SERVICE ALERT: addc4;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811968] SERVICE ALERT: addc3;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811969] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811969] SERVICE ALERT: addc5;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811971] SERVICE ALERT: addc4;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811972] SERVICE ALERT: addc6;Group Policy Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811972] SERVICE ALERT: addc5;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811974] SERVICE ALERT: addc5;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811976] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811977] SERVICE ALERT: addc5;Windows Time Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811979] SERVICE ALERT: addc6;Windows Login Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450811992] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811992] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811997] SERVICE ALERT: addc1;Windows DNS Client Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450811998] SERVICE ALERT: adauthdc2;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450811998] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450811999] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812000] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812000] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812000] SERVICE ALERT: addc2;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812001] SERVICE ALERT: addc1;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812002] SERVICE ALERT: addc3;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812003] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812004] SERVICE ALERT: addc2;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812005] SERVICE ALERT: addc4;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812006] SERVICE ALERT: adauthdc1;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812007] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812007] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812007] SERVICE ALERT: addc3;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812008] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812008] SERVICE ALERT: addc5;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812009] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812010] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812010] SERVICE ALERT: addc6;Windows Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812010] SERVICE ALERT: addc4;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812011] SERVICE ALERT: addc6;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812012] SERVICE ALERT: addc5;Group Policy Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812015] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;addc2;Service: DNS Service;1450812014
+[1450812015] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812016] SERVICE ALERT: adauthdc3;Windows DNS Client Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812018] SERVICE ALERT: addc6;Windows RPC Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812019] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812029] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812029] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812035] SERVICE ALERT: addc2;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812035] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812035] SERVICE ALERT: addc1;Windows Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812038] SERVICE ALERT: addc2;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812041] SERVICE ALERT: addc3;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812043] SERVICE ALERT: adauthdc1;Windows RPC Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812043] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Windows RPC Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812044] SERVICE ALERT: addc4;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812046] SERVICE ALERT: addc5;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812049] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812054] SERVICE ALERT: addc6;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812056] SERVICE ALERT: addc6;Windows Time Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812056] SERVICE ALERT: addc5;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812057] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812063] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812071] Caught SIGTERM, shutting down...
+[1450812071] Successfully shutdown... (PID=5776)
+[1450812071] Event broker module 'NERD' deinitialized successfully.
+[1450812072] Nagios 4.1.1 starting... (PID=6141)
+[1450812072] Local time is Tue Dec 22 14:21:12 EST 2015
+[1450812072] LOG VERSION: 2.0
+[1450812072] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450812072] qh: core query handler registered
+[1450812072] nerd: Channel hostchecks registered successfully
+[1450812072] nerd: Channel servicechecks registered successfully
+[1450812072] nerd: Channel opathchecks registered successfully
+[1450812072] nerd: Fully initialized and ready to rock!
+[1450812072] wproc: Successfully registered manager as @wproc with query handler
+[1450812072] wproc: Registry request: name=Core Worker 6144;pid=6144
+[1450812072] wproc: Registry request: name=Core Worker 6143;pid=6143
+[1450812072] wproc: Registry request: name=Core Worker 6146;pid=6146
+[1450812072] wproc: Registry request: name=Core Worker 6145;pid=6145
+[1450812072] Successfully launched command file worker with pid 6147
+[1450812094] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812094] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812094] SERVICE ALERT: addc2;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812094] SERVICE ALERT: addc5;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812094] SERVICE NOTIFICATION: nagiosadmin;addc5;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812096] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812101] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812106] SERVICE ALERT: adauthdc3;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812106] SERVICE ALERT: addc4;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812110] SERVICE ALERT: addc1;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812118] SERVICE ALERT: addc3;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812119] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812119] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812120] SERVICE ALERT: addc2;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812121] SERVICE ALERT: addc1;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812121] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812121] SERVICE ALERT: addc3;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812121] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812121] SERVICE ALERT: addc4;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812122] SERVICE ALERT: addc3;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812123] SERVICE ALERT: addc5;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812123] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812123] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812124] SERVICE ALERT: addc2;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812124] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812125] SERVICE ALERT: addc4;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812126] SERVICE ALERT: adauthdc1;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812126] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812126] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812127] SERVICE ALERT: addc3;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812127] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812128] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812128] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812128] SERVICE ALERT: addc5;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812129] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812129] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812130] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812130] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812130] SERVICE ALERT: addc4;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812130] SERVICE NOTIFICATION: nagiosadmin;addc4;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812131] SERVICE ALERT: addc1;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812131] SERVICE ALERT: addc6;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812134] SERVICE ALERT: addc3;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812134] SERVICE ALERT: addc3;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812135] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812135] SERVICE NOTIFICATION: nagiosadmin;addc6;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812136] SERVICE ALERT: addc5;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812139] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812139] SERVICE ALERT: addc3;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812144] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812148] SERVICE ALERT: addc1;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812150] SERVICE ALERT: addc5;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812154] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812158] SERVICE ALERT: addc2;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812159] SERVICE ALERT: addc4;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812160] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812160] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812161] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812161] SERVICE ALERT: addc3;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812162] SERVICE ALERT: addc5;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812164] SERVICE ALERT: addc1;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812164] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812164] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812164] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812164] SERVICE ALERT: addc4;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812165] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812166] SERVICE ALERT: addc2;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812166] SERVICE ALERT: addc5;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812169] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812169] SERVICE ALERT: addc3;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812170] SERVICE ALERT: addc2;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812171] SERVICE ALERT: addc5;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812172] SERVICE ALERT: addc4;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812172] SERVICE NOTIFICATION: nagiosadmin;addc4;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812174] SERVICE ALERT: addc6;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812174] SERVICE NOTIFICATION: nagiosadmin;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812176] SERVICE ALERT: addc5;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812176] SERVICE NOTIFICATION: nagiosadmin;addc5;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812177] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812183] SERVICE ALERT: addc5;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812183] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812188] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812189] SERVICE ALERT: addc2;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812191] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812196] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812198] SERVICE ALERT: addc4;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812199] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812200] SERVICE ALERT: addc5;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812201] SERVICE ALERT: addc2;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812203] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812204] SERVICE ALERT: addc3;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812206] SERVICE ALERT: addc5;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812214] SERVICE ALERT: addc2;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812214] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812216] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812216] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812221] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812225] SERVICE ALERT: addc1;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812226] SERVICE ALERT: adauthdc3;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812226] SERVICE ALERT: addc4;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812226] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812228] SERVICE ALERT: addc2;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812228] SERVICE ALERT: addc1;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812230] SERVICE ALERT: addc1;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812231] SERVICE ALERT: adauthdc1;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812234] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812236] SERVICE ALERT: addc2;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812238] SERVICE ALERT: addc3;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812239] SERVICE ALERT: addc5;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812240] SERVICE ALERT: addc2;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812240] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812241] SERVICE ALERT: addc4;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812241] SERVICE ALERT: addc5;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812242] SERVICE ALERT: addc3;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812242] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812242] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812243] SERVICE ALERT: addc5;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812245] SERVICE ALERT: addc4;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812245] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812246] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812246] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812246] SERVICE ALERT: adauthdc1;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812246] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812246] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812248] SERVICE ALERT: addc5;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812248] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812249] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812249] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812249] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812251] SERVICE ALERT: addc6;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812251] SERVICE NOTIFICATION: nagiosadmin;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812251] SERVICE ALERT: addc1;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812251] SERVICE NOTIFICATION: nagiosadmin;addc1;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812254] SERVICE ALERT: addc3;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812254] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812254] SERVICE ALERT: addc3;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812256] SERVICE ALERT: addc5;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812259] SERVICE ALERT: addc3;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812259] SERVICE NOTIFICATION: nagiosadmin;addc3;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812259] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812259] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812264] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812264] SERVICE ALERT: addc1;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812265] SERVICE ALERT: addc1;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812268] SERVICE ALERT: addc1;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812269] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812269] SERVICE ALERT: addc3;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812270] SERVICE ALERT: addc5;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812270] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812274] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812276] SERVICE ALERT: addc5;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812277] SERVICE ALERT: addc5;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812278] SERVICE ALERT: addc2;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812278] SERVICE NOTIFICATION: nagiosadmin;addc2;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812279] SERVICE ALERT: addc4;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812280] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812281] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812281] SERVICE ALERT: addc3;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812281] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812282] SERVICE ALERT: addc5;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812284] SERVICE ALERT: addc4;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812284] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812285] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812286] SERVICE ALERT: addc2;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812286] SERVICE ALERT: addc5;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812286] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812289] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812289] SERVICE NOTIFICATION: nagiosadmin;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812289] SERVICE ALERT: addc3;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812289] SERVICE ALERT: addc1;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812290] SERVICE ALERT: addc2;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812291] SERVICE ALERT: addc5;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812297] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812297] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812301] SERVICE ALERT: adauthdc1;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812302] SERVICE ALERT: addc1;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812302] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812303] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812303] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812303] SERVICE ALERT: addc5;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812303] SERVICE NOTIFICATION: nagiosadmin;addc5;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812304] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812305] SERVICE ALERT: addc2;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812306] SERVICE ALERT: addc2;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812308] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812308] SERVICE ALERT: addc3;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812309] SERVICE ALERT: addc2;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812309] SERVICE ALERT: addc4;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812311] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812311] SERVICE ALERT: addc5;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812316] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812318] SERVICE ALERT: addc4;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812319] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812319] SERVICE ALERT: addc6;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812320] SERVICE ALERT: addc5;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812321] SERVICE ALERT: addc2;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812323] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812324] SERVICE ALERT: addc3;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812326] SERVICE ALERT: addc5;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812336] SERVICE ALERT: adauthdc1;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812339] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812339] SERVICE ALERT: addc2;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812341] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812341] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812341] SERVICE ALERT: addc1;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812341] SERVICE ALERT: addc2;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812344] SERVICE ALERT: addc2;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812344] SERVICE ALERT: addc4;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812345] SERVICE ALERT: addc1;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812346] SERVICE ALERT: adauthdc3;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812346] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812346] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812348] SERVICE ALERT: addc2;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812348] SERVICE ALERT: addc1;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812349] SERVICE ALERT: addc4;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812350] SERVICE ALERT: addc1;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812350] SERVICE NOTIFICATION: nagiosadmin;addc1;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812351] SERVICE ALERT: adauthdc1;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812354] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812356] SERVICE ALERT: addc2;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812357] SERVICE ALERT: addc6;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812358] SERVICE ALERT: addc3;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812358] SERVICE NOTIFICATION: nagiosadmin;addc3;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812359] SERVICE ALERT: addc5;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812361] SERVICE ALERT: addc4;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812361] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812361] SERVICE ALERT: addc5;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812362] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812363] SERVICE ALERT: addc5;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812363] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812366] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812366] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812369] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812369] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812371] SERVICE ALERT: adauthdc1;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812374] SERVICE ALERT: addc3;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812374] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812374] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812376] SERVICE ALERT: addc5;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812376] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812376] SERVICE ALERT: addc2;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812376] SERVICE ALERT: addc3;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812379] SERVICE ALERT: addc1;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812379] SERVICE ALERT: addc4;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812381] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812382] SERVICE ALERT: addc2;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812384] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812384] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812384] SERVICE ALERT: addc1;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812385] SERVICE ALERT: addc1;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812385] SERVICE ALERT: addc3;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812388] SERVICE ALERT: addc1;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812388] SERVICE NOTIFICATION: nagiosadmin;addc1;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812388] SERVICE ALERT: addc4;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812389] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812389] SERVICE ALERT: addc3;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812394] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812394] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812396] SERVICE ALERT: addc5;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812397] SERVICE ALERT: addc5;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812399] SERVICE ALERT: addc4;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812399] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812400] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812401] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812401] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812402] SERVICE ALERT: addc5;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812402] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812405] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812405] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812406] SERVICE ALERT: addc2;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812406] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812406] SERVICE ALERT: adauthdc1;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812409] SERVICE ALERT: addc3;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812409] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812409] SERVICE ALERT: addc1;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812409] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812410] SERVICE ALERT: addc2;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812410] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812411] SERVICE ALERT: addc5;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812411] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812411] SERVICE ALERT: addc2;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812413] SERVICE ALERT: addc3;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812414] SERVICE ALERT: addc4;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812416] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812421] SERVICE ALERT: adauthdc1;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812422] SERVICE ALERT: addc1;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812422] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812424] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812425] SERVICE ALERT: addc2;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812426] SERVICE ALERT: addc2;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812428] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812428] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812428] SERVICE ALERT: addc3;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812429] SERVICE ALERT: addc4;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812429] SERVICE ALERT: addc2;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812429] SERVICE NOTIFICATION: nagiosadmin;addc2;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812431] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812431] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812431] SERVICE ALERT: addc5;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812436] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812436] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812438] SERVICE ALERT: addc4;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812438] SERVICE NOTIFICATION: nagiosadmin;addc4;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812439] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812439] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812439] SERVICE ALERT: addc6;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812440] SERVICE ALERT: addc5;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812440] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812441] SERVICE ALERT: addc2;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812441] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812441] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812443] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812443] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812444] SERVICE ALERT: addc3;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812444] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812444] SERVICE ALERT: addc1;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812446] SERVICE ALERT: addc5;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812446] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812449] SERVICE ALERT: addc4;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812450] SERVICE ALERT: addc4;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812451] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812451] SERVICE ALERT: adauthdc1;Service: Group Policy;OK;SOFT;3;gpsvc: Started
+[1450812456] SERVICE ALERT: adauthdc1;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812459] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812459] SERVICE ALERT: addc2;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812461] SERVICE ALERT: addc1;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812461] SERVICE ALERT: addc2;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812464] SERVICE ALERT: addc2;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812464] SERVICE ALERT: addc4;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812464] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;adauthdc1;1450812463
+[1450812465] SERVICE ALERT: addc1;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812465] SERVICE NOTIFICATION: nagiosadmin;addc1;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812466] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812468] SERVICE ALERT: addc1;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812468] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812468] SERVICE ALERT: addc2;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812468] SERVICE NOTIFICATION: nagiosadmin;addc2;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812469] SERVICE ALERT: addc4;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812471] SERVICE ALERT: adauthdc1;Service: User Profile;OK;SOFT;2;ProfSvc: Started
+[1450812474] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812474] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812476] SERVICE ALERT: addc2;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812476] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812476] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812477] SERVICE ALERT: addc6;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812479] SERVICE ALERT: addc5;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812479] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812479] SERVICE ALERT: addc1;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812481] SERVICE ALERT: addc5;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812481] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812482] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812482] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812484] SERVICE ALERT: addc4;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812486] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812487] SERVICE ALERT: addc4;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812488] SERVICE ALERT: adauthdc1;CPU Load;OK;HARD;3;CPU Load 0% (5 min average)
+[1450812488] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;CPU Load;OK;notify-service-by-email;CPU Load 0% (5 min average)
+[1450812494] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812496] SERVICE ALERT: addc2;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812496] SERVICE ALERT: addc3;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812499] SERVICE ALERT: addc1;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812499] SERVICE ALERT: addc4;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812501] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812502] SERVICE ALERT: addc2;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812504] SERVICE ALERT: addc1;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812504] SERVICE NOTIFICATION: nagiosadmin;addc1;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812505] SERVICE ALERT: addc1;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812505] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812505] SERVICE ALERT: addc3;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812506] SERVICE ALERT: adauthdc1;Service: Windows Time;OK;SOFT;2;W32Time: Started
+[1450812508] SERVICE ALERT: addc4;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812509] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812509] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812509] SERVICE ALERT: addc3;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812509] SERVICE NOTIFICATION: nagiosadmin;addc3;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812511] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812514] SERVICE ALERT: addc1;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812516] SERVICE ALERT: addc5;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812516] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812516] SERVICE ALERT: addc3;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812517] SERVICE ALERT: addc5;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812517] SERVICE NOTIFICATION: nagiosadmin;addc5;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812519] SERVICE ALERT: addc4;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812520] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812520] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812521] SERVICE ALERT: addc6;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812521] SERVICE ALERT: adauthdc1;Service: NetLogin;OK;SOFT;3;Netlogon: Started
+[1450812524] SERVICE ALERT: addc5;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812529] SERVICE ALERT: addc1;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812529] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812529] SERVICE ALERT: adauthdc1;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1450812529] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: AD Web Service;OK;notify-service-by-email;ADWS: Started
+[1450812529] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812531] SERVICE ALERT: addc2;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812533] SERVICE ALERT: addc3;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812534] SERVICE ALERT: addc4;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812536] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812540] SERVICE ALERT: adauthdc1;Service: AD Domain Service;UNKNOWN;HARD;3;Failed to open service NTDCS: 1060: The specified service does not exist as an installed service.
+[1450812540] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: AD Domain Service;UNKNOWN;notify-service-by-email;Failed to open service NTDCS: 1060: The specified service does not exist as an installed service.
+[1450812542] SERVICE ALERT: addc1;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812542] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812542] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812542] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812544] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812544] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812545] SERVICE ALERT: addc2;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812545] SERVICE NOTIFICATION: nagiosadmin;addc2;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812546] SERVICE ALERT: addc2;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812546] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812546] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812548] SERVICE ALERT: addc3;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812548] SERVICE NOTIFICATION: nagiosadmin;addc3;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812549] SERVICE ALERT: addc4;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812549] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812551] SERVICE ALERT: addc5;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812551] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812554] SERVICE ALERT: addc4;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812556] SERVICE ALERT: adauthdc1;Service: RPC;OK;SOFT;3;RpcSs: Started
+[1450812556] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812559] SERVICE ALERT: addc6;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812559] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812561] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812564] SERVICE ALERT: addc1;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812569] SERVICE ALERT: addc4;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812570] SERVICE ALERT: addc4;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812571] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812572] SERVICE ALERT: adauthdc1;Service: DNS Service;OK;HARD;3;DNS: Started
+[1450812572] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DNS Service;OK;notify-service-by-email;DNS: Started
+[1450812579] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812579] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812579] SERVICE ALERT: addc2;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812579] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812581] SERVICE ALERT: addc1;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812581] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812581] SERVICE ALERT: addc2;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812581] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812584] SERVICE ALERT: addc2;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812584] SERVICE NOTIFICATION: nagiosadmin;addc2;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812584] SERVICE ALERT: addc4;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812584] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812584] SERVICE ALERT: addc1;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812586] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812586] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812586] SERVICE ALERT: addc3;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812589] SERVICE ALERT: addc4;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812589] SERVICE NOTIFICATION: nagiosadmin;addc4;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812591] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812596] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812597] SERVICE ALERT: addc6;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812597] SERVICE NOTIFICATION: nagiosadmin;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812599] SERVICE ALERT: addc1;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812604] SERVICE ALERT: addc4;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812606] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812607] SERVICE ALERT: addc4;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812614] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812614] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812616] SERVICE ALERT: addc2;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812616] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812616] SERVICE ALERT: addc3;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812616] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812616] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812619] SERVICE ALERT: addc1;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812619] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812619] SERVICE ALERT: addc4;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812619] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812619] SERVICE ALERT: addc1;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812621] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812621] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812621] SERVICE ALERT: addc3;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812622] SERVICE ALERT: addc2;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812622] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812625] SERVICE ALERT: addc3;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812625] SERVICE NOTIFICATION: nagiosadmin;addc3;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812628] SERVICE ALERT: addc4;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812628] SERVICE NOTIFICATION: nagiosadmin;addc4;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812631] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812634] SERVICE ALERT: addc1;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812636] SERVICE ALERT: addc3;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812639] SERVICE ALERT: addc4;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812641] SERVICE ALERT: addc6;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812644] SERVICE ALERT: addc5;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812646] SERVICE ALERT: adauthdc1;NSClient++ Version;OK;HARD;3;NSClient++ 0.4.4.15 2015-11-25
+[1450812646] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.4.4.15 2015-11-25
+[1450812648] SERVICE ALERT: adauthdc1;Memory Usage;OK;HARD;3;Memory usage: total:4799.59 MB - used: 1606.12 MB (33%) - free: 3193.47 MB (67%)
+[1450812648] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Memory Usage;OK;notify-service-by-email;Memory usage: total:4799.59 MB - used: 1606.12 MB (33%) - free: 3193.47 MB (67%)
+[1450812649] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812649] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812651] SERVICE ALERT: addc2;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812651] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812651] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812653] SERVICE ALERT: addc3;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812653] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812654] SERVICE ALERT: addc4;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812654] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812654] SERVICE ALERT: addc1;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812656] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812656] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812656] SERVICE ALERT: addc5;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812656] SERVICE ALERT: addc3;Service: NT File Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812659] SERVICE ALERT: addc5;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812666] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812674] SERVICE ALERT: addc4;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812674] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;UNKNOWN;HARD;3;Failed to open service ISM: 1060: The specified service does not exist as an installed service.
+[1450812674] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Intersite Messaging;UNKNOWN;notify-service-by-email;Failed to open service ISM: 1060: The specified service does not exist as an installed service.
+[1450812676] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812681] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812681] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812684] SERVICE ALERT: addc1;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812684] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812686] SERVICE ALERT: adauthdc2;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812689] SERVICE ALERT: addc4;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812689] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812689] SERVICE ALERT: addc1;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812690] SERVICE ALERT: addc4;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812690] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812691] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812691] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812691] SERVICE ALERT: addc3;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1450812699] SERVICE ALERT: adauthdc1;Uptime;OK;HARD;3;System Uptime - 7 day(s) 7 hour(s) 59 minute(s)
+[1450812699] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Uptime;OK;notify-service-by-email;System Uptime - 7 day(s) 7 hour(s) 59 minute(s)
+[1450812699] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1450812699] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Distributed File System Replication;OK;notify-service-by-email;DFSR: Started
+[1450812703] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1450812703] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Key Distribution Center;OK;notify-service-by-email;KDC: Started
+[1450812704] SERVICE ALERT: addc1;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812706] SERVICE ALERT: addc3;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812711] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812716] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812716] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812719] SERVICE ALERT: addc1;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812719] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812724] SERVICE ALERT: addc4;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812724] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812726] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812726] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812727] SERVICE ALERT: addc4;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812727] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812736] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812739] SERVICE ALERT: addc1;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812741] SERVICE ALERT: addc3;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812751] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812751] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812754] SERVICE ALERT: addc1;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812754] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812756] SERVICE ALERT: addc3;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812756] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812759] SERVICE ALERT: addc4;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812759] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812761] SERVICE ALERT: addc6;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812761] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812764] SERVICE ALERT: addc5;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812764] SERVICE NOTIFICATION: nagiosadmin;addc5;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812771] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812774] SERVICE ALERT: addc1;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812776] SERVICE ALERT: addc5;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812776] SERVICE ALERT: addc3;Service: NT File Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812779] SERVICE ALERT: addc5;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812786] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812786] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812794] SERVICE ALERT: addc4;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812794] SERVICE NOTIFICATION: nagiosadmin;addc4;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812796] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812796] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812806] SERVICE ALERT: adauthdc2;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812809] SERVICE ALERT: addc1;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812811] SERVICE ALERT: addc3;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1450812824] SERVICE ALERT: addc1;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812824] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812826] SERVICE ALERT: addc3;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812826] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812829] SERVICE ALERT: adauthdc1;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1450812829] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DFS Namespace;OK;notify-service-by-email;Dfs: Started
+[1450812831] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812831] SERVICE NOTIFICATION: nagiosadmin;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812856] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812856] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812859] SERVICE ALERT: addc1;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812859] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812861] SERVICE ALERT: addc3;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812861] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812891] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812891] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812894] SERVICE ALERT: addc1;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812894] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812896] SERVICE ALERT: addc5;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812896] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812896] SERVICE ALERT: addc3;Service: NT File Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812896] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: NT File Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812899] SERVICE ALERT: addc5;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812899] SERVICE NOTIFICATION: nagiosadmin;addc5;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812903] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;adauthdc1;Service: DNS Client;1450812901
+[1450812903] SERVICE ALERT: adauthdc1;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1450812903] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: DNS Client;OK;notify-service-by-email;Dnscache: Started
+[1450812906] SERVICE ALERT: adauthdc2;Service: User Profile;OK;SOFT;3;ProfSvc: Started
+[1450812907] Caught SIGTERM, shutting down...
+[1450812907] Successfully shutdown... (PID=6141)
+[1450812907] Event broker module 'NERD' deinitialized successfully.
+[1450812908] Nagios 4.1.1 starting... (PID=8385)
+[1450812908] Local time is Tue Dec 22 14:35:08 EST 2015
+[1450812908] LOG VERSION: 2.0
+[1450812908] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450812908] qh: core query handler registered
+[1450812908] nerd: Channel hostchecks registered successfully
+[1450812908] nerd: Channel servicechecks registered successfully
+[1450812908] nerd: Channel opathchecks registered successfully
+[1450812908] nerd: Fully initialized and ready to rock!
+[1450812908] wproc: Successfully registered manager as @wproc with query handler
+[1450812908] wproc: Registry request: name=Core Worker 8389;pid=8389
+[1450812908] wproc: Registry request: name=Core Worker 8388;pid=8388
+[1450812908] wproc: Registry request: name=Core Worker 8390;pid=8390
+[1450812908] wproc: Registry request: name=Core Worker 8387;pid=8387
+[1450812908] Successfully launched command file worker with pid 8391
+[1450812921] SERVICE ALERT: adauthdc2;Service: AD Domain Service;UNKNOWN;HARD;3;Failed to open service NTDCS: 1060: The specified service does not exist as an installed service.
+[1450812921] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: AD Domain Service;UNKNOWN;notify-service-by-email;Failed to open service NTDCS: 1060: The specified service does not exist as an installed service.
+[1450812929] SERVICE ALERT: addc1;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812929] SERVICE NOTIFICATION: nagiosadmin;addc1;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812931] SERVICE ALERT: addc3;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1450812931] SERVICE NOTIFICATION: nagiosadmin;addc3;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1450812949] SERVICE ALERT: adauthdc2;CPU Load;OK;HARD;3;CPU Load 5% (5 min average)
+[1450812949] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;CPU Load;OK;notify-service-by-email;CPU Load 5% (5 min average)
+[1450812949] SERVICE ALERT: adauthdc2;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1450812949] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1450812964] SERVICE ALERT: adauthdc2;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1450812964] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: AD Web Service;OK;notify-service-by-email;ADWS: Started
+[1450812982] Caught SIGTERM, shutting down...
+[1450812982] Successfully shutdown... (PID=8385)
+[1450812982] Event broker module 'NERD' deinitialized successfully.
+[1450812983] Nagios 4.1.1 starting... (PID=8559)
+[1450812983] Local time is Tue Dec 22 14:36:23 EST 2015
+[1450812983] LOG VERSION: 2.0
+[1450812983] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450812983] qh: core query handler registered
+[1450812983] nerd: Channel hostchecks registered successfully
+[1450812983] nerd: Channel servicechecks registered successfully
+[1450812983] nerd: Channel opathchecks registered successfully
+[1450812983] nerd: Fully initialized and ready to rock!
+[1450812983] wproc: Successfully registered manager as @wproc with query handler
+[1450812983] wproc: Registry request: name=Core Worker 8562;pid=8562
+[1450812983] wproc: Registry request: name=Core Worker 8563;pid=8563
+[1450812983] wproc: Registry request: name=Core Worker 8564;pid=8564
+[1450812983] wproc: Registry request: name=Core Worker 8561;pid=8561
+[1450812983] Successfully launched command file worker with pid 8565
+[1450812986] SERVICE ALERT: addc2;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1450812986] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DNS Client;OK;notify-service-by-email;Dnscache: Started
+[1450812990] SERVICE ALERT: addc2;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1450812990] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: AD Web Service;OK;notify-service-by-email;ADWS: Started
+[1450813001] SERVICE ALERT: adauthdc2;C:\ Drive Space;OK;HARD;3;c:\ - total: 49.66 Gb - used: 11.85 Gb (24%) - free 37.81 Gb (76%)
+[1450813001] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 49.66 Gb - used: 11.85 Gb (24%) - free 37.81 Gb (76%)
+[1450813008] SERVICE ALERT: adauthdc2;Service: DNS Service;OK;HARD;3;DNS: Started
+[1450813008] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DNS Service;OK;notify-service-by-email;DNS: Started
+[1450813009] SERVICE ALERT: addc2;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 11.83 Gb (15%) - free 67.83 Gb (85%)
+[1450813009] SERVICE NOTIFICATION: nagiosadmin;addc2;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 79.66 Gb - used: 11.83 Gb (15%) - free 67.83 Gb (85%)
+[1450813016] SERVICE ALERT: adauthdc1;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1450813016] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Firewall;OK;notify-service-by-email;MpsSvc: Started
+[1450813021] SERVICE ALERT: addc2;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1450813021] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Firewall;OK;notify-service-by-email;MpsSvc: Started
+[1450813035] SERVICE ALERT: adauthdc1;C:\ Drive Space;OK;HARD;3;c:\ - total: 49.66 Gb - used: 11.76 Gb (24%) - free 37.89 Gb (76%)
+[1450813035] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 49.66 Gb - used: 11.76 Gb (24%) - free 37.89 Gb (76%)
+[1450813048] SERVICE ALERT: addc2;CPU Load;OK;HARD;3;CPU Load 1% (5 min average)
+[1450813048] SERVICE NOTIFICATION: nagiosadmin;addc2;CPU Load;OK;notify-service-by-email;CPU Load 1% (5 min average)
+[1450813056] SERVICE ALERT: addc2;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1450813056] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Group Policy;OK;notify-service-by-email;gpsvc: Started
+[1450813122] SERVICE ALERT: addc2;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1450813122] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DFS Namespace;OK;notify-service-by-email;Dfs: Started
+[1450813125] SERVICE ALERT: addc2;Memory Usage;OK;HARD;3;Memory usage: total:9471.57 MB - used: 2060.17 MB (22%) - free: 7411.40 MB (78%)
+[1450813125] SERVICE NOTIFICATION: nagiosadmin;addc2;Memory Usage;OK;notify-service-by-email;Memory usage: total:9471.57 MB - used: 2060.17 MB (22%) - free: 7411.40 MB (78%)
+[1450813126] SERVICE ALERT: addc2;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1450813126] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: NetLogin;OK;notify-service-by-email;Netlogon: Started
+[1450813129] SERVICE ALERT: adauthdc2;Uptime;OK;HARD;3;System Uptime - 11 day(s) 3 hour(s) 8 minute(s)
+[1450813129] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Uptime;OK;notify-service-by-email;System Uptime - 11 day(s) 3 hour(s) 8 minute(s)
+[1450813134] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1450813134] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Key Distribution Center;OK;notify-service-by-email;KDC: Started
+[1450813140] SERVICE ALERT: adauthdc1;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1450813140] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: AD Domain Service;OK;notify-service-by-email;NTDS: Started
+[1450813159] SERVICE ALERT: addc2;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1450813159] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Intersite Messaging;OK;notify-service-by-email;IsmServ: Started
+[1450813161] SERVICE ALERT: addc2;Service: RPC;OK;HARD;3;RpcSs: Started
+[1450813161] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: RPC;OK;notify-service-by-email;RpcSs: Started
+[1450813164] SERVICE ALERT: addc2;NSClient++ Version;OK;HARD;3;NSClient++ 0,4,1,73 2012-12-17
+[1450813164] SERVICE NOTIFICATION: nagiosadmin;addc2;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0,4,1,73 2012-12-17
+[1450813187] SERVICE ALERT: adauthdc2;NSClient++ Version;OK;HARD;3;NSClient++ 0.4.4.15 2015-11-25
+[1450813187] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.4.4.15 2015-11-25
+[1450813193] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;adauthdc1;Service: Intersite Messaging;1450813192
+[1450813193] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1450813193] SERVICE NOTIFICATION: nagiosadmin;adauthdc1;Service: Intersite Messaging;OK;notify-service-by-email;IsmServ: Started
+[1450813196] SERVICE ALERT: addc2;Service: User Profile;OK;HARD;3;ProfSvc: Started
+[1450813196] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: User Profile;OK;notify-service-by-email;ProfSvc: Started
+[1450813202] SERVICE ALERT: addc2;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1450813202] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: AD Domain Service;OK;notify-service-by-email;NTDS: Started
+[1450813215] SERVICE ALERT: addc2;Service: DNS Service;OK;HARD;3;DNS: Started
+[1450813215] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: DNS Service;OK;notify-service-by-email;DNS: Started
+[1450813231] SERVICE ALERT: addc2;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1450813231] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1450813261] SERVICE ALERT: adauthdc2;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1450813261] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DFS Namespace;OK;notify-service-by-email;Dfs: Started
+[1450813296] SERVICE ALERT: adauthdc2;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1450813296] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: DNS Client;OK;notify-service-by-email;Dnscache: Started
+[1450813304] SERVICE ALERT: addc2;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1450813304] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Distributed File System Replication;OK;notify-service-by-email;DFSR: Started
+[1450813310] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1450813310] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Distributed File System Replication;OK;notify-service-by-email;DFSR: Started
+[1450813331] SERVICE ALERT: adauthdc2;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1450813331] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Firewall;OK;notify-service-by-email;MpsSvc: Started
+[1450813340] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1450813340] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Intersite Messaging;OK;notify-service-by-email;IsmServ: Started
+[1450813366] SERVICE ALERT: adauthdc2;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1450813366] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: Group Policy;OK;notify-service-by-email;gpsvc: Started
+[1450813394] SERVICE ALERT: addc2;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1450813394] SERVICE NOTIFICATION: nagiosadmin;addc2;Service: Key Distribution Center;OK;notify-service-by-email;KDC: Started
+[1450813436] SERVICE ALERT: adauthdc2;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1450813436] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: NetLogin;OK;notify-service-by-email;Netlogon: Started
+[1450813438] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;adauthdc2;Service: AD Domain Service;1450813437
+[1450813438] SERVICE ALERT: adauthdc2;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1450813438] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: AD Domain Service;OK;notify-service-by-email;NTDS: Started
+[1450813458] SERVICE ALERT: addc2;Uptime;OK;HARD;3;System Uptime - 4 day(s) 0 hour(s) 29 minute(s)
+[1450813458] SERVICE NOTIFICATION: nagiosadmin;addc2;Uptime;OK;notify-service-by-email;System Uptime - 4 day(s) 0 hour(s) 29 minute(s)
+[1450813471] SERVICE ALERT: adauthdc2;Service: RPC;OK;HARD;3;RpcSs: Started
+[1450813471] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Service: RPC;OK;notify-service-by-email;RpcSs: Started
+[1450813477] SERVICE ALERT: adauthdc2;Memory Usage;OK;HARD;3;Memory usage: total:4799.59 MB - used: 1687.00 MB (35%) - free: 3112.59 MB (65%)
+[1450813477] SERVICE NOTIFICATION: nagiosadmin;adauthdc2;Memory Usage;OK;notify-service-by-email;Memory usage: total:4799.59 MB - used: 1687.00 MB (35%) - free: 3112.59 MB (65%)
+[1450813554] SERVICE ALERT: adauthdc3;C:\ Drive Space;OK;HARD;3;c:\ - total: 49.66 Gb - used: 12.63 Gb (25%) - free 37.03 Gb (75%)
+[1450813554] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 49.66 Gb - used: 12.63 Gb (25%) - free 37.03 Gb (75%)
+[1450813599] SERVICE ALERT: adauthdc3;CPU Load;OK;HARD;3;CPU Load 0% (5 min average)
+[1450813599] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;CPU Load;OK;notify-service-by-email;CPU Load 0% (5 min average)
+[1450813611] SERVICE ALERT: adauthdc3;Service: DNS Service;OK;HARD;3;DNS: Started
+[1450813611] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DNS Service;OK;notify-service-by-email;DNS: Started
+[1450813617] SERVICE ALERT: adauthdc3;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1450813617] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DFS Namespace;OK;notify-service-by-email;Dfs: Started
+[1450813619] SERVICE ALERT: adauthdc3;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1450813619] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: DNS Client;OK;notify-service-by-email;Dnscache: Started
+[1450813654] SERVICE ALERT: adauthdc3;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1450813654] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Firewall;OK;notify-service-by-email;MpsSvc: Started
+[1450813689] SERVICE ALERT: adauthdc3;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1450813689] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Group Policy;OK;notify-service-by-email;gpsvc: Started
+[1450813724] SERVICE ALERT: adauthdc3;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1450813724] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: NetLogin;OK;notify-service-by-email;Netlogon: Started
+[1450813735] SERVICE ALERT: adauthdc3;NSClient++ Version;OK;HARD;3;NSClient++ 0.4.4.15 2015-11-25
+[1450813735] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.4.4.15 2015-11-25
+[1450813759] SERVICE ALERT: adauthdc3;Service: RPC;OK;HARD;3;RpcSs: Started
+[1450813759] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: RPC;OK;notify-service-by-email;RpcSs: Started
+[1450813780] SERVICE ALERT: adauthdc3;Uptime;OK;HARD;3;System Uptime - 11 day(s) 3 hour(s) 11 minute(s)
+[1450813780] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Uptime;OK;notify-service-by-email;System Uptime - 11 day(s) 3 hour(s) 11 minute(s)
+[1450813791] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;adauthdc1;1450813790
+[1450813794] SERVICE ALERT: adauthdc3;Service: User Profile;OK;HARD;3;ProfSvc: Started
+[1450813794] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: User Profile;OK;notify-service-by-email;ProfSvc: Started
+[1450813796] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;adauthdc2;1450813795
+[1450813800] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;adauthdc3;1450813799
+[1450813809] SERVICE ALERT: adauthdc3;Memory Usage;OK;HARD;3;Memory usage: total:4799.59 MB - used: 1301.10 MB (27%) - free: 3498.49 MB (73%)
+[1450813809] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Memory Usage;OK;notify-service-by-email;Memory usage: total:4799.59 MB - used: 1301.10 MB (27%) - free: 3498.49 MB (73%)
+[1450813829] SERVICE ALERT: adauthdc3;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1450813829] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1450813908] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450813908] SERVICE ALERT: adauthdc3;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1450813908] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: AD Web Service;OK;notify-service-by-email;ADWS: Started
+[1450813944] SERVICE ALERT: adauthdc3;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1450813944] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: AD Domain Service;OK;notify-service-by-email;NTDS: Started
+[1450813996] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1450813996] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Distributed File System Replication;OK;notify-service-by-email;DFSR: Started
+[1450814039] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1450814039] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Intersite Messaging;OK;notify-service-by-email;IsmServ: Started
+[1450814083] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1450814083] SERVICE NOTIFICATION: nagiosadmin;adauthdc3;Service: Key Distribution Center;OK;notify-service-by-email;KDC: Started
+[1450814418] Caught SIGTERM, shutting down...
+[1450814418] Successfully shutdown... (PID=8559)
+[1450814418] Event broker module 'NERD' deinitialized successfully.
+[1450814419] Nagios 4.1.1 starting... (PID=10438)
+[1450814419] Local time is Tue Dec 22 15:00:19 EST 2015
+[1450814419] LOG VERSION: 2.0
+[1450814419] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450814419] qh: core query handler registered
+[1450814419] nerd: Channel hostchecks registered successfully
+[1450814419] nerd: Channel servicechecks registered successfully
+[1450814419] nerd: Channel opathchecks registered successfully
+[1450814419] nerd: Fully initialized and ready to rock!
+[1450814419] wproc: Successfully registered manager as @wproc with query handler
+[1450814419] wproc: Registry request: name=Core Worker 10442;pid=10442
+[1450814419] wproc: Registry request: name=Core Worker 10441;pid=10441
+[1450814419] wproc: Registry request: name=Core Worker 10443;pid=10443
+[1450814419] wproc: Registry request: name=Core Worker 10440;pid=10440
+[1450814419] Successfully launched command file worker with pid 10444
+[1450814469] Caught SIGTERM, shutting down...
+[1450814469] Successfully shutdown... (PID=10438)
+[1450814469] Event broker module 'NERD' deinitialized successfully.
+[1450814470] Nagios 4.1.1 starting... (PID=10544)
+[1450814470] Local time is Tue Dec 22 15:01:10 EST 2015
+[1450814470] LOG VERSION: 2.0
+[1450814470] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450814470] qh: core query handler registered
+[1450814470] nerd: Channel hostchecks registered successfully
+[1450814470] nerd: Channel servicechecks registered successfully
+[1450814470] nerd: Channel opathchecks registered successfully
+[1450814470] nerd: Fully initialized and ready to rock!
+[1450814470] wproc: Successfully registered manager as @wproc with query handler
+[1450814470] wproc: Registry request: name=Core Worker 10548;pid=10548
+[1450814470] wproc: Registry request: name=Core Worker 10547;pid=10547
+[1450814470] wproc: Registry request: name=Core Worker 10549;pid=10549
+[1450814470] wproc: Registry request: name=Core Worker 10546;pid=10546
+[1450814470] Successfully launched command file worker with pid 10550
+[1450814558] Caught SIGTERM, shutting down...
+[1450814558] Successfully shutdown... (PID=10544)
+[1450814558] Event broker module 'NERD' deinitialized successfully.
+[1450814559] Nagios 4.1.1 starting... (PID=10669)
+[1450814559] Local time is Tue Dec 22 15:02:39 EST 2015
+[1450814559] LOG VERSION: 2.0
+[1450814559] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450814559] qh: core query handler registered
+[1450814559] nerd: Channel hostchecks registered successfully
+[1450814559] nerd: Channel servicechecks registered successfully
+[1450814559] nerd: Channel opathchecks registered successfully
+[1450814559] nerd: Fully initialized and ready to rock!
+[1450814559] wproc: Successfully registered manager as @wproc with query handler
+[1450814559] wproc: Registry request: name=Core Worker 10673;pid=10673
+[1450814559] wproc: Registry request: name=Core Worker 10672;pid=10672
+[1450814559] wproc: Registry request: name=Core Worker 10674;pid=10674
+[1450814559] wproc: Registry request: name=Core Worker 10671;pid=10671
+[1450814559] Successfully launched command file worker with pid 10675
+[1450816056] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Load;1450816055
+[1450817134] Caught SIGTERM, shutting down...
+[1450817134] Successfully shutdown... (PID=10669)
+[1450817134] Event broker module 'NERD' deinitialized successfully.
+[1450817135] Nagios 4.1.1 starting... (PID=13137)
+[1450817135] Local time is Tue Dec 22 15:45:35 EST 2015
+[1450817135] LOG VERSION: 2.0
+[1450817135] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450817135] qh: core query handler registered
+[1450817135] nerd: Channel hostchecks registered successfully
+[1450817135] nerd: Channel servicechecks registered successfully
+[1450817135] nerd: Channel opathchecks registered successfully
+[1450817135] nerd: Fully initialized and ready to rock!
+[1450817135] wproc: Successfully registered manager as @wproc with query handler
+[1450817135] wproc: Registry request: name=Core Worker 13140;pid=13140
+[1450817135] wproc: Registry request: name=Core Worker 13141;pid=13141
+[1450817135] wproc: Registry request: name=Core Worker 13142;pid=13142
+[1450817135] wproc: Registry request: name=Core Worker 13139;pid=13139
+[1450817135] Successfully launched command file worker with pid 13143
+[1450817556] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450820734] Auto-save of retention data completed successfully.
+[1450821156] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450824334] Auto-save of retention data completed successfully.
+[1450825055] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450827934] Auto-save of retention data completed successfully.
+[1450828655] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450831534] Auto-save of retention data completed successfully.
+[1450832255] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450835134] Auto-save of retention data completed successfully.
+[1450836154] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450838734] Auto-save of retention data completed successfully.
+[1450839754] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450842334] Auto-save of retention data completed successfully.
+[1450843354] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;UNKNOWN;notify-service-by-email;Usage:
+[1450845934] Auto-save of retention data completed successfully.

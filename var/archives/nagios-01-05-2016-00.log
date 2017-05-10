@@ -1,0 +1,931 @@
+[1451883600] LOG ROTATION: DAILY
+[1451883600] LOG VERSION: 2.0
+[1451883600] CURRENT HOST STATE: adauthdc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.28 ms
+[1451883600] CURRENT HOST STATE: adauthdc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1451883600] CURRENT HOST STATE: adauthdc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1451883600] CURRENT HOST STATE: addc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1451883600] CURRENT HOST STATE: adwsusclients;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1451883600] CURRENT HOST STATE: adwsusservers;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1451883600] CURRENT HOST STATE: cscfileserv;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1451883600] CURRENT HOST STATE: emuprintps;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451883600] CURRENT HOST STATE: emuscript;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1451883600] CURRENT HOST STATE: images;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1451883600] CURRENT HOST STATE: lansweeper;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451883600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1451883600] CURRENT SERVICE STATE: adauthdc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.78 Gb (24%) - free 37.88 Gb (76%)
+[1451883600] CURRENT SERVICE STATE: adauthdc1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1644.53 MB (34%) - free: 3155.06 MB (66%)
+[1451883600] CURRENT SERVICE STATE: adauthdc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc1;Uptime;OK;HARD;1;System Uptime - 19 day(s) 17 hour(s) 17 minute(s)
+[1451883600] CURRENT SERVICE STATE: adauthdc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.82 Gb (24%) - free 37.83 Gb (76%)
+[1451883600] CURRENT SERVICE STATE: adauthdc2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1286.88 MB (27%) - free: 3512.71 MB (73%)
+[1451883600] CURRENT SERVICE STATE: adauthdc2;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc2;Uptime;OK;HARD;1;System Uptime - 23 day(s) 12 hour(s) 27 minute(s)
+[1451883600] CURRENT SERVICE STATE: adauthdc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 12.64 Gb (25%) - free 37.01 Gb (75%)
+[1451883600] CURRENT SERVICE STATE: adauthdc3;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1688.79 MB (35%) - free: 3110.80 MB (65%)
+[1451883600] CURRENT SERVICE STATE: adauthdc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Remote Loader for IDM;OK;HARD;1;dirxml_remote.exe: Running
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: adauthdc3;Uptime;OK;HARD;1;System Uptime - 23 day(s) 12 hour(s) 20 minute(s)
+[1451883600] CURRENT SERVICE STATE: addc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 11.89 Gb (15%) - free 67.76 Gb (85%)
+[1451883600] CURRENT SERVICE STATE: addc2;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451883600] CURRENT SERVICE STATE: addc2;Memory Usage;OK;HARD;1;Memory usage: total:9471.57 MB - used: 2025.56 MB (21%) - free: 7446.01 MB (79%)
+[1451883600] CURRENT SERVICE STATE: addc2;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451883600] CURRENT SERVICE STATE: addc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: addc2;Uptime;OK;HARD;1;System Uptime - 16 day(s) 9 hour(s) 38 minute(s)
+[1451883600] CURRENT SERVICE STATE: adwsusclients;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 19.73 Gb (25%) - free 59.92 Gb (75%)
+[1451883600] CURRENT SERVICE STATE: adwsusclients;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2613.97 MB (26%) - free: 7625.61 MB (74%)
+[1451883600] CURRENT SERVICE STATE: adwsusclients;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: adwsusclients;Uptime;OK;HARD;1;System Uptime - 12 day(s) 11 hour(s) 36 minute(s)
+[1451883600] CURRENT SERVICE STATE: adwsusservers;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 18.97 Gb (24%) - free 60.68 Gb (76%)
+[1451883600] CURRENT SERVICE STATE: adwsusservers;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2341.20 MB (23%) - free: 7898.37 MB (77%)
+[1451883600] CURRENT SERVICE STATE: adwsusservers;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: adwsusservers;Uptime;OK;HARD;1;System Uptime - 13 day(s) 10 hour(s) 43 minute(s)
+[1451883600] CURRENT SERVICE STATE: cscfileserv;C:\ Drive Space;OK;HARD;1;c:\ - total: 58.50 Gb - used: 22.72 Gb (39%) - free 35.78 Gb (61%)
+[1451883600] CURRENT SERVICE STATE: cscfileserv;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Memory Usage;OK;HARD;1;Memory usage: total:8188.82 MB - used: 1293.16 MB (16%) - free: 6895.66 MB (84%)
+[1451883600] CURRENT SERVICE STATE: cscfileserv;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: cscfileserv;Uptime;OK;HARD;1;System Uptime - 51 day(s) 5 hour(s) 44 minute(s)
+[1451883600] CURRENT SERVICE STATE: emuprintps;C:\ Drive Space;OK;HARD;1;c:\ - total: 44.66 Gb - used: 16.53 Gb (37%) - free 28.13 Gb (63%)
+[1451883600] CURRENT SERVICE STATE: emuprintps;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: emuprintps;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1566.74 MB (33%) - free: 3232.86 MB (67%)
+[1451883600] CURRENT SERVICE STATE: emuprintps;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: emuprintps;Uptime;OK;HARD;1;System Uptime - 16 day(s) 1 hour(s) 12 minute(s)
+[1451883600] CURRENT SERVICE STATE: emuscript;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 15.23 Gb (19%) - free 64.43 Gb (81%)
+[1451883600] CURRENT SERVICE STATE: emuscript;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1451883600] CURRENT SERVICE STATE: emuscript;Memory Usage;OK;HARD;1;Memory usage: total:4799.59 MB - used: 1104.25 MB (23%) - free: 3695.34 MB (77%)
+[1451883600] CURRENT SERVICE STATE: emuscript;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: emuscript;Uptime;OK;HARD;1;System Uptime - 13 day(s) 13 hour(s) 6 minute(s)
+[1451883600] CURRENT SERVICE STATE: images;C:\ Drive Space;OK;HARD;1;c:\ - total: 1841.16 Gb - used: 978.61 Gb (53%) - free 862.55 Gb (47%)
+[1451883600] CURRENT SERVICE STATE: images;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1451883600] CURRENT SERVICE STATE: images;Memory Usage;OK;HARD;1;Memory usage: total:37074.86 MB - used: 2276.74 MB (6%) - free: 34798.12 MB (94%)
+[1451883600] CURRENT SERVICE STATE: images;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1451883600] CURRENT SERVICE STATE: images;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: MDT Monitor;OK;HARD;1;MDT_Monitor: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: PXE Boot;OK;HARD;1;WDSServer: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: Print Spooler;OK;HARD;1;Spooler: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: images;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: images;Uptime;OK;HARD;1;System Uptime - 19 day(s) 8 hour(s) 42 minute(s)
+[1451883600] CURRENT SERVICE STATE: lansweeper;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.48 Gb - used: 26.96 Gb (54%) - free 22.52 Gb (46%)
+[1451883600] CURRENT SERVICE STATE: lansweeper;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1451883600] CURRENT SERVICE STATE: lansweeper;Memory Usage;OK;HARD;1;Memory usage: total:5216.44 MB - used: 2387.87 MB (46%) - free: 2828.57 MB (54%)
+[1451883600] CURRENT SERVICE STATE: lansweeper;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.19 2015-12-10
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: RPC;OK;HARD;1;RpcSs: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1451883600] CURRENT SERVICE STATE: lansweeper;Uptime;OK;HARD;1;System Uptime - 12 day(s) 10 hour(s) 38 minute(s)
+[1451883600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1451883600] CURRENT SERVICE STATE: localhost;HTTP;CRITICAL;HARD;4;HTTP CRITICAL - Invalid HTTP response received from host: <?xml version="1.0" encoding="ISO-8859-1"?>
+[1451883600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1451883600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 69319 MB (92% inode=95%):
+[1451883600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1451883600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2053 MB out of 2053 MB)
+[1451883600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 93 processes with STATE = RSZDT
+[1451883851] Auto-save of retention data completed successfully.
+[1451887451] Auto-save of retention data completed successfully.
+[1451891051] Auto-save of retention data completed successfully.
+[1451894651] Auto-save of retention data completed successfully.
+[1451898251] Auto-save of retention data completed successfully.
+[1451901851] Auto-save of retention data completed successfully.
+[1451905451] Auto-save of retention data completed successfully.
+[1451909051] Auto-save of retention data completed successfully.
+[1451912651] Auto-save of retention data completed successfully.
+[1451916251] Auto-save of retention data completed successfully.
+[1451919851] Auto-save of retention data completed successfully.
+[1451919947] Caught SIGTERM, shutting down...
+[1451919947] Successfully shutdown... (PID=14710)
+[1451919947] Event broker module 'NERD' deinitialized successfully.
+[1451919948] Nagios 4.1.1 starting... (PID=7977)
+[1451919948] Local time is Mon Jan 04 10:05:48 EST 2016
+[1451919948] LOG VERSION: 2.0
+[1451919948] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451919948] qh: core query handler registered
+[1451919948] nerd: Channel hostchecks registered successfully
+[1451919948] nerd: Channel servicechecks registered successfully
+[1451919948] nerd: Channel opathchecks registered successfully
+[1451919948] nerd: Fully initialized and ready to rock!
+[1451919948] wproc: Successfully registered manager as @wproc with query handler
+[1451919948] wproc: Registry request: name=Core Worker 7980;pid=7980
+[1451919948] wproc: Registry request: name=Core Worker 7979;pid=7979
+[1451919948] wproc: Registry request: name=Core Worker 7982;pid=7982
+[1451919948] wproc: Registry request: name=Core Worker 7981;pid=7981
+[1451919948] Successfully launched command file worker with pid 7985
+[1451920029] Caught SIGTERM, shutting down...
+[1451920029] Successfully shutdown... (PID=7977)
+[1451920029] Event broker module 'NERD' deinitialized successfully.
+[1451920030] Nagios 4.1.1 starting... (PID=8280)
+[1451920030] Local time is Mon Jan 04 10:07:10 EST 2016
+[1451920030] LOG VERSION: 2.0
+[1451920030] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451920030] qh: core query handler registered
+[1451920030] nerd: Channel hostchecks registered successfully
+[1451920030] nerd: Channel servicechecks registered successfully
+[1451920030] nerd: Channel opathchecks registered successfully
+[1451920030] nerd: Fully initialized and ready to rock!
+[1451920030] wproc: Successfully registered manager as @wproc with query handler
+[1451920030] wproc: Registry request: name=Core Worker 8284;pid=8284
+[1451920030] wproc: Registry request: name=Core Worker 8282;pid=8282
+[1451920030] wproc: Registry request: name=Core Worker 8285;pid=8285
+[1451920030] wproc: Registry request: name=Core Worker 8283;pid=8283
+[1451920030] Warning: Host 'emuscript' has no default contacts or contactgroups defined!
+[1451920030] Successfully launched command file worker with pid 8288
+[1451920306] Caught SIGTERM, shutting down...
+[1451920306] Successfully shutdown... (PID=8280)
+[1451920306] Event broker module 'NERD' deinitialized successfully.
+[1451920307] Nagios 4.1.1 starting... (PID=9066)
+[1451920307] Local time is Mon Jan 04 10:11:47 EST 2016
+[1451920307] LOG VERSION: 2.0
+[1451920307] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451920307] qh: core query handler registered
+[1451920307] nerd: Channel hostchecks registered successfully
+[1451920307] nerd: Channel servicechecks registered successfully
+[1451920307] nerd: Channel opathchecks registered successfully
+[1451920307] nerd: Fully initialized and ready to rock!
+[1451920307] wproc: Successfully registered manager as @wproc with query handler
+[1451920307] wproc: Registry request: name=Core Worker 9069;pid=9069
+[1451920307] wproc: Registry request: name=Core Worker 9071;pid=9071
+[1451920307] wproc: Registry request: name=Core Worker 9070;pid=9070
+[1451920307] wproc: Registry request: name=Core Worker 9068;pid=9068
+[1451920307] Warning: Host 'emuscript' has no default contacts or contactgroups defined!
+[1451920307] Successfully launched command file worker with pid 9074
+[1451920898] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;lansweeper;1451920897
+[1451921003] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;lansweeper;1451921002
+[1451921067] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451921065
+[1451921067] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451921187] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451921277] Caught SIGTERM, shutting down...
+[1451921277] Successfully shutdown... (PID=9066)
+[1451921277] Event broker module 'NERD' deinitialized successfully.
+[1451921278] Nagios 4.1.1 starting... (PID=11602)
+[1451921278] Local time is Mon Jan 04 10:27:58 EST 2016
+[1451921278] LOG VERSION: 2.0
+[1451921278] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451921278] qh: core query handler registered
+[1451921278] nerd: Channel hostchecks registered successfully
+[1451921278] nerd: Channel servicechecks registered successfully
+[1451921278] nerd: Channel opathchecks registered successfully
+[1451921278] nerd: Fully initialized and ready to rock!
+[1451921278] wproc: Successfully registered manager as @wproc with query handler
+[1451921278] wproc: Registry request: name=Core Worker 11606;pid=11606
+[1451921278] wproc: Registry request: name=Core Worker 11604;pid=11604
+[1451921278] wproc: Registry request: name=Core Worker 11607;pid=11607
+[1451921278] wproc: Registry request: name=Core Worker 11605;pid=11605
+[1451921278] Warning: Host 'emuscript' has no default contacts or contactgroups defined!
+[1451921278] Successfully launched command file worker with pid 11610
+[1451921294] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451921292
+[1451921294] SERVICE ALERT: lansweeper;Service: Windows Time;OK;SOFT;3;W32Time: Started
+[1451921477] Caught SIGTERM, shutting down...
+[1451921477] Successfully shutdown... (PID=11602)
+[1451921477] Event broker module 'NERD' deinitialized successfully.
+[1451921478] Nagios 4.1.1 starting... (PID=12237)
+[1451921478] Local time is Mon Jan 04 10:31:18 EST 2016
+[1451921478] LOG VERSION: 2.0
+[1451921478] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451921478] qh: core query handler registered
+[1451921478] nerd: Channel hostchecks registered successfully
+[1451921478] nerd: Channel servicechecks registered successfully
+[1451921478] nerd: Channel opathchecks registered successfully
+[1451921478] nerd: Fully initialized and ready to rock!
+[1451921478] wproc: Successfully registered manager as @wproc with query handler
+[1451921478] wproc: Registry request: name=Core Worker 12240;pid=12240
+[1451921478] wproc: Registry request: name=Core Worker 12239;pid=12239
+[1451921478] wproc: Registry request: name=Core Worker 12242;pid=12242
+[1451921478] wproc: Registry request: name=Core Worker 12241;pid=12241
+[1451921478] Successfully launched command file worker with pid 12245
+[1451921491] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;images;Service: Windows Time;1451921490
+[1451921610] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451921607
+[1451921610] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451921730] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451921850] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;HARD;3;W32Time: Stopped
+[1451921850] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Service: Windows Time;CRITICAL;notify-service-by-email;W32Time: Stopped
+[1451921876] Caught SIGTERM, shutting down...
+[1451921876] Successfully shutdown... (PID=12237)
+[1451921876] Event broker module 'NERD' deinitialized successfully.
+[1451921877] Nagios 4.1.1 starting... (PID=13336)
+[1451921877] Local time is Mon Jan 04 10:37:57 EST 2016
+[1451921877] LOG VERSION: 2.0
+[1451921877] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451921877] qh: core query handler registered
+[1451921877] nerd: Channel hostchecks registered successfully
+[1451921877] nerd: Channel servicechecks registered successfully
+[1451921877] nerd: Channel opathchecks registered successfully
+[1451921877] nerd: Fully initialized and ready to rock!
+[1451921877] wproc: Successfully registered manager as @wproc with query handler
+[1451921877] wproc: Registry request: name=Core Worker 13340;pid=13340
+[1451921877] wproc: Registry request: name=Core Worker 13338;pid=13338
+[1451921877] wproc: Registry request: name=Core Worker 13341;pid=13341
+[1451921877] wproc: Registry request: name=Core Worker 13339;pid=13339
+[1451921877] Successfully launched command file worker with pid 13344
+[1451921894] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451921892
+[1451921894] SERVICE ALERT: lansweeper;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1451921894] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1451921894] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1451921983] Caught SIGTERM, shutting down...
+[1451921983] Successfully shutdown... (PID=13336)
+[1451921983] Event broker module 'NERD' deinitialized successfully.
+[1451921984] Nagios 4.1.1 starting... (PID=13745)
+[1451921984] Local time is Mon Jan 04 10:39:44 EST 2016
+[1451921984] LOG VERSION: 2.0
+[1451921984] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451921984] qh: core query handler registered
+[1451921984] nerd: Channel hostchecks registered successfully
+[1451921984] nerd: Channel servicechecks registered successfully
+[1451921984] nerd: Channel opathchecks registered successfully
+[1451921984] nerd: Fully initialized and ready to rock!
+[1451921984] wproc: Successfully registered manager as @wproc with query handler
+[1451921984] wproc: Registry request: name=Core Worker 13749;pid=13749
+[1451921984] wproc: Registry request: name=Core Worker 13747;pid=13747
+[1451921984] wproc: Registry request: name=Core Worker 13748;pid=13748
+[1451921984] wproc: Registry request: name=Core Worker 13750;pid=13750
+[1451921984] Successfully launched command file worker with pid 13753
+[1451922001] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451921999
+[1451922001] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451922121] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451922129] Caught SIGTERM, shutting down...
+[1451922129] Successfully shutdown... (PID=13745)
+[1451922129] Event broker module 'NERD' deinitialized successfully.
+[1451922130] Nagios 4.1.1 starting... (PID=14218)
+[1451922130] Local time is Mon Jan 04 10:42:10 EST 2016
+[1451922130] LOG VERSION: 2.0
+[1451922130] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451922130] qh: core query handler registered
+[1451922130] nerd: Channel hostchecks registered successfully
+[1451922130] nerd: Channel servicechecks registered successfully
+[1451922130] nerd: Channel opathchecks registered successfully
+[1451922130] nerd: Fully initialized and ready to rock!
+[1451922130] wproc: Successfully registered manager as @wproc with query handler
+[1451922130] wproc: Registry request: name=Core Worker 14222;pid=14222
+[1451922130] wproc: Registry request: name=Core Worker 14223;pid=14223
+[1451922130] wproc: Registry request: name=Core Worker 14221;pid=14221
+[1451922130] wproc: Registry request: name=Core Worker 14220;pid=14220
+[1451922130] Successfully launched command file worker with pid 14226
+[1451922158] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451922157
+[1451922158] SERVICE ALERT: lansweeper;Service: Windows Time;OK;SOFT;3;W32Time: Started
+[1451922242] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451922241
+[1451922242] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451922362] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451922482] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;HARD;3;W32Time: Stopped
+[1451922482] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Service: Windows Time;CRITICAL;notify-service-by-email;W32Time: Stopped
+[1451922484] Caught SIGTERM, shutting down...
+[1451922484] Successfully shutdown... (PID=14218)
+[1451922484] Event broker module 'NERD' deinitialized successfully.
+[1451922485] Nagios 4.1.1 starting... (PID=15261)
+[1451922485] Local time is Mon Jan 04 10:48:05 EST 2016
+[1451922485] LOG VERSION: 2.0
+[1451922485] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451922485] qh: core query handler registered
+[1451922485] nerd: Channel hostchecks registered successfully
+[1451922485] nerd: Channel servicechecks registered successfully
+[1451922485] nerd: Channel opathchecks registered successfully
+[1451922485] nerd: Fully initialized and ready to rock!
+[1451922485] wproc: Successfully registered manager as @wproc with query handler
+[1451922485] wproc: Registry request: name=Core Worker 15265;pid=15265
+[1451922485] wproc: Registry request: name=Core Worker 15263;pid=15263
+[1451922485] wproc: Registry request: name=Core Worker 15266;pid=15266
+[1451922485] wproc: Registry request: name=Core Worker 15264;pid=15264
+[1451922485] Successfully launched command file worker with pid 15267
+[1451922501] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451922500
+[1451922501] SERVICE ALERT: lansweeper;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1451922501] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (23.9% change >= 20.0% threshold)
+[1451922601] Caught SIGTERM, shutting down...
+[1451922601] Successfully shutdown... (PID=15261)
+[1451922601] Event broker module 'NERD' deinitialized successfully.
+[1451922602] Nagios 4.1.1 starting... (PID=15628)
+[1451922602] Local time is Mon Jan 04 10:50:02 EST 2016
+[1451922602] LOG VERSION: 2.0
+[1451922602] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451922602] qh: core query handler registered
+[1451922602] nerd: Channel hostchecks registered successfully
+[1451922602] nerd: Channel servicechecks registered successfully
+[1451922602] nerd: Channel opathchecks registered successfully
+[1451922602] nerd: Fully initialized and ready to rock!
+[1451922602] wproc: Successfully registered manager as @wproc with query handler
+[1451922602] wproc: Registry request: name=Core Worker 15632;pid=15632
+[1451922602] wproc: Registry request: name=Core Worker 15630;pid=15630
+[1451922602] wproc: Registry request: name=Core Worker 15633;pid=15633
+[1451922602] wproc: Registry request: name=Core Worker 15631;pid=15631
+[1451922602] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (23.9% change >= 20.0% threshold)
+[1451922602] Successfully launched command file worker with pid 15634
+[1451922637] EXTERNAL COMMAND: DEL_SVC_COMMENT;3
+[1451922728] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451922726
+[1451924218] SERVICE ALERT: images;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451924248] HOST ALERT: images;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451924295] SERVICE ALERT: images;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451924325] HOST ALERT: images;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451924333] Caught SIGTERM, shutting down...
+[1451924333] Successfully shutdown... (PID=15628)
+[1451924333] Event broker module 'NERD' deinitialized successfully.
+[1451924334] Nagios 4.1.1 starting... (PID=20091)
+[1451924334] Local time is Mon Jan 04 11:18:54 EST 2016
+[1451924334] LOG VERSION: 2.0
+[1451924334] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451924334] qh: core query handler registered
+[1451924334] nerd: Channel hostchecks registered successfully
+[1451924334] nerd: Channel servicechecks registered successfully
+[1451924334] nerd: Channel opathchecks registered successfully
+[1451924334] nerd: Fully initialized and ready to rock!
+[1451924334] wproc: Successfully registered manager as @wproc with query handler
+[1451924334] wproc: Registry request: name=Core Worker 20094;pid=20094
+[1451924334] wproc: Registry request: name=Core Worker 20096;pid=20096
+[1451924334] wproc: Registry request: name=Core Worker 20095;pid=20095
+[1451924334] wproc: Registry request: name=Core Worker 20093;pid=20093
+[1451924334] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (22.4% change >= 20.0% threshold)
+[1451924334] Successfully launched command file worker with pid 20097
+[1451924351] HOST ALERT: images;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1451924395] SERVICE ALERT: images;Service: DNS Client;OK;SOFT;2;Dnscache: Started
+[1451924408] SERVICE ALERT: images;NSClient++ Version;OK;SOFT;2;NSClient++ 0.4.4.15 2015-11-25
+[1451924474] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451924472
+[1451924642] Caught SIGTERM, shutting down...
+[1451924642] Successfully shutdown... (PID=20091)
+[1451924642] Event broker module 'NERD' deinitialized successfully.
+[1451924643] Nagios 4.1.1 starting... (PID=20957)
+[1451924643] Local time is Mon Jan 04 11:24:03 EST 2016
+[1451924643] LOG VERSION: 2.0
+[1451924643] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451924643] qh: core query handler registered
+[1451924643] nerd: Channel hostchecks registered successfully
+[1451924643] nerd: Channel servicechecks registered successfully
+[1451924643] nerd: Channel opathchecks registered successfully
+[1451924643] nerd: Fully initialized and ready to rock!
+[1451924643] wproc: Successfully registered manager as @wproc with query handler
+[1451924643] wproc: Registry request: name=Core Worker 20961;pid=20961
+[1451924643] wproc: Registry request: name=Core Worker 20959;pid=20959
+[1451924643] wproc: Registry request: name=Core Worker 20962;pid=20962
+[1451924643] wproc: Registry request: name=Core Worker 20960;pid=20960
+[1451924644] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (21.8% change >= 20.0% threshold)
+[1451924644] Successfully launched command file worker with pid 20965
+[1451924678] Caught SIGTERM, shutting down...
+[1451924678] Successfully shutdown... (PID=20957)
+[1451924678] Event broker module 'NERD' deinitialized successfully.
+[1451924679] Nagios 4.1.1 starting... (PID=21108)
+[1451924679] Local time is Mon Jan 04 11:24:39 EST 2016
+[1451924679] LOG VERSION: 2.0
+[1451924679] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451924679] qh: core query handler registered
+[1451924679] nerd: Channel hostchecks registered successfully
+[1451924679] nerd: Channel servicechecks registered successfully
+[1451924679] nerd: Channel opathchecks registered successfully
+[1451924679] nerd: Fully initialized and ready to rock!
+[1451924679] wproc: Successfully registered manager as @wproc with query handler
+[1451924679] wproc: Registry request: name=Core Worker 21112;pid=21112
+[1451924679] wproc: Registry request: name=Core Worker 21110;pid=21110
+[1451924679] wproc: Registry request: name=Core Worker 21111;pid=21111
+[1451924679] wproc: Registry request: name=Core Worker 21113;pid=21113
+[1451924679] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (21.8% change >= 20.0% threshold)
+[1451924679] Successfully launched command file worker with pid 21114
+[1451924707] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451924706
+[1451924707] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451924777] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451924775
+[1451924777] SERVICE ALERT: lansweeper;Service: Windows Time;OK;SOFT;2;W32Time: Started
+[1451924843] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451924842
+[1451924927] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451924926
+[1451924992] EXTERNAL COMMAND: DEL_ALL_SVC_COMMENTS;lansweeper;Service: Windows Time
+[1451925025] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;lansweeper;Service: Windows Time;2;Nagios Admin;Test
+[1451925025] SERVICE NOTIFICATION: nagiosadmin;lansweeper;Service: Windows Time;CUSTOM (OK);notify-service-by-email;W32Time: Started;Nagios Admin;Test
+[1451925255] Caught SIGTERM, shutting down...
+[1451925255] Successfully shutdown... (PID=21108)
+[1451925255] Event broker module 'NERD' deinitialized successfully.
+[1451925256] Nagios 4.1.1 starting... (PID=22675)
+[1451925256] Local time is Mon Jan 04 11:34:16 EST 2016
+[1451925256] LOG VERSION: 2.0
+[1451925256] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451925256] qh: core query handler registered
+[1451925256] nerd: Channel hostchecks registered successfully
+[1451925256] nerd: Channel servicechecks registered successfully
+[1451925256] nerd: Channel opathchecks registered successfully
+[1451925256] nerd: Fully initialized and ready to rock!
+[1451925256] wproc: Successfully registered manager as @wproc with query handler
+[1451925256] wproc: Registry request: name=Core Worker 22679;pid=22679
+[1451925256] wproc: Registry request: name=Core Worker 22677;pid=22677
+[1451925256] wproc: Registry request: name=Core Worker 22678;pid=22678
+[1451925256] wproc: Registry request: name=Core Worker 22680;pid=22680
+[1451925256] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (20.3% change >= 20.0% threshold)
+[1451925256] Successfully launched command file worker with pid 22681
+[1451925267] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;lansweeper;Service: Windows Time;2;Nagios Admin;test again
+[1451925267] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: Windows Time;CUSTOM (OK);notify-service-by-email;W32Time: Started;Nagios Admin;test again
+[1451925328] Caught SIGTERM, shutting down...
+[1451925328] Successfully shutdown... (PID=22675)
+[1451925328] Event broker module 'NERD' deinitialized successfully.
+[1451925329] Nagios 4.1.1 starting... (PID=22925)
+[1451925329] Local time is Mon Jan 04 11:35:29 EST 2016
+[1451925329] LOG VERSION: 2.0
+[1451925329] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451925329] qh: core query handler registered
+[1451925329] nerd: Channel hostchecks registered successfully
+[1451925329] nerd: Channel servicechecks registered successfully
+[1451925329] nerd: Channel opathchecks registered successfully
+[1451925329] nerd: Fully initialized and ready to rock!
+[1451925329] wproc: Successfully registered manager as @wproc with query handler
+[1451925329] wproc: Registry request: name=Core Worker 22929;pid=22929
+[1451925329] wproc: Registry request: name=Core Worker 22927;pid=22927
+[1451925329] wproc: Registry request: name=Core Worker 22930;pid=22930
+[1451925329] wproc: Registry request: name=Core Worker 22928;pid=22928
+[1451925329] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (20.3% change >= 20.0% threshold)
+[1451925329] Successfully launched command file worker with pid 22931
+[1451925353] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;lansweeper;Service: Windows Time;2;Nagios Admin;Testing notifications
+[1451925353] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: Windows Time;CUSTOM (OK);notify-service-by-email;W32Time: Started;Nagios Admin;Testing notifications
+[1451927740] Caught SIGTERM, shutting down...
+[1451927740] Successfully shutdown... (PID=22925)
+[1451927740] Event broker module 'NERD' deinitialized successfully.
+[1451927741] Nagios 4.1.1 starting... (PID=29039)
+[1451927741] Local time is Mon Jan 04 12:15:41 EST 2016
+[1451927741] LOG VERSION: 2.0
+[1451927741] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451927741] qh: core query handler registered
+[1451927741] nerd: Channel hostchecks registered successfully
+[1451927741] nerd: Channel servicechecks registered successfully
+[1451927741] nerd: Channel opathchecks registered successfully
+[1451927741] nerd: Fully initialized and ready to rock!
+[1451927741] wproc: Successfully registered manager as @wproc with query handler
+[1451927741] wproc: Registry request: name=Core Worker 29043;pid=29043
+[1451927741] wproc: Registry request: name=Core Worker 29041;pid=29041
+[1451927741] wproc: Registry request: name=Core Worker 29044;pid=29044
+[1451927741] wproc: Registry request: name=Core Worker 29042;pid=29042
+[1451927741] Successfully launched command file worker with pid 29045
+[1451927767] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451927766
+[1451927767] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451927887] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451927903] Caught SIGTERM, shutting down...
+[1451927903] Successfully shutdown... (PID=29039)
+[1451927903] Event broker module 'NERD' deinitialized successfully.
+[1451927904] Nagios 4.1.1 starting... (PID=29525)
+[1451927904] Local time is Mon Jan 04 12:18:24 EST 2016
+[1451927904] LOG VERSION: 2.0
+[1451927904] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451927904] qh: core query handler registered
+[1451927904] nerd: Channel hostchecks registered successfully
+[1451927904] nerd: Channel servicechecks registered successfully
+[1451927904] nerd: Channel opathchecks registered successfully
+[1451927904] nerd: Fully initialized and ready to rock!
+[1451927904] wproc: Successfully registered manager as @wproc with query handler
+[1451927904] wproc: Registry request: name=Core Worker 29529;pid=29529
+[1451927904] wproc: Registry request: name=Core Worker 29527;pid=29527
+[1451927904] wproc: Registry request: name=Core Worker 29530;pid=29530
+[1451927904] wproc: Registry request: name=Core Worker 29528;pid=29528
+[1451927904] Successfully launched command file worker with pid 29531
+[1451927911] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451927910
+[1451927911] SERVICE ALERT: lansweeper;Service: Windows Time;CRITICAL;HARD;3;W32Time: Stopped
+[1451927911] SERVICE FLAPPING ALERT: lansweeper;Service: Windows Time;STARTED; Service appears to have started flapping (23.9% change >= 20.0% threshold)
+[1451927972] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;lansweeper;Service: Windows Time;1451927970
+[1451928025] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;lansweeper;Service: Windows Time;2;Nagios Admin;test...
+[1451928025] SERVICE NOTIFICATION: BenPeters;lansweeper;Service: Windows Time;CUSTOM (CRITICAL);notify-service-by-email;W32Time: Stopped;Nagios Admin;test...
+[1451928152] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;images;Service: Windows Time;1451928151
+[1451928152] SERVICE ALERT: images;Service: Windows Time;CRITICAL;SOFT;1;W32Time: Stopped
+[1451928272] SERVICE ALERT: images;Service: Windows Time;CRITICAL;SOFT;2;W32Time: Stopped
+[1451928392] SERVICE ALERT: images;Service: Windows Time;CRITICAL;HARD;3;W32Time: Stopped
+[1451928392] SERVICE NOTIFICATION: BenPeters;images;Service: Windows Time;CRITICAL;notify-service-by-email;W32Time: Stopped
+[1451928455] Caught SIGTERM, shutting down...
+[1451928455] Successfully shutdown... (PID=29525)
+[1451928455] Event broker module 'NERD' deinitialized successfully.
+[1451928456] Nagios 4.1.1 starting... (PID=31075)
+[1451928456] Local time is Mon Jan 04 12:27:36 EST 2016
+[1451928456] LOG VERSION: 2.0
+[1451928456] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451928456] qh: core query handler registered
+[1451928456] nerd: Channel hostchecks registered successfully
+[1451928456] nerd: Channel servicechecks registered successfully
+[1451928456] nerd: Channel opathchecks registered successfully
+[1451928456] nerd: Fully initialized and ready to rock!
+[1451928456] wproc: Successfully registered manager as @wproc with query handler
+[1451928456] wproc: Registry request: name=Core Worker 31079;pid=31079
+[1451928456] wproc: Registry request: name=Core Worker 31077;pid=31077
+[1451928456] wproc: Registry request: name=Core Worker 31080;pid=31080
+[1451928456] wproc: Registry request: name=Core Worker 31078;pid=31078
+[1451928456] Successfully launched command file worker with pid 31081
+[1451928490] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;images;Service: Windows Time;1451928488
+[1451928490] SERVICE ALERT: images;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1451928490] SERVICE NOTIFICATION: BenPeters;images;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1451928490] SERVICE NOTIFICATION: MohamedAlghaithi;images;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1451928490] SERVICE NOTIFICATION: PatricDaugherty;images;Service: Windows Time;OK;notify-service-by-email;W32Time: Started
+[1451928572] SERVICE ALERT: lansweeper;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1451932055] Auto-save of retention data completed successfully.
+[1451933480] Nagios 4.1.1 starting... (PID=3009)
+[1451933480] Local time is Mon Jan 04 13:51:20 EST 2016
+[1451933480] LOG VERSION: 2.0
+[1451933480] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451933480] qh: core query handler registered
+[1451933480] nerd: Channel hostchecks registered successfully
+[1451933480] nerd: Channel servicechecks registered successfully
+[1451933480] nerd: Channel opathchecks registered successfully
+[1451933480] nerd: Fully initialized and ready to rock!
+[1451933480] wproc: Successfully registered manager as @wproc with query handler
+[1451933480] wproc: Registry request: name=Core Worker 3017;pid=3017
+[1451933480] wproc: Registry request: name=Core Worker 3018;pid=3018
+[1451933480] wproc: Registry request: name=Core Worker 3016;pid=3016
+[1451933480] wproc: Registry request: name=Core Worker 3019;pid=3019
+[1451933480] Successfully launched command file worker with pid 3027
+[1451934031] Caught SIGTERM, shutting down...
+[1451934031] Successfully shutdown... (PID=3009)
+[1451934031] Event broker module 'NERD' deinitialized successfully.
+[1451934032] Nagios 4.1.1 starting... (PID=4849)
+[1451934032] Local time is Mon Jan 04 14:00:32 EST 2016
+[1451934032] LOG VERSION: 2.0
+[1451934032] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451934032] qh: core query handler registered
+[1451934032] nerd: Channel hostchecks registered successfully
+[1451934032] nerd: Channel servicechecks registered successfully
+[1451934032] nerd: Channel opathchecks registered successfully
+[1451934032] nerd: Fully initialized and ready to rock!
+[1451934032] wproc: Successfully registered manager as @wproc with query handler
+[1451934032] wproc: Registry request: name=Core Worker 4852;pid=4852
+[1451934032] wproc: Registry request: name=Core Worker 4853;pid=4853
+[1451934032] wproc: Registry request: name=Core Worker 4854;pid=4854
+[1451934032] wproc: Registry request: name=Core Worker 4851;pid=4851
+[1451934032] Successfully launched command file worker with pid 4855
+[1451934496] SERVICE ALERT: emuprintps;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451934596] SERVICE ALERT: emuprintps;Service: User Profile;OK;SOFT;2;ProfSvc: Started
+[1451935794] SERVICE ALERT: lansweeper;Memory Usage;WARNING;SOFT;1;Memory usage: total:5216.44 MB - used: 4236.78 MB (81%) - free: 979.66 MB (19%)
+[1451935914] SERVICE ALERT: lansweeper;Memory Usage;WARNING;SOFT;2;Memory usage: total:5216.44 MB - used: 4230.95 MB (81%) - free: 985.49 MB (19%)
+[1451936003] Caught SIGTERM, shutting down...
+[1451936003] Successfully shutdown... (PID=4849)
+[1451936003] Event broker module 'NERD' deinitialized successfully.
+[1451936004] Nagios 4.1.1 starting... (PID=6132)
+[1451936004] Local time is Mon Jan 04 14:33:24 EST 2016
+[1451936004] LOG VERSION: 2.0
+[1451936004] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451936004] qh: core query handler registered
+[1451936004] nerd: Channel hostchecks registered successfully
+[1451936004] nerd: Channel servicechecks registered successfully
+[1451936004] nerd: Channel opathchecks registered successfully
+[1451936004] nerd: Fully initialized and ready to rock!
+[1451936004] wproc: Successfully registered manager as @wproc with query handler
+[1451936004] wproc: Registry request: name=Core Worker 6135;pid=6135
+[1451936004] wproc: Registry request: name=Core Worker 6137;pid=6137
+[1451936004] wproc: Registry request: name=Core Worker 6134;pid=6134
+[1451936004] wproc: Registry request: name=Core Worker 6136;pid=6136
+[1451936004] Successfully launched command file worker with pid 6140
+[1451936034] SERVICE ALERT: lansweeper;Memory Usage;WARNING;HARD;3;Memory usage: total:5216.44 MB - used: 4213.10 MB (81%) - free: 1003.34 MB (19%)
+[1451936034] SERVICE NOTIFICATION: BenPeters;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4213.10 MB (81%) - free: 1003.34 MB (19%)
+[1451936034] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4213.10 MB (81%) - free: 1003.34 MB (19%)
+[1451936034] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4213.10 MB (81%) - free: 1003.34 MB (19%)
+[1451936067] SERVICE ALERT: addc6;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936069] SERVICE ALERT: addc6;Service: WMI;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936101] SERVICE ALERT: addc6;Memory Usage;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936103] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936114] Caught SIGTERM, shutting down...
+[1451936114] Successfully shutdown... (PID=6132)
+[1451936114] Event broker module 'NERD' deinitialized successfully.
+[1451936115] Nagios 4.1.1 starting... (PID=6343)
+[1451936115] Local time is Mon Jan 04 14:35:15 EST 2016
+[1451936115] LOG VERSION: 2.0
+[1451936115] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451936115] qh: core query handler registered
+[1451936115] nerd: Channel hostchecks registered successfully
+[1451936115] nerd: Channel servicechecks registered successfully
+[1451936115] nerd: Channel opathchecks registered successfully
+[1451936115] nerd: Fully initialized and ready to rock!
+[1451936115] wproc: Successfully registered manager as @wproc with query handler
+[1451936115] wproc: Registry request: name=Core Worker 6347;pid=6347
+[1451936115] wproc: Registry request: name=Core Worker 6348;pid=6348
+[1451936115] wproc: Registry request: name=Core Worker 6346;pid=6346
+[1451936115] wproc: Registry request: name=Core Worker 6345;pid=6345
+[1451936115] Successfully launched command file worker with pid 6351
+[1451936136] SERVICE ALERT: addc6;Uptime;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936168] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936187] SERVICE ALERT: addc6;CPU Load;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936189] SERVICE ALERT: addc6;Service: WMI;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936201] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936201] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936221] SERVICE ALERT: addc6;Memory Usage;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936223] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936235] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936235] SERVICE ALERT: addc6;Service: Remote Loader for IDM;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936256] SERVICE ALERT: addc6;Uptime;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936269] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936288] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936302] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936307] SERVICE ALERT: addc6;CPU Load;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936307] SERVICE NOTIFICATION: BenPeters;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936307] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936307] SERVICE NOTIFICATION: PatricDaugherty;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936309] SERVICE ALERT: addc6;Service: WMI;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936309] SERVICE NOTIFICATION: BenPeters;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936309] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936309] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936321] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936321] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936336] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936341] SERVICE ALERT: addc6;Memory Usage;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936341] SERVICE NOTIFICATION: BenPeters;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936341] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936341] SERVICE NOTIFICATION: PatricDaugherty;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936343] SERVICE ALERT: addc6;Service: Windows Time;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936343] SERVICE NOTIFICATION: BenPeters;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936343] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936343] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936355] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936355] SERVICE ALERT: addc6;Service: Remote Loader for IDM;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936369] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936376] SERVICE ALERT: addc6;Uptime;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936376] SERVICE NOTIFICATION: BenPeters;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936376] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936376] SERVICE NOTIFICATION: PatricDaugherty;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936389] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936389] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936403] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936408] SERVICE ALERT: addc6;Service: AD Domain Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936408] SERVICE NOTIFICATION: BenPeters;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936408] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936408] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936422] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936437] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE ALERT: addc6;Service: AD Web Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: BenPeters;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE ALERT: addc6;NSClient++ Version;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: BenPeters;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936441] SERVICE NOTIFICATION: PatricDaugherty;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936456] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936470] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE ALERT: addc6;Service: DFS Namespace;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: BenPeters;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE ALERT: addc6;Service: Remote Loader for IDM;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: BenPeters;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936475] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936489] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936504] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936509] SERVICE ALERT: addc6;Service: DNS Client;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936509] SERVICE NOTIFICATION: BenPeters;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936509] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936509] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936509] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936523] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936537] SERVICE ALERT: addc6;Service: RPC;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936542] SERVICE ALERT: addc6;Service: DNS Service;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936542] SERVICE NOTIFICATION: BenPeters;addc6;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936542] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936542] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: DNS Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936557] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936571] SERVICE ALERT: addc6;Service: Remote Management;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936576] SERVICE ALERT: addc6;Service: Distributed File System Replication;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936576] SERVICE NOTIFICATION: BenPeters;addc6;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936576] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936576] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Distributed File System Replication;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936586] SERVICE ALERT: addc6;Service: VMWare Tools;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936590] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936605] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451936609] SERVICE ALERT: addc6;Service: Firewall;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936609] SERVICE NOTIFICATION: BenPeters;addc6;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936609] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936609] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Firewall;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936624] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936629] SERVICE ALERT: addc6;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936629] SERVICE NOTIFICATION: BenPeters;addc6;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936629] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936629] SERVICE NOTIFICATION: PatricDaugherty;addc6;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936643] SERVICE ALERT: addc6;Service: Group Policy;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936643] SERVICE NOTIFICATION: BenPeters;addc6;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936643] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936643] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Group Policy;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936657] SERVICE ALERT: addc6;Service: RPC;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936677] SERVICE ALERT: addc6;Service: Intersite Messaging;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936677] SERVICE NOTIFICATION: BenPeters;addc6;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936677] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936677] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Intersite Messaging;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936691] SERVICE ALERT: addc6;Service: Remote Management;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936706] SERVICE ALERT: addc6;Service: VMWare Tools;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936710] SERVICE ALERT: addc6;Service: Key Distribution Center;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936710] SERVICE NOTIFICATION: BenPeters;addc6;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936710] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936710] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Key Distribution Center;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936725] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1451936744] SERVICE ALERT: addc6;Service: NetLogin;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936744] SERVICE NOTIFICATION: BenPeters;addc6;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936744] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936744] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: NetLogin;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936777] SERVICE ALERT: addc6;Service: RPC;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936777] SERVICE NOTIFICATION: BenPeters;addc6;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936777] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936777] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: RPC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936811] SERVICE ALERT: addc6;Service: Remote Management;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936811] SERVICE NOTIFICATION: BenPeters;addc6;Service: Remote Management;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936811] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Remote Management;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936811] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Remote Management;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936826] SERVICE ALERT: addc6;Service: VMWare Tools;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936826] SERVICE NOTIFICATION: BenPeters;addc6;Service: VMWare Tools;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936826] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: VMWare Tools;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936826] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: VMWare Tools;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936845] SERVICE ALERT: addc6;Service: User Profile;CRITICAL;HARD;3;CRITICAL - Socket timeout after 20 seconds
+[1451936845] SERVICE NOTIFICATION: BenPeters;addc6;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936845] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451936845] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: User Profile;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451938434] SERVICE ALERT: lansweeper;Memory Usage;OK;HARD;3;Memory usage: total:5216.44 MB - used: 4090.91 MB (78%) - free: 1125.53 MB (22%)
+[1451938434] SERVICE NOTIFICATION: BenPeters;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4090.91 MB (78%) - free: 1125.53 MB (22%)
+[1451938434] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4090.91 MB (78%) - free: 1125.53 MB (22%)
+[1451938434] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4090.91 MB (78%) - free: 1125.53 MB (22%)
+[1451939714] Auto-save of retention data completed successfully.
+[1451939907] SERVICE NOTIFICATION: BenPeters;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939907] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939907] SERVICE NOTIFICATION: PatricDaugherty;addc6;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939909] SERVICE NOTIFICATION: BenPeters;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939909] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939909] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: WMI;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939941] SERVICE NOTIFICATION: BenPeters;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939941] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939941] SERVICE NOTIFICATION: PatricDaugherty;addc6;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939943] SERVICE NOTIFICATION: BenPeters;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939943] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939943] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Windows Time;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939976] SERVICE NOTIFICATION: BenPeters;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939976] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451939976] SERVICE NOTIFICATION: PatricDaugherty;addc6;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940008] SERVICE NOTIFICATION: BenPeters;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940008] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940008] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: AD Domain Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: BenPeters;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: AD Web Service;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: BenPeters;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940041] SERVICE NOTIFICATION: PatricDaugherty;addc6;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: BenPeters;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: DFS Namespace;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: BenPeters;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940075] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: Remote Loader for IDM;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940109] SERVICE NOTIFICATION: BenPeters;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940109] SERVICE NOTIFICATION: MohamedAlghaithi;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940109] SERVICE NOTIFICATION: PatricDaugherty;addc6;Service: DNS Client;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 20 seconds
+[1451940112] Caught SIGTERM, shutting down...
+[1451940112] Successfully shutdown... (PID=6343)
+[1451940112] Event broker module 'NERD' deinitialized successfully.
+[1451940113] Nagios 4.1.1 starting... (PID=10177)
+[1451940113] Local time is Mon Jan 04 15:41:53 EST 2016
+[1451940113] LOG VERSION: 2.0
+[1451940113] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451940113] qh: core query handler registered
+[1451940113] nerd: Channel hostchecks registered successfully
+[1451940113] nerd: Channel servicechecks registered successfully
+[1451940113] nerd: Channel opathchecks registered successfully
+[1451940113] nerd: Fully initialized and ready to rock!
+[1451940113] wproc: Successfully registered manager as @wproc with query handler
+[1451940113] wproc: Registry request: name=Core Worker 10181;pid=10181
+[1451940113] wproc: Registry request: name=Core Worker 10179;pid=10179
+[1451940113] wproc: Registry request: name=Core Worker 10182;pid=10182
+[1451940113] wproc: Registry request: name=Core Worker 10180;pid=10180
+[1451940113] Successfully launched command file worker with pid 10185
+[1451940234] SERVICE ALERT: lansweeper;Memory Usage;WARNING;SOFT;1;Memory usage: total:5216.44 MB - used: 4199.22 MB (80%) - free: 1017.22 MB (20%)
+[1451940354] SERVICE ALERT: lansweeper;Memory Usage;WARNING;SOFT;2;Memory usage: total:5216.44 MB - used: 4250.23 MB (81%) - free: 966.21 MB (19%)
+[1451940474] SERVICE ALERT: lansweeper;Memory Usage;WARNING;HARD;3;Memory usage: total:5216.44 MB - used: 4244.32 MB (81%) - free: 972.12 MB (19%)
+[1451940474] SERVICE NOTIFICATION: BenPeters;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4244.32 MB (81%) - free: 972.12 MB (19%)
+[1451940474] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4244.32 MB (81%) - free: 972.12 MB (19%)
+[1451940474] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4244.32 MB (81%) - free: 972.12 MB (19%)
+[1451940526] Caught SIGTERM, shutting down...
+[1451940526] Successfully shutdown... (PID=10177)
+[1451940526] Event broker module 'NERD' deinitialized successfully.
+[1451940527] Nagios 4.1.1 starting... (PID=10591)
+[1451940527] Local time is Mon Jan 04 15:48:47 EST 2016
+[1451940527] LOG VERSION: 2.0
+[1451940527] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451940527] qh: core query handler registered
+[1451940527] nerd: Channel hostchecks registered successfully
+[1451940527] nerd: Channel servicechecks registered successfully
+[1451940527] nerd: Channel opathchecks registered successfully
+[1451940527] nerd: Fully initialized and ready to rock!
+[1451940527] wproc: Successfully registered manager as @wproc with query handler
+[1451940527] wproc: Registry request: name=Core Worker 10595;pid=10595
+[1451940527] wproc: Registry request: name=Core Worker 10596;pid=10596
+[1451940527] wproc: Registry request: name=Core Worker 10594;pid=10594
+[1451940527] wproc: Registry request: name=Core Worker 10593;pid=10593
+[1451940527] Successfully launched command file worker with pid 10599
+[1451941074] SERVICE ALERT: lansweeper;Memory Usage;OK;HARD;3;Memory usage: total:5216.44 MB - used: 4241.61 MB (81%) - free: 974.82 MB (19%)
+[1451941074] SERVICE NOTIFICATION: BenPeters;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4241.61 MB (81%) - free: 974.82 MB (19%)
+[1451941074] SERVICE NOTIFICATION: MohamedAlghaithi;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4241.61 MB (81%) - free: 974.82 MB (19%)
+[1451941074] SERVICE NOTIFICATION: PatricDaugherty;lansweeper;Memory Usage;OK;notify-service-by-email;Memory usage: total:5216.44 MB - used: 4241.61 MB (81%) - free: 974.82 MB (19%)
+[1451944126] Auto-save of retention data completed successfully.
+[1451947726] Auto-save of retention data completed successfully.
+[1451951326] Auto-save of retention data completed successfully.
+[1451954926] Auto-save of retention data completed successfully.
+[1451954936] SERVICE ALERT: images;C:\ Drive Space;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1451955036] SERVICE ALERT: images;C:\ Drive Space;OK;SOFT;2;c:\ - total: 1841.16 Gb - used: 978.86 Gb (53%) - free 862.30 Gb (47%)
+[1451958526] Auto-save of retention data completed successfully.
+[1451962126] Auto-save of retention data completed successfully.
+[1451965726] Auto-save of retention data completed successfully.
+[1451969326] Auto-save of retention data completed successfully.

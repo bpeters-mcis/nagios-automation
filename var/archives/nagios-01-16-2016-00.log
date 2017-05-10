@@ -1,0 +1,895 @@
+[1452834000] LOG ROTATION: DAILY
+[1452834000] LOG VERSION: 2.0
+[1452834000] CURRENT HOST STATE: adauthdc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1452834000] CURRENT HOST STATE: adauthdc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1452834000] CURRENT HOST STATE: adauthdc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1452834000] CURRENT HOST STATE: adca1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1452834000] CURRENT HOST STATE: adca2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1452834000] CURRENT HOST STATE: addc1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1452834000] CURRENT HOST STATE: addc2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1452834000] CURRENT HOST STATE: addc3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1452834000] CURRENT HOST STATE: addc4;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.57 ms
+[1452834000] CURRENT HOST STATE: addc5;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1452834000] CURRENT HOST STATE: addc6;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1452834000] CURRENT HOST STATE: addfs01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.57 ms
+[1452834000] CURRENT HOST STATE: adwsusclients;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1452834000] CURRENT HOST STATE: adwsusservers;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1452834000] CURRENT HOST STATE: cscfileserv;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.24 ms
+[1452834000] CURRENT HOST STATE: emu-value01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1452834000] CURRENT HOST STATE: emuprintps;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1452834000] CURRENT HOST STATE: emuscript;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1452834000] CURRENT HOST STATE: emusqlexpress;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1452834000] CURRENT HOST STATE: hdbackups;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.26 ms
+[1452834000] CURRENT HOST STATE: images;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.25 ms
+[1452834000] CURRENT HOST STATE: lansweeper;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1452834000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1452834000] CURRENT HOST STATE: mbam;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1452834000] CURRENT HOST STATE: mbamdb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1452834000] CURRENT HOST STATE: netidad;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1452834000] CURRENT HOST STATE: officekms;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1452834000] CURRENT SERVICE STATE: adauthdc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.84 Gb (24%) - free 37.81 Gb (76%)
+[1452834000] CURRENT SERVICE STATE: adauthdc1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1246.17 MB (11%) - free: 9697.47 MB (89%)
+[1452834000] CURRENT SERVICE STATE: adauthdc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc1;Uptime;OK;HARD;1;System Uptime - 9 day(s) 15 hour(s) 50 minute(s)
+[1452834000] CURRENT SERVICE STATE: adauthdc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 11.88 Gb (24%) - free 37.77 Gb (76%)
+[1452834000] CURRENT SERVICE STATE: adauthdc2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1697.96 MB (16%) - free: 9245.69 MB (84%)
+[1452834000] CURRENT SERVICE STATE: adauthdc2;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc2;Uptime;OK;HARD;1;System Uptime - 9 day(s) 15 hour(s) 52 minute(s)
+[1452834000] CURRENT SERVICE STATE: adauthdc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 12.64 Gb (25%) - free 37.02 Gb (75%)
+[1452834000] CURRENT SERVICE STATE: adauthdc3;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1429.23 MB (13%) - free: 9514.41 MB (87%)
+[1452834000] CURRENT SERVICE STATE: adauthdc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Remote Loader for IDM;OK;HARD;1;dirxml_remote.exe: Running
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adauthdc3;Uptime;OK;HARD;1;System Uptime - 8 day(s) 12 hour(s) 41 minute(s)
+[1452834000] CURRENT SERVICE STATE: adca1;C:\ Drive Space;OK;HARD;1;c:\ - total: 59.90 Gb - used: 30.58 Gb (51%) - free 29.32 Gb (49%)
+[1452834000] CURRENT SERVICE STATE: adca1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adca1;Memory Usage;OK;HARD;1;Memory usage: total:7167.17 MB - used: 685.59 MB (10%) - free: 6481.58 MB (90%)
+[1452834000] CURRENT SERVICE STATE: adca1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: adca1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adca1;Uptime;OK;HARD;1;System Uptime - 6 day(s) 17 hour(s) 7 minute(s)
+[1452834000] CURRENT SERVICE STATE: adca2;C:\ Drive Space;OK;HARD;1;c:\ - total: 63.90 Gb - used: 37.03 Gb (58%) - free 26.87 Gb (42%)
+[1452834000] CURRENT SERVICE STATE: adca2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adca2;Memory Usage;OK;HARD;1;Memory usage: total:7167.17 MB - used: 711.08 MB (10%) - free: 6456.09 MB (90%)
+[1452834000] CURRENT SERVICE STATE: adca2;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: adca2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adca2;Uptime;OK;HARD;1;System Uptime - 6 day(s) 17 hour(s) 7 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc1;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 10.95 Gb (14%) - free 68.70 Gb (86%)
+[1452834000] CURRENT SERVICE STATE: addc1;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc1;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2176.79 MB (11%) - free: 18302.87 MB (89%)
+[1452834000] CURRENT SERVICE STATE: addc1;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addc1;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc1;Uptime;OK;HARD;1;System Uptime - 7 day(s) 12 hour(s) 45 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc2;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 10.73 Gb (13%) - free 68.93 Gb (87%)
+[1452834000] CURRENT SERVICE STATE: addc2;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc2;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2429.61 MB (12%) - free: 18050.06 MB (88%)
+[1452834000] CURRENT SERVICE STATE: addc2;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1452834000] CURRENT SERVICE STATE: addc2;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc2;Uptime;OK;HARD;1;System Uptime - 2 day(s) 13 hour(s) 58 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc3;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 10.74 Gb (13%) - free 68.91 Gb (87%)
+[1452834000] CURRENT SERVICE STATE: addc3;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc3;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2214.34 MB (11%) - free: 18265.32 MB (89%)
+[1452834000] CURRENT SERVICE STATE: addc3;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addc3;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc3;Uptime;OK;HARD;1;System Uptime - 9 day(s) 15 hour(s) 6 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc4;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 10.74 Gb (13%) - free 68.92 Gb (87%)
+[1452834000] CURRENT SERVICE STATE: addc4;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc4;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2368.47 MB (12%) - free: 18111.20 MB (88%)
+[1452834000] CURRENT SERVICE STATE: addc4;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addc4;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc4;Uptime;OK;HARD;1;System Uptime - 9 day(s) 14 hour(s) 38 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc5;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 10.75 Gb (13%) - free 68.91 Gb (87%)
+[1452834000] CURRENT SERVICE STATE: addc5;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc5;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2181.47 MB (11%) - free: 18298.20 MB (89%)
+[1452834000] CURRENT SERVICE STATE: addc5;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addc5;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc5;Uptime;OK;HARD;1;System Uptime - 9 day(s) 12 hour(s) 25 minute(s)
+[1452834000] CURRENT SERVICE STATE: addc6;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 13.05 Gb (16%) - free 66.60 Gb (84%)
+[1452834000] CURRENT SERVICE STATE: addc6;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addc6;Memory Usage;OK;HARD;1;Memory usage: total:20479.66 MB - used: 2464.15 MB (12%) - free: 18015.52 MB (88%)
+[1452834000] CURRENT SERVICE STATE: addc6;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addc6;Service: AD Domain Service;OK;HARD;1;NTDS: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: AD Web Service;OK;HARD;1;ADWS: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: DFS Namespace;OK;HARD;1;Dfs: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: DNS Service;OK;HARD;1;DNS: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Distributed File System Replication;OK;HARD;1;DFSR: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Intersite Messaging;OK;HARD;1;IsmServ: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Key Distribution Center;OK;HARD;1;KDC: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Remote Loader for IDM;OK;HARD;1;dirxml_remote.exe: Running
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Remote Management;OK;HARD;1;WinRM: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: VMWare Tools;OK;HARD;1;VMTools: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addc6;Uptime;OK;HARD;1;System Uptime - 7 day(s) 11 hour(s) 47 minute(s)
+[1452834000] CURRENT SERVICE STATE: addfs01;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 13.31 Gb (17%) - free 66.35 Gb (83%)
+[1452834000] CURRENT SERVICE STATE: addfs01;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: addfs01;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1441.46 MB (13%) - free: 9502.19 MB (87%)
+[1452834000] CURRENT SERVICE STATE: addfs01;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: addfs01;Uptime;OK;HARD;1;System Uptime - 27 day(s) 0 hour(s) 56 minute(s)
+[1452834000] CURRENT SERVICE STATE: adwsusclients;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 20.26 Gb (25%) - free 59.40 Gb (75%)
+[1452834000] CURRENT SERVICE STATE: adwsusclients;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 1814.50 MB (18%) - free: 8425.08 MB (82%)
+[1452834000] CURRENT SERVICE STATE: adwsusclients;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adwsusclients;Uptime;OK;HARD;1;System Uptime - 1 day(s) 15 hour(s) 57 minute(s)
+[1452834000] CURRENT SERVICE STATE: adwsusservers;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 19.47 Gb (24%) - free 60.18 Gb (76%)
+[1452834000] CURRENT SERVICE STATE: adwsusservers;CPU Load;OK;HARD;1;CPU Load 3% (5 min average)
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Memory Usage;OK;HARD;1;Memory usage: total:10239.58 MB - used: 2102.83 MB (21%) - free: 8136.74 MB (79%)
+[1452834000] CURRENT SERVICE STATE: adwsusservers;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: adwsusservers;Uptime;OK;HARD;1;System Uptime - 1 day(s) 16 hour(s) 11 minute(s)
+[1452834000] CURRENT SERVICE STATE: cscfileserv;C:\ Drive Space;OK;HARD;1;c:\ - total: 58.50 Gb - used: 22.36 Gb (38%) - free 36.14 Gb (62%)
+[1452834000] CURRENT SERVICE STATE: cscfileserv;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Memory Usage;OK;HARD;1;Memory usage: total:8188.82 MB - used: 779.67 MB (10%) - free: 7409.15 MB (90%)
+[1452834000] CURRENT SERVICE STATE: cscfileserv;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: cscfileserv;Uptime;OK;HARD;1;System Uptime - 5 day(s) 20 hour(s) 34 minute(s)
+[1452834000] CURRENT SERVICE STATE: emu-value01;C:\ Drive Space;OK;HARD;1;c:\ - total: 465.42 Gb - used: 14.38 Gb (3%) - free 451.04 Gb (97%)
+[1452834000] CURRENT SERVICE STATE: emu-value01;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: emu-value01;Memory Usage;OK;HARD;1;Memory usage: total:9444.43 MB - used: 2581.43 MB (27%) - free: 6863.00 MB (73%)
+[1452834000] CURRENT SERVICE STATE: emu-value01;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: emu-value01;Uptime;OK;HARD;1;System Uptime - 27 day(s) 0 hour(s) 32 minute(s)
+[1452834000] CURRENT SERVICE STATE: emuprintps;C:\ Drive Space;OK;HARD;1;c:\ - total: 44.66 Gb - used: 16.78 Gb (38%) - free 27.88 Gb (62%)
+[1452834000] CURRENT SERVICE STATE: emuprintps;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1452834000] CURRENT SERVICE STATE: emuprintps;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1373.22 MB (13%) - free: 9570.42 MB (87%)
+[1452834000] CURRENT SERVICE STATE: emuprintps;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: emuprintps;Uptime;OK;HARD;1;System Uptime - 10 day(s) 9 hour(s) 50 minute(s)
+[1452834000] CURRENT SERVICE STATE: emuscript;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 15.86 Gb (20%) - free 63.80 Gb (80%)
+[1452834000] CURRENT SERVICE STATE: emuscript;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: emuscript;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1569.22 MB (14%) - free: 9374.42 MB (86%)
+[1452834000] CURRENT SERVICE STATE: emuscript;NSClient++ Version;OK;HARD;1;NSClient++ 0,4,1,73 2012-12-17
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: emuscript;Uptime;OK;HARD;1;System Uptime - 10 day(s) 8 hour(s) 36 minute(s)
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 24.44 Gb (31%) - free 55.22 Gb (69%)
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1918.90 MB (18%) - free: 9024.75 MB (82%)
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: MSSQL Express;OK;HARD;1;sqlservr.exe: Running
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: emusqlexpress;Uptime;OK;HARD;1;System Uptime - 1 day(s) 0 hour(s) 41 minute(s)
+[1452834000] CURRENT SERVICE STATE: hdbackups;C:\ Drive Space;OK;HARD;1;c:\ - total: 409.26 Gb - used: 141.22 Gb (35%) - free 268.03 Gb (65%)
+[1452834000] CURRENT SERVICE STATE: hdbackups;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: hdbackups;F:\ Drive Space;OK;HARD;1;f:\ - total: 3315.22 Gb - used: 2577.43 Gb (78%) - free 737.79 Gb (22%)
+[1452834000] CURRENT SERVICE STATE: hdbackups;Memory Usage;OK;HARD;1;Memory usage: total:37532.83 MB - used: 3728.67 MB (10%) - free: 33804.17 MB (90%)
+[1452834000] CURRENT SERVICE STATE: hdbackups;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: hdbackups;Uptime;OK;HARD;1;System Uptime - 22 day(s) 15 hour(s) 59 minute(s)
+[1452834000] CURRENT SERVICE STATE: images;C:\ Drive Space;OK;HARD;1;c:\ - total: 1841.16 Gb - used: 979.53 Gb (53%) - free 861.63 Gb (47%)
+[1452834000] CURRENT SERVICE STATE: images;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: images;Memory Usage;OK;HARD;1;Memory usage: total:37074.86 MB - used: 1967.90 MB (5%) - free: 35106.96 MB (95%)
+[1452834000] CURRENT SERVICE STATE: images;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: images;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: MDT Monitor;OK;HARD;1;MDT_Monitor: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: PXE Boot;OK;HARD;1;WDSServer: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: Print Spooler;OK;HARD;1;Spooler: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: images;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: images;Uptime;OK;HARD;1;System Uptime - 6 day(s) 11 hour(s) 40 minute(s)
+[1452834000] CURRENT SERVICE STATE: lansweeper;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.48 Gb - used: 28.03 Gb (57%) - free 21.46 Gb (43%)
+[1452834000] CURRENT SERVICE STATE: lansweeper;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: lansweeper;Memory Usage;OK;HARD;1;Memory usage: total:10943.15 MB - used: 4023.00 MB (37%) - free: 6920.15 MB (63%)
+[1452834000] CURRENT SERVICE STATE: lansweeper;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.19 2015-12-10
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: MSSQL Express;OK;HARD;1;sqlservr.exe: Running
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: lansweeper;Uptime;OK;HARD;1;System Uptime - 9 day(s) 15 hour(s) 51 minute(s)
+[1452834000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1452834000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1452834000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 69299 MB (92% inode=95%):
+[1452834000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1452834000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2053 MB out of 2053 MB)
+[1452834000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 49 processes with STATE = RSZDT
+[1452834000] CURRENT SERVICE STATE: mbam;C:\ Drive Space;OK;HARD;1;c:\ - total: 59.90 Gb - used: 32.07 Gb (54%) - free 27.83 Gb (46%)
+[1452834000] CURRENT SERVICE STATE: mbam;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: mbam;Memory Usage;OK;HARD;1;Memory usage: total:14333.44 MB - used: 838.72 MB (6%) - free: 13494.72 MB (94%)
+[1452834000] CURRENT SERVICE STATE: mbam;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: mbam;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: mbam;Uptime;OK;HARD;1;System Uptime - 1 day(s) 0 hour(s) 39 minute(s)
+[1452834000] CURRENT SERVICE STATE: mbamdb;C:\ Drive Space;OK;HARD;1;c:\ - total: 119.90 Gb - used: 39.46 Gb (33%) - free 80.44 Gb (67%)
+[1452834000] CURRENT SERVICE STATE: mbamdb;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: mbamdb;Memory Usage;OK;HARD;1;Memory usage: total:14333.44 MB - used: 1296.59 MB (9%) - free: 13036.85 MB (91%)
+[1452834000] CURRENT SERVICE STATE: mbamdb;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: MSSQL;OK;HARD;1;MSSQLSERVER: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: mbamdb;Uptime;OK;HARD;1;System Uptime - 1 day(s) 0 hour(s) 36 minute(s)
+[1452834000] CURRENT SERVICE STATE: netidad;C:\ Drive Space;OK;HARD;1;c:\ - total: 79.66 Gb - used: 13.34 Gb (17%) - free 66.31 Gb (83%)
+[1452834000] CURRENT SERVICE STATE: netidad;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: netidad;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 2075.53 MB (19%) - free: 8868.12 MB (81%)
+[1452834000] CURRENT SERVICE STATE: netidad;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: netidad;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: netidad;Uptime;OK;HARD;1;System Uptime - 27 day(s) 0 hour(s) 35 minute(s)
+[1452834000] CURRENT SERVICE STATE: officekms;C:\ Drive Space;OK;HARD;1;c:\ - total: 49.66 Gb - used: 13.70 Gb (28%) - free 35.95 Gb (72%)
+[1452834000] CURRENT SERVICE STATE: officekms;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1452834000] CURRENT SERVICE STATE: officekms;Memory Usage;OK;HARD;1;Memory usage: total:10943.64 MB - used: 1759.18 MB (16%) - free: 9184.47 MB (84%)
+[1452834000] CURRENT SERVICE STATE: officekms;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.15 2015-11-25
+[1452834000] CURRENT SERVICE STATE: officekms;Service: DNS Client;OK;HARD;1;Dnscache: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: Firewall;OK;HARD;1;MpsSvc: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: Group Policy;OK;HARD;1;gpsvc: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: NetLogin;OK;HARD;1;Netlogon: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: RPC;OK;HARD;1;RpcSs: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: User Profile;OK;HARD;1;ProfSvc: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: WMI;OK;HARD;1;Winmgmt: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Service: Windows Time;OK;HARD;1;W32Time: Started
+[1452834000] CURRENT SERVICE STATE: officekms;Uptime;OK;HARD;1;System Uptime - 0 day(s) 21 hour(s) 42 minute(s)
+[1452835859] Auto-save of retention data completed successfully.
+[1452839459] Auto-save of retention data completed successfully.
+[1452843059] Auto-save of retention data completed successfully.
+[1452846659] Auto-save of retention data completed successfully.
+[1452850259] Auto-save of retention data completed successfully.
+[1452853859] Auto-save of retention data completed successfully.
+[1452857459] Auto-save of retention data completed successfully.
+[1452861059] Auto-save of retention data completed successfully.
+[1452864659] Auto-save of retention data completed successfully.
+[1452866434] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc1;1452866419;1452873619;1;0;259200;Nagios Admin;Rebuild
+[1452866434] HOST DOWNTIME ALERT: adauthdc1;STARTED; Host has entered a period of scheduled downtime
+[1452866452] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc2;1452866445;1452873645;1;0;259200;Nagios Admin;Rebuild
+[1452866452] HOST DOWNTIME ALERT: adauthdc2;STARTED; Host has entered a period of scheduled downtime
+[1452866464] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc3;1452866457;1452873657;1;0;259200;Nagios Admin;Rebuild
+[1452866464] HOST DOWNTIME ALERT: adauthdc3;STARTED; Host has entered a period of scheduled downtime
+[1452866714] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866714] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866714] SERVICE ALERT: adauthdc1;Service: WMI;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866716] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866717] HOST ALERT: adauthdc1;DOWN;SOFT;1;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866719] SERVICE ALERT: adauthdc2;Service: Remote Management;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866719] HOST ALERT: adauthdc2;DOWN;SOFT;1;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866725] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866728] HOST ALERT: adauthdc3;DOWN;SOFT;1;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866743] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866746] HOST ALERT: adauthdc1;DOWN;SOFT;2;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866747] SERVICE ALERT: adauthdc2;Service: User Profile;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866747] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866750] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866750] HOST ALERT: adauthdc2;DOWN;SOFT;2;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866753] HOST ALERT: adauthdc3;DOWN;SOFT;2;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866781] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866783] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866783] SERVICE ALERT: adauthdc2;Service: VMWare Tools;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866784] HOST ALERT: adauthdc1;DOWN;SOFT;3;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866786] HOST ALERT: adauthdc2;DOWN;SOFT;3;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866792] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866815] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866816] HOST ALERT: adauthdc3;DOWN;SOFT;3;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866818] HOST ALERT: adauthdc1;DOWN;SOFT;4;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866818] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866821] SERVICE ALERT: adauthdc2;Service: WMI;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866821] HOST ALERT: adauthdc2;DOWN;SOFT;4;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866825] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866825] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866825] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866827] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866830] SERVICE ALERT: adauthdc2;Service: Remote Management;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866832] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866832] SERVICE ALERT: adauthdc1;Service: WMI;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866835] HOST ALERT: adauthdc1;DOWN;SOFT;5;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866836] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866839] HOST ALERT: adauthdc3;DOWN;SOFT;4;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866855] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866857] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866858] HOST ALERT: adauthdc1;DOWN;SOFT;6;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866860] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866860] HOST ALERT: adauthdc2;DOWN;SOFT;5;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866863] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866867] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866867] SERVICE ALERT: adauthdc2;Service: User Profile;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866867] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866870] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866870] HOST ALERT: adauthdc3;DOWN;SOFT;5;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866892] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866892] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866895] HOST ALERT: adauthdc2;DOWN;SOFT;6;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866901] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866902] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866903] SERVICE ALERT: adauthdc2;Service: VMWare Tools;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866903] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866904] HOST ALERT: adauthdc1;DOWN;SOFT;7;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866905] HOST ALERT: adauthdc3;DOWN;SOFT;6;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866912] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866915] HOST ALERT: adauthdc2;DOWN;SOFT;7;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866919] SERVICE ALERT: adauthdc3;Service: VMWare Tools;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866922] HOST ALERT: adauthdc3;DOWN;SOFT;7;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866922] SERVICE ALERT: adauthdc1;Service: Group Policy;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866925] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866925] HOST ALERT: adauthdc1;DOWN;SOFT;8;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866929] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866931] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866934] HOST ALERT: adauthdc2;DOWN;SOFT;8;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866935] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866938] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866942] SERVICE ALERT: adauthdc2;Service: WMI;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866945] SERVICE ALERT: adauthdc1;Service: DFS Namespace;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866945] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866947] SERVICE ALERT: adauthdc2;C:\ Drive Space;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866948] HOST ALERT: adauthdc1;DOWN;SOFT;9;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866948] HOST ALERT: adauthdc3;DOWN;SOFT;8;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866950] SERVICE ALERT: adauthdc2;Service: Remote Management;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866950] HOST ALERT: adauthdc2;DOWN;SOFT;9;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866951] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866952] SERVICE ALERT: adauthdc1;NSClient++ Version;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866952] SERVICE ALERT: adauthdc1;Service: WMI;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866954] SERVICE ALERT: adauthdc3;Service: Firewall;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866964] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866967] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866967] HOST ALERT: adauthdc1;DOWN;HARD;10;CRITICAL - Host Unreachable (164.76.102.171)
+[1452866970] HOST ALERT: adauthdc2;DOWN;HARD;10;CRITICAL - Host Unreachable (164.76.102.172)
+[1452866972] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866972] SERVICE ALERT: adauthdc3;Service: Remote Management;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866975] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866975] HOST ALERT: adauthdc3;DOWN;SOFT;9;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866977] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866980] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866983] SERVICE ALERT: adauthdc1;Service: DNS Client;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452866987] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866987] SERVICE ALERT: adauthdc2;CPU Load;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866987] SERVICE ALERT: adauthdc2;Service: User Profile;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452866990] HOST ALERT: adauthdc3;DOWN;HARD;10;CRITICAL - Host Unreachable (164.76.102.173)
+[1452866993] SERVICE ALERT: adauthdc3;Service: Group Policy;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452866999] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867000] SERVICE ALERT: adauthdc1;Service: NetLogin;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867010] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867012] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867012] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867013] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867021] SERVICE ALERT: adauthdc1;Service: DNS Service;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867022] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867023] SERVICE ALERT: adauthdc2;Memory Usage;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867023] SERVICE ALERT: adauthdc2;Service: VMWare Tools;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867032] SERVICE ALERT: adauthdc2;Service: RPC;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867039] SERVICE ALERT: adauthdc3;Service: VMWare Tools;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867040] SERVICE ALERT: adauthdc1;Service: Group Policy;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867040] SERVICE ALERT: adauthdc1;Service: RPC;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867048] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867048] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867051] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867055] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867058] SERVICE ALERT: adauthdc2;NSClient++ Version;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867061] SERVICE ALERT: adauthdc2;Service: WMI;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867065] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867071] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867077] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867084] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867084] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867084] SERVICE ALERT: adauthdc1;Service: Remote Management;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867087] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867087] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867092] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867092] SERVICE ALERT: adauthdc3;Service: Remote Management;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867095] SERVICE ALERT: adauthdc1;Service: Firewall;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867097] SERVICE ALERT: adauthdc2;Service: AD Domain Service;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867100] SERVICE ALERT: adauthdc2;Service: Windows Time;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867107] SERVICE ALERT: adauthdc3;Service: NetLogin;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867119] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867119] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867120] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867120] SERVICE ALERT: adauthdc1;Service: NetLogin;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867120] SERVICE ALERT: adauthdc1;Service: User Profile;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867130] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867130] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867132] SERVICE ALERT: adauthdc2;Service: AD Web Service;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867132] SERVICE ALERT: adauthdc2;Uptime;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867133] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867142] SERVICE ALERT: adauthdc3;Service: RPC;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867157] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867157] SERVICE ALERT: adauthdc1;Service: VMWare Tools;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867159] SERVICE ALERT: adauthdc3;Service: VMWare Tools;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867159] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867159] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867160] SERVICE ALERT: adauthdc1;Service: Group Policy;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867163] SERVICE ALERT: adauthdc1;Service: RPC;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867166] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867167] SERVICE ALERT: adauthdc3;C:\ Drive Space;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867171] SERVICE ALERT: adauthdc2;Service: DFS Namespace;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867196] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867196] SERVICE ALERT: adauthdc3;Service: Remote Loader for IDM;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867197] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867199] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867203] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867204] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867207] SERVICE ALERT: adauthdc1;Service: Remote Management;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867207] SERVICE ALERT: adauthdc2;Service: DNS Client;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867207] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867210] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867210] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867213] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867213] SERVICE ALERT: adauthdc3;Service: Remote Management;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867213] SERVICE ALERT: adauthdc3;Service: WMI;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867230] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867230] SERVICE ALERT: adauthdc1;Service: Windows Time;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867236] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;SOFT;1;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867236] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867239] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867240] SERVICE ALERT: adauthdc1;Service: User Profile;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867242] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867242] SERVICE ALERT: adauthdc2;Service: DNS Service;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867243] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867249] SERVICE ALERT: adauthdc1;Service: NetLogin;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867249] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867249] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867249] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867252] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867269] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867269] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;SOFT;1;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867274] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867276] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867276] SERVICE ALERT: adauthdc1;Service: VMWare Tools;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867277] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867279] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867280] SERVICE ALERT: adauthdc1;Service: RPC;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867316] SERVICE ALERT: adauthdc3;Service: Remote Loader for IDM;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867316] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867316] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867317] SERVICE ALERT: adauthdc2;Service: Distributed File System Replication;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867323] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867324] SERVICE ALERT: adauthdc1;C:\ Drive Space;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867324] SERVICE ALERT: adauthdc1;Service: Remote Management;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867326] SERVICE ALERT: adauthdc2;Service: Firewall;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867330] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867336] SERVICE ALERT: adauthdc3;Service: WMI;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867350] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867350] SERVICE ALERT: adauthdc1;Service: Windows Time;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867356] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;SOFT;2;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867356] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867359] SERVICE ALERT: adauthdc2;Service: Group Policy;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867360] SERVICE ALERT: adauthdc1;CPU Load;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867360] SERVICE ALERT: adauthdc1;Service: User Profile;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867362] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867369] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867369] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867388] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867394] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;SOFT;2;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867396] SERVICE ALERT: adauthdc1;Memory Usage;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867396] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;SOFT;2;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867396] SERVICE ALERT: adauthdc1;Service: VMWare Tools;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867397] SERVICE ALERT: adauthdc3;Service: DFS Namespace;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867399] SERVICE ALERT: adauthdc2;Service: Intersite Messaging;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867436] SERVICE ALERT: adauthdc3;Service: Remote Loader for IDM;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867436] SERVICE ALERT: adauthdc3;Service: DNS Client;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867436] SERVICE ALERT: adauthdc3;Uptime;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867443] SERVICE ALERT: adauthdc2;Service: Key Distribution Center;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867450] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867456] SERVICE ALERT: adauthdc3;Service: WMI;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867470] SERVICE ALERT: adauthdc1;Service: Windows Time;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867470] SERVICE ALERT: adauthdc1;Service: AD Domain Service;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867476] SERVICE ALERT: adauthdc3;Service: DNS Service;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867476] SERVICE ALERT: adauthdc2;Service: NetLogin;CRITICAL;HARD;3;connect to address 164.76.102.172 and port 12489: No route to host
+[1452867482] SERVICE ALERT: adauthdc3;NSClient++ Version;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867492] SERVICE ALERT: adauthdc3;Service: Windows Time;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452867508] SERVICE ALERT: adauthdc1;Service: AD Web Service;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867508] SERVICE ALERT: adauthdc1;Uptime;CRITICAL;HARD;3;connect to address 164.76.102.171 and port 12489: No route to host
+[1452867514] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;HARD;3;connect to address 164.76.102.173 and port 12489: No route to host
+[1452868091] HOST ALERT: adauthdc1;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1452868259] Auto-save of retention data completed successfully.
+[1452869121] SERVICE ALERT: adauthdc1;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 20.39 Gb (26%) - free 59.27 Gb (74%)
+[1452869122] SERVICE ALERT: adauthdc1;Service: Remote Management;OK;HARD;3;WinRM: Started
+[1452869157] SERVICE ALERT: adauthdc1;Service: User Profile;OK;HARD;3;ProfSvc: Started
+[1452869159] SERVICE ALERT: adauthdc1;CPU Load;OK;HARD;3;CPU Load 0% (5 min average)
+[1452869193] SERVICE ALERT: adauthdc1;Memory Usage;OK;HARD;3;Memory usage: total:11647.65 MB - used: 932.77 MB (8%) - free: 10714.88 MB (92%)
+[1452869196] SERVICE ALERT: adauthdc1;Service: VMWare Tools;OK;HARD;3;VMTools: Started
+[1452869267] SERVICE ALERT: adauthdc1;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1452869269] SERVICE ALERT: adauthdc1;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1452869305] SERVICE ALERT: adauthdc1;Uptime;OK;HARD;3;System Uptime - 0 day(s) 0 hour(s) 7 minute(s)
+[1452869305] SERVICE ALERT: adauthdc1;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1452869342] SERVICE ALERT: adauthdc1;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1452869349] SERVICE ALERT: adauthdc1;Service: WMI;OK;HARD;3;Winmgmt: Started
+[1452869349] SERVICE ALERT: adauthdc1;NSClient++ Version;OK;HARD;3;NSClient++ 0.4.4.15 2015-11-25
+[1452869380] SERVICE ALERT: adauthdc1;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1452869418] SERVICE ALERT: adauthdc1;Service: DNS Service;OK;HARD;3;DNS: Started
+[1452869452] SERVICE ALERT: adauthdc1;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1452869492] SERVICE ALERT: adauthdc1;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1452869539] SERVICE ALERT: adauthdc3;Service: RPC;OK;HARD;3;RpcSs: Started
+[1452869555] SERVICE ALERT: adauthdc3;Service: VMWare Tools;OK;HARD;3;VMTools: Started
+[1452869558] SERVICE ALERT: adauthdc1;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1452869564] SERVICE ALERT: adauthdc3;C:\ Drive Space;OK;HARD;3;c:\ - total: 79.66 Gb - used: 19.39 Gb (24%) - free 60.27 Gb (76%)
+[1452869565] SERVICE ALERT: adauthdc1;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1452869601] SERVICE ALERT: adauthdc1;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1452869609] SERVICE ALERT: adauthdc3;CPU Load;OK;HARD;3;CPU Load 51% (5 min average)
+[1452869610] SERVICE ALERT: adauthdc3;Service: Remote Management;OK;HARD;3;WinRM: Started
+[1452869637] SERVICE ALERT: adauthdc1;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1452869646] SERVICE ALERT: adauthdc3;Memory Usage;OK;HARD;3;Memory usage: total:11647.65 MB - used: 1189.88 MB (10%) - free: 10457.77 MB (90%)
+[1452869649] SERVICE ALERT: adauthdc3;Service: User Profile;OK;HARD;3;ProfSvc: Started
+[1452869677] SERVICE ALERT: adauthdc1;Service: RPC;OK;HARD;3;RpcSs: Started
+[1452869766] SERVICE ALERT: adauthdc3;Service: AD Web Service;UNKNOWN;HARD;3;Failed to open service ADWS: 1060: The specified service does not exist as an installed service.
+[1452869797] SERVICE ALERT: adauthdc3;Service: DFS Namespace;UNKNOWN;HARD;3;Failed to open service Dfs: 1060: The specified service does not exist as an installed service.
+[1452869836] SERVICE ALERT: adauthdc3;Service: DNS Client;OK;HARD;3;Dnscache: Started
+[1452869836] SERVICE ALERT: adauthdc3;Uptime;OK;HARD;3;System Uptime - 0 day(s) 0 hour(s) 10 minute(s)
+[1452869847] SERVICE ALERT: adauthdc3;Service: AD Domain Service;UNKNOWN;HARD;3;Failed to open service NTDS: 1060: The specified service does not exist as an installed service.
+[1452869853] SERVICE ALERT: adauthdc3;Service: WMI;OK;HARD;3;Winmgmt: Started
+[1452869873] SERVICE ALERT: adauthdc3;Service: DNS Service;UNKNOWN;HARD;3;Failed to open service DNS: 1060: The specified service does not exist as an installed service.
+[1452869879] SERVICE ALERT: adauthdc3;NSClient++ Version;OK;HARD;3;NSClient++ 0.4.4.15 2015-11-25
+[1452869911] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;UNKNOWN;HARD;3;Failed to open service DFSR: 1060: The specified service does not exist as an installed service.
+[1452869953] SERVICE ALERT: adauthdc3;Service: Firewall;OK;HARD;3;MpsSvc: Started
+[1452869987] SERVICE ALERT: adauthdc3;Service: Group Policy;UNKNOWN;HARD;3;Failed to open service manager: 1115: A system shutdown is in progress.
+[1452870062] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;UNKNOWN;HARD;3;Failed to open service IsmServ: 1060: The specified service does not exist as an installed service.
+[1452870065] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;UNKNOWN;HARD;3;Failed to open service KDC: 1060: The specified service does not exist as an installed service.
+[1452870366] SERVICE ALERT: adauthdc3;Service: AD Web Service;CRITICAL;HARD;3;ADWS: Stopped
+[1452870370] HOST ALERT: adauthdc3;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1452870397] SERVICE ALERT: adauthdc3;Service: DFS Namespace;OK;HARD;3;Dfs: Started
+[1452870447] SERVICE ALERT: adauthdc3;Service: AD Domain Service;CRITICAL;HARD;3;NTDS: Stopped
+[1452870473] SERVICE ALERT: adauthdc3;Service: DNS Service;OK;HARD;3;DNS: Started
+[1452870489] SERVICE ALERT: adauthdc3;Service: Windows Time;OK;HARD;3;W32Time: Started
+[1452870511] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;CRITICAL;HARD;3;DFSR: Stopped
+[1452870587] SERVICE ALERT: adauthdc3;Service: Group Policy;OK;HARD;3;gpsvc: Started
+[1452870662] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;CRITICAL;HARD;3;IsmServ: Stopped
+[1452870665] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;CRITICAL;HARD;3;KDC: Stopped
+[1452870855] SERVICE ALERT: adauthdc3;Memory Usage;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: Connection refused
+[1452870858] SERVICE ALERT: adauthdc3;Service: User Profile;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: Connection refused
+[1452870966] SERVICE ALERT: adauthdc3;Service: AD Web Service;OK;HARD;3;ADWS: Started
+[1452870966] SERVICE FLAPPING ALERT: adauthdc3;Service: AD Web Service;STARTED; Service appears to have started flapping (23.8% change >= 20.0% threshold)
+[1452870966] SERVICE ALERT: adauthdc3;Memory Usage;OK;SOFT;2;Memory usage: total:11647.65 MB - used: 1020.43 MB (9%) - free: 10627.22 MB (91%)
+[1452870969] SERVICE ALERT: adauthdc3;Service: User Profile;OK;SOFT;2;ProfSvc: Started
+[1452871047] SERVICE ALERT: adauthdc3;Service: AD Domain Service;OK;HARD;3;NTDS: Started
+[1452871047] SERVICE FLAPPING ALERT: adauthdc3;Service: AD Domain Service;STARTED; Service appears to have started flapping (23.8% change >= 20.0% threshold)
+[1452871111] SERVICE ALERT: adauthdc3;Service: Distributed File System Replication;OK;HARD;3;DFSR: Started
+[1452871111] SERVICE FLAPPING ALERT: adauthdc3;Service: Distributed File System Replication;STARTED; Service appears to have started flapping (23.8% change >= 20.0% threshold)
+[1452871262] SERVICE ALERT: adauthdc3;Service: Intersite Messaging;OK;HARD;3;IsmServ: Started
+[1452871262] SERVICE FLAPPING ALERT: adauthdc3;Service: Intersite Messaging;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1452871265] SERVICE ALERT: adauthdc3;Service: Key Distribution Center;OK;HARD;3;KDC: Started
+[1452871265] SERVICE FLAPPING ALERT: adauthdc3;Service: Key Distribution Center;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1452871304] SERVICE ALERT: adauthdc3;Service: NetLogin;OK;HARD;3;Netlogon: Started
+[1452871859] Auto-save of retention data completed successfully.
+[1452872613] SERVICE ALERT: adauthdc3;Service: Remote Management;CRITICAL;SOFT;1;connect to address 164.76.102.173 and port 12489: Connection refused
+[1452872629] SERVICE ALERT: adauthdc3;CPU Load;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452872729] SERVICE ALERT: adauthdc3;CPU Load;OK;SOFT;2;CPU Load 0% (5 min average)
+[1452872730] SERVICE ALERT: adauthdc3;Service: Remote Management;OK;SOFT;2;WinRM: Started
+[1452873433] SERVICE ALERT: adauthdc3;Service: Remote Loader for IDM;OK;HARD;3;dirxml_remote.exe: Running
+[1452873618] HOST DOWNTIME ALERT: adauthdc1;STOPPED; Host has exited from a period of scheduled downtime
+[1452873644] HOST DOWNTIME ALERT: adauthdc2;STOPPED; Host has exited from a period of scheduled downtime
+[1452873656] HOST DOWNTIME ALERT: adauthdc3;STOPPED; Host has exited from a period of scheduled downtime
+[1452873661] HOST NOTIFICATION: BenPeters;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452873661] HOST NOTIFICATION: MohamedAlghaithi;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452873661] HOST NOTIFICATION: PatricDaugherty;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452875459] Auto-save of retention data completed successfully.
+[1452876204] SERVICE ALERT: emuscript;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452876304] SERVICE ALERT: emuscript;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1452877261] HOST NOTIFICATION: BenPeters;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452877261] HOST NOTIFICATION: MohamedAlghaithi;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452877261] HOST NOTIFICATION: PatricDaugherty;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452879059] Auto-save of retention data completed successfully.
+[1452880743] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;addc2;1452880735;1452887935;1;0;21600;Nagios Admin;patching
+[1452880743] HOST DOWNTIME ALERT: addc2;STARTED; Host has entered a period of scheduled downtime
+[1452880768] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;addc3;1452880757;1452887957;1;0;21600;Nagios Admin;patching
+[1452880768] HOST DOWNTIME ALERT: addc3;STARTED; Host has entered a period of scheduled downtime
+[1452880785] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;addc4;1452880781;1452887981;1;0;21600;Nagios Admin;Pagefile
+[1452880785] HOST DOWNTIME ALERT: addc4;STARTED; Host has entered a period of scheduled downtime
+[1452880791] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;addc5;1452880788;1452887988;1;0;21600;Nagios Admin;Pagefile
+[1452880791] HOST DOWNTIME ALERT: addc5;STARTED; Host has entered a period of scheduled downtime
+[1452880899] HOST NOTIFICATION: BenPeters;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452880899] HOST NOTIFICATION: MohamedAlghaithi;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452880899] HOST NOTIFICATION: PatricDaugherty;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452881848] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452881948] SERVICE ALERT: addc2;Service: DFS Namespace;OK;SOFT;2;Dfs: Started
+[1452882134] SERVICE ALERT: addc3;Service: Group Policy;CRITICAL;SOFT;1;gpsvc: Stopped
+[1452882254] SERVICE ALERT: addc3;Service: Group Policy;OK;SOFT;2;gpsvc: Started
+[1452882307] SERVICE ALERT: addc5;Service: DNS Service;UNKNOWN;SOFT;1;Failed to open service manager: 1115: A system shutdown is in progress.
+[1452882357] SERVICE ALERT: addc4;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452882358] SERVICE ALERT: addc5;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452882358] SERVICE ALERT: addc4;Service: DNS Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452882366] SERVICE FLAPPING ALERT: adauthdc3;Service: AD Web Service;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1452882427] SERVICE ALERT: addc5;Service: DNS Service;OK;SOFT;2;DNS: Started
+[1452882447] SERVICE FLAPPING ALERT: adauthdc3;Service: AD Domain Service;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1452882457] SERVICE ALERT: addc4;Service: Key Distribution Center;OK;SOFT;2;KDC: Started
+[1452882458] SERVICE ALERT: addc5;Service: Distributed File System Replication;OK;SOFT;2;DFSR: Started
+[1452882458] SERVICE ALERT: addc4;Service: DNS Service;OK;SOFT;2;DNS: Started
+[1452882511] SERVICE FLAPPING ALERT: adauthdc3;Service: Distributed File System Replication;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1452882659] Auto-save of retention data completed successfully.
+[1452882662] SERVICE FLAPPING ALERT: adauthdc3;Service: Intersite Messaging;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1452882665] SERVICE FLAPPING ALERT: adauthdc3;Service: Key Distribution Center;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1452883768] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452883798] HOST ALERT: addc2;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1452883828] SERVICE ALERT: addc2;Service: Group Policy;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452883858] HOST ALERT: addc2;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1452883888] SERVICE ALERT: addc2;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452883915] SERVICE ALERT: addc2;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452883918] HOST ALERT: addc2;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1452883919] SERVICE ALERT: addc2;Service: Key Distribution Center;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452883948] SERVICE ALERT: addc2;Service: Group Policy;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452883949] HOST ALERT: addc2;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1452883955] SERVICE ALERT: addc2;Service: NetLogin;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452883977] HOST ALERT: addc2;UP;SOFT;5;PING OK - Packet loss = 78%, RTA = 0.49 ms
+[1452883988] SERVICE ALERT: addc2;Service: DFS Namespace;OK;SOFT;3;Dfs: Started
+[1452884015] SERVICE ALERT: addc2;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1452884019] SERVICE ALERT: addc2;Service: Key Distribution Center;OK;SOFT;2;KDC: Started
+[1452884048] SERVICE ALERT: addc2;Service: Group Policy;OK;SOFT;3;gpsvc: Started
+[1452884055] SERVICE ALERT: addc2;Service: NetLogin;OK;SOFT;2;Netlogon: Started
+[1452884499] HOST NOTIFICATION: BenPeters;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452884499] HOST NOTIFICATION: MohamedAlghaithi;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452884499] HOST NOTIFICATION: PatricDaugherty;adauthdc2;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (164.76.102.172)
+[1452886158] SERVICE ALERT: addc3;Service: AD Domain Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886188] SERVICE ALERT: addc3;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886188] HOST ALERT: addc3;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1452886203] SERVICE ALERT: addc3;Service: Intersite Messaging;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886215] SERVICE ALERT: addc3;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886233] HOST ALERT: addc3;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1452886259] Auto-save of retention data completed successfully.
+[1452886278] SERVICE ALERT: addc3;Service: AD Domain Service;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452886285] SERVICE ALERT: addc3;Service: Distributed File System Replication;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886308] SERVICE ALERT: addc3;Service: DFS Namespace;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452886308] HOST ALERT: addc3;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1452886315] SERVICE ALERT: addc3;Service: DNS Client;OK;SOFT;2;Dnscache: Started
+[1452886319] HOST ALERT: addc3;UP;SOFT;4;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1452886323] SERVICE ALERT: addc3;Service: Firewall;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886323] SERVICE ALERT: addc3;Service: Intersite Messaging;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 20 seconds
+[1452886378] SERVICE ALERT: addc3;Service: AD Domain Service;OK;SOFT;3;NTDS: Started
+[1452886385] SERVICE ALERT: addc3;Service: Distributed File System Replication;OK;SOFT;2;DFSR: Started
+[1452886408] SERVICE ALERT: addc3;Service: DFS Namespace;OK;SOFT;3;Dfs: Started
+[1452886423] SERVICE ALERT: addc3;Service: Firewall;OK;SOFT;2;MpsSvc: Started
+[1452886423] SERVICE ALERT: addc3;Service: Intersite Messaging;OK;SOFT;3;IsmServ: Started
+[1452886928] SERVICE ALERT: addc4;Service: DFS Namespace;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886942] SERVICE ALERT: addc4;Service: DNS Client;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452886943] HOST ALERT: addc4;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1452887021] HOST ALERT: addc4;UP;SOFT;2;PING OK - Packet loss = 73%, RTA = 0.45 ms
+[1452887028] SERVICE ALERT: addc4;Service: DFS Namespace;OK;SOFT;2;Dfs: Started
+[1452887042] SERVICE ALERT: addc4;Service: DNS Client;OK;SOFT;2;Dnscache: Started
+[1452887289] EXTERNAL COMMAND: SCHEDULE_HOST_DOWNTIME;adauthdc2;1452887256;1453499256;1;0;0;Nagios Admin;Pagefile
+[1452887289] HOST DOWNTIME ALERT: adauthdc2;STARTED; Host has entered a period of scheduled downtime
+[1452887628] SERVICE ALERT: addc5;Service: AD Web Service;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452887728] SERVICE ALERT: addc5;Service: AD Web Service;OK;SOFT;2;ADWS: Started
+[1452887934] HOST DOWNTIME ALERT: addc2;STOPPED; Host has exited from a period of scheduled downtime
+[1452887956] HOST DOWNTIME ALERT: addc3;STOPPED; Host has exited from a period of scheduled downtime
+[1452887980] HOST DOWNTIME ALERT: addc4;STOPPED; Host has exited from a period of scheduled downtime
+[1452887987] HOST DOWNTIME ALERT: addc5;STOPPED; Host has exited from a period of scheduled downtime
+[1452889859] Auto-save of retention data completed successfully.
+[1452893459] Auto-save of retention data completed successfully.
+[1452897059] Auto-save of retention data completed successfully.
+[1452897648] SERVICE ALERT: mbam;CPU Load;CRITICAL;SOFT;1;CPU Load 100% (5 min average)
+[1452897768] SERVICE ALERT: mbam;CPU Load;OK;SOFT;2;CPU Load 0% (5 min average)
+[1452900659] Auto-save of retention data completed successfully.
+[1452904259] Auto-save of retention data completed successfully.
+[1452907859] Auto-save of retention data completed successfully.
+[1452909767] SERVICE ALERT: mbam;CPU Load;WARNING;SOFT;1;CPU Load 86% (5 min average)
+[1452909887] SERVICE ALERT: mbam;CPU Load;OK;SOFT;2;CPU Load 0% (5 min average)
+[1452911459] Auto-save of retention data completed successfully.
+[1452915059] Auto-save of retention data completed successfully.
+[1452915416] SERVICE ALERT: mbam;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 20 seconds
+[1452915516] SERVICE ALERT: mbam;NSClient++ Version;OK;SOFT;2;NSClient++ 0.4.4.15 2015-11-25
+[1452918659] Auto-save of retention data completed successfully.

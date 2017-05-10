@@ -1,35 +1,560 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Nagios.iml" afterPath="$PROJECT_DIR$/.idea/Nagios.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="45b10262-b145-4dcc-8006-738c0d1a55b1" name="Default" comment="Updated to work with PHP7 and new server">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/nagios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/nagiostats" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/nrpe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/netbsd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/netbsd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/netbsd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/suse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/suse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/images/logos/suse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.tmpDNcrhW" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace (1).xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/Printers_last_imported.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/Servers_last_imported.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/cgi.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/downtime_schedule.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/objects/contacts_from_ad.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/objects/lab_printers.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/objects/linux_servers_from_lansweeper.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/objects/servers_from_lansweeper.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/printer_update_result.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/restart.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/server_update_result.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/t.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libexec/-300m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/archivejson.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/avail.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/cmd.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/config.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/extinfo.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/history.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/notifications.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/objectjson.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/outages.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/showlog.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/status.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/statusjson.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/statuswml.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/statuswrl.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/summary.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbin/tac.cgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/share/map.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-01-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-02-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-03-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-04-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-05-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-06-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-07-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-08-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-09-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-10-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-11-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-12-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-13-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-14-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-15-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-16-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-17-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-18-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-19-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-20-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-21-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-22-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-23-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-24-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-25-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-26-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-27-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-28-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-29-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-30-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-01-31-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-01-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-02-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-03-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-04-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-05-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-06-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-07-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-08-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-09-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-10-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-11-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-12-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-13-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-14-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-15-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-16-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-17-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-18-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-19-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-20-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-21-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-22-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-23-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-24-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-25-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-26-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-27-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-28-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-02-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-01-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-02-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-03-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-04-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-05-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-06-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-07-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-08-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-09-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-10-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-11-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-12-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-13-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-14-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-15-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-16-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-17-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-18-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-19-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-20-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-21-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-22-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-23-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-24-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-25-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-26-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-27-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-28-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-29-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-30-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-03-31-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-01-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-02-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-03-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-04-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-05-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-06-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-07-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-08-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-09-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-10-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-11-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-12-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-13-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-14-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-15-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-16-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-17-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-18-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-19-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-20-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-21-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-22-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-23-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-24-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-25-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-26-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-27-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-28-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-29-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-04-30-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-01-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-02-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-03-2017-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-05-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-06-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-07-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-08-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-09-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-10-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-11-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-01-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-02-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-03-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-04-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-05-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-06-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-07-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-08-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-09-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-10-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-11-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-12-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-13-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-14-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-15-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-16-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-17-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-18-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-19-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-20-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-21-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-22-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-23-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-23-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-24-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-24-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-25-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-25-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-26-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-26-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-27-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-27-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-28-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-28-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-29-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-29-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-30-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-30-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-31-2015-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/archives/nagios-12-31-2016-00.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.configtest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/nagios.tmp10Jw8y" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/objects.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/objects.precache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/retention.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/rw/test.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/status.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/Config.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/build_linux_definitions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/check_restart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/lab_printer_generation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/CustomScripts/test.php" afterPath="$PROJECT_DIR$/etc/CustomScripts/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/check_email.sh" afterPath="$PROJECT_DIR$/etc/check_email.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" afterPath="$PROJECT_DIR$/etc/objects/IDMServers.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/commands.cfg" afterPath="$PROJECT_DIR$/etc/objects/commands.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/objects/linux.cfg" afterPath="$PROJECT_DIR$/etc/objects/linux.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/update_printers.sh" afterPath="$PROJECT_DIR$/etc/update_printers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/update_servers.sh" afterPath="$PROJECT_DIR$/etc/update_servers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/check_ldap" afterPath="$PROJECT_DIR$/libexec/check_ldap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_email_notification" afterPath="$PROJECT_DIR$/libexec/nagios_host_email_notification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_host_mail" afterPath="$PROJECT_DIR$/libexec/nagios_host_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_email_notification" afterPath="$PROJECT_DIR$/libexec/nagios_service_email_notification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libexec/nagios_service_mail" afterPath="$PROJECT_DIR$/libexec/nagios_service_mail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" afterPath="$PROJECT_DIR$/share/angularjs/ui-utils-0.2.1/ui-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/stylesheets/common.css" afterPath="$PROJECT_DIR$/share/stylesheets/common.css" />
     </list>
     <ignored path="Nagios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,112 +575,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="update_servers.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
+      <file leaf-file-name="t.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/t.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="74" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="74" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios_service_mail" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
-              <folding>
-                <marker date="1493924336383" expanded="true" signature="3775:3789" ph="..." />
-                <marker date="1493924336383" expanded="true" signature="5473:5486" ph="..." />
-                <marker date="1493924336383" expanded="true" signature="5581:5594" ph="..." />
-                <marker date="1493924336383" expanded="true" signature="5700:5713" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule_downtime.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagios_host_mail" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-              <folding>
-                <marker date="1493924336364" expanded="true" signature="2305:2319" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_email.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commands.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Classes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5508">
-              <caret line="329" column="23" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="23" />
-              <folding>
-                <marker date="1493841267109" expanded="true" signature="2376:3736" ph="Select Top 1... " />
-                <marker date="1493841267109" expanded="true" signature="3998:4032" ph="Select Asset... tblLinuxSystem" />
-                <marker date="1493841267109" expanded="true" signature="4390:5175" ph="Select tblAs... " />
-                <marker date="1493841267109" expanded="true" signature="5491:6538" ph="Select Top 1... " />
-                <marker date="1493841267109" expanded="true" signature="6779:7825" ph="Select Top 1... " />
-                <marker date="1493841267109" expanded="true" signature="8079:8204" ph="Select tblAs... " />
-                <marker date="1493841267109" expanded="true" signature="8652:9351" ph="Select Top 1... tblComputersystem" />
-                <marker date="1493841267109" expanded="true" signature="9787:10265" ph="Select Top 1... tblAssets" />
-                <marker date="1493841267109" expanded="true" signature="10715:11473" ph="Select Top 1... tblAssets" />
-                <marker date="1493841267109" expanded="true" signature="11124:11363" ph="Select tblSo... tblSoftware" />
-                <marker date="1493841267109" expanded="true" signature="11858:12618" ph="Select Top 1... tblAssets" />
-                <marker date="1493841267109" expanded="true" signature="12267:12508" ph="Select tblSo... tblSoftware" />
-                <marker date="1493841267109" expanded="true" signature="13007:13080" ph="Select Asset... tblAssets" />
-                <marker date="1493841267109" expanded="true" signature="13356:13501" ph="SELECT * FRO... tblAssetComments" />
-                <marker date="1493841267109" expanded="true" signature="13819:14043" ph="SELECT Comme... tblAssetComments" />
-                <marker date="1493841267109" expanded="true" signature="14308:14461" ph="SELECT Comme... tblAssetComments" />
-                <marker date="1493841267109" expanded="true" signature="14754:14825" ph="INSERT INTO tblAssetComments... " />
-                <marker date="1493841267109" expanded="true" signature="15044:15120" ph="UPDATE tblAs... " />
-                <marker date="1493841267109" expanded="true" signature="15837:15879" ph="SELECT id, C... services" />
-                <marker date="1493841267109" expanded="true" signature="16189:16233" ph="SELECT * fro... service_details" />
-                <marker date="1493841267109" expanded="true" signature="16813:16894" ph="SELECT CODE service_details" />
-                <marker date="1493841267109" expanded="true" signature="17092:17138" ph="SELECT Resol... services" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +589,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="php7" />
+      </map>
+    </option>
     <push-targets>
       <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="prod" target-branch="master" />
     </push-targets>
@@ -203,12 +633,13 @@
         <option value="$PROJECT_DIR$/etc/CustomScripts/server_and_contact_generation.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Classes.php" />
         <option value="$PROJECT_DIR$/etc/CustomScripts/Config.php" />
-        <option value="$PROJECT_DIR$/etc/check_email.sh" />
         <option value="$PROJECT_DIR$/etc/update_printers.sh" />
         <option value="$PROJECT_DIR$/etc/update_servers.sh" />
         <option value="$PROJECT_DIR$/etc/objects/commands.cfg" />
         <option value="$PROJECT_DIR$/libexec/nagios_host_mail" />
         <option value="$PROJECT_DIR$/libexec/nagios_service_mail" />
+        <option value="$PROJECT_DIR$/etc/check_email.sh" />
+        <option value="$PROJECT_DIR$/etc/t.php" />
       </list>
     </option>
   </component>
@@ -282,6 +713,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nagios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nagios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CustomScripts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,7 +1082,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107884000" />
+    <option name="totallyTimeSpent" value="111650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -706,20 +1155,14 @@
     <MESSAGE value="changed command to use IP not hostname" />
     <MESSAGE value="Moved SSL cert expiration warning from 14 to 30 days" />
     <MESSAGE value="Added directaccess to ignored servers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added directaccess to ignored servers" />
+    <MESSAGE value="Updated to work with PHP7 and new server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to work with PHP7 and new server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/objects/windows.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -999,61 +1442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5508">
-          <caret line="329" column="23" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="23" />
-          <folding>
-            <marker date="1493841267109" expanded="true" signature="2376:3736" ph="Select Top 1... " />
-            <marker date="1493841267109" expanded="true" signature="3998:4032" ph="Select Asset... tblLinuxSystem" />
-            <marker date="1493841267109" expanded="true" signature="4390:5175" ph="Select tblAs... " />
-            <marker date="1493841267109" expanded="true" signature="5491:6538" ph="Select Top 1... " />
-            <marker date="1493841267109" expanded="true" signature="6779:7825" ph="Select Top 1... " />
-            <marker date="1493841267109" expanded="true" signature="8079:8204" ph="Select tblAs... " />
-            <marker date="1493841267109" expanded="true" signature="8652:9351" ph="Select Top 1... tblComputersystem" />
-            <marker date="1493841267109" expanded="true" signature="9787:10265" ph="Select Top 1... tblAssets" />
-            <marker date="1493841267109" expanded="true" signature="10715:11473" ph="Select Top 1... tblAssets" />
-            <marker date="1493841267109" expanded="true" signature="11124:11363" ph="Select tblSo... tblSoftware" />
-            <marker date="1493841267109" expanded="true" signature="11858:12618" ph="Select Top 1... tblAssets" />
-            <marker date="1493841267109" expanded="true" signature="12267:12508" ph="Select tblSo... tblSoftware" />
-            <marker date="1493841267109" expanded="true" signature="13007:13080" ph="Select Asset... tblAssets" />
-            <marker date="1493841267109" expanded="true" signature="13356:13501" ph="SELECT * FRO... tblAssetComments" />
-            <marker date="1493841267109" expanded="true" signature="13819:14043" ph="SELECT Comme... tblAssetComments" />
-            <marker date="1493841267109" expanded="true" signature="14308:14461" ph="SELECT Comme... tblAssetComments" />
-            <marker date="1493841267109" expanded="true" signature="14754:14825" ph="INSERT INTO tblAssetComments... " />
-            <marker date="1493841267109" expanded="true" signature="15044:15120" ph="UPDATE tblAs... " />
-            <marker date="1493841267109" expanded="true" signature="15837:15879" ph="SELECT id, C... services" />
-            <marker date="1493841267109" expanded="true" signature="16189:16233" ph="SELECT * fro... service_details" />
-            <marker date="1493841267109" expanded="true" signature="16813:16894" ph="SELECT CODE service_details" />
-            <marker date="1493841267109" expanded="true" signature="17092:17138" ph="SELECT Resol... services" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_email_notification">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
@@ -1068,41 +1456,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/Classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5508">
+          <caret line="329" column="23" selection-start-line="329" selection-start-column="23" selection-end-line="329" selection-end-column="23" />
+          <folding>
+            <marker date="1494352714155" expanded="true" signature="2376:3736" ph="Select Top 1... " />
+            <marker date="1494352714155" expanded="true" signature="3998:4032" ph="Select Asset... tblLinuxSystem" />
+            <marker date="1494352714155" expanded="true" signature="4390:5175" ph="Select tblAs... " />
+            <marker date="1494352714155" expanded="true" signature="5491:6538" ph="Select Top 1... " />
+            <marker date="1494352714155" expanded="true" signature="6779:7825" ph="Select Top 1... " />
+            <marker date="1494352714155" expanded="true" signature="8079:8204" ph="Select tblAs... " />
+            <marker date="1494352714155" expanded="true" signature="8652:9351" ph="Select Top 1... tblComputersystem" />
+            <marker date="1494352714155" expanded="true" signature="9787:10265" ph="Select Top 1... tblAssets" />
+            <marker date="1494352714155" expanded="true" signature="10715:11473" ph="Select Top 1... tblAssets" />
+            <marker date="1494352714155" expanded="true" signature="11124:11363" ph="Select tblSo... tblSoftware" />
+            <marker date="1494352714155" expanded="true" signature="11858:12618" ph="Select Top 1... tblAssets" />
+            <marker date="1494352714155" expanded="true" signature="12267:12508" ph="Select tblSo... tblSoftware" />
+            <marker date="1494352714155" expanded="true" signature="13007:13080" ph="Select Asset... tblAssets" />
+            <marker date="1494352714155" expanded="true" signature="13356:13501" ph="SELECT * FRO... tblAssetComments" />
+            <marker date="1494352714155" expanded="true" signature="13819:14043" ph="SELECT Comme... tblAssetComments" />
+            <marker date="1494352714155" expanded="true" signature="14308:14461" ph="SELECT Comme... tblAssetComments" />
+            <marker date="1494352714155" expanded="true" signature="14754:14825" ph="INSERT INTO tblAssetComments... " />
+            <marker date="1494352714155" expanded="true" signature="15044:15120" ph="UPDATE tblAs... " />
+            <marker date="1494352714155" expanded="true" signature="15837:15879" ph="SELECT id, C... services" />
+            <marker date="1494352714155" expanded="true" signature="16189:16233" ph="SELECT * fro... service_details" />
+            <marker date="1494352714155" expanded="true" signature="16813:16894" ph="SELECT CODE service_details" />
+            <marker date="1494352714155" expanded="true" signature="17092:17138" ph="SELECT Resol... services" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/check_email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_host_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
           <folding>
-            <marker date="1493924336364" expanded="true" signature="2305:2319" ph="..." />
+            <marker date="1494352714222" expanded="true" signature="2305:2319" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libexec/nagios_service_mail">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+        <state relative-caret-position="1887">
+          <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
           <folding>
-            <marker date="1493924336383" expanded="true" signature="3775:3789" ph="..." />
-            <marker date="1493924336383" expanded="true" signature="5473:5486" ph="..." />
-            <marker date="1493924336383" expanded="true" signature="5581:5594" ph="..." />
-            <marker date="1493924336383" expanded="true" signature="5700:5713" ph="..." />
+            <marker date="1494352714235" expanded="true" signature="3775:3789" ph="..." />
+            <marker date="1494352714235" expanded="true" signature="5473:5486" ph="..." />
+            <marker date="1494352714235" expanded="true" signature="5581:5594" ph="..." />
+            <marker date="1494352714235" expanded="true" signature="5700:5713" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/objects/commands.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/CustomScripts/check_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/schedule_downtime.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/update_servers.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="74" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="74" />
+        <state relative-caret-position="1156">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/t.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
