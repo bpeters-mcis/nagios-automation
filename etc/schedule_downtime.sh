@@ -16,12 +16,12 @@ datetime=`date +%s`
 # Schedule downtime for the people.campus replication - we know that happens every night, don't sweat it
 starttime=`date +%s -d`
 endtime=`date +%s -d "+4 hours"`
-echo "[$datetime] SCHEDULE_SVC_DOWNTIME;idm2.emich.edu;People.campus Replication;$starttime;$endtime;1;0;7200;bpeters-AD;People.campus Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+echo "[$datetime] SCHEDULE_SVC_DOWNTIME;idm2.emich.edu;People.campus Replication;$starttime;$endtime;1;0;7200;********;People.campus Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 # Schedule downtime for the imaging server, that reboots every single night
 starttime=`date +%s -d "+21 hours"`
 endtime=`date +%s -d "+23 hours"`
-echo "[$datetime] SCHEDULE_HOST_DOWNTIME;IMAGES;$starttime;$endtime;1;0;7200;bpeters-AD;Nightly Reboot" > /usr/local/nagios/var/rw/nagios.cmd
+echo "[$datetime] SCHEDULE_HOST_DOWNTIME;IMAGES;$starttime;$endtime;1;0;7200;********;Nightly Reboot" > /usr/local/nagios/var/rw/nagios.cmd
 
 # If it's Wednesday, mark reboot servers for downtime
 if [ $day == 'Wed' ]; then
@@ -30,7 +30,7 @@ if [ $day == 'Wed' ]; then
     starttime=`date +%s -d "+22 hours"`
     endtime=`date +%s -d "+24 hours"`
     # Send the downtime request
-    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Auto-Patch-And-Reboot;$starttime;$endtime;1;0;7200;bpeters-AD;Auto Reboot Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Auto-Patch-And-Reboot;$starttime;$endtime;1;0;7200;********;Auto Reboot Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 fi
 
@@ -41,8 +41,8 @@ if [[ " ${TESTDATES[*]} " == *" $DATE "* ]]; then
     starttime=`date +%s -d "+675 minutes"`
     endtime=`date +%s -d "+975 minutes"`
     # Send the downtime request
-    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Test;$starttime;$endtime;1;0;7200;bpeters-AD;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
-    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Test;$starttime;$endtime;1;0;7200;bpeters-AD;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Test;$starttime;$endtime;1;0;7200;********;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Test;$starttime;$endtime;1;0;7200;********;Test Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 fi
 
@@ -53,7 +53,7 @@ if [[ " ${PRODATES[*]} " == *" $DATE "* ]]; then
     starttime=`date +%s -d "+1035 minutes"`
     endtime=`date +%s -d "+1350 minutes"`
     # Send the downtime request
-    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Prod;$starttime;$endtime;1;0;7200;bpeters-AD;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
-    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Prod;$starttime;$endtime;1;0;7200;bpeters-AD;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Prod;$starttime;$endtime;1;0;7200;********;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
+    echo "[$datetime] SCHEDULE_HOSTGROUP_HOST_DOWNTIME;Downtime-Linux-Prod;$starttime;$endtime;1;0;7200;********;Production Downtime" > /usr/local/nagios/var/rw/nagios.cmd
 
 fi

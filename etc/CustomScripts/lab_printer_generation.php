@@ -7,7 +7,7 @@
  */
 
 include('/usr/local/nagios/etc/CustomScripts/Config.php');
-$handle = fopen('/home/akirkland1/printers.csv', "r");
+$handle = fopen('/********/printers.csv', "r");
 
 if ($handle) {
 
@@ -239,7 +239,7 @@ if ($handle) {
 
     }
 
-    file_put_contents('/home/akirkland1/lab_printers.cfg', $output);
+    file_put_contents('/********/lab_printers.cfg', $output);
 
     # Email Lab Manager about new printers being uploaded
 

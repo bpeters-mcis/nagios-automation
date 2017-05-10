@@ -106,7 +106,7 @@ $headers .= "Content-type: text/html\r\n";
 
 # Build the email body
 $from  ="windowsteam@emich.edu";
-$body = "<html><body><h2 style='color: #006600'>Eastern Michigan University - Information Technology - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
+$body = "<html><body><h2 style='color: #006600'>******** - Windows Systems Team: Service Report Details</h2><br><table border=0 width='98%' cellpadding=0 cellspacing=0><tr><td valign='top'>\r\n";
 $body .= "<table border=0 cellpadding=0 cellspacing=0 width='97%'>";
 $body .= "<tr bgcolor=$f_color><td width='140'><b><font color=#ffffff>Notification:</font></b></td><td><font ";
 $body .= "color=#ffffff><b>$NotifyType [$ServiceState]</b></font></td></tr>\r\n";
@@ -150,7 +150,7 @@ if($NotifyType=="RECOVERY") {
   }
 
   $body .= "<h3>How Can I Acknowledge This Service Alert / Stop Getting Notifed About This Service?</h3>";
-  $body .= "If you know why this is happening and you are working to resolve it, please click this link for a pre-generated acknowledgement email, and send it as-is: <a href='mailto:ext_windowsnagios@emich.edu?subject=SVC Code: " . $code . "'>Acknlowledgement Link</a>.  This will notify all other admins that you are working on the issue, and will disable further notifications.  Please note: It can take ~5 minutes for this to be processed once you send it.<br><br>";
+  $body .= "If you know why this is happening and you are working to resolve it, please click this link for a pre-generated acknowledgement email, and send it as-is: <a href='mailto:********?subject=SVC Code: " . $code . "'>Acknlowledgement Link</a>.  This will notify all other admins that you are working on the issue, and will disable further notifications.  Please note: It can take ~5 minutes for this to be processed once you send it.<br><br>";
  } else {
   $body .= "This outage has been " . $Comments . ".  If you have questions, please contact them to check on the outage status and what steps have been taken to resolve the issue.";
  }
@@ -169,9 +169,9 @@ $body .= "</body></html> \r\n";
 $m_true = mail($To, $subject, $body, $headers);
 echo $m_true;
 
-# Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing Ben Peters
+# Add a comment in the Lansweeper database about this service status, only if it's not already been done... so in this case, only if it's emailing ********
 $comment = $subject . " -- SVC Code: " . $code;
-if ($To == 'bpeters@emich.edu') {
+if ($To == '********') {
  $Lansweeper->addComment($AssetID, $comment, 'Nagios');
 }
 

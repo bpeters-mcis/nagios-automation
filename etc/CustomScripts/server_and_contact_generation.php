@@ -91,7 +91,7 @@ if (!empty($list) && !empty($test2)) {
 
 
             # Run through all the group members, and build a comma separated list, and add the user to an array for use later
-            $users = $LDAP->getGroupUsers('CN=' . $LDAPGroup . ',CN=users,DC=ad,DC=emich,DC=edu');
+            $users = $LDAP->getGroupUsers('CN=' . $LDAPGroup . ',CN=users,********');
 
             $i = 0;
             while ($i < $users['count']) {

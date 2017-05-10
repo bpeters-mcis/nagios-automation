@@ -67,7 +67,7 @@ if [ -f /usr/local/nagios/etc/objects/servers_from_lansweeper_new.cfg ]; then
       # Make sure it restarted properly; if not, email Ben with the explaination of why it didn't work.
       size=$(wc -c <"/usr/local/nagios/etc/restart.log")
         if [ $size -gt 100 ]; then
-            mail -s "Problem restarting Nagios services" bpeters@emich.edu malghait@emich.edu < /usr/local/nagios/etc/restart.log
+            mail -s "Problem restarting Nagios services" ******** < /usr/local/nagios/etc/restart.log
         fi
     fi
 
